@@ -2096,7 +2096,7 @@
   "type": "legislative",
   "chamber": "House of Representatives",
   "seats_total": 395,
-  "registered_voters": 17983490,
+  "registered_voters": 17509127,
   "votes_cast": 8789676,
   "turnout_pct": 50.35,
   "valid_votes": null,
@@ -2344,7 +2344,7 @@
    }
   ],
   "outcome": "RNI-led coalition with PAM and Istiqlal (Akhannouch government, 7 October 2021; 270 seats).",
-  "notes": "Seats sum to 395. Turnout 50.35% announced by Interior Minister Laftit; Interior's figure of 8,789,676 voters implies 48.9% of 17,983,490 registered — the schema example cites 8,998,585 votes cast; the basis of the 50.35% figure is unresolved (possibly a different registered-voter base). Vote shares from Wikipedia EN (IPU); absolute votes per party not retrieved. Turnout: 50.18% was the provisional national figure announced on election night (Le Matin, Anadolu, Challenge); 50.35% is the final figure given by the Interior minister. Registered voters: Interior communiqués cited ~17.5 million registered ahead of the vote; 17,983,490 appears in other summaries. 8,789,676 voters / ~17.5M ≈ 50.2%, consistent with the provisional rate.",
+  "notes": "Seats sum to 395. Turnout 50.35% announced by Interior Minister Laftit; Interior's figure of 8,789,676 voters implies 48.9% of 17,983,490 registered — the schema example cites 8,998,585 votes cast; the basis of the 50.35% figure is unresolved (possibly a different registered-voter base). Vote shares from Wikipedia EN (IPU); absolute votes per party not retrieved. Turnout: 50.18% was the provisional national figure announced on election night (Le Matin, Anadolu, Challenge); 50.35% is the final figure given by the Interior minister. Registered voters: 17,509,127 (lists closed 30 July 2021, FNH) / 17,509,316 (Médias24); the 17,983,490 figure could not be confirmed. 8,789,676 voters / 17,509,127 = 50.2%, consistent with the provisional rate.",
   "sources": [
    "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
    "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
@@ -2356,7 +2356,9 @@
    "https://www.electionguide.org/elections/id/3628/",
    "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/",
    "https://lematin.ma/journal/2021/taux-participation-aux-elections-legislatives-regionales-communales-5018-niveau-national/364105.html",
-   "https://www.aa.com.tr/fr/afrique/%C3%A9lections-au-maroc-participation-finale-%C3%A0-50-18-officiel/2359731"
+   "https://www.aa.com.tr/fr/afrique/%C3%A9lections-au-maroc-participation-finale-%C3%A0-50-18-officiel/2359731",
+   "https://fnh.ma/article/actualite-politique/elections-du-8-septembre-top-depart",
+   "https://medias24.com/2021/08/27/legislatives-2021-31-partis-1704-listes-et-6-815-candidats-y-participent/"
   ],
   "confidence": "high"
  },

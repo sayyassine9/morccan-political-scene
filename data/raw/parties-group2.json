@@ -1,0 +1,508 @@
+[
+  {
+    "id": "usfp",
+    "names": {
+      "fr": "Union socialiste des forces populaires",
+      "ar": "الاتحاد الاشتراكي للقوات الشعبية",
+      "en": "Socialist Union of Popular Forces"
+    },
+    "abbr": "USFP",
+    "founded": "1975-01-12",
+    "founders": ["Abderrahim Bouabid", "Abderrahmane Youssoufi", "Mohamed El Yazghi", "Omar Benjelloun", "Abdelouahed Radi", "Mohamed Lahbabi"],
+    "founding_context": "The USFP descends from the Union nationale des forces populaires (UNFP), founded on 6 September 1959 at the Kawakib cinema in Casablanca by the left wing of the Istiqlal Party (Mehdi Ben Barka, Abderrahim Bouabid, Abdellah Ibrahim, Mahjoub Ben Seddik, Abderrahmane Youssoufi). On 30 July 1972 the UNFP split between a Casablanca wing tied to the UMT union and a 'Rabat section' led by Bouabid. The Rabat section held an extraordinary congress on 10-12 January 1975, took the name USFP, abandoned the 'revolutionary option' and adopted a social-democratic line of 'democratic struggle' within the constitutional monarchy.",
+    "ideology": ["social democracy", "democratic socialism", "progressivism"],
+    "position": "centre-left",
+    "family": "left",
+    "headquarters": "Rabat (Hay Riad)",
+    "colour": "#E4002B",
+    "website": "https://www.usfp.ma",
+    "international_affiliation": ["Socialist International", "Progressive Alliance"],
+    "status": "parliamentary",
+    "current_leader": {"name": "Driss Lachgar", "since": "2012-12-16", "title": "Premier secrétaire (First Secretary)"},
+    "leaders": [
+      {"name": "Abderrahim Bouabid", "from": "1975-01-12", "to": "1992-01-08", "note": "First Secretary from the founding extraordinary congress until his death on 8 January 1992; previously leader of the UNFP 'Rabat section' from 1972."},
+      {"name": "Abderrahmane Youssoufi", "from": "1992-04-01", "to": "2003-06-01", "note": "Elected First Secretary at the 5th congress (1992); Prime Minister of the 'alternance' government 1998-2002; withdrew from the leadership at the 7th congress (June 2003). Exact 1992 election date not re-verified by search."},
+      {"name": "Mohamed El Yazghi", "from": "2003-06-01", "to": "2008-06-01", "note": "Elected at the 7th congress (June 2003); resigned from the Political Bureau in December 2007 after the poor 2007 election result and was formally replaced at the 8th congress in June 2008."},
+      {"name": "Abdelouahed Radi", "from": "2008-06-15", "to": "2012-12-16", "note": "Elected at the 8th congress (June 2008); also Speaker of the House of Representatives 1997-2007 and 2010-2011."},
+      {"name": "Driss Lachgar", "from": "2012-12-16", "to": null, "note": "Elected at the 9th congress (December 2012); re-elected at the 10th (2017), 11th (January 2022) and 12th (17-19 October 2025, Bouznika) congresses. The 12th congress amended the statutes to allow a fourth term; 26 delegates voted against the extension."}
+    ],
+    "notable_members": [
+      {"name": "Mehdi Ben Barka", "role": "Co-founder of the UNFP; kidnapped and disappeared in Paris", "period": "1959-1965"},
+      {"name": "Abderrahim Bouabid", "role": "Founding First Secretary of the USFP", "period": "1975-1992"},
+      {"name": "Omar Benjelloun", "role": "Political Bureau member, trade unionist, assassinated 18 December 1975", "period": "1972-1975"},
+      {"name": "Abderrahmane Youssoufi", "role": "First Secretary; Prime Minister of the alternance government", "period": "1992-2003"},
+      {"name": "Fathallah Oualalou", "role": "Minister of Economy and Finance 1998-2007; Mayor of Rabat 2009-2015", "period": "1998-2015"},
+      {"name": "Habib El Malki", "role": "Minister of Education; Speaker of the House of Representatives", "period": "2002-2007; 2017-2021"},
+      {"name": "Abdelouahed Radi", "role": "First Secretary; Speaker of the House of Representatives; Minister of Justice", "period": "1997-2012"},
+      {"name": "Mohamed Benabdelkader", "role": "Minister delegate for Reform of Administration (2017-2019), Minister of Justice (2019-2021)", "period": "2017-2021"},
+      {"name": "Ahmed Zaidi", "role": "Head of the USFP parliamentary group; internal opponent of Lachgar; died 2014", "period": "2007-2014"},
+      {"name": "Abdelkrim Benatiq", "role": "Minister delegate for Moroccans abroad (2017-2019); earlier left to found the Parti travailliste (2006) and returned", "period": "2017-2019"}
+    ],
+    "timeline": [
+      {"date": "1959-09-06", "title": "Founding of the UNFP", "description": "Left-wing dissidents of the Istiqlal Party (Ben Barka, Bouabid, Abdellah Ibrahim, Ben Seddik, Youssoufi) found the Union nationale des forces populaires at the Kawakib cinema in Casablanca.", "type": "founding", "sources": ["https://www.lebrief.ma/histoire-de-lusfp-de-la-contestation-a-lalternance-100164922/", "https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires"]},
+      {"date": "1965-10-29", "title": "Disappearance of Mehdi Ben Barka", "description": "UNFP leader Mehdi Ben Barka is abducted in Paris and never found; the affair marks the party's relations with the monarchy for decades.", "type": "other", "sources": ["https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires"]},
+      {"date": "1972-07-30", "title": "UNFP split: the 'Rabat section'", "description": "The UNFP splits; the 'Rabat section' led by Abderrahim Bouabid breaks with the Casablanca wing close to the UMT union.", "type": "split", "sources": ["https://www.usfp.ma/fr/le-parti-des-forces-populaires/", "https://partis.tafra.ma/partis/usfp"]},
+      {"date": "1975-01-12", "title": "Extraordinary congress creates the USFP", "description": "The extraordinary congress (10-12 January 1975) adopts the name Union socialiste des forces populaires, abandons the 'revolutionary option' and adopts 'democratic struggle' and social democracy.", "type": "founding", "sources": ["https://www.usfp.ma/fr/le-parti-des-forces-populaires/", "https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "1975-12-18", "title": "Assassination of Omar Benjelloun", "description": "Political Bureau member Omar Benjelloun is assassinated in Casablanca; the party attributes the killing to Islamist militants of the Chabiba Islamiya.", "type": "other", "sources": ["https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "1981-09-08", "title": "Bouabid jailed over the Sahara referendum stance", "description": "After the USFP criticises King Hassan II's acceptance of a referendum on Western Sahara at the Nairobi OAU summit, Bouabid and other leaders are imprisoned for several months.", "type": "other", "sources": ["https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "1992-01-08", "title": "Death of Abderrahim Bouabid", "description": "The founding First Secretary dies; Abderrahmane Youssoufi succeeds him at the 5th congress in 1992.", "type": "leadership", "sources": ["https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "1997-11-14", "title": "USFP comes first in the 1997 legislative election", "description": "The USFP wins 57 of 325 seats in the first election to the new bicameral parliament, the largest group.", "type": "electoral", "sources": ["https://www.universalis.fr/evenement/14-mars-1998-presentation-du-gouvernement-d-abderrahmane-youssoufi/", "https://en.wikipedia.org/wiki/Socialist_Union_of_Popular_Forces"]},
+      {"date": "1998-02-04", "title": "Youssoufi appointed Prime Minister ('alternance')", "description": "King Hassan II names Abderrahmane Youssoufi Prime Minister; after 38 days of negotiation the alternance government of 41 ministers (USFP 11, Istiqlal 6) is announced on 14 March 1998. Driss Basri remains Interior Minister.", "type": "government", "sources": ["https://www.universalis.fr/evenement/14-mars-1998-presentation-du-gouvernement-d-abderrahmane-youssoufi/", "https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I"]},
+      {"date": "2002-09-27", "title": "USFP first again but loses the premiership", "description": "The USFP comes first with 50 seats in the 2002 election, but King Mohammed VI appoints the non-partisan Driss Jettou as Prime Minister on 9 October 2002; the USFP stays in government while denouncing the departure from the 'democratic method'.", "type": "electoral", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Jettou_I", "https://www.lebrief.ma/histoire-de-lusfp-de-la-contestation-a-lalternance-100164922/"]},
+      {"date": "2003-06-01", "title": "Youssoufi withdraws; El Yazghi elected First Secretary", "description": "At the 7th congress Abderrahmane Youssoufi steps down and Mohamed El Yazghi takes over the leadership.", "type": "leadership", "sources": ["https://www.usfp.ma/fr/le-parti-des-forces-populaires/"]},
+      {"date": "2007-09-07", "title": "Fall to 38 seats and fifth place", "description": "The USFP drops to 38 seats in the 2007 election; it nonetheless joins the Abbas El Fassi government with 5 portfolios. El Yazghi resigns from the Political Bureau in December 2007.", "type": "electoral", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi", "https://www.usfp.ma/fr/le-parti-des-forces-populaires/"]},
+      {"date": "2008-06-15", "title": "Abdelouahed Radi elected First Secretary", "description": "The 8th congress elects Abdelouahed Radi to replace El Yazghi.", "type": "leadership", "sources": ["https://www.usfp.ma/fr/le-parti-des-forces-populaires/"]},
+      {"date": "2011-11-25", "title": "39 seats; USFP goes into opposition", "description": "After the post-2011-constitution election the USFP wins 39 seats and chooses opposition to the PJD-led Benkirane government.", "type": "opposition", "sources": ["https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "2012-12-16", "title": "Driss Lachgar elected First Secretary", "description": "The 9th congress elects Driss Lachgar; the succession is contested by a wing led by Ahmed Zaidi.", "type": "leadership", "sources": ["https://www.usfp.ma/fr/le-parti-des-forces-populaires/", "https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "2016-10-07", "title": "Historic low of 20 seats", "description": "The USFP wins 20 seats in the 2016 election. Benkirane's refusal to include it in his coalition is one element of the six-month 'blocage'.", "type": "electoral", "sources": ["https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires", "https://telquel.ma/2017/03/25/el-othmani-compose-majorite-lusfp-au-gouvernement_1540720"]},
+      {"date": "2017-03-25", "title": "USFP enters the El Othmani government", "description": "The USFP joins the six-party El Othmani coalition (PJD, RNI, MP, UC, PPS, USFP) with a 240-seat majority; the government takes office on 5 April 2017. Habib El Malki becomes Speaker of the House of Representatives.", "type": "government", "sources": ["https://telquel.ma/2017/03/25/el-othmani-compose-majorite-lusfp-au-gouvernement_1540720", "https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I"]},
+      {"date": "2019-10-09", "title": "USFP stays in El Othmani II", "description": "In the October 2019 reshuffle the USFP keeps a place in the reduced 23-member cabinet (Mohamed Benabdelkader becomes Minister of Justice).", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II", "https://telquel.ma/2019/10/09/officiel-la-liste-du-nouveau-gouvernement-el-othmani_1653604"]},
+      {"date": "2021-09-08", "title": "34 seats; return to opposition", "description": "The USFP wins 34 seats (4th place) and, after the RNI-PAM-Istiqlal coalition is formed, decides not to join the Akhannouch government, becoming the largest opposition party.", "type": "opposition", "sources": ["https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/", "https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires"]},
+      {"date": "2021-10-05", "title": "8 seats in the House of Councillors", "description": "In the indirect election to the House of Councillors the USFP obtains 8 of 120 seats.", "type": "electoral", "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/"]},
+      {"date": "2025-05-23", "title": "Opposition motion of censure attempt", "description": "The USFP leads an attempt by the opposition to table a motion of censure against the Akhannouch government; disagreements with the PJD over signatures are reported, and Lachgar speaks of turning it into a 'popular motion of censure'.", "type": "opposition", "sources": ["https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/", "https://fr.allafrica.com/stories/202505300335.html"]},
+      {"date": "2025-10-18", "title": "12th congress: Lachgar re-elected for a fourth term", "description": "The 12th national congress (Bouznika, 17-19 October 2025) amends the statutes to allow a fourth term and re-elects Driss Lachgar by absolute majority, with 26 delegates voting against; 1,600 delegates approve the moral and financial reports.", "type": "leadership", "sources": ["https://medias24.com/2025/10/18/lusfp-prolonge-le-mandat-de-driss-lachgar-a-la-tete-du-parti/", "https://fr.le360.ma/politique/driss-lachgar-reelu-pour-un-4eme-mandat-a-la-tete-de-lusfp_EM2COXSX5ZARRJSKKPY6YSRFT4/", "https://www.hespress.com/لشكر-يواصل-قيادة-الاتحاد-الاشتراكي-1641752.html"]},
+      {"date": "2026-09-23", "title": "General election of 23 September 2026 (upcoming)", "description": "The USFP contests the 2026 legislative election from the opposition; the election has not taken place as of 16 September 2026.", "type": "electoral", "sources": ["https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"]}
+    ],
+    "achievements": [
+      {"year": 1998, "title": "First 'alternance' government led by an opposition party", "description": "The party presents the Youssoufi government (1998-2002) as the moment Morocco's historic opposition entered power by consensus, launching social and economic reforms.", "claimed_by_party": true, "verification": "Independent sources confirm Youssoufi was appointed on 4 February 1998 after the USFP came first in the 1997 election and that the USFP held 11 of 41 portfolios; observers also note Interior Minister Driss Basri remained in office and that the King kept control of sovereign ministries.", "confidence": "high", "sources": ["https://www.universalis.fr/evenement/14-mars-1998-presentation-du-gouvernement-d-abderrahmane-youssoufi/", "https://www.usfp.ma/fr/les-grands-travaux-du-gouvernement-el-youssoufi/", "https://shs.cairn.info/revue-maghreb-machrek1-1998-3-page-165?lang=fr"]},
+      {"year": 2004, "title": "Family code (Moudawana) reform", "description": "The USFP claims a share of the 2004 Moudawana reform, which was drafted during the Youssoufi years (Plan d'intégration de la femme 1999) and adopted under Jettou.", "claimed_by_party": true, "verification": "The 1999 Plan was launched by USFP minister Saïd Saadi (PPS) and Youssoufi's government; the 2004 code was a royal initiative adopted by parliament in January 2004. Attribution to the party is partial.", "confidence": "medium", "sources": ["https://www.usfp.ma/fr/les-grands-travaux-du-gouvernement-el-youssoufi/"]},
+      {"year": 2021, "title": "Largest opposition party 2021-2026", "description": "The USFP presents itself as the leading force of the opposition in the 2021-2026 legislature.", "claimed_by_party": true, "verification": "With 34 seats it was the largest opposition group in the House of Representatives; the opposition as a whole held about 125 seats.", "confidence": "high", "sources": ["https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021", "https://www.jeuneafrique.com/1307473/politique/maroc-lopposition-est-elle-vraiment-ko/"]}
+    ],
+    "metrics": {
+      "government_participation": [
+        {"government": "Youssoufi I", "from": "1998-03-14", "to": "2000-09-06", "role": "leads", "ministers": 11, "sources": ["https://www.universalis.fr/evenement/14-mars-1998-presentation-du-gouvernement-d-abderrahmane-youssoufi/", "https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I"]},
+        {"government": "Youssoufi II", "from": "2000-09-06", "to": "2002-11-07", "role": "leads", "ministers": null, "sources": ["https://www.afrik.com/maroc-un-gouvernement-youssoufi-ii"]},
+        {"government": "Jettou I", "from": "2002-11-07", "to": "2004-06-08", "role": "member", "ministers": null, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Jettou_I"]},
+        {"government": "Jettou II", "from": "2004-06-08", "to": "2007-10-15", "role": "member", "ministers": 7, "sources": ["https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/"]},
+        {"government": "El Fassi", "from": "2007-10-15", "to": "2012-01-03", "role": "member", "ministers": 5, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi"]},
+        {"government": "El Othmani I", "from": "2017-04-05", "to": "2019-10-09", "role": "member", "ministers": 2, "sources": ["https://telquel.ma/2017/03/25/el-othmani-compose-majorite-lusfp-au-gouvernement_1540720", "https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I"]},
+        {"government": "El Othmani II", "from": "2019-10-09", "to": "2021-10-07", "role": "member", "ministers": 1, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II"]}
+      ],
+      "regional_presidencies": [
+        {"year": 2015, "count": 0, "regions": [], "sources": ["https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/", "https://fr.wikipedia.org/wiki/Liste_des_présidents_des_conseils_régionaux_au_Maroc"]},
+        {"year": 2021, "count": 0, "regions": [], "sources": ["https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume", "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/"]}
+      ],
+      "house_of_councillors_seats": [
+        {"year": 2015, "seats": 5, "sources": ["https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015"]},
+        {"year": 2021, "seats": 8, "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/", "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges"]}
+      ],
+      "communal_seats": [
+        {"year": 2015, "seats": 2656, "votes": null, "sources": ["https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015", "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/"]},
+        {"year": 2021, "seats": 2415, "votes": null, "sources": ["https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html", "https://www.bladi.net/resultats-elections-communales-maroc.html"]}
+      ],
+      "public_funding_mad": [
+        {"year": 2020, "amount": null, "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"]},
+        {"year": 2022, "amount": null, "sources": ["https://www.courdescomptes.ma/publication/rapport-sur-laudit-des-comptes-des-partis-politiques-au-titre-de-lannee-2022/"]},
+        {"year": 2023, "amount": null, "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/", "https://fr.le360.ma/politique/audit-des-comptes-des-partis-politiques-ce-que-revele-le-nouveau-rapport-de-la-cour-des-comptes_Y74OCGVMKBCBNM3UJAW3M3C4U4/"]}
+      ],
+      "membership_claims": [
+        {"year": 2025, "claimed": null, "source": "12th congress (1,600 delegates reported present)", "verification": "No public headline membership figure found in search results; no independent audit exists. Delegate count is not a membership count.", "confidence": "low"}
+      ],
+      "women_mps": [
+        {"year": 2021, "count": 11}
+      ],
+      "custom": [
+        {"name": "House of Representatives seats", "series": [{"year": 1997, "value": 57}, {"year": 2002, "value": 50}, {"year": 2007, "value": 38}, {"year": 2011, "value": 39}, {"year": 2016, "value": 20}, {"year": 2021, "value": 34}], "unit": "seats", "sources": ["https://en.wikipedia.org/wiki/Socialist_Union_of_Popular_Forces", "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/"]},
+        {"name": "Regional council seats", "series": [{"year": 2015, "value": 48}, {"year": 2021, "value": 47}], "unit": "seats", "sources": ["https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015", "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021"]},
+        {"name": "Total declared resources (Cour des comptes audit, state support + own resources)", "series": [{"year": 2023, "value": 6180000}], "unit": "MAD", "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/", "https://fr.le360.ma/politique/audit-des-comptes-des-partis-politiques-ce-que-revele-le-nouveau-rapport-de-la-cour-des-comptes_Y74OCGVMKBCBNM3UJAW3M3C4U4/"]},
+        {"name": "State support for women's political representation", "series": [{"year": 2020, "value": 50000}, {"year": 2022, "value": 100813.2}], "unit": "MAD", "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752", "https://www.courdescomptes.ma/publication/rapport-sur-laudit-des-comptes-des-partis-politiques-au-titre-de-lannee-2022/"]},
+        {"name": "Unjustified public support to be returned (Cour des comptes, 2021 report)", "series": [{"year": 2021, "value": 0}], "unit": "MAD", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]}
+      ]
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Union_socialiste_des_forces_populaires",
+      "https://en.wikipedia.org/wiki/Socialist_Union_of_Popular_Forces",
+      "https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires",
+      "https://www.usfp.ma/fr/le-parti-des-forces-populaires/",
+      "https://partis.tafra.ma/partis/usfp",
+      "https://www.lebrief.ma/histoire-de-lusfp-de-la-contestation-a-lalternance-100164922/",
+      "https://medias24.com/2025/10/18/lusfp-prolonge-le-mandat-de-driss-lachgar-a-la-tete-du-parti/",
+      "https://fr.le360.ma/politique/driss-lachgar-reelu-pour-un-4eme-mandat-a-la-tete-de-lusfp_EM2COXSX5ZARRJSKKPY6YSRFT4/",
+      "https://lematin.ma/nation/driss-lachgar-reelu-a-la-tete-de-lusfp-pour-un-quatrieme-mandat/308316",
+      "https://www.universalis.fr/evenement/14-mars-1998-presentation-du-gouvernement-d-abderrahmane-youssoufi/",
+      "https://telquel.ma/2017/03/25/el-othmani-compose-majorite-lusfp-au-gouvernement_1540720",
+      "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+      "https://fr.le360.ma/politique/parlement-voici-le-nombre-de-femmes-qui-feront-leur-entree-a-la-chambre-des-representants-245771/",
+      "https://ecoactu.ma/partis-politiques-une-baisse/"
+    ],
+    "data_quality": {"confidence": "medium", "notes": "Leadership, 1998 alternance, 2017 government entry, 2021 seats, 2025 congress and 2023 audit figures are confirmed by 2+ independent sources. Pre-1997 dates, per-government minister counts other than 1998/2004/2007, 2015 councillors (5) and 2015/2021 communal seat totals (2,656 / 2,415) rest on Wikipedia/Ministry-of-Interior recollection not re-verified because the WebSearch budget was exhausted; Le Matin's provisional 2021 communal figure was 3,226. The Cour des comptes figures are total declared resources, not state support alone; per-party state support amounts are in the full reports (PDF) that could not be opened."}
+  },
+  {
+    "id": "pjd",
+    "names": {
+      "fr": "Parti de la justice et du développement",
+      "ar": "حزب العدالة والتنمية",
+      "en": "Justice and Development Party"
+    },
+    "abbr": "PJD",
+    "founded": "1967-01-01",
+    "founders": ["Abdelkrim El Khatib"],
+    "founding_context": "The party's legal shell is the Mouvement populaire constitutionnel et démocratique (MPCD), created in 1967 by Dr Abdelkrim El Khatib after he left the Mouvement populaire over his disagreement with Hassan II on the dissolution of parliament. In June 1996 El Khatib opened the dormant MPCD to activists of the Islamist Mouvement Unicité et Réforme (MUR), including Abdelilah Benkirane, who became deputy secretary general. The party entered parliament under the MPCD label in November 1997 and adopted the name Parti de la justice et du développement in 1998.",
+    "ideology": ["Islamic democracy", "conservatism", "social conservatism", "economic liberalism"],
+    "position": "right",
+    "family": "islamist",
+    "headquarters": "Rabat",
+    "colour": "#1B75BB",
+    "website": "https://www.pjd.ma",
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {"name": "Abdelilah Benkirane", "since": "2021-10-30", "title": "Secrétaire général"},
+    "leaders": [
+      {"name": "Abdelkrim El Khatib", "from": "1967-01-01", "to": "2004-04-11", "note": "Founder and secretary general of the MPCD, then of the PJD; he decided to boycott the 1997 communal elections. Left the leadership at the 5th congress in April 2004; died 2008."},
+      {"name": "Saadeddine El Othmani", "from": "2004-04-11", "to": "2008-07-20", "note": "Elected at the 5th congress (April 2004); the party had already reduced its candidacies after the 16 May 2003 Casablanca bombings."},
+      {"name": "Abdelilah Benkirane", "from": "2008-07-20", "to": "2017-12-10", "note": "Elected at the 6th congress in Rabat on 20 July 2008 with 684 of 1,628 votes; Head of Government 2012-2017; barred by the party statutes from a third term in 2017."},
+      {"name": "Saadeddine El Othmani", "from": "2017-12-10", "to": "2021-10-30", "note": "Elected at the 8th congress (December 2017) while Head of Government; the whole secretariat resigned collectively after the 8 September 2021 defeat."},
+      {"name": "Abdelilah Benkirane", "from": "2021-10-30", "to": null, "note": "Elected at the extraordinary congress of 30 October 2021 in Bouznika with 1,112 votes (81%) against 231 for Abdelaziz El Omari and 15 for Abdellah Bouanou; re-elected at the 9th congress (Bouznika, 27 April 2025) with 994 of 1,402 votes (69%) against Driss El Azami El Idrissi (394) and Abdellah Bouanou (42), for a term to 2029."}
+    ],
+    "notable_members": [
+      {"name": "Abdelkrim El Khatib", "role": "Founder of the MPCD/PJD; former Speaker of the House of Representatives", "period": "1967-2008"},
+      {"name": "Abdelilah Benkirane", "role": "Secretary general; Head of Government 2012-2017", "period": "1996-present"},
+      {"name": "Saadeddine El Othmani", "role": "Secretary general; Head of Government 2017-2021; signed the 22 December 2020 normalisation declaration with Israel", "period": "1996-present"},
+      {"name": "Mustapha Ramid", "role": "Minister of Justice (2012-2017), Minister of State for Human Rights (2017-2021)", "period": "2012-2021"},
+      {"name": "Lahcen Daoudi", "role": "Minister of Higher Education, then General Affairs", "period": "2012-2018"},
+      {"name": "Abdelaziz Aftati", "role": "MP; internal critic", "period": "2007-2021"},
+      {"name": "Driss El Azami El Idrissi", "role": "President of the National Council; Mayor of Fez; candidate for SG in 2025", "period": "2012-present"},
+      {"name": "Abdellah Bouanou", "role": "Head of the PJD parliamentary group 2021-2026; candidate for SG in 2021 and 2025", "period": "2011-present"},
+      {"name": "Bassima Hakkaoui", "role": "Only woman in the Benkirane I government (Solidarity, Women, Family)", "period": "2012-2019"},
+      {"name": "Abdelaziz El Omari", "role": "Mayor of Casablanca 2015-2021; candidate for SG in 2021", "period": "2015-2021"}
+    ],
+    "timeline": [
+      {"date": "1967-01-01", "title": "El Khatib founds the MPCD", "description": "Abdelkrim El Khatib leaves the Mouvement populaire and creates the Mouvement populaire constitutionnel et démocratique.", "type": "founding", "sources": ["https://www.lavieeco.com/pouvoirs/medecin-homme-detat-et-pere-du-pjd-les-differentes-vies-de-abdelkrim-el-khatib-11942/", "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"]},
+      {"date": "1996-06-02", "title": "MPCD opens to the Islamist MUR", "description": "Some 600 delegates meet at El Khatib's residence; MUR activists join the MPCD and Abdelilah Benkirane becomes deputy secretary general.", "type": "merger", "sources": ["https://test.telquel.ma/2020/12/06/abdelkrim-khatib-le-parrain-des-islamistes-2_1731068", "https://www.lavieeco.com/pouvoirs/medecin-homme-detat-et-pere-du-pjd-les-differentes-vies-de-abdelkrim-el-khatib-11942/"]},
+      {"date": "1997-11-14", "title": "First entry into parliament", "description": "Running as the MPCD, the party wins 9 seats in the 1997 legislative election; El Khatib boycotts the 1997 communal elections.", "type": "electoral", "sources": ["https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)", "http://old.tafra.ma/pjd/"]},
+      {"date": "1998-10-04", "title": "Renamed Parti de la justice et du développement", "description": "The MPCD takes the name PJD at its 1998 congress.", "type": "other", "sources": ["https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)", "https://test.telquel.ma/2020/12/06/abdelkrim-khatib-le-parrain-des-islamistes-2_1731068"]},
+      {"date": "2002-09-27", "title": "42 seats, third place", "description": "The PJD becomes the third force in parliament after a strong showing in the 2002 election and remains in opposition.", "type": "electoral", "sources": ["https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"]},
+      {"date": "2003-05-16", "title": "Casablanca bombings and backlash", "description": "After the 16 May 2003 suicide attacks in Casablanca, the PJD faces calls for its dissolution and accepts to limit its candidacies in the September 2003 communal elections.", "type": "scandal", "sources": ["https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)", "https://carep-paris.org/recherche/maroc-decryptage-de-lechec-electoral-du-pjd-aux-elections-legislatives/"]},
+      {"date": "2004-04-11", "title": "El Othmani succeeds El Khatib", "description": "The 5th congress elects Saadeddine El Othmani secretary general.", "type": "leadership", "sources": ["https://en.wikipedia.org/wiki/Saadeddine_Othmani"]},
+      {"date": "2007-09-07", "title": "46 seats in the 2007 election", "description": "The PJD becomes the second party by seats but stays in opposition.", "type": "electoral", "sources": ["https://en.wikipedia.org/wiki/2007_Moroccan_general_election"]},
+      {"date": "2008-07-20", "title": "Benkirane elected secretary general", "description": "At the 6th congress in Rabat, Benkirane wins 684 of 1,628 votes.", "type": "leadership", "sources": ["https://fr.wikipedia.org/wiki/Abdel-Ilah_Benkiran"]},
+      {"date": "2011-11-25", "title": "PJD wins the first post-constitution election", "description": "The PJD comes first with 107 of 395 seats; under the 2011 constitution the King appoints Benkirane Head of Government on 29 November 2011.", "type": "electoral", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I", "https://www.agenceecofin.com/politique/0401-2770-le-roi-mohammed-vi-nomme-le-gouvernement-benkirane-1"]},
+      {"date": "2012-01-03", "title": "Benkirane I government", "description": "Government of 31 portfolios: PJD 11 (incl. Head of Government), Istiqlal 6, MP 4, PPS 4, independents 5; one woman (Bassima Hakkaoui).", "type": "government", "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/", "https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I"]},
+      {"date": "2013-10-10", "title": "Benkirane II after Istiqlal's withdrawal", "description": "After Istiqlal's ministers quit in July 2013 the RNI joins; the 39-member government has PJD 12, RNI 8, MP 6, PPS 5.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II", "https://www.agenceecofin.com/politique/1110-14174-maroc-les-36-membres-du-gouvernement-benkirane-ii"]},
+      {"date": "2015-09-04", "title": "PJD takes the big cities", "description": "In the 2015 communal and regional elections the PJD wins the councils of Casablanca, Rabat, Fez, Tangier, Marrakech and Agadir, and two regional presidencies (Rabat-Salé-Kénitra, Drâa-Tafilalet).", "type": "electoral", "sources": ["https://www.usinenouvelle.com/article/elections-locales-au-maroc-le-pjd-du-chef-du-gouvernement-benkirane-va-diriger-la-plupart-des-grandes-villes-du-royaume.N348415", "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/"]},
+      {"date": "2016-10-07", "title": "125 seats: record result", "description": "The PJD wins 125 seats, the best result ever for a Moroccan party, but is unable to form a majority.", "type": "electoral", "sources": ["https://telquel.ma/2021/09/08/pjd-2016-2021-de-grandes-concessions-pour-daussi-grandes-dissensions_1736059"]},
+      {"date": "2017-03-15", "title": "End of the 'blocage': Benkirane dismissed", "description": "After five months of deadlock over the coalition (RNI demands, USFP inclusion), the King relieves Benkirane of forming the government and on 17 March 2017 appoints Saadeddine El Othmani, who forms a six-party government on 25 March (sworn in 5 April 2017).", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I", "https://telquel.ma/2017/03/25/el-othmani-compose-majorite-lusfp-au-gouvernement_1540720"]},
+      {"date": "2017-12-10", "title": "El Othmani elected secretary general", "description": "The 8th congress elects El Othmani; Benkirane, barred from a third term, withdraws.", "type": "leadership", "sources": ["https://en.wikipedia.org/wiki/Saadeddine_Othmani"]},
+      {"date": "2019-10-09", "title": "El Othmani II", "description": "Reduced cabinet of 23 ministers plus the SGG; the PPS leaves the coalition.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II", "https://www.jeuneafrique.com/840909/politique/maroc-enfin-un-gouvernement-othmani-ii/"]},
+      {"date": "2020-12-22", "title": "El Othmani signs the normalisation declaration with Israel", "description": "As Head of Government, El Othmani signs the tripartite Morocco-US-Israel joint declaration in Rabat; months earlier he had rejected 'any normalisation'. The decision, described by him as 'a painful moment' and a decision of the State, deeply divides the party.", "type": "policy", "sources": ["https://www.middleeasteye.net/fr/opinion-fr/maroc-israel-normalisation-islamistes-palestine-pjd-othmani-sahara-occidental", "https://www.yabiladi.com/articles/details/103425/premieres-loges-normalisation-entre-maroc.html", "https://www.newarab.com/news/moroccos-former-pm-el-othmani-defends-normalisation-israel"]},
+      {"date": "2021-05-26", "title": "PJD deputies vote against the government's cannabis bill", "description": "48 PJD deputies vote against bill 13-21 on the therapeutic and industrial use of cannabis, adopted by the House of Representatives although it had been approved by the El Othmani-led government council in March 2021; Benkirane had frozen his membership in protest.", "type": "policy", "sources": ["https://medias24.com/2021/05/27/apres-avoir-vote-contre-le-projet-de-loi-sur-le-cannabis-le-pjd-est-il-isole-ou-prisonnier-de-ses-contradictions/", "https://fr.le360.ma/politique/parlement-adoption-du-projet-de-loi-sur-lusage-du-cannabis-a-des-fins-therapeutiques-le-pjd-s-isole-239225/", "https://www.bladi.net/loi-cannabis-pjd-vote,82944.html"]},
+      {"date": "2021-09-08", "title": "Collapse from 125 to 13 seats", "description": "The PJD falls to 13 seats (8th place); the secretariat general led by El Othmani resigns collectively and calls an extraordinary congress.", "type": "electoral", "sources": ["https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/", "https://telquel.ma/2021/10/31/abdelilah-benkirane-elu-secretaire-general-du-pjd_1741781"]},
+      {"date": "2021-10-05", "title": "3 seats in the House of Councillors, rejected by the party", "description": "The PJD obtains 3 councillor seats it calls 'undeserved and incomprehensible' given its local results, and asks the councillors concerned to resign.", "type": "electoral", "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/", "https://fr.le360.ma/politique/chambre-des-conseillers-un-siege-de-plus-pour-le-pam-aux-depens-du-pjd-239711/"]},
+      {"date": "2021-10-30", "title": "Benkirane returns as secretary general", "description": "Extraordinary congress in Bouznika: Benkirane elected with 1,112 votes (81%) against El Omari (231) and Bouanou (15).", "type": "leadership", "sources": ["https://telquel.ma/2021/10/31/abdelilah-benkirane-elu-secretaire-general-du-pjd_1741781", "https://www.mapexpress.ma/actualite/activites-partisanes-et-syndicales/abdelilah-benkirane-elu-secretaire-general-du-pjd/", "https://www.jeuneafrique.com/1259538/politique/maroc-abdelilah-benkirane-de-retour-a-la-tete-du-pjd/"]},
+      {"date": "2023-03-01", "title": "Cour des comptes: PJD ordered to return unjustified support", "description": "The audit of 2021 accounts requires the PJD to return 5,785,122.26 MAD of unjustified public support (including 2,893,000 MAD in 2021-2022); the party later regularised its situation.", "type": "scandal", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf", "https://fr.le360.ma/politique/subventions-etatiques-le-pjd-presse-par-la-cour-des-comptes-regularise-sa-situation_VFZIO6RWSBFIPKY5J3NNRMZHCY/", "https://fr.hespress.com/426257-rapport-de-la-cour-des-comptes-le-pjd-sexplique.html"]},
+      {"date": "2025-04-27", "title": "9th congress re-elects Benkirane", "description": "In Bouznika, Benkirane wins 994 of 1,402 votes (69%) against Driss El Azami El Idrissi (394) and Abdellah Bouanou (42) for a term running to 2029; the King congratulates him.", "type": "leadership", "sources": ["https://fr.hespress.com/421658-abdelilah-benkirane-reelu-secretaire-general-du-pjd.html", "https://lematin.ma/nation/pjd-ce-quil-faut-retenir-du-neuvieme-congres-national/276396", "https://www.hespress.com/مؤتمر-حزب-العدالة-والتنمية-ينتخب-بنك-1551334.html"]},
+      {"date": "2025-05-23", "title": "Dispute with the USFP over a motion of censure", "description": "The PJD and USFP clash publicly over the opposition's attempt to table a motion of censure against the Akhannouch government.", "type": "opposition", "sources": ["https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/"]},
+      {"date": "2026-09-23", "title": "General election of 23 September 2026 (upcoming)", "description": "The PJD, led by Benkirane, contests the 2026 election seeking to recover from 2021; the election has not taken place as of 16 September 2026.", "type": "electoral", "sources": ["https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"]}
+    ],
+    "achievements": [
+      {"year": 2011, "title": "First Islamist-led government in Morocco", "description": "The party presents its 2011 victory and the Benkirane government as proof that an Islamic-reference party can govern within the monarchy and carry out unpopular reforms (fuel subsidy decompensation, pension reform).", "claimed_by_party": true, "verification": "Independent accounts confirm the 107-seat win and the appointment under the 2011 constitution; economists credit the 2013-2015 removal of fuel subsidies and the 2016 civil-pension reform to the Benkirane governments, though the RNI finance ministry and palace also shaped them.", "confidence": "high", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I", "https://telquel.ma/2021/09/08/pjd-2016-2021-de-grandes-concessions-pour-daussi-grandes-dissensions_1736059"]},
+      {"year": 2016, "title": "Best-ever result for a Moroccan party (125 seats)", "description": "The PJD claims the 2016 result as an unprecedented popular mandate.", "claimed_by_party": true, "verification": "Confirmed: 125 of 395 seats in October 2016; one search summary erroneously gave 107 for 2016 (that is the 2011 figure).", "confidence": "high", "sources": ["https://telquel.ma/2021/09/08/pjd-2016-2021-de-grandes-concessions-pour-daussi-grandes-dissensions_1736059", "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"]},
+      {"year": 2025, "title": "Clean audit of 2023 public-support spending", "description": "The party highlights that the Cour des comptes judged its 2023 public-support expenditure (634,066.64 MAD) valid and that it regularised earlier restitutions.", "claimed_by_party": true, "verification": "Le360 and Hespress report the Cour des comptes' 27 May 2025 report validating the 634,066.64 MAD; the earlier 2021 audit had required restitution of 5.79 MMAD.", "confidence": "medium", "sources": ["https://fr.le360.ma/politique/subventions-etatiques-le-pjd-presse-par-la-cour-des-comptes-regularise-sa-situation_VFZIO6RWSBFIPKY5J3NNRMZHCY/", "https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]}
+    ],
+    "metrics": {
+      "government_participation": [
+        {"government": "Benkirane I", "from": "2012-01-03", "to": "2013-10-10", "role": "leads", "ministers": 11, "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/", "https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I"]},
+        {"government": "Benkirane II", "from": "2013-10-10", "to": "2017-04-05", "role": "leads", "ministers": 12, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II", "https://www.agenceecofin.com/politique/1110-14174-maroc-les-36-membres-du-gouvernement-benkirane-ii"]},
+        {"government": "El Othmani I", "from": "2017-04-05", "to": "2019-10-09", "role": "leads", "ministers": 12, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I", "https://telquel.ma/2017/04/05/officiel-liste-du-nouveau-gouvernement_1542184"]},
+        {"government": "El Othmani II", "from": "2019-10-09", "to": "2021-10-07", "role": "leads", "ministers": null, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II", "https://telquel.ma/2019/10/09/officiel-la-liste-du-nouveau-gouvernement-el-othmani_1653604"]}
+      ],
+      "regional_presidencies": [
+        {"year": 2015, "count": 2, "regions": ["Rabat-Salé-Kénitra (Abdessamad Sekkal)", "Drâa-Tafilalet (Lahbib Choubani)"], "sources": ["https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/", "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831"]},
+        {"year": 2021, "count": 0, "regions": [], "sources": ["https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume", "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/"]}
+      ],
+      "house_of_councillors_seats": [
+        {"year": 2015, "seats": 12, "sources": ["https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)", "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015"]},
+        {"year": 2021, "seats": 3, "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/", "https://fr.le360.ma/politique/chambre-des-conseillers-un-siege-de-plus-pour-le-pam-aux-depens-du-pjd-239711/"]}
+      ],
+      "communal_seats": [
+        {"year": 2015, "seats": 5021, "votes": 1500000, "sources": ["https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914", "https://www.bladi.net/elections-2015-pjd,42959.html"]},
+        {"year": 2021, "seats": 777, "votes": null, "sources": ["https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html", "https://www.bladi.net/resultats-elections-communales-maroc.html"]}
+      ],
+      "public_funding_mad": [
+        {"year": 2020, "amount": null, "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"]},
+        {"year": 2023, "amount": null, "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/", "https://fr.le360.ma/politique/subventions-etatiques-le-pjd-presse-par-la-cour-des-comptes-regularise-sa-situation_VFZIO6RWSBFIPKY5J3NNRMZHCY/"]}
+      ],
+      "membership_claims": [
+        {"year": 2025, "claimed": null, "source": "9th congress (1,402 voting delegates)", "verification": "No headline membership figure surfaced in search results; press reports describe a 'haemorrhage' of members after 2021. No independent audit.", "confidence": "low"}
+      ],
+      "women_mps": [
+        {"year": 2021, "count": 9}
+      ],
+      "custom": [
+        {"name": "House of Representatives seats", "series": [{"year": 1997, "value": 9}, {"year": 2002, "value": 42}, {"year": 2007, "value": 46}, {"year": 2011, "value": 107}, {"year": 2016, "value": 125}, {"year": 2021, "value": 13}], "unit": "seats", "sources": ["https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)", "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/"]},
+        {"name": "Regional council seats", "series": [{"year": 2015, "value": 174}, {"year": 2021, "value": 18}], "unit": "seats", "sources": ["https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015", "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021"]},
+        {"name": "Total declared resources (Cour des comptes audit, state support + own resources)", "series": [{"year": 2023, "value": 4980000}], "unit": "MAD", "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/"]},
+        {"name": "Share of resources coming from the State", "series": [{"year": 2020, "value": 49}], "unit": "percent", "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"]},
+        {"name": "Unjustified public support to be returned (Cour des comptes, 2021 report)", "series": [{"year": 2021, "value": 5785122.26}], "unit": "MAD", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]},
+        {"name": "Public-support expenditure judged valid (Cour des comptes 2023 audit)", "series": [{"year": 2023, "value": 634066.64}], "unit": "MAD", "sources": ["https://fr.le360.ma/politique/subventions-etatiques-le-pjd-presse-par-la-cour-des-comptes-regularise-sa-situation_VFZIO6RWSBFIPKY5J3NNRMZHCY/"]}
+      ]
+    },
+    "sources": [
+      "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)",
+      "http://old.tafra.ma/pjd/",
+      "https://www.lavieeco.com/pouvoirs/medecin-homme-detat-et-pere-du-pjd-les-differentes-vies-de-abdelkrim-el-khatib-11942/",
+      "https://test.telquel.ma/2020/12/06/abdelkrim-khatib-le-parrain-des-islamistes-2_1731068",
+      "https://fr.wikipedia.org/wiki/Abdel-Ilah_Benkiran",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II",
+      "https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I",
+      "https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II",
+      "https://telquel.ma/2021/09/08/pjd-2016-2021-de-grandes-concessions-pour-daussi-grandes-dissensions_1736059",
+      "https://telquel.ma/2021/10/31/abdelilah-benkirane-elu-secretaire-general-du-pjd_1741781",
+      "https://fr.hespress.com/421658-abdelilah-benkirane-reelu-secretaire-general-du-pjd.html",
+      "https://lematin.ma/nation/pjd-ce-quil-faut-retenir-du-neuvieme-congres-national/276396",
+      "https://www.middleeasteye.net/fr/actu-et-enquetes/maroc-pjd-islamistes-deroute-legislatives-retour-benkirane-othmani-congres-cannabis-normalisation",
+      "https://carep-paris.org/recherche/maroc-decryptage-de-lechec-electoral-du-pjd-aux-elections-legislatives/",
+      "https://medias24.com/2021/05/27/apres-avoir-vote-contre-le-projet-de-loi-sur-le-cannabis-le-pjd-est-il-isole-ou-prisonnier-de-ses-contradictions/",
+      "https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf",
+      "https://fr.le360.ma/politique/subventions-etatiques-le-pjd-presse-par-la-cour-des-comptes-regularise-sa-situation_VFZIO6RWSBFIPKY5J3NNRMZHCY/"
+    ],
+    "data_quality": {"confidence": "medium", "notes": "Leadership changes (2008, 2021, 2025 with vote counts), Benkirane I/II compositions, 2020 normalisation, 2021 cannabis vote, 2021 collapse and Cour des comptes restitution are multi-sourced. 'founded' uses the 1967 MPCD date; the PJD name dates from 1998 (some sources say the 1998 congress was in October, unverified). The 1997 (9), 2002 (42), 2007 (46) seat figures, El Othmani I PJD minister count (12), 2015 councillors (12), 2015 regional presidencies and 2021 communal seats (777) come from Wikipedia/press recollection and were not re-verified because the search budget ran out. Women MPs: le360 says 9 of the PJD's 12 sitting deputies are women (13 were elected)."}
+  },
+  {
+    "id": "mp",
+    "names": {
+      "fr": "Mouvement populaire",
+      "ar": "الحركة الشعبية",
+      "en": "Popular Movement"
+    },
+    "abbr": "MP",
+    "founded": "1957-10-05",
+    "founders": ["Mahjoubi Aherdane", "Abdelkrim El Khatib"],
+    "founding_context": "The Mouvement populaire was organised in 1956-1957, mainly in the Rif and Middle Atlas, by Mahjoubi Aherdane (then governor of Rabat province) and Dr Abdelkrim El Khatib, former commander in the Liberation Army, to break the Istiqlal Party's monopoly on post-independence politics and give rural and Amazigh (Berber) Morocco a voice loyal to the monarchy. The Istiqlal-led government arrested its leaders in April 1958; the party was finally legalised in February 1959 and became a pillar of the palace-aligned majorities of the 1960s-1980s.",
+    "ideology": ["Amazigh (Berber) identity", "ruralism", "conservatism", "monarchism", "social liberalism (self-described)"],
+    "position": "centre-right",
+    "family": "berberist",
+    "headquarters": "Rabat (Agdal)",
+    "colour": "#3A8F3A",
+    "website": "https://alharaka.ma",
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {"name": "Mohamed Ouzzine", "since": "2022-11-26", "title": "Secrétaire général"},
+    "leaders": [
+      {"name": "Mahjoubi Aherdane", "from": "1957-10-05", "to": "1986-10-01", "note": "Founder and secretary general; removed in 1986 by a congress led by Mohand Laenser (encyclopedia.com gives 1985 for the expulsion vote, Wikipedia 1986). Founded the rival MNP in July 1991; died 2020."},
+      {"name": "Mohand Laenser", "from": "1986-10-01", "to": "2022-11-26", "note": "Secretary general for more than 30 years; Minister of Interior 2012-2013, Urban Planning 2013-2015; President of Fès-Meknès region 2015-2021. Stepped down at the 14th congress."},
+      {"name": "Mohamed Ouzzine", "from": "2022-11-26", "to": null, "note": "Elected unanimously at the 14th national congress (25-26 November 2022); former Minister of Youth and Sports (2012-2015) and secretary of state for Foreign Affairs; still secretary general in September 2026 (party statements on the 23 September 2026 election)."}
+    ],
+    "notable_members": [
+      {"name": "Mahjoubi Aherdane", "role": "Founder; minister under Hassan II; founder of the MNP (1991)", "period": "1957-1991"},
+      {"name": "Abdelkrim El Khatib", "role": "Co-founder; left in 1967 to found the MPCD (future PJD)", "period": "1957-1967"},
+      {"name": "Mohand Laenser", "role": "Secretary general; Minister of Interior; Fès-Meknès regional president", "period": "1986-2022"},
+      {"name": "Mohamed Ouzzine", "role": "Secretary general; Minister of Youth and Sports", "period": "2012-present"},
+      {"name": "Mohamed Moubdii", "role": "MP and mayor of Fkih Ben Salah; prosecuted in 2023 in a corruption case", "period": "2002-2023"},
+      {"name": "Mohamed Laaraj", "role": "Minister of Culture and Communication (2017-2019)", "period": "2017-2019"},
+      {"name": "Lahcen Haddad", "role": "Minister of Tourism (2012-2016)", "period": "2012-2016"},
+      {"name": "Mohamed Lahjouji", "role": "Leader of the Union démocratique (UD) that merged into the MP in 2006", "period": "2001-2006"}
+    ],
+    "timeline": [
+      {"date": "1957-10-05", "title": "Creation of the Mouvement populaire", "description": "Aherdane and El Khatib organise the MP in the Rif and Middle Atlas as a rural, monarchist counterweight to the Istiqlal.", "type": "founding", "sources": ["https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp", "https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)"]},
+      {"date": "1958-04-01", "title": "Leaders arrested by the Istiqlal-dominated government", "description": "The government arrests MP leaders and blocks the party's legalisation.", "type": "other", "sources": ["https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp"]},
+      {"date": "1959-02-01", "title": "Legal recognition", "description": "The MP is registered as a legal party in February 1959.", "type": "founding", "sources": ["https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp"]},
+      {"date": "1963-05-17", "title": "Partner of the FDIC in the first legislative election", "description": "The MP joins the palace-sponsored Front pour la défense des institutions constitutionnelles (FDIC) and enters the 1961-1965 governments.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)"]},
+      {"date": "1967-01-01", "title": "Split: El Khatib founds the MPCD", "description": "Personal and political differences between Aherdane and El Khatib lead the latter to create the MPCD.", "type": "split", "sources": ["https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp", "https://www.lavieeco.com/pouvoirs/medecin-homme-detat-et-pere-du-pjd-les-differentes-vies-de-abdelkrim-el-khatib-11942/"]},
+      {"date": "1986-10-01", "title": "Aherdane ousted; Laenser takes over", "description": "A congress removes the founder for 'authoritarian practices'; Mohand Laenser becomes secretary general.", "type": "leadership", "sources": ["https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp", "https://fr.wikipedia.org/wiki/Mouvement_national_populaire"]},
+      {"date": "1991-07-01", "title": "Aherdane founds the MNP", "description": "The founder creates the rival Mouvement national populaire, splitting the 'mouvance populaire'.", "type": "split", "sources": ["https://fr.wikipedia.org/wiki/Mouvement_national_populaire"]},
+      {"date": "1998-03-14", "title": "Outside the alternance government", "description": "The MP is not part of the Youssoufi government (its rival MNP is); it sits in opposition until 2002.", "type": "opposition", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I"]},
+      {"date": "2002-11-07", "title": "Return to government under Jettou", "description": "After the 2002 election (27 seats) the MP joins the Jettou I government; in Jettou II (2004) it holds 3 portfolios and the MNP 2.", "type": "government", "sources": ["https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/", "https://fr.wikipedia.org/wiki/Gouvernement_Jettou_I"]},
+      {"date": "2006-03-24", "title": "Reunification of MP, MNP and UD", "description": "The central committees of the MP, MNP and Union démocratique meet in Rabat and merge into a single Mouvement populaire under Laenser; Aherdane becomes honorary president.", "type": "merger", "sources": ["https://fr.wikipedia.org/wiki/Mouvement_national_populaire", "https://aujourdhui.ma/societe/mouvance-populaire-lunion-ou-la-mort-387"]},
+      {"date": "2007-10-15", "title": "Goes into opposition against the El Fassi government", "description": "Despite 41 seats (3rd place), the MP - in the majority since 1988 - leaves for the opposition after disagreeing on the scale of its participation in Abbas El Fassi's team.", "type": "opposition", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi"]},
+      {"date": "2012-01-03", "title": "Joins the Benkirane I government", "description": "The MP receives 4 portfolios; Laenser becomes Minister of Interior.", "type": "government", "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/", "https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_I"]},
+      {"date": "2013-10-10", "title": "6 ministers in Benkirane II", "description": "In the reshuffled government the MP holds 6 portfolios.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II"]},
+      {"date": "2015-01-19", "title": "Ouzzine dismissed as Minister of Youth and Sports", "description": "The King removes Mohamed Ouzzine after the Grand Stade de Marrakech pitch fiasco during the Club World Cup.", "type": "scandal", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II"]},
+      {"date": "2015-09-14", "title": "Laenser elected president of Fès-Meknès region", "description": "The MP obtains one of the 12 regional presidencies (Fès-Meknès) in the first directly elected regional councils.", "type": "electoral", "sources": ["https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831", "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/"]},
+      {"date": "2017-04-05", "title": "Member of the El Othmani I government", "description": "The MP is one of the six coalition parties (Mohamed Laaraj at Culture and Communication).", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I", "https://telquel.ma/2017/04/05/officiel-liste-du-nouveau-gouvernement_1542184"]},
+      {"date": "2019-10-09", "title": "Remains in El Othmani II", "description": "The MP keeps a place in the reduced 23-minister cabinet.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II"]},
+      {"date": "2021-09-08", "title": "28 seats and a move to the opposition", "description": "The MP wins 7.05% and 28 seats (+1) but is left out of the RNI-PAM-Istiqlal coalition and sits in opposition for the 2021-2026 legislature.", "type": "opposition", "sources": ["https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021", "https://alharaka.ma/fr/cinq-annees-dans-lopposition-2021-2026-le-mouvement-populaire-ou-quand-lopposition-passe-de-la-reaction-a-lelaboration-dun-nouveau-contrat-social/"]},
+      {"date": "2021-10-05", "title": "12 seats in the House of Councillors", "description": "Fourth party in the upper house with 12 seats.", "type": "electoral", "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/"]},
+      {"date": "2022-11-26", "title": "14th congress: Ouzzine succeeds Laenser", "description": "The 14th national congress (25-26 November 2022) elects Mohamed Ouzzine unanimously; Laenser says the party is 'not satisfied' with 2021 and aims to return to the top ranks in 2026.", "type": "leadership", "sources": ["https://aawsat.com/home/article/4009661/", "https://snrtnews.com/article/60444", "https://www.mapexpress.ma/ar/actualite/انتخاب-السيد-محمد-أوزين-أمينا-عاما-جدي/"]},
+      {"date": "2023-03-01", "title": "Cour des comptes: 1.77 MMAD to return", "description": "The audit of 2021 accounts requires the MP to return 1,772,173.99 MAD of unjustified public support.", "type": "scandal", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]},
+      {"date": "2026-09-23", "title": "General election of 23 September 2026 (upcoming)", "description": "Ouzzine says the MP has 'renewed its blood with a new generation' and aims for the top ranks; the vote has not taken place as of 16 September 2026.", "type": "electoral", "sources": ["https://alharaka.ma/انتخابات-23-شتنبر-الأمين-العام-للحزب-مح/"]}
+    ],
+    "achievements": [
+      {"year": 2011, "title": "Constitutional recognition of Amazigh as an official language", "description": "The MP presents the 2011 constitution's Article 5 (Amazigh official language) as the outcome of its decades-long advocacy.", "claimed_by_party": true, "verification": "The 2011 constitution was drafted by a royal commission after the 20 February protests; the MP was one of several actors (with Amazigh associations and IRCAM) supporting officialisation. Attribution is shared.", "confidence": "medium", "sources": ["https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)"]},
+      {"year": 2006, "title": "Reunification of the 'mouvance populaire'", "description": "The party claims to have healed the 1991 split by absorbing the MNP and UD.", "claimed_by_party": true, "verification": "Confirmed by press and Wikipedia (March 2006 merger).", "confidence": "high", "sources": ["https://fr.wikipedia.org/wiki/Mouvement_national_populaire", "https://aujourdhui.ma/societe/mouvance-populaire-lunion-ou-la-mort-387"]},
+      {"year": 2026, "title": "Five years of 'constructive opposition' (2021-2026)", "description": "The party's own review claims it moved the opposition 'from reaction to proposing a new social contract'.", "claimed_by_party": true, "verification": "Party self-assessment; independent commentary (Jeune Afrique) described the 2021-2026 opposition as weak ('KO debout').", "confidence": "low", "sources": ["https://alharaka.ma/fr/cinq-annees-dans-lopposition-2021-2026-le-mouvement-populaire-ou-quand-lopposition-passe-de-la-reaction-a-lelaboration-dun-nouveau-contrat-social/", "https://www.jeuneafrique.com/1307473/politique/maroc-lopposition-est-elle-vraiment-ko/"]}
+    ],
+    "metrics": {
+      "government_participation": [
+        {"government": "Jettou I", "from": "2002-11-07", "to": "2004-06-08", "role": "member", "ministers": null, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Jettou_I"]},
+        {"government": "Jettou II", "from": "2004-06-08", "to": "2007-10-15", "role": "member", "ministers": 3, "sources": ["https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/"]},
+        {"government": "Benkirane I", "from": "2012-01-03", "to": "2013-10-10", "role": "member", "ministers": 4, "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/"]},
+        {"government": "Benkirane II", "from": "2013-10-10", "to": "2017-04-05", "role": "member", "ministers": 6, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II"]},
+        {"government": "El Othmani I", "from": "2017-04-05", "to": "2019-10-09", "role": "member", "ministers": 3, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I"]},
+        {"government": "El Othmani II", "from": "2019-10-09", "to": "2021-10-07", "role": "member", "ministers": null, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_II"]}
+      ],
+      "regional_presidencies": [
+        {"year": 2015, "count": 1, "regions": ["Fès-Meknès (Mohand Laenser)"], "sources": ["https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831", "https://fr.wikipedia.org/wiki/Liste_des_présidents_des_conseils_régionaux_au_Maroc"]},
+        {"year": 2021, "count": 0, "regions": [], "sources": ["https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume"]}
+      ],
+      "house_of_councillors_seats": [
+        {"year": 2015, "seats": 7, "sources": ["https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015"]},
+        {"year": 2021, "seats": 12, "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/", "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges"]}
+      ],
+      "communal_seats": [
+        {"year": 2015, "seats": 3007, "votes": null, "sources": ["https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles", "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015"]},
+        {"year": 2021, "seats": 2110, "votes": null, "sources": ["https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"]}
+      ],
+      "public_funding_mad": [
+        {"year": 2020, "amount": null, "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"]},
+        {"year": 2023, "amount": null, "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/"]}
+      ],
+      "membership_claims": [
+        {"year": 2022, "claimed": null, "source": "14th congress", "verification": "No membership figure found in search results; no independent audit.", "confidence": "low"}
+      ],
+      "women_mps": [
+        {"year": 2021, "count": 8}
+      ],
+      "custom": [
+        {"name": "House of Representatives seats", "series": [{"year": 1997, "value": 40}, {"year": 2002, "value": 27}, {"year": 2007, "value": 41}, {"year": 2011, "value": 32}, {"year": 2016, "value": 27}, {"year": 2021, "value": 28}], "unit": "seats", "sources": ["https://en.wikipedia.org/wiki/Popular_Movement_(Morocco)", "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021"]},
+        {"name": "Vote share, House of Representatives", "series": [{"year": 2021, "value": 7.05}], "unit": "percent", "sources": ["https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021"]},
+        {"name": "Regional council seats", "series": [{"year": 2015, "value": 62}, {"year": 2021, "value": 41}], "unit": "seats", "sources": ["https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015", "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021"]},
+        {"name": "Total declared resources (Cour des comptes audit, state support + own resources)", "series": [{"year": 2023, "value": 3240000}], "unit": "MAD", "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/"]},
+        {"name": "State support for women's political representation", "series": [{"year": 2020, "value": 50000}], "unit": "MAD", "sources": ["https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"]},
+        {"name": "Unjustified public support to be returned (Cour des comptes, 2021 report)", "series": [{"year": 2021, "value": 1772173.99}], "unit": "MAD", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]}
+      ]
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)",
+      "https://en.wikipedia.org/wiki/Popular_Movement_(Morocco)",
+      "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/mouvement-populaire-mp",
+      "https://fr.wikipedia.org/wiki/Mouvement_national_populaire",
+      "http://old.tafra.ma/mp/",
+      "https://www.lavieeco.com/pouvoirs/mouvement-populaire-cinquante-ans-et-toujours-des-interrogations-12830/",
+      "https://www.jeuneafrique.com/1075080/politique/maroc-le-leader-politique-mahjoubi-aherdane-nest-plus/",
+      "https://aawsat.com/home/article/4009661/",
+      "https://snrtnews.com/article/60444",
+      "https://alyaoum24.com/1746748.html",
+      "https://alharaka.ma/fr/cinq-annees-dans-lopposition-2021-2026-le-mouvement-populaire-ou-quand-lopposition-passe-de-la-reaction-a-lelaboration-dun-nouveau-contrat-social/",
+      "https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi",
+      "https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/",
+      "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/"
+    ],
+    "data_quality": {"confidence": "medium", "notes": "Founding (1957, legalised Feb 1959), 1967 split, 1991 MNP, 2006 reunification, 2022 Ouzzine election, 2021 seats (28, 7.05%), 2021 councillors (12) and Cour des comptes restitution are multi-sourced. The exact 1957 founding day (5 October is the party's own anniversary date) and the 1986 vs 1985 removal of Aherdane differ by source. 2015 councillors (7), El Othmani I minister count (3), 2015 Fès-Meknès presidency, regional seat totals and 2021 communal seats (2,110 vs Le Matin provisional 2,213) were not re-verified because the search budget ran out. Historical seat series before 2021 is from Wikipedia recollection (medium)."}
+  },
+  {
+    "id": "pps",
+    "names": {
+      "fr": "Parti du progrès et du socialisme",
+      "ar": "حزب التقدم والاشتراكية",
+      "en": "Party of Progress and Socialism"
+    },
+    "abbr": "PPS",
+    "founded": "1974-08-23",
+    "founders": ["Ali Yata"],
+    "founding_context": "The PPS is the legal successor of the Parti communiste marocain (PCM), founded in 1943 under the Protectorate with Léon Sultan as secretary general and led from 1945 by Ali Yata. Banned under the Protectorate (1952) and again after independence (1959-1960), the movement re-emerged in 1968 as the Parti de la libération et du socialisme (PLS), banned the following year, and was finally legalised in August 1974 under the name Parti du progrès et du socialisme, still under Ali Yata. It abandoned Marxism-Leninism as an official doctrine in the 1990s and describes itself as a party of the democratic and progressive left.",
+    "ideology": ["democratic socialism", "progressivism", "formerly communism"],
+    "position": "left",
+    "family": "left",
+    "headquarters": "Rabat",
+    "colour": "#C8102E",
+    "website": "https://pps.ma",
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {"name": "Mohamed Nabil Benabdallah", "since": "2010-05-30", "title": "Secrétaire général"},
+    "leaders": [
+      {"name": "Ali Yata", "from": "1974-08-23", "to": "1997-08-13", "note": "Leader of the PCM from 1945, the PLS (1968) and the PPS; first communist MP in 1976; died after a road accident in August 1997 (English Wikipedia gives 12 August, other sources 13 August)."},
+      {"name": "Ismaïl Alaoui", "from": "1997-08-13", "to": "2010-05-30", "note": "Secretary general 1997-2010; Minister of Agriculture (1998-2002) and of Education/Higher Education (2004-2007) in the Youssoufi and Jettou governments."},
+      {"name": "Mohamed Nabil Benabdallah", "from": "2010-05-30", "to": null, "note": "Elected at the 8th congress (May 2010); re-elected 2014, 2018 and, for a fourth term, at the 11th congress (Bouznika, November 2022: 415 of 432 central committee votes, no other candidate). In early September 2026 he announced he would not be part of the leadership to be elected at the next congress, planned within months of the 2026 election."}
+    ],
+    "notable_members": [
+      {"name": "Ali Yata", "role": "Historic leader of Moroccan communism; founder of the PPS", "period": "1945-1997"},
+      {"name": "Abdallah Layachi", "role": "Historic PCM/PLS leader", "period": "1945-1980s"},
+      {"name": "Aziz Belal", "role": "Economist and party ideologue", "period": "1960s-1982"},
+      {"name": "Ismaïl Alaoui", "role": "Secretary general; Minister of Agriculture then Education", "period": "1997-2010"},
+      {"name": "Mohamed Nabil Benabdallah", "role": "Secretary general; Minister of Communication (2002-2007), Housing and Urban Policy (2012-2017); dismissed by the King in October 2017 after the Al Hoceima 'Manarat Al Moutawassit' programme failures", "period": "2010-present"},
+      {"name": "Saïd Saadi", "role": "Secretary of State for Family and Childhood (1998-2000), author of the 1999 Plan for women's integration", "period": "1998-2000"},
+      {"name": "Khalid Naciri", "role": "Minister of Communication and government spokesman (2007-2012)", "period": "2007-2012"},
+      {"name": "Charafat Afailal", "role": "Minister delegate / secretary of state for Water (2013-2019)", "period": "2013-2019"},
+      {"name": "Rachid Roukbane", "role": "Head of the PPS parliamentary group (2021-2026)", "period": "2021-2026"}
+    ],
+    "timeline": [
+      {"date": "1943-11-14", "title": "Founding of the Parti communiste marocain", "description": "The PCM is founded in Casablanca under the Protectorate with Léon Sultan as secretary general; Ali Yata takes the leadership in 1945.", "type": "founding", "sources": ["https://fr.wikipedia.org/wiki/Parti_communiste_marocain", "https://en.wikipedia.org/wiki/Moroccan_Communist_Party"]},
+      {"date": "1959-09-12", "title": "PCM banned after independence", "description": "The party is dissolved by the government (ban confirmed by the Supreme Court in 1960) after an earlier Protectorate ban in 1952.", "type": "other", "sources": ["https://fr.wikipedia.org/wiki/Parti_communiste_marocain", "https://www.maroc-realites.com/fr/archive/mouvement-communiste/pcm_pls"]},
+      {"date": "1968-07-01", "title": "Re-emergence as the PLS", "description": "The movement returns legally as the Parti de la libération et du socialisme, banned again in 1969.", "type": "other", "sources": ["https://en.wikipedia.org/wiki/Party_of_Liberation_and_Socialism"]},
+      {"date": "1974-08-23", "title": "Legalisation as the PPS", "description": "Ali Yata's party is authorised under the name Parti du progrès et du socialisme.", "type": "founding", "sources": ["https://fr.wikipedia.org/wiki/Parti_du_progrès_et_du_socialisme", "https://partis.tafra.ma/partis/pps"]},
+      {"date": "1977-06-03", "title": "Ali Yata elected to parliament", "description": "The PPS wins a single seat (Casablanca) in the 1977 election, giving Yata the first communist seat in the Moroccan parliament.", "type": "electoral", "sources": ["https://en.wikipedia.org/wiki/Ali_Yata"]},
+      {"date": "1992-05-17", "title": "Founding member of the Koutla démocratique", "description": "The PPS joins the USFP, Istiqlal, OADP and UNFP in the opposition bloc that negotiates the 1996 constitutional reform and the alternance.", "type": "other", "sources": ["https://en.wikipedia.org/wiki/Koutla"]},
+      {"date": "1997-08-13", "title": "Death of Ali Yata; Ismaïl Alaoui succeeds him", "description": "After Yata's death in a road accident, Ismaïl Alaoui becomes secretary general.", "type": "leadership", "sources": ["https://en.wikipedia.org/wiki/Ali_Yata", "https://www.maroc-realites.com/fr/archive/mouvement-communiste/pcm_pls/ali-yata"]},
+      {"date": "1998-03-14", "title": "Enters the Youssoufi 'alternance' government", "description": "The PPS joins the alternance coalition (Ismaïl Alaoui at Agriculture, Saïd Saadi secretary of state), beginning more than 20 years of uninterrupted government participation.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I", "https://www.jeuneafrique.com/837501/politique/maroc-le-pps-claque-la-porte-du-gouvernement/"]},
+      {"date": "2002-11-07", "title": "Jettou governments", "description": "The PPS stays in the Jettou I and II governments (Benabdallah at Communication; 1 portfolio in Jettou II).", "type": "government", "sources": ["https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/"]},
+      {"date": "2007-10-15", "title": "2 ministers in the El Fassi government", "description": "The PPS holds 2 portfolios (Khalid Naciri at Communication) in the 33-member Abbas El Fassi government.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi"]},
+      {"date": "2010-05-30", "title": "Nabil Benabdallah elected secretary general", "description": "The 8th congress elects Benabdallah to succeed Ismaïl Alaoui.", "type": "leadership", "sources": ["https://pps.ma/fr/le-secretaire-general/", "https://www.jeuneafrique.com/486841/politique/maroc-gloire-et-decadence-du-parti-du-progres-et-du-socialisme/"]},
+      {"date": "2012-01-03", "title": "Ally of the PJD in Benkirane I", "description": "The PPS is the only left party in the Islamist-led coalition, with 4 portfolios (Benabdallah at Housing).", "type": "government", "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/"]},
+      {"date": "2013-10-10", "title": "5 ministers in Benkirane II", "description": "The PPS's share rises to 5 portfolios in the reshuffled 39-member government.", "type": "government", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II"]},
+      {"date": "2017-04-05", "title": "El Othmani I", "description": "The PPS remains in the six-party coalition; Benabdallah becomes Minister of Territorial Planning, Urbanism, Housing and Urban Policy.", "type": "government", "sources": ["https://fnh.ma/article/actualite-politique/le-gouvernement-el-othmani-officiellement-devoile", "https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I"]},
+      {"date": "2017-10-24", "title": "Benabdallah dismissed by the King", "description": "Following the Cour des comptes report on delays in the Al Hoceima 'Manarat Al Moutawassit' programme, the King relieves Benabdallah and other ministers of their duties.", "type": "scandal", "sources": ["https://www.jeuneafrique.com/486841/politique/maroc-gloire-et-decadence-du-parti-du-progres-et-du-socialisme/"]},
+      {"date": "2019-10-01", "title": "PPS leaves the government", "description": "The Political Bureau unanimously decides not to take part in the El Othmani II government, citing the coalition's 'flagrant lack of homogeneity' and inability to deliver reforms; Benabdallah says portfolios were never discussed. This ends over 20 years in government.", "type": "opposition", "sources": ["https://www.jeuneafrique.com/837501/politique/maroc-le-pps-claque-la-porte-du-gouvernement/", "https://lematin.ma/express/2019/pps-quitte-gouvernement-el-othmani/323782.html", "https://fr.le360.ma/politique/video-nabil-benabdallah-dit-tout-sur-le-retrait-du-pps-du-gouvernement-199518/"]},
+      {"date": "2021-09-08", "title": "22 seats, best result since the 1970s", "description": "The PPS rises from 12 to 22 seats and stays in opposition to the Akhannouch government.", "type": "electoral", "sources": ["https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/", "https://fr.le360.ma/politique/parlement-voici-le-nombre-de-femmes-qui-feront-leur-entree-a-la-chambre-des-representants-245771/"]},
+      {"date": "2022-11-27", "title": "11th congress: Benabdallah's fourth term", "description": "At the 11th congress in Bouznika ('L'alternative démocratique progressiste') 1,125 of 1,474 delegates sign a list backing his candidacy and the central committee re-elects him with 415 votes; the King congratulates him.", "type": "leadership", "sources": ["https://www.mapnews.ma/fr/actualites/politique/mohamed-nabil-benabdallah-réélu-au-poste-de-secrétaire-général-du-pps-pour-un", "https://www.yabiladi.com/articles/details/133843/congres-mohamed-nabil-benabdallah-reelu.html", "https://elaph.com/Web/News/2022/11/1491946.html"]},
+      {"date": "2023-03-01", "title": "Cour des comptes: 409,829 MAD to return", "description": "The audit of 2021 accounts requires the PPS to return 409,829.26 MAD of unjustified public support.", "type": "scandal", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]},
+      {"date": "2025-03-22", "title": "Benabdallah sets out the 2026 positioning", "description": "In an interview Benabdallah presents the PPS's opposition record and its electoral positioning for 2026 as a 'progressive democratic alternative'.", "type": "opposition", "sources": ["https://medias24.com/2025/03/22/nabil-benabdallah-notre-bilan-et-le-positionnement-electoral-du-pps-pour-2026/"]},
+      {"date": "2026-09-01", "title": "Benabdallah announces his coming departure", "description": "Benabdallah says the next congress, within a few months, will elect a new leadership of which he will not be part.", "type": "leadership", "sources": ["https://www.lesiteinfo.com/maroc/681211-mohamed-nabil-benabdallah-annonce-son-depart-prochain-de-la-tete-du-pps.html"]},
+      {"date": "2026-09-23", "title": "General election of 23 September 2026 (upcoming)", "description": "The PPS contests the 2026 election from the opposition; the vote has not taken place as of 16 September 2026.", "type": "electoral", "sources": ["https://le12.ma/التقدم-والاشتراكية-أمام-اختبار-الانت/"]}
+    ],
+    "achievements": [
+      {"year": 1999, "title": "Plan for the integration of women in development", "description": "The party credits its secretary of state Saïd Saadi with the 1999 plan that opened the way to the 2004 Moudawana reform.", "claimed_by_party": true, "verification": "Saïd Saadi (PPS) did author the plan in the Youssoufi government; it was withdrawn after Islamist mobilisation in 2000 and the reform came through a royal commission in 2003-2004.", "confidence": "medium", "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I"]},
+      {"year": 2012, "title": "'Villes sans bidonvilles' and housing programmes", "description": "Benabdallah as Housing minister (2012-2017) claims progress in slum clearance and social housing.", "claimed_by_party": true, "verification": "Programme predates him (2004); independent audits (Cour des comptes) criticised delays, and he was dismissed in October 2017 over the Al Hoceima programme.", "confidence": "low", "sources": ["https://www.jeuneafrique.com/486841/politique/maroc-gloire-et-decadence-du-parti-du-progres-et-du-socialisme/"]},
+      {"year": 2021, "title": "Near-doubling of seats (12 to 22)", "description": "The party presents 2021 as a vindication of its 2019 exit from government.", "claimed_by_party": true, "verification": "The 22 seats are confirmed by the Ministry of Interior results; most gains came through the regional (women's) lists (10 of 22).", "confidence": "high", "sources": ["https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/", "https://fr.le360.ma/politique/parlement-voici-le-nombre-de-femmes-qui-feront-leur-entree-a-la-chambre-des-representants-245771/"]}
+    ],
+    "metrics": {
+      "government_participation": [
+        {"government": "Youssoufi I", "from": "1998-03-14", "to": "2000-09-06", "role": "member", "ministers": 2, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_el-Youssoufi_I"]},
+        {"government": "Youssoufi II", "from": "2000-09-06", "to": "2002-11-07", "role": "member", "ministers": null, "sources": ["https://www.afrik.com/maroc-un-gouvernement-youssoufi-ii"]},
+        {"government": "Jettou I", "from": "2002-11-07", "to": "2004-06-08", "role": "member", "ministers": null, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Jettou_I"]},
+        {"government": "Jettou II", "from": "2004-06-08", "to": "2007-10-15", "role": "member", "ministers": 1, "sources": ["https://www.lavieeco.com/pouvoirs/les-34-membres-du-gouvernement-jettou-ii-5341/"]},
+        {"government": "El Fassi", "from": "2007-10-15", "to": "2012-01-03", "role": "member", "ministers": 2, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Fassi"]},
+        {"government": "Benkirane I", "from": "2012-01-03", "to": "2013-10-10", "role": "member", "ministers": 4, "sources": ["https://www.lavieeco.com/pouvoirs/repartition-des-ministeres-du-gouvernement-benkirane-par-partis-politiques-21052/"]},
+        {"government": "Benkirane II", "from": "2013-10-10", "to": "2017-04-05", "role": "member", "ministers": 5, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_Benkiran_II"]},
+        {"government": "El Othmani I", "from": "2017-04-05", "to": "2019-10-09", "role": "member", "ministers": 3, "sources": ["https://fr.wikipedia.org/wiki/Gouvernement_El_Otmani_I", "https://www.jeuneafrique.com/837501/politique/maroc-le-pps-claque-la-porte-du-gouvernement/"]}
+      ],
+      "regional_presidencies": [
+        {"year": 2015, "count": 0, "regions": [], "sources": ["https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/"]},
+        {"year": 2021, "count": 0, "regions": [], "sources": ["https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume"]}
+      ],
+      "house_of_councillors_seats": [
+        {"year": 2015, "seats": 4, "sources": ["https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015"]},
+        {"year": 2021, "seats": null, "sources": ["https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/"]}
+      ],
+      "communal_seats": [
+        {"year": 2015, "seats": 1766, "votes": null, "sources": ["https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015"]},
+        {"year": 2021, "seats": 1432, "votes": null, "sources": ["https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"]}
+      ],
+      "public_funding_mad": [
+        {"year": 2023, "amount": null, "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/"]}
+      ],
+      "membership_claims": [
+        {"year": 2022, "claimed": null, "source": "11th congress (1,474 delegates)", "verification": "No membership figure found in search results; no independent audit.", "confidence": "low"}
+      ],
+      "women_mps": [
+        {"year": 2021, "count": 11}
+      ],
+      "custom": [
+        {"name": "House of Representatives seats", "series": [{"year": 1997, "value": 9}, {"year": 2002, "value": 11}, {"year": 2007, "value": 17}, {"year": 2011, "value": 18}, {"year": 2016, "value": 12}, {"year": 2021, "value": 22}], "unit": "seats", "sources": ["https://en.wikipedia.org/wiki/Party_of_Progress_and_Socialism", "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/"]},
+        {"name": "Regional council seats", "series": [{"year": 2015, "value": 23}, {"year": 2021, "value": 28}], "unit": "seats", "sources": ["https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015", "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021"]},
+        {"name": "Total declared resources (Cour des comptes audit, state support + own resources)", "series": [{"year": 2023, "value": 4800000}], "unit": "MAD", "sources": ["https://ecoactu.ma/partis-politiques-une-baisse/"]},
+        {"name": "Unjustified public support to be returned (Cour des comptes, 2021 report)", "series": [{"year": 2021, "value": 409829.26}], "unit": "MAD", "sources": ["https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf"]}
+      ]
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Parti_du_progrès_et_du_socialisme",
+      "https://en.wikipedia.org/wiki/Party_of_Progress_and_Socialism",
+      "https://fr.wikipedia.org/wiki/Parti_communiste_marocain",
+      "https://en.wikipedia.org/wiki/Party_of_Liberation_and_Socialism",
+      "https://en.wikipedia.org/wiki/Ali_Yata",
+      "https://partis.tafra.ma/partis/pps",
+      "https://www.maroc-realites.com/fr/archive/mouvement-communiste/pcm_pls",
+      "https://www.jeuneafrique.com/486841/politique/maroc-gloire-et-decadence-du-parti-du-progres-et-du-socialisme/",
+      "https://www.jeuneafrique.com/837501/politique/maroc-le-pps-claque-la-porte-du-gouvernement/",
+      "https://www.jeuneafrique.com/847908/politique/maroc-quel-avenir-pour-le-pps-apres-avoir-tourne-le-dos-au-gouvernement/",
+      "https://lematin.ma/express/2019/pps-quitte-gouvernement-el-othmani/323782.html",
+      "https://www.mapnews.ma/fr/actualites/politique/mohamed-nabil-benabdallah-réélu-au-poste-de-secrétaire-général-du-pps-pour-un",
+      "https://www.leconomiste.com/article/1097672-pps-nabil-benabdallah-pour-un-4e-mandat",
+      "https://www.lesiteinfo.com/maroc/681211-mohamed-nabil-benabdallah-annonce-son-depart-prochain-de-la-tete-du-pps.html",
+      "https://medias24.com/2025/03/22/nabil-benabdallah-notre-bilan-et-le-positionnement-electoral-du-pps-pour-2026/",
+      "https://pps.ma/fr/le-secretaire-general/"
+    ],
+    "data_quality": {"confidence": "medium", "notes": "PCM/PLS/PPS lineage, Ali Yata's death (Aug 1997), Benabdallah's 2010 election, the 2019 exit, 2021 seats (22) and the 2022 congress vote counts are multi-sourced. One search summary wrongly stated Benabdallah was dismissed as Housing minister in 'October 2010' over the Rif; the dismissal was 24 October 2017 (Al Hoceima programme) and is recorded as such here. The exact 1974 authorisation date (23 August), 8th-congress date (30 May 2010), El Othmani I minister count (3), 2015 councillors (4), communal seat totals and regional seats are from Wikipedia/press recollection and were not re-verified because the search budget ran out. 2021 House of Councillors: medias24's breakdown lists 'other parties 3 (1 each)' without naming the PPS, so the value is left null."}
+  }
+]
