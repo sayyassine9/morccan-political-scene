@@ -40,12 +40,15 @@ def check_conf(v, ctx):
 
 def main():
     parties = load('parties.json'); elections = load('elections.json'); events = load('events.json'); govs = load('governments.json')
+    gm = load('global-metrics.json') if os.path.exists(os.path.join(DATA, 'global-metrics.json')) else {}
     ids = set()
     for p in parties:
         ctx = f"party {p.get('id')}"
-        for k in ('id', 'names', 'founded', 'status'):
+        for k in ('id', 'names', 'status'):
             if not p.get(k):
                 errors.append(f'{ctx}: missing {k}')
+        if not p.get('founded'):
+            warnings.append(f'{ctx}: missing founded')
         if p.get('id') in ids:
             errors.append(f'{ctx}: duplicate id')
         ids.add(p.get('id'))
@@ -59,7 +62,8 @@ def main():
         for a in p.get('achievements', []):
             check_conf(a.get('confidence'), f'{ctx} achievement {a.get("title")}')
         check_conf((p.get('data_quality') or {}).get('confidence'), ctx)
-    known = ids | {'other', 'independents', 'none', 'technocrat', 'sans-appartenance'}
+    labels = load('labels.json') if os.path.exists(os.path.join(DATA, 'labels.json')) else {}
+    known = ids | set(labels) | {'other', 'independents', 'none', 'technocrat', 'sans-appartenance'}
 
     def ref(pid, ctx):
         if pid not in known:
@@ -119,7 +123,7 @@ def main():
     bundle = {
         'meta': {'generated_at': datetime.date.today().isoformat(), 'methodology_html': meth_html,
                  'counts': {'parties': len(parties), 'elections': len(elections), 'events': len(events), 'governments': len(govs)}},
-        'parties': parties, 'elections': elections, 'events': events, 'governments': govs,
+        'parties': parties, 'elections': elections, 'events': events, 'governments': govs, 'global_metrics': gm, 'labels': labels,
     }
     for w in warnings:
         print('WARN', w)

@@ -37,7 +37,13 @@ def main():
                 continue
             parties[p['id']] = p
     metrics = load(os.path.join(RAW, 'metrics.json'), {})
+    global_metrics = {k: v for k, v in metrics.items() if k.startswith('_')}
+    with open(os.path.join(DATA, 'global-metrics.json'), 'w', encoding='utf-8') as f:
+        json.dump(global_metrics, f, ensure_ascii=False, indent=1)
+    print('wrote global-metrics.json', list(global_metrics))
     for pid, m in metrics.items():
+        if pid.startswith('_'):
+            continue
         if pid not in parties:
             print('metrics for unknown party', pid); continue
         pm = parties[pid].setdefault('metrics', {})
@@ -55,7 +61,8 @@ def main():
     govs = load(os.path.join(RAW, 'governments.json'), [])
 
     # unknown ids report
-    known = set(parties) | {'other', 'independents', 'none', 'technocrat', 'sans-appartenance'}
+    labels = load(os.path.join(DATA, 'labels.json'), {})
+    known = set(parties) | set(labels) | {'other', 'independents', 'none', 'technocrat', 'sans-appartenance'}
     unknown = {}
     for e in elections:
         for r in e.get('results', []):

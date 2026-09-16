@@ -1,0 +1,3817 @@
+[
+  {
+    "id": "independence-manifesto-1944",
+    "date": "1944-01-11",
+    "end_date": null,
+    "title": "Independence Manifesto (Manifeste de l'indépendance)",
+    "category": "institutional",
+    "description": "On 11 January 1944, 66 nationalist figures gathered around the newly formed Istiqlal Party presented a manifesto to the Sultan, the French Residency and the Allied consulates demanding the independence of Morocco under Sultan Mohammed Ben Youssef and a constitutional monarchy. The Residency responded with arrests of signatories (Ahmed Balafrej, Mohamed Lyazidi and others) and repression of demonstrations in Fez, Rabat and Salé that left dozens dead. The date is now a national holiday.",
+    "significance": "Founding act of Moroccan nationalist politics; establishes Istiqlal's historical legitimacy claim and the alliance between the nationalist movement and the Alaouite throne that structures the party system to this day.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal drafted and presented the manifesto; its signatories (Balafrej, Lyazidi, El Fassi's circle) were arrested by the Protectorate.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Manifeste_de_l%27ind%C3%A9pendance"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The Moroccan Communist Party (ancestor of the PPS) was not a signatory in 1944; under Ali Yata it formally adopted the demand for independence from 1946 onwards.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_communiste_marocain"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "independence",
+      "istiqlal",
+      "protectorate",
+      "nationalism"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Manifeste_de_l%27ind%C3%A9pendance",
+      "https://en.wikipedia.org/wiki/Istiqlal_Party"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "unfp-split-1959",
+    "date": "1959-09-06",
+    "end_date": null,
+    "title": "UNFP splits from Istiqlal",
+    "category": "institutional",
+    "description": "After growing tension between the conservative wing of Istiqlal around Allal El Fassi and the left wing around Mehdi Ben Barka, Abderrahim Bouabid and the UMT trade union, the left broke away in January 1959 and constituted the Union nationale des forces populaires (UNFP) at a congress on 6 September 1959. The UNFP (which became the USFP in 1975 after a further split) championed a socialist, republican-leaning programme and clashed with the palace throughout the 1960s.",
+    "significance": "Created the enduring nationalist/left divide in Moroccan party politics and ended Istiqlal's monopoly over the national movement; the palace used the split to consolidate royal power.",
+    "positions": [
+      {
+        "party_id": "unfp",
+        "stance": "support",
+        "summary": "The founders (Ben Barka, Bouabid, Abdellah Ibrahim, Mahjoub Ben Seddik) led the breakaway, accusing the Istiqlal leadership of conservatism and of monopolising the party.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "The Istiqlal leadership under Allal El Fassi denounced the dissidents and expelled them, retaining the party name and apparatus.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP (founded 1975 from the UNFP Rabat wing) claims direct descent from the 1959 split and its founding leadership.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Socialist_Union_of_Popular_Forces"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "split",
+      "left",
+      "istiqlal",
+      "unfp",
+      "usfp"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Union_nationale_des_forces_populaires",
+      "https://en.wikipedia.org/wiki/Socialist_Union_of_Popular_Forces"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "constitution-referendum-1962",
+    "date": "1962-12-07",
+    "end_date": null,
+    "title": "First constitutional referendum (1962)",
+    "category": "constitutional",
+    "description": "King Hassan II submitted Morocco's first written constitution to referendum on 7 December 1962. The text established a constitutional monarchy with a bicameral parliament while reserving broad powers to the King. Official results reported over 80% turnout and approximately 97% approval. The UNFP called for a boycott, arguing that the constitution had been drafted without a constituent assembly.",
+    "significance": "Set the pattern of royal-initiated constitutions approved by plebiscite; opened the confrontation between the palace and the UNFP that dominated the 1960s.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal called for a yes vote in 1962 despite its rivalry with the royal-backed FDIC; it moved into opposition after the 1963 legislative elections. Note: the research brief lists Istiqlal as boycotting; most references record the UNFP boycott only. Flagged in notes.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1962"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "unfp",
+        "stance": "boycott",
+        "summary": "The UNFP called for a boycott, denouncing a constitution granted from above without a constituent assembly.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1962"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "boycott",
+        "summary": "The Moroccan Communist Party (banned since 1959-60) rejected the text; its successor PPS later accepted the constitutional framework.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_communiste_marocain"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "The Mouvement populaire, close to the palace and part of the FDIC coalition, supported the yes vote.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "constitution",
+      "referendum",
+      "hassan-ii",
+      "boycott"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1962",
+      "https://en.wikipedia.org/wiki/1962_Moroccan_constitutional_referendum"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "casablanca-riots-state-of-exception-1965",
+    "date": "1965-03-23",
+    "end_date": "1970-07-31",
+    "title": "Casablanca riots and the state of exception (1965-1970)",
+    "category": "security",
+    "description": "On 22-23 March 1965 a student protest in Casablanca against a circular limiting access to secondary education turned into a broader riot; the army under General Oufkir repressed it, with death tolls ranging from official dozens to unofficial hundreds. On 7 June 1965 Hassan II invoked Article 35 of the constitution, dissolved parliament and declared a state of exception, governing by decree until the 1970 constitution. UNFP leader Mehdi Ben Barka was kidnapped in Paris in October 1965.",
+    "significance": "Opened the 'years of lead': suspension of parliamentary life, marginalisation of the opposition parties and consolidation of authoritarian rule for two decades.",
+    "positions": [
+      {
+        "party_id": "unfp",
+        "stance": "oppose",
+        "summary": "The UNFP denounced the repression and the state of exception; its cadres were the main targets of arrests and trials in the following years.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1965"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal, in opposition since 1963, refused the royal offer of a national-unity government after the riots and criticised the suspension of parliament, while avoiding a frontal confrontation with the throne.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/1965_Moroccan_riots"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "years-of-lead",
+      "repression",
+      "state-of-exception",
+      "ben-barka"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1965",
+      "https://en.wikipedia.org/wiki/1965_Moroccan_riots"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "coup-attempts-1971-1972",
+    "date": "1971-07-10",
+    "end_date": "1972-08-16",
+    "title": "Skhirat and Boeing coup attempts",
+    "category": "security",
+    "description": "On 10 July 1971 army cadets led by officers around General Medbouh and Colonel Ababou stormed the royal palace at Skhirat during the King's birthday reception, killing around 100 guests before loyalist forces regained control. On 16 August 1972 fighter jets attacked the royal Boeing returning from France; the plot was attributed to Defence Minister General Oufkir, who died the same night. Both attempts were followed by executions, purges of the army and the Tazmamart secret prison.",
+    "significance": "Pushed Hassan II to rebuild legitimacy through the 1972 constitution, the Green March and a gradual re-opening to the parties; the Koutla parties condemned the coups while pressing for constitutional reform.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal condemned both coup attempts and, within the Koutla al-Wataniya formed with the UNFP in 1970, demanded democratic reforms as the answer to the crisis; it boycotted the 1972 constitutional referendum.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_Skhirat"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "unfp",
+        "stance": "oppose",
+        "summary": "The UNFP (Rabat section under Bouabid) condemned the coups and demanded constitutional change; its Casablanca section around Ibrahim was more equivocal, and the Marche verte and 1975 split followed.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_Skhirat"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "The palace-aligned Mouvement populaire rallied to the King after both attempts.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Mouvement_populaire_(Maroc)"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "coup",
+      "army",
+      "hassan-ii",
+      "years-of-lead"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Coup_d%27%C3%89tat_de_Skhirat",
+      "https://en.wikipedia.org/wiki/1972_Moroccan_coup_attempt"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "green-march-1975",
+    "date": "1975-11-06",
+    "end_date": null,
+    "title": "Green March",
+    "category": "foreign-policy",
+    "description": "Following the ICJ advisory opinion of 16 October 1975, Hassan II announced a peaceful march of 350,000 volunteers into the Spanish-held Sahara. The march crossed the border on 6 November 1975 and was followed by the Madrid Accords (14 November) partitioning the territory between Morocco and Mauritania. The Polisario Front, backed by Algeria, launched an armed struggle that lasted until the 1991 ceasefire.",
+    "significance": "Created the national consensus on the Sahara ('cause nationale') that all parliamentary parties uphold; it also became the main test of loyalty for the far left, whose Marxist groups (Ilal Amam, 23 Mars) were jailed for supporting Sahrawi self-determination.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal, historical advocate of 'Greater Morocco', strongly backed the march and the recovery of the Sahara.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Green_March"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The newly formed USFP supported the march as a national cause, marking its rapprochement with the monarchy after the years of confrontation.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Green_March"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "The Mouvement populaire supported the march.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Green_March"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The Parti du progrès et du socialisme (legalised 1974) supported the Green March and Morocco's claim, distinguishing itself from the Marxist-Leninist groups.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_du_progr%C3%A8s_et_du_socialisme"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "mixed",
+        "summary": "Annahj Addimocrati did not exist in 1975; its founders came from Ilal Amam, which defended Sahrawi self-determination and was repressed. The party has since called for a 'democratic solution' and has been repeatedly criticised for not endorsing the autonomy plan.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Annahj_Addimocrati"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "sahara",
+      "western-sahara",
+      "national-cause",
+      "hassan-ii"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Green_March",
+      "https://fr.wikipedia.org/wiki/Marche_verte"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "bread-riots-1981-1984",
+    "date": "1981-06-20",
+    "end_date": "1984-01-23",
+    "title": "Casablanca bread riots (1981) and January 1984 riots",
+    "category": "protest",
+    "description": "After IMF-backed cuts in food subsidies raised staple prices, the CDT union (close to the USFP) called a general strike on 20 June 1981 in Casablanca; the ensuing riots were crushed by the army, with the government acknowledging 66 deaths while the USFP cited over 600. In January 1984 new price increases and school fees triggered riots in Marrakech, Nador, Al Hoceima and Tetouan, again violently repressed, with the King blaming 'Marxist-Leninists, Khomeinists and Zionists'. Hundreds of unionists and activists were jailed after each episode.",
+    "significance": "Exposed the social cost of structural adjustment and cemented the USFP/CDT identity as the social opposition; the 1984 Rif repression is a reference point for the later Hirak Rif.",
+    "positions": [
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP and CDT opposed the price rises; after the 1981 repression the USFP political bureau (Bouabid) denounced the killings, and its leaders were briefly jailed in September 1981 after criticising the King's Sahara referendum stance.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1981"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "mixed",
+        "summary": "Istiqlal held ministries in the Maati Bouabid government but its union (UGTM) had called for protests over prices; the party did not break with the government.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1981"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI, the main government party, backed the austerity measures and the official account of events.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1981"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "The PPS condemned the repression and the price increases while remaining within legal opposition.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_du_progr%C3%A8s_et_du_socialisme"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "riots",
+      "austerity",
+      "imf",
+      "cdt",
+      "repression"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/%C3%89meutes_de_Casablanca_de_1981",
+      "https://en.wikipedia.org/wiki/1984_Moroccan_riots"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "constitution-referendum-1996",
+    "date": "1996-09-13",
+    "end_date": null,
+    "title": "1996 constitutional referendum",
+    "category": "constitutional",
+    "description": "Hassan II submitted a revised constitution creating a bicameral parliament (directly elected House of Representatives, indirectly elected House of Councillors) as part of the negotiated opening towards the Koutla opposition. Official results gave 99.56% yes with 82.95% turnout. For the first time the main opposition bloc (Istiqlal, USFP, PPS) called for a yes vote; the OADP's refusal split it and led to the creation of the PSD.",
+    "significance": "Prerequisite for the 1998 'alternance'; marked the integration of the historic opposition into the constitutional consensus and isolated the radical left.",
+    "positions": [
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP called for a yes vote, a reversal from its rejection of the 1992 text, in exchange for the promise of alternance.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal supported the yes vote within the Koutla.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS supported the constitution.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "psu",
+        "stance": "oppose",
+        "summary": "The OADP (ancestor of the PSU) called for a no vote, judging the reform insufficient; the pro-yes minority left to create the PSD.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "boycott",
+        "summary": "Annahj Addimocrati boycotted the referendum, as it has all constitutional plebiscites.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Annahj_Addimocrati"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The MPCD (renamed PJD in 1998) called for a yes vote, consistent with its strategy of integration.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI, MP and UC, as administrative/centre parties, supported the text.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Supported the yes vote.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Supported the yes vote.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "constitution",
+      "referendum",
+      "koutla",
+      "bicameralism"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/R%C3%A9f%C3%A9rendum_constitutionnel_marocain_de_1996",
+      "https://en.wikipedia.org/wiki/1996_Moroccan_constitutional_referendum"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "alternance-1998",
+    "date": "1998-03-14",
+    "end_date": "2002-11-07",
+    "title": "Alternance government led by Abderrahmane Youssoufi",
+    "category": "institutional",
+    "description": "After the USFP came first in the November 1997 legislative elections, Hassan II appointed its first secretary Abderrahmane Youssoufi as prime minister on 4 February 1998; the government was formed on 14 March 1998 with the Koutla parties (USFP, Istiqlal, PPS), the RNI, the MNP, the FFD and the PSD. The 'alternance consensuelle' brought the historic opposition into government while key 'sovereignty' ministries (Interior under Driss Basri until 1999) remained royal appointments. Youssoufi resigned after the 2002 elections when Mohammed VI appointed the technocrat Driss Jettou.",
+    "significance": "First government led by the historic opposition; it framed the transition to Mohammed VI's reign and the subsequent debate about the limits of party government ('the methodology' denounced by Youssoufi in 2003).",
+    "positions": [
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP led the government and presented alternance as the culmination of its constitutional struggle; the experience later divided the party.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal joined the coalition with several ministries.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS joined the government (Ismail Alaoui at Agriculture).",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI joined the coalition, marking the start of its long presence in government.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "The Mouvement populaire (unlike the breakaway MNP) sat in opposition with the UC and PND.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "uc",
+        "stance": "oppose",
+        "summary": "The UC remained in opposition.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "conditional",
+        "summary": "The PJD offered 'critical support' to the Youssoufi government in 1998 and moved to open opposition in 2000 over the Plan for the integration of women in development.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "alternance",
+      "usfp",
+      "youssoufi",
+      "transition",
+      "hassan-ii",
+      "mohammed-vi"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_Youssoufi",
+      "https://fr.wikipedia.org/wiki/Abderrahmane_Youssoufi"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "casablanca-bombings-2003",
+    "date": "2003-05-16",
+    "end_date": null,
+    "title": "Casablanca terrorist attacks and anti-terrorism law",
+    "category": "security",
+    "description": "On the night of 16 May 2003, twelve suicide bombers from the Sidi Moumen slum struck five sites in Casablanca (a Spanish restaurant, a Jewish community centre and cemetery, a hotel and the Belgian consulate area), killing 33 victims plus 12 bombers. Parliament rapidly adopted anti-terrorism law 03-03 on 28 May 2003, and thousands of arrests followed. The attacks triggered a debate on the responsibility of political Islam and led the PJD to voluntarily reduce its candidacies in the September 2003 communal elections.",
+    "significance": "Turning point for the security state and for the PJD, which was accused of 'moral responsibility' and had to prove its loyalty; also launched the debate on urban poverty that produced the INDH (2005).",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD condemned the attacks, voted for anti-terrorism law 03-03 and, under pressure from the authorities and other parties, reduced its lists in the 2003 communal elections to about 18% of constituencies.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2003_Casablanca_bombings",
+          "https://en.wikipedia.org/wiki/Justice_and_Development_Party_(Morocco)"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP, leading the coalition, supported the anti-terror law; some of its leaders and the USFP-linked press called for the PJD to be held morally responsible or dissolved.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2003_Casablanca_bombings"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal condemned the attacks and voted for law 03-03.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2003_Casablanca_bombings"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS condemned the attacks and supported the law; its press was among the harshest towards the PJD.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2003_Casablanca_bombings"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "oppose",
+        "summary": "Annahj and human-rights groups (AMDH) condemned the attacks but opposed law 03-03 as a threat to civil liberties.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Annahj_Addimocrati"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "terrorism",
+      "security",
+      "pjd",
+      "law-03-03",
+      "sidi-moumen"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2003_Casablanca_bombings",
+      "https://fr.wikipedia.org/wiki/Attentats_du_16_mai_2003_%C3%A0_Casablanca"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "ier-2004",
+    "date": "2004-01-07",
+    "end_date": "2005-11-30",
+    "title": "Equity and Reconciliation Commission (IER)",
+    "category": "institutional",
+    "description": "Announced by Mohammed VI on 7 January 2004 and installed in April 2004 under former political prisoner Driss Benzekri, the Instance Équité et Réconciliation investigated grave human-rights violations between 1956 and 1999 (enforced disappearances, arbitrary detention, Tazmamart). It held public hearings, received over 22,000 files, recommended reparations, community reparations and institutional reforms, and delivered its final report in November 2005. It had no mandate to name or prosecute perpetrators.",
+    "significance": "Morocco's transitional-justice model, often cited as pioneering in the Arab world but criticised for impunity; its recommendations fed into the 2011 constitution.",
+    "positions": [
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP, whose militants were among the main victims of the years of lead, supported the IER, with several members sitting on it.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal supported the process.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "conditional",
+        "summary": "The PJD supported the principle while noting the exclusion of post-1999 abuses, notably the post-2003 anti-terror arrests.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "oppose",
+        "summary": "Annahj and the AMDH criticised the IER for granting impunity and organised parallel testimonies; Annahj's former Ilal Amam members were among the victims.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS supported the IER.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "transitional-justice",
+      "years-of-lead",
+      "human-rights",
+      "benzekri"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Equity_and_Reconciliation_Commission",
+      "https://fr.wikipedia.org/wiki/Instance_%C3%A9quit%C3%A9_et_r%C3%A9conciliation"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "moudawana-reform-2004",
+    "date": "2004-02-03",
+    "end_date": null,
+    "title": "Family Code (Moudawana) reform of 2004",
+    "category": "social-policy",
+    "description": "After the 2000 confrontation between supporters of the 'Plan for the integration of women in development' (Rabat march) and Islamist opponents (Casablanca march), Mohammed VI created a royal commission and announced a new Family Code in his speech of 10 October 2003. Parliament adopted law 70-03 in January 2004 (promulgated 3 February 2004): marriage age raised to 18, joint responsibility of spouses, restrictions on polygamy and repudiation, judicial divorce and improved custody rules. The text passed with near-unanimity after royal arbitration framed it as an ijtihad compatible with Islam.",
+    "significance": "Signature reform of Mohammed VI's early reign; showed the King's role as Commander of the Faithful in arbitrating social-religious disputes and forced the PJD to accept a reform it had fought in 2000.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD had mobilised against the 2000 Plan but voted for the 2004 Code after the royal speech, presenting it as compatible with Sharia; it obtained a few amendments in committee.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP, whose minister Said Saadi authored the 2000 Plan, strongly supported the Code.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal supported the Code in parliament.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS was among the strongest supporters of the 2000 Plan and the 2004 Code.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Voted for the Code.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Voted for the Code.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mudawana"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "moudawana",
+      "family-code",
+      "women",
+      "mohammed-vi",
+      "islam"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mudawana",
+      "https://lematin.ma/nation/de-1958-a-2024-une-revolution-qui-a-remodele-le-code-de-la-famille/257765"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "autonomy-plan-2007",
+    "date": "2007-04-11",
+    "end_date": null,
+    "title": "Moroccan autonomy initiative for the Sahara submitted to the UN",
+    "category": "foreign-policy",
+    "description": "On 11 April 2007 Morocco submitted to the UN Secretary-General its 'Initiative for negotiating an autonomy statute for the Sahara region', proposing self-government under Moroccan sovereignty. The plan had been prepared with the consultation of political parties and the CORCAS. UN Security Council resolution 1754 (April 2007) took note of it and described Morocco's efforts as 'serious and credible', a formula repeated annually thereafter.",
+    "significance": "Became the sole official Moroccan position and a litmus test of loyalty for all parties; every parliamentary party endorses it, while the far left (Annahj) is regularly attacked for withholding endorsement.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal (then leading the government under Abbas El Fassi from 2007) fully supported the plan.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP supported the initiative and participated in the parliamentary diplomacy promoting it.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD supported the plan; in 2025 its leaders described resolution 2797 as removing the referendum option for good.",
+        "sources": [
+          "https://www.pjd.ma/222510-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A-%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-2797-%D8%A3%D8%B3%D9%82%D8%B7-%D8%AE%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "psu",
+        "stance": "support",
+        "summary": "The PSU/FGD endorses autonomy while calling for democratisation in the region; its position is sometimes attacked as lukewarm.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "mixed",
+        "summary": "Annahj has not endorsed the autonomy plan and calls for a 'democratic, negotiated solution' respecting self-determination, which draws recurrent accusations of disloyalty.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Annahj_Addimocrati"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "sahara",
+      "autonomy",
+      "un",
+      "national-cause"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Moroccan_Autonomy_Plan",
+      "https://www.policycenter.ma/publications/security-council-resolution-2797-solution-self-governance-which-has-won-widespread"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pam-creation-2008",
+    "date": "2008-08-08",
+    "end_date": null,
+    "title": "Creation of the Authenticity and Modernity Party (PAM)",
+    "category": "institutional",
+    "description": "Fouad Ali El Himma, a close friend and former deputy interior minister of Mohammed VI, resigned from government in 2007, was elected deputy in Rhamna and founded the Mouvement pour tous les démocrates, which became the PAM on 8 August 2008 through the merger of five small parties. Within months the PAM had the largest parliamentary group through defections and won the 2009 communal elections. Opponents called it the 'party of the state' or 'the King's friend's party'; El Himma joined the royal cabinet in December 2011.",
+    "significance": "Reshaped the party system into a PAM-versus-PJD polarisation that dominated 2009-2016 and fed the 20 February Movement's denunciation of 'made-in-Makhzen' parties.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD denounced the PAM as an 'administrative party' created by the palace's entourage to block it; the rivalry structured politics until 2016.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "USFP leaders criticised the PAM's origins and its 'hostile takeover' of local elites, yet the party allied with it in the G8 coalition of 2011 and in several regions.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI allied with the PAM in the House of Representatives and in the 2011 'G8' coalition.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "mixed",
+        "summary": "Istiqlal, leading the government, coexisted with the PAM but lost seats and local elites to it.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "psu",
+        "stance": "oppose",
+        "summary": "The PSU and the radical left denounced the PAM as an authoritarian re-engineering of the party system.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "pam",
+      "el-himma",
+      "party-system",
+      "makhzen"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Authenticity_and_Modernity_Party",
+      "https://fr.wikipedia.org/wiki/Parti_authenticit%C3%A9_et_modernit%C3%A9"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "feb20-movement-2011",
+    "date": "2011-02-20",
+    "end_date": "2011-12-31",
+    "title": "20 February Movement protests",
+    "category": "protest",
+    "description": "Inspired by the Tunisian and Egyptian uprisings, a youth coalition organised nationwide demonstrations on 20 February 2011 in some 50 cities, demanding a democratic constitution, an end to corruption and the dissolution of parliament, without calling for the fall of the monarchy. The movement brought together independent youth, the radical left (PSU, PADS, CNI, Annahj), the AMDH and Al Adl wal Ihsan, which withdrew in December 2011. Mohammed VI responded with the 9 March speech announcing constitutional reform, followed by the 1 July referendum and early elections.",
+    "significance": "Morocco's Arab Spring moment; produced the 2011 constitution and the PJD's rise, and exposed the gap between established parties and protest politics that resurfaced with the Hirak Rif and GenZ 212.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "mixed",
+        "summary": "The PJD leadership (Benkirane) refused to join the marches, citing the risk of instability, while several prominent members (Mustapha Ramid, Lahcen Daoudi, Abdelali Hamieddine) and the party's youth initially took part; the party then backed the royal reform process.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "The USFP, in government, did not endorse the movement officially but its youth wing (Chabiba ittihadia) and some figures joined the 20 February marches; the party supported the constitutional reform.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "psu",
+        "stance": "support",
+        "summary": "The PSU, PADS and CNI (later united in the FGD) supported the movement and later boycotted the constitutional referendum.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "support",
+        "summary": "Annahj Addimocrati participated in the movement and called for a constituent assembly; it boycotted the referendum and elections.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal, leading the Abbas El Fassi government, did not support the protests and rallied to the royal reform.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "The PAM, a central target of protesters' slogans, opposed the movement; El Himma left its leadership during 2011.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "The PPS, in government, did not join the protests and backed the reform announced on 9 March.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "rni",
+        "stance": "oppose",
+        "summary": "The RNI, in government, did not support the movement.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "arab-spring",
+      "protest",
+      "youth",
+      "constitution",
+      "feb20"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011%E2%80%932012_Moroccan_protests",
+      "https://fr.wikipedia.org/wiki/Mouvement_du_20_f%C3%A9vrier"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "constitution-referendum-2011",
+    "date": "2011-07-01",
+    "end_date": null,
+    "title": "2011 constitutional referendum",
+    "category": "constitutional",
+    "description": "Following the 9 March 2011 royal speech, a commission chaired by Abdeltif Menouni drafted a new constitution that was submitted to referendum on 1 July 2011. It recognised Amazigh as an official language, obliged the King to appoint the head of government from the party that won the elections, strengthened parliament and the judiciary and enshrined a bill of rights, while preserving the King's religious and strategic prerogatives. Official results: 98.5% yes, 73% turnout; the 20 February Movement and the radical left called for a boycott.",
+    "significance": "Legal framework of the current political system; the referendum's lopsided approval and the boycott divide remain reference points in debates on constitutional reform.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD campaigned for the yes vote, presenting the text as a step toward parliamentary monarchy.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Campaigned for yes.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "Campaigned for yes despite internal criticism that the text fell short of a parliamentary monarchy.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Campaigned for yes.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Campaigned for yes.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Campaigned for yes and welcomed the officialisation of Amazigh.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Campaigned for yes.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Campaigned for yes.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "psu",
+        "stance": "boycott",
+        "summary": "The PSU, PADS and CNI called for a boycott, judging the drafting process non-democratic and the text insufficient.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "boycott",
+        "summary": "Boycotted, demanding a constituent assembly.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "constitution",
+      "referendum",
+      "arab-spring",
+      "amazigh"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum",
+      "https://fr.wikipedia.org/wiki/Constitution_marocaine_de_2011"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "legislative-election-2011-pjd-victory",
+    "date": "2011-11-25",
+    "end_date": "2012-01-03",
+    "title": "Early legislative elections and first PJD-led government",
+    "category": "electoral",
+    "description": "In early elections held on 25 November 2011 under the new constitution, the PJD came first with 107 of 395 seats, ahead of Istiqlal (60), the RNI (52) and the PAM (47), with turnout of about 45%. Under the new Article 47 the King appointed PJD secretary-general Abdelilah Benkirane head of government; his coalition with Istiqlal, the MP and the PPS took office on 3 January 2012. The PAM, RNI, USFP and UC formed the opposition.",
+    "significance": "First Islamist-led government in Morocco and first application of the 2011 constitution's rule on the head of government; opened a decade of PJD dominance ended in 2021.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "Won the election and formed the government.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Joined the Benkirane coalition as second partner.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Joined the coalition.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Joined the coalition, beginning a decade-long alliance with the PJD.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "oppose",
+        "summary": "Went into opposition after negotiations failed; joined government in October 2013.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "Opposition; the PJD had ruled out any coalition with it.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "Chose opposition after a poor result (39 seats) and internal debate over joining the PJD.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "boycott",
+        "summary": "Boycotted the election along with the 20 February Movement.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "election",
+      "pjd",
+      "benkirane",
+      "coalition"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_I"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "istiqlal-quits-government-2013",
+    "date": "2013-07-09",
+    "end_date": "2013-10-10",
+    "title": "Istiqlal leaves the Benkirane government; RNI joins",
+    "category": "institutional",
+    "description": "After Hamid Chabat won the Istiqlal leadership in 2012 on a platform hostile to Benkirane, the party's national council voted on 11 May 2013 to withdraw from the coalition, accusing the government of unilateralism and of hurting purchasing power. The King, then abroad, asked the ministers to stay until his return; the five Istiqlal ministers' resignations took effect on 9 July 2013. After months of negotiation the RNI under Salaheddine Mezouar joined a reshuffled Benkirane II government on 10 October 2013.",
+    "significance": "First test of the 2011 constitution's coalition politics; brought the RNI into government, from where it never left, and began the Benkirane-RNI rivalry that shaped 2016-2017.",
+    "positions": [
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Under Chabat, Istiqlal withdrew its ministers and moved into opposition, attacking the government's subsidy cuts and Benkirane's style.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "Benkirane rejected Istiqlal's demands, accused Chabat of destabilisation and turned to the RNI rather than call early elections.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI (Mezouar) entered government with eight ministries including Foreign Affairs and Economy.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP called for early elections rather than a reshuffle.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "The PAM, in opposition, argued the government had lost its legitimacy and called for early elections.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "coalition",
+      "istiqlal",
+      "chabat",
+      "rni",
+      "benkirane"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II",
+      "https://en.wikipedia.org/wiki/Abdelilah_Benkirane"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "fuel-subsidy-reform-2013-2015",
+    "date": "2013-09-16",
+    "end_date": "2015-12-01",
+    "title": "Compensation fund reform and liberalisation of fuel prices",
+    "category": "economy",
+    "description": "Facing a subsidy bill above 6% of GDP, the Benkirane government introduced partial indexation of fuel prices in September 2013, removed subsidies on gasoline and industrial fuel oil in early 2014, gradually cut the diesel subsidy, and fully liberalised fuel prices on 1 December 2015. The reform, supported by the IMF precautionary liquidity line, reduced the compensation charge from about 55 billion MAD (2012) to under 15 billion. Butane gas, sugar and flour subsidies were kept.",
+    "significance": "Restored public finances at the price of exposing consumers to world prices, a choice that fuelled the 2018 boycott and the 2022 fuel-margin controversy; a central item in the PJD's record.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "Benkirane defended the reform as an act of political courage protecting the state's finances and pointed to the absence of social unrest.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Abdelilah_Benkirane"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI, holding the Economy ministry (Boussaid) from 2013, implemented the liberalisation.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal (Chabat) cited the subsidy cuts' impact on purchasing power among its reasons for leaving the government in 2013 and attacked the reform from opposition.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP criticised the reform as socially unjust and demanded compensation for households.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "The PAM opposition criticised the reform's social impact while not questioning its fiscal rationale.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "subsidies",
+      "compensation-fund",
+      "fuel",
+      "imf",
+      "austerity"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II",
+      "https://en.wikipedia.org/wiki/Abdelilah_Benkirane"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "advanced-regionalisation-2015",
+    "date": "2015-09-04",
+    "end_date": null,
+    "title": "Advanced regionalisation: organic laws and first direct regional elections",
+    "category": "institutional",
+    "description": "Building on the 2010 Consultative Commission on Regionalisation and the 2011 constitution, parliament adopted in 2015 the organic laws 111-14 (regions), 112-14 (prefectures/provinces) and 113-14 (communes), creating twelve regions with directly elected councils and presidents endowed with development powers and dedicated funds. The first direct regional elections took place on 4 September 2015 alongside communal elections; the PAM won the most seats overall while the PJD won the big cities and five regional presidencies.",
+    "significance": "Institutional pillar linked to the Sahara autonomy offer; regional presidencies became a major stake in party competition (PAM/RNI dominance in 2021).",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD-led government carried the organic laws and won the regions of Rabat-Salé-Kénitra, Casablanca-Settat, Marrakech-Safi, Souss-Massa and Fès-Meknès in 2015. Note: exact list of 2015 regional presidencies to be verified against elections.json.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM supported regionalisation and took the most seats nationally in 2015, presiding several regions.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Voted for the organic laws while criticising limits on regional autonomy.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "conditional",
+        "summary": "The USFP supported regionalisation in principle but criticised the organic laws for leaving too much power to appointed walis.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Coalition partner; voted for the laws.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Coalition partner; the MP has historically championed regional and Amazigh-area development.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "regionalisation",
+      "decentralisation",
+      "regions",
+      "elections-2015"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2015_Moroccan_regional_elections",
+      "https://fr.wikipedia.org/wiki/R%C3%A9gions_du_Maroc"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "pension-reform-2016",
+    "date": "2016-07-20",
+    "end_date": null,
+    "title": "Civil pension (CMR) reform: retirement age raised to 63",
+    "category": "economy",
+    "description": "To address the projected bankruptcy of the civil servants' pension fund (CMR), the Benkirane government pushed through laws 71-14 and 72-14 in 2016 raising the retirement age progressively from 60 to 63, increasing contributions and lowering the benefit rate. The main unions (UMT, CDT, UGTM, FDT) rejected the 'parametric' reform and staged a general public-sector strike on 24 February 2016. The laws were adopted by the House of Councillors and then by the House of Representatives in July 2016 with the majority's votes, against the opposition.",
+    "significance": "Defining austerity measure of the PJD era and a source of the union movement's anger against Benkirane; still cited in the 2026 campaign debate on pensions.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "Benkirane presented the reform as unavoidable to save the fund and refused union demands to withdraw it.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Voted for the reform as a coalition partner.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Voted for the reform as a coalition partner.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Voted for the reform as a coalition partner despite union criticism from its base.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal, whose union UGTM joined the February 2016 strike, voted against the reform in parliament.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP voted against, aligning with the FDT/CDT unions.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "The PAM voted against the reform.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "uc",
+        "stance": "oppose",
+        "summary": "The UC opposition voted against.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "pensions",
+      "cmr",
+      "retirement",
+      "unions",
+      "austerity"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benkirane_II"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "government-formation-blocage-2016-2017",
+    "date": "2016-10-07",
+    "end_date": "2017-04-05",
+    "title": "Post-election 'blocage' and dismissal of Benkirane",
+    "category": "institutional",
+    "description": "The PJD won the 7 October 2016 elections with 125 seats ahead of the PAM (102). Reappointed head of government on 10 October, Benkirane failed for five months to form a coalition: the RNI's new president Aziz Akhannouch demanded the inclusion of the USFP and the exclusion of Istiqlal's Chabat, which Benkirane refused. On 15 March 2017 the King relieved Benkirane of his mission and on 17 March appointed Saad-Eddine El Othmani (PJD), who formed a six-party government (PJD, RNI, MP, USFP, UC, PPS) on 5 April 2017 on the RNI's terms.",
+    "significance": "Widely read as the palace and the RNI containing the PJD; it split the PJD between Benkirane loyalists and 'participationists', and set up Akhannouch's 2021 victory.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "split",
+        "summary": "Benkirane refused the RNI's conditions; after his dismissal the party's national council accepted El Othmani's coalition, but a large current (Benkirane, Hamieddine, Ramid initially) denounced the 'blocage' as a coup against the popular vote.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Akhannouch conditioned RNI participation on a bloc of four parties (RNI, MP, USFP, UC) entering together and on excluding Istiqlal; he obtained these terms under El Othmani.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP (Lachgar) accepted to join the government after Benkirane had vetoed it, obtaining ministries and the presidency of the House of Representatives (Habib El Malki).",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal was initially set to join Benkirane's coalition but was excluded after Chabat's remarks claiming Mauritania as Moroccan; it went into opposition. Chabat was replaced by Nizar Baraka in October 2017.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "The PAM, second party, stayed in opposition and refused any alliance with the PJD.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Joined the government within the RNI-led bloc.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Joined the government within the RNI-led bloc.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Stayed loyal to the PJD throughout the blocage and joined the El Othmani government; left it in October 2019.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "blocage",
+      "coalition",
+      "benkirane",
+      "akhannouch",
+      "el-othmani"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2016%E2%80%932017_Moroccan_government_formation",
+      "https://fr.wikipedia.org/wiki/Gouvernement_El_Othmani"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hirak-rif-2016-2019",
+    "date": "2016-10-28",
+    "end_date": "2019-04-05",
+    "title": "Hirak Rif: from the death of Mouhcine Fikri to the trials",
+    "category": "protest",
+    "description": "On 28 October 2016 fish vendor Mouhcine Fikri was crushed in a rubbish truck in Al Hoceima while trying to recover confiscated swordfish, sparking months of protests across the Rif led by Nasser Zefzafi, demanding a hospital, a university, jobs and an end to the region's 'militarisation'. In May 2017 the six majority parties issued a joint statement accusing the protesters of separatism; Zefzafi and hundreds of activists were arrested from 29 May 2017. On 26 June 2018 the Casablanca court sentenced Zefzafi and three others to 20 years, confirmed on appeal on 5 April 2019; royal pardons freed many, but not the leaders, in 2019-2020.",
+    "significance": "The largest social protest since 2011; the King's July 2017 speech blamed the parties and dismissed ministers in October 2017 ('political earthquake'), deepening distrust of parties in the Rif and nationally.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "mixed",
+        "summary": "Leading the government, the PJD signed the 14 May 2017 majority statement denouncing 'separatist' agitation (which its own members later regretted), sent ministers to Al Hoceima for dialogue, and later called for calm; some PJD MPs, notably in the Rif, criticised the security response.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "oppose",
+        "summary": "Signed the majority statement; RNI ministers were among those who negotiated with the protesters and who were dismissed by the King in October 2017 for delays in the Al Hoceima 'Manarat Al Moutawassit' programme.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "Signed the majority statement but its leaders later called for dialogue and for the release of detainees.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pps",
+        "stance": "mixed",
+        "summary": "Signed the joint statement, then distanced itself and repeatedly called for the release of Hirak prisoners.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "Signed the majority statement.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "uc",
+        "stance": "oppose",
+        "summary": "Signed the majority statement.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "conditional",
+        "summary": "In opposition, Istiqlal criticised the government's handling and Chabat visited Al Hoceima; it called for a political solution while affirming national unity.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pam",
+        "stance": "conditional",
+        "summary": "The PAM opposition, strong in the north, criticised the majority's 'separatism' statement and called for dialogue; Ilyas El Omari, a Rif native, resigned as PAM leader in August 2017 amid the crisis.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD (Nabila Mounib) supported the Hirak's social demands and demanded the release of all detainees.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "support",
+        "summary": "Annahj and the AMDH supported the movement and denounced the trials as political.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Hirak_Rif"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "hirak",
+      "rif",
+      "al-hoceima",
+      "zefzafi",
+      "protest",
+      "repression"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hirak_Rif",
+      "https://fr.wikipedia.org/wiki/Hirak_du_Rif"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "hirak-jerada-2017-2018",
+    "date": "2017-12-22",
+    "end_date": "2018-03-14",
+    "title": "Jerada protests after the deaths of two miners",
+    "category": "protest",
+    "description": "On 22 December 2017 two brothers, Houcine and Jedouane Dioui, died in a clandestine coal pit in Jerada, a former mining town in eastern Morocco abandoned since the 1998 closure of the Charbonnages du Maroc. Weeks of daily protests demanded economic alternatives, lower electricity bills and an end to the 'barons' controlling informal mining. The government announced measures, but clashes on 14 March 2018 led to dozens of arrests and prison sentences for protest leaders.",
+    "significance": "Confirmed, after the Rif, a pattern of localised social hiraks in marginalised regions handled by a mix of promises and prosecutions.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "conditional",
+        "summary": "The El Othmani government sent ministers to Jerada, promised alternatives and then backed the security response after March 2018 clashes.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Hirak_de_Jerada"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD supported the protesters' demands and denounced the arrests.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Hirak_de_Jerada"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "support",
+        "summary": "Annahj supported the Jerada hirak.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Hirak_de_Jerada"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "jerada",
+      "hirak",
+      "mining",
+      "protest",
+      "oriental"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Hirak_de_Jerada"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "consumer-boycott-2018",
+    "date": "2018-04-20",
+    "end_date": "2018-09-30",
+    "title": "Consumer boycott of Sidi Ali, Afriquia and Centrale Danone",
+    "category": "economy",
+    "description": "A social-media campaign launched on 20 April 2018 called for a boycott of three market leaders accused of overpricing: Sidi Ali mineral water (Holmarcom), Afriquia fuel stations (Akwa group, owned by Agriculture Minister and RNI president Aziz Akhannouch) and Centrale Danone milk. The boycott caused Centrale Danone heavy losses and layoffs of milk collectors. Government ministers' reactions inflamed it: Economy Minister Mohamed Boussaid (RNI) called boycotters 'mdaouikh' (dimwits) and was dismissed by the King on 1 August 2018, while PJD minister Lahcen Daoudi resigned after joining a sit-in of Danone workers.",
+    "significance": "Displayed digital-era popular anger against 'the economy of rents' and personally targeted Akhannouch, a theme reused by the PJD in 2021 and by GenZ 212 in 2025.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "mixed",
+        "summary": "The PJD did not endorse the boycott officially, but its youth and many members supported it; Minister Daoudi's participation in a Danone workers' demonstration (5 June 2018) forced his resignation, and El Othmani called for respect of consumers' freedom.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2018_Moroccan_boycott"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "oppose",
+        "summary": "The RNI, whose president owns Afriquia, opposed the boycott; Minister Boussaid's insult and dismissal became a symbol of the government's disconnect.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2018_Moroccan_boycott"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD supported the boycott as a legitimate protest against monopolies.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2018_Moroccan_boycott"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "mixed",
+        "summary": "Istiqlal, in opposition, criticised the government's handling and defended consumers' right to boycott while not formally calling for it.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2018_Moroccan_boycott"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pam",
+        "stance": "silent",
+        "summary": "No formal party position identified; the PAM criticised the government's communication.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2018_Moroccan_boycott"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "boycott",
+      "akhannouch",
+      "afriquia",
+      "danone",
+      "purchasing-power",
+      "social-media"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2018_Moroccan_boycott",
+      "https://fr.wikipedia.org/wiki/Boycott_de_2018_au_Maroc"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "framework-law-51-17-education-2019",
+    "date": "2019-07-22",
+    "end_date": null,
+    "title": "Framework law 51-17 on education and the language of instruction",
+    "category": "social-policy",
+    "description": "Framework law 51-17, implementing the 2015-2030 strategic vision of the Higher Council for Education, was adopted by the House of Representatives on 22 July 2019 (241 for, 4 against, 21 abstentions) and by the House of Councillors on 2 August. Its Article 2 on 'linguistic alternation' allows scientific and technical subjects to be taught in foreign languages (in practice French), reversing the Arabisation policy. The PJD parliamentary group split, with Benkirane's camp denouncing a betrayal of the constitution and of Arabic; Benkirane suspended his party membership in protest.",
+    "significance": "Exposed the PJD's internal division under El Othmani and revived the language-identity cleavage; the law framed the 2022 'schools of pioneers' reforms.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "split",
+        "summary": "The group's official line, negotiated by El Othmani, was to vote for the text after amendments; but several PJD deputies voted against (the 4 'no' votes) or abstained, and Benkirane publicly opposed the law and froze his membership.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI championed French for science subjects and voted for.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM opposition voted for the framework law.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal, historically the party of Arabisation, voted for after obtaining wording protecting Arabic's status; some members criticised the compromise.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Voted for, welcoming the place given to Amazigh.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "education",
+      "language",
+      "french",
+      "arabic",
+      "pjd-split",
+      "benkirane"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Loi-cadre_51-17"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "covid-emergency-law-22-20-2020",
+    "date": "2020-03-20",
+    "end_date": "2020-05-05",
+    "title": "COVID-19 state of health emergency and the withdrawn social-media draft law 22-20",
+    "category": "security",
+    "description": "Morocco declared a state of health emergency on 20 March 2020 (decree-law 2.20.292), imposing a strict lockdown enforced by the security forces and creating a Special Fund to which parties donated. On 27 April 2020 a leaked draft law 22-20 on social networks, adopted by the government council in March, provoked outrage because it criminalised calls to boycott products and the spread of 'false news' with prison terms. After ministers from the PJD and public criticism, the government froze the text in early May 2020.",
+    "significance": "Showed the security-first management of the pandemic and a rare successful public pushback against a government bill; the boycott clause was read as protecting Akhannouch's interests.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "split",
+        "summary": "The El Othmani government had adopted the draft, but PJD ministers Mustapha Ramid (Human Rights) and others publicly disowned it, and the party's youth denounced it; the party supported the health emergency.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "The draft was carried by USFP Justice Minister Mohamed Benabdelkader; USFP MPs subsequently distanced themselves from the boycott clause.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "PAM leader Abdellatif Ouahbi (a lawyer) attacked draft 22-20 as unconstitutional, while supporting the state of emergency.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Istiqlal opposed draft 22-20 and supported the emergency measures.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "oppose",
+        "summary": "The FGD denounced draft 22-20 as a 'muzzling law' and criticised the extension of the emergency by decree.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "silent",
+        "summary": "The RNI did not publicly defend or disown the draft; its economy minister backed the emergency fund.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "covid-19",
+      "state-of-emergency",
+      "law-22-20",
+      "freedom-of-expression",
+      "social-media"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Pand%C3%A9mie_de_Covid-19_au_Maroc"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "us-recognition-israel-normalisation-2020",
+    "date": "2020-12-10",
+    "end_date": "2020-12-22",
+    "title": "US recognition of Moroccan sovereignty over the Sahara and normalisation with Israel",
+    "category": "foreign-policy",
+    "description": "On 10 December 2020 President Trump proclaimed US recognition of Moroccan sovereignty over Western Sahara, and Morocco agreed to resume official relations with Israel within the Abraham Accords framework. On 22 December 2020 a joint declaration was signed in Rabat by head of government Saad-Eddine El Othmani (PJD), Jared Kushner and Israeli national security adviser Meir Ben-Shabbat. Liaison offices reopened, direct flights and defence cooperation followed; Israel recognised Moroccan sovereignty over the Sahara in July 2023.",
+    "significance": "Major diplomatic gain on the Sahara file bought with a normalisation that most public opinion and the PJD base reject; the PJD's signature is a central cause of its 2021 collapse and its later repositioning.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "split",
+        "summary": "El Othmani signed the declaration as head of government and the party's General Secretariat justified it by the Sahara gain and royal prerogative, while its youth, the Benkirane camp and its Palestine-support figures denounced normalisation; Benkirane later said the PJD 'refuses normalisation' and that the signature was an error imposed by circumstances.",
+        "sources": [
+          "https://fr.hespress.com/340135-benkirane-les-marocains-et-le-pjd-refusent-la-normalisation-des-relations-avec-israel.html",
+          "https://www.yabiladi.com/articles/details/124513/condamne-normalisation-avec-israel-mais.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal welcomed the US recognition as a historic victory and, in 2023, expressed 'great satisfaction' at Israel's recognition and consulate in Dakhla, while calling for support to the Palestinians.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI welcomed the US decision and the resumption of relations with Israel as a royal strategic choice.",
+        "sources": [
+          "https://www.middleeasteye.net/fr/actu-et-enquetes/normalisation-israel-maroc-sahara-occidental-akhannouch-benkirane-pjd-cause-palestinienne"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM supported the royal decision.",
+        "sources": [
+          "https://www.middleeasteye.net/fr/actu-et-enquetes/normalisation-israel-maroc-sahara-occidental-akhannouch-benkirane-pjd-cause-palestinienne"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP welcomed the US recognition and accepted the resumption of relations while reaffirming support for the two-state solution; the left was 'in dispersed order' on the issue.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "mixed",
+        "summary": "The PPS welcomed the US recognition but expressed reservations about normalisation and continued to defend the Palestinian cause.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "oppose",
+        "summary": "The FGD rejected normalisation, calling it 'shameful', while welcoming the US position on the Sahara.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "oppose",
+        "summary": "Annahj rejected normalisation outright and joined the Moroccan Front against normalisation.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Supported the royal decision.",
+        "sources": [
+          "https://www.middleeasteye.net/fr/actu-et-enquetes/normalisation-israel-maroc-sahara-occidental-akhannouch-benkirane-pjd-cause-palestinienne"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "israel",
+      "normalisation",
+      "abraham-accords",
+      "sahara",
+      "united-states",
+      "pjd"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Israel%E2%80%93Morocco_normalization_agreement",
+      "https://www.middleeasteye.net/fr/actu-et-enquetes/maroc-pjd-islamistes-normalisation-israel-palestine",
+      "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "electoral-quotient-reform-2021",
+    "date": "2021-03-05",
+    "end_date": null,
+    "title": "Electoral quotient calculated on registered voters (organic law 04-21)",
+    "category": "electoral",
+    "description": "In March 2021 parliament amended the organic law on the House of Representatives so that the electoral quotient for allocating seats is computed on the number of registered voters in each constituency rather than on valid votes cast, a method without precedent elsewhere. The reform makes it almost impossible for any list to win more than one seat per constituency. About 104 PJD deputies voted against, while all other parliamentary groups supported it; the Constitutional Court validated the law.",
+    "significance": "Reshaped the 2021 election in favour of a fragmented, multi-party parliament and against the leading party; widely seen as designed to cap the PJD, which lost heavily in September 2021.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD, 'alone against all', voted against the quotient and denounced a law tailored to weaken the winner of the last two elections; its ministers were overruled inside the coalition.",
+        "sources": [
+          "https://lematin.ma/journal/2021/seul-contre-pjd-perd-bataille-quotient-electoral/354317.html",
+          "https://telquel.ma/2021/05/07/quotient-electoral-echec-et-maths_1721335"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Supported the reform inside the coalition.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM opposition supported the reform.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Supported the reform.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "Supported the reform as a coalition partner.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Supported, despite having been the PJD's closest ally.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Supported.",
+        "sources": [
+          "https://fr.le360.ma/politique/le-pjd-perd-la-bataille-du-quotient-electoral-234787/"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "electoral-law",
+      "quotient",
+      "pjd",
+      "elections-2021"
+    ],
+    "sources": [
+      "https://lematin.ma/journal/2021/seul-contre-pjd-perd-bataille-quotient-electoral/354317.html",
+      "https://telquel.ma/2021/05/07/quotient-electoral-echec-et-maths_1721335",
+      "https://leseco.ma/lapolitique/quotient-electoral-le-pjd-perd-la-bataille.html",
+      "https://pace.coe.int/en/files/29551/html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "social-protection-law-09-21-amo-2021-2023",
+    "date": "2021-03-23",
+    "end_date": "2023-12-31",
+    "title": "Framework law 09-21 on social protection and generalisation of AMO",
+    "category": "social-policy",
+    "description": "Announced by the King in his July 2020 Throne speech, framework law 09-21, promulgated on 23 March 2021, sets a timetable to generalise compulsory health insurance (AMO) to all Moroccans by 2022, family allowances by 2024, pension coverage and unemployment compensation by 2025. The Akhannouch government implemented AMO for the self-employed, transferred RAMED beneficiaries to 'AMO Tadamon' from 1 December 2022, and launched direct social aid ('aide sociale directe') in December 2023 based on a unified social register.",
+    "significance": "The largest social reform of the period, claimed by both the PJD (which launched it) and the Akhannouch coalition (which implemented it); its funding and targeting are central campaign issues in 2026.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The El Othmani government carried the framework law, adopted with near-unanimity; in opposition the PJD claims paternity of the reform and criticises implementation (hospital capacity, exclusion from the social register).",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Assurance_maladie_obligatoire_(Maroc)"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The Akhannouch government presents the generalisation of AMO and direct social aid as its main achievement.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Coalition partner; supports the reform.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Coalition partner; supports the reform.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "conditional",
+        "summary": "Supported the framework law and criticises the funding and targeting of direct aid as well as the state of public hospitals.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pps",
+        "stance": "conditional",
+        "summary": "Supported the law; in opposition it criticises the thresholds of the social register that exclude poor households.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "social-protection",
+      "amo",
+      "health",
+      "direct-aid",
+      "social-register"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Assurance_maladie_obligatoire_(Maroc)",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "cannabis-law-13-21-2021",
+    "date": "2021-05-26",
+    "end_date": null,
+    "title": "Law 13-21 legalising cannabis for medical and industrial use",
+    "category": "social-policy",
+    "description": "Law 13-21, approved by the government council in March 2021 and adopted by the House of Representatives on 26 May 2021 (119 for, 48 against) then by the House of Councillors, legalises the cultivation, processing and export of cannabis for medical, cosmetic and industrial purposes under a national agency (ANRAC), in the Rif provinces historically dependent on the crop. Recreational use remains illegal. The PJD's parliamentary group voted against, and Benkirane froze his membership of the party in protest at the government's sponsorship of the bill.",
+    "significance": "A rare case of a PJD-led government carrying a bill against its own group; it deepened the party's crisis months before the 2021 election and created a new economic file for the Rif.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD group voted against the law, calling it a normalisation of drugs, even though the El Othmani government had tabled it; Benkirane suspended his membership over the issue.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM had long advocated legalisation (draft bills in 2013-2014) and voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal, which had also proposed legalisation in 2014, voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Voted for.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "cannabis",
+      "rif",
+      "law-13-21",
+      "pjd",
+      "benkirane"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cannabis_in_Morocco"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "press-freedom-pegasus-pardons-2021-2024",
+    "date": "2021-07-18",
+    "end_date": "2024-07-29",
+    "title": "Pegasus revelations, jailed journalists and the July 2024 royal pardons",
+    "category": "security",
+    "description": "In July 2021 the Pegasus Project reported that Moroccan services had selected thousands of numbers, including French officials, for NSO spyware; Morocco denied it and sued for defamation. Journalists Omar Radi (six years, espionage and rape, 2021), Soulaimane Raissouni (five years, sexual assault, 2021) and Taoufik Bouachrine (15 years, 2019) were imprisoned in cases they and press-freedom groups described as politically motivated. On 29 July 2024, on the eve of Throne Day, the King pardoned the three journalists among some 2,476 beneficiaries.",
+    "significance": "Focal point of international criticism of Morocco's rights record and of domestic debate on press freedom; the 2024 pardons eased tensions ahead of the 2026 electoral cycle without changing the legal framework.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "mixed",
+        "summary": "In government in 2020-2021 the PJD's ministers defended the prosecutions as ordinary criminal cases; in opposition it welcomed the 2024 pardons.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Omar_Radi"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD consistently called for the release of the journalists and welcomed the pardons.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Omar_Radi"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP welcomed the pardons as a gesture of appeasement.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Omar_Radi"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "support",
+        "summary": "Annahj campaigned for the release of political detainees, including the journalists and Hirak prisoners.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Omar_Radi"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "silent",
+        "summary": "The majority parties did not comment on the cases beyond welcoming the royal pardon.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Omar_Radi"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "press-freedom",
+      "pegasus",
+      "omar-radi",
+      "raissouni",
+      "royal-pardon",
+      "human-rights"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Omar_Radi",
+      "https://en.wikipedia.org/wiki/Pegasus_Project_(investigation)",
+      "https://www.hrw.org/world-report/2026/country-chapters/morocco-and-western-sahara"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "legislative-election-2021-pjd-collapse",
+    "date": "2021-09-08",
+    "end_date": "2021-10-07",
+    "title": "2021 general elections and the collapse of the PJD",
+    "category": "electoral",
+    "description": "On 8 September 2021 legislative, regional and communal elections were held on the same day with turnout of 50.35%. The RNI came first with 102 seats, followed by the PAM (87) and Istiqlal (81); the USFP won 34, the MP 28, the PPS 22, the UC 18, the MDS 5 and the FGD 1, while the PJD fell from 125 to 13 seats. El Othmani and the PJD General Secretariat resigned the next day and Benkirane returned as secretary-general at an extraordinary congress on 30 October 2021. Aziz Akhannouch formed an RNI-PAM-Istiqlal government on 7 October 2021.",
+    "significance": "Ended a decade of PJD leadership and installed a business-friendly 'administrative' coalition with a large majority, a configuration whose record is at stake in the 23 September 2026 election.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Won the election and formed the government; Akhannouch became head of government.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Joined the government as second partner despite its founders' history of rivalry with the RNI.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Joined the government (Baraka at Equipment and Water).",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD blamed its defeat on the quotient, vote-buying and 'the use of money', and Benkirane's returned leadership went into hard opposition.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "Went into opposition, becoming the largest opposition group.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "Opposition.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "Opposition, after briefly negotiating to join the government.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Supported the majority in parliament without ministers.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "oppose",
+        "summary": "Its single deputy (Fatima Tamni) sat in opposition; the FGD contested the fairness of the vote.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "election",
+      "rni",
+      "akhannouch",
+      "pjd-collapse",
+      "coalition"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+      "https://www.policycenter.ma/sites/default/files/PP_01-22_Jaldi-Mjahed.pdf",
+      "https://pace.coe.int/en/files/29551/html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "fuel-prices-akhannouch-conflict-of-interest-2022",
+    "date": "2022-03-01",
+    "end_date": "2023-11-23",
+    "title": "Fuel price surge, calls for a parliamentary inquiry and the Afriquia conflict-of-interest debate",
+    "category": "scandal",
+    "description": "After Russia's invasion of Ukraine, pump prices in Morocco exceeded 16 MAD per litre for gasoline and 15 MAD for diesel in mid-2022. Opposition groups (PJD, USFP, PPS, MP) demanded a parliamentary commission of inquiry into distributors' margins and pointed to the conflict of interest of head of government Aziz Akhannouch, owner of market leader Afriquia; a #Akhannouch_Dégage hashtag trended. Lacking the one-third of deputies needed, the opposition obtained neither an inquiry nor a fact-finding mission. In November 2023 the Competition Council announced a settlement in which nine distributors, including Afriquia, paid 1.84 billion MAD for collusion on prices.",
+    "significance": "Crystallised the 'conflict of interests' theme against Akhannouch that the PJD, then GenZ 212, made central; the Competition Council settlement was read by the opposition as confirmation of overpricing.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD (Benkirane) demanded an inquiry, accused the government of protecting fuel-distribution profits and called on Akhannouch to choose between business and politics.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP requested a fact-finding mission on fuel prices and criticised the absence of a state response.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "The PPS demanded a temporary cap on prices and an inquiry into margins.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "Joined opposition calls for an inquiry.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "rni",
+        "stance": "oppose",
+        "summary": "The RNI majority rejected the inquiry, argued that prices reflected world markets and pointed to targeted support for transport professionals.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "oppose",
+        "summary": "Voted with the majority against an inquiry.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "oppose",
+        "summary": "Voted with the majority against an inquiry.",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "fuel",
+      "akhannouch",
+      "afriquia",
+      "conflict-of-interest",
+      "competition-council",
+      "purchasing-power"
+    ],
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Gouvernement_Akhannouch"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "amazigh-new-year-holiday-2023",
+    "date": "2023-05-03",
+    "end_date": "2024-01-14",
+    "title": "Amazigh New Year (Yennayer) declared a national holiday",
+    "category": "social-policy",
+    "description": "On 3 May 2023 the Royal Cabinet announced that Mohammed VI had decided to make the Amazigh New Year an official paid public holiday, instructing the head of government to implement the decision, presented as a continuation of the 2001 Ajdir speech and the 2011 constitutional officialisation of Amazigh. The first holiday was observed on 14 January 2024. Amazigh associations had campaigned for the measure for two decades, including through a 2023 letter to the King.",
+    "significance": "Symbolic milestone of the Amazigh question; parties competed to claim it, and it reopened debate on the slow implementation of the 2019 organic law on Amazigh.",
+    "positions": [
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "MP secretary-general Mohamed Ouzzine hailed a 'historic and wise' decision and called for effective implementation of the organic law on Amazigh.",
+        "sources": [
+          "https://snrtnews.com/fr/article/mouvement-populaire-le-nouvel-an-amazigh-jour-ferie-national-une-decision-historique-et"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "In opposition the PJD had advocated official recognition of the Amazigh New Year, although it did not enact it during its ten years leading government.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/122508/desormais-dans-l-opposition-plaide-reconnaissance.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The Akhannouch government implemented the royal decision by decree.",
+        "sources": [
+          "https://medias24.com/2023/05/03/sur-decision-du-roi-mohammed-vi-le-nouvel-an-amazigh-sera-dorenavant-jour-ferie-officiel/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "amazigh",
+      "yennayer",
+      "identity",
+      "holiday"
+    ],
+    "sources": [
+      "https://medias24.com/2023/05/03/sur-decision-du-roi-mohammed-vi-le-nouvel-an-amazigh-sera-dorenavant-jour-ferie-officiel/",
+      "https://ledesk.ma/encontinu/sur-decision-royale-le-nouvel-an-amazigh-decrete-jour-ferie/",
+      "https://www.lorientlejour.com/article/1364405/le-maroc-celebre-le-nouvel-an-amazigh-premiere-fois-ferie.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "al-haouz-earthquake-2023",
+    "date": "2023-09-08",
+    "end_date": null,
+    "title": "Al Haouz earthquake",
+    "category": "disaster",
+    "description": "A magnitude 6.8 earthquake struck the High Atlas south of Marrakech on the night of 8 September 2023, killing about 2,960 people and destroying tens of thousands of homes in the provinces of Al Haouz, Chichaoua, Taroudant and Marrakech. The King chaired emergency meetings and launched a 120 billion MAD five-year reconstruction programme with monthly aid to affected households. Parties were largely absent from the initial response, and the pace of reconstruction became an opposition theme; a civil coalition denounced electoral exploitation of victims during the 2026 campaign.",
+    "significance": "Tested state capacity and party relevance; the slow reconstruction and the contrast with sports infrastructure spending are recurring arguments in the 2026 campaign.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "A PJD General Secretariat statement linking the quake to divine punishment caused a backlash and internal dissent (El Othmani warned against such links); the party's national council later condemned the government's 'inaction' and the slow pace of reconstruction despite available funds.",
+        "sources": [
+          "https://lematin.ma/nation/seisme-le-commentaire-incongru-de-benkirane-fissure-le-pjd/193458",
+          "https://maroc-diplomatique.net/al-haouz-le-pjd-denonce-les-lenteurs-dans-les-projets-de-reconstruction/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The Akhannouch government implemented the royal reconstruction programme and defended its pace.",
+        "sources": [
+          "https://www.communesmaroc.com/en/province/al-haouz/articles/view/2024/11/al-haouz-al-haouz-de-la-catastrophe-du-seisme-a-un-horizon-de-developpement-durable"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "silent",
+        "summary": "Le360 asked 'where are the parties?' after the quake; no specific USFP position was retrieved beyond solidarity statements.",
+        "sources": [
+          "https://fr.le360.ma/politique/seisme-dal-haouz-ou-sont-les-partis_3EI4AOCTZZEPBMMWPI2ELWF7XA/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "earthquake",
+      "al-haouz",
+      "disaster",
+      "reconstruction"
+    ],
+    "sources": [
+      "https://fr.le360.ma/politique/seisme-dal-haouz-ou-sont-les-partis_3EI4AOCTZZEPBMMWPI2ELWF7XA/",
+      "https://www.yabiladi.com/articles/details/202565/seisme-d-al-haouz-coalition-denonce.html",
+      "https://panorapost.ma/post.php?id=49780"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "moudawana-revision-2023-2024",
+    "date": "2023-09-26",
+    "end_date": "2024-12-24",
+    "title": "Revision of the Family Code: royal instructions and December 2024 proposals",
+    "category": "social-policy",
+    "description": "In a letter of 26 September 2023 the King instructed the head of government to revise the 2004 Family Code within six months through a commission chaired by the Justice and Islamic Affairs ministers and the Prosecutor General. The commission heard parties, NGOs and scholars and submitted proposals in March 2024; the King referred contested points to the Higher Council of Ulema, whose opinion was published in December. On 24 December 2024 Justice Minister Abdellatif Ouahbi presented some 139 proposed amendments: polygamy conditioned on the wife's contractual consent and restricted to exceptional cases, custody retained by remarried mothers, the marital home protected for the surviving spouse, a possibility of lifetime gifts to daughters, but no change to unequal inheritance shares or ta'sib and no filiation for children born outside marriage. The bill was still awaited in parliament in 2025-2026.",
+    "significance": "The main society-versus-religion cleavage of the legislature, opposing a reformist camp (USFP, PPS, FGD, PAM) to the PJD and a cautious Istiqlal, with the King as arbiter.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD submitted a memorandum insisting on respect for 'definitive Quranic texts', notably on inheritance; after the December 2024 announcement its General Secretariat expressed satisfaction with the respect of Islamic principles but called for deleting proposals that 'raise real fears' in society; Benkirane accused USFP and PPS leaders of seeking to 'change God's rulings'.",
+        "sources": [
+          "https://www.pjd.ma/209651-%D9%85%D8%AF%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9-%D8%A7%D9%84%D8%B9%D8%AF%D8%A7%D9%84%D8%A9-%D9%88%D8%A7%D9%84%D8%AA%D9%86%D9%85%D9%8A%D8%A9-%D9%8A%D8%AF%D8%B9%D9%88-%D8%A5%D9%84.html",
+          "https://staticpreprod.medias24.com/2025/01/19/le-pjd-et-la-reforme-de-la-moudawana-double-discours-ou-ajustement-strategique",
+          "https://www.aljazeera.net/amp/politics/2024/12/25/%D9%8A%D9%86%D8%AA%D8%B8%D8%B1%D9%87%D8%A7-%D9%86%D9%82%D8%A7%D8%B4-%D9%81%D9%8A-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D9%85%D8%AF%D9%88%D9%86%D8%A9-%D8%A7%D9%84%D8%A3%D8%B3%D8%B1%D8%A9"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "The USFP called for 'real and substantive equality', proposing to abolish ta'sib, allow bequests to heirs and end polygamy.",
+        "sources": [
+          "https://medias24.com/2023/12/04/pi-pps-usfp-et-fgd-ce-que-proposent-les-partis-pour-la-moudawana/",
+          "https://www.lodj.ma/Que-disent-les-partis-politiques-les-plus-representatifs-au-Parlement-sur-la-reforme-de-la-Moudawana_a74073.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS proposed equality in inheritance, abolition of ta'sib and of polygamy, and welcomed the December 2024 announcements while calling for going further.",
+        "sources": [
+          "https://pps.ma/26908/",
+          "https://medias24.com/2023/12/04/pi-pps-usfp-et-fgd-ce-que-proposent-les-partis-pour-la-moudawana/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD presented the most far-reaching egalitarian proposals (full inheritance equality, abolition of polygamy, filiation rights).",
+        "sources": [
+          "https://medias24.com/2023/12/04/pi-pps-usfp-et-fgd-ce-que-proposent-les-partis-pour-la-moudawana/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM, whose secretary-general Ouahbi steers the reform as Justice Minister, is the majority party most favourable to a broad overhaul.",
+        "sources": [
+          "https://lematin.ma/nation/reforme-de-la-moudawana-regards-croises-du-pam-et-du-pjd/258524"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "conditional",
+        "summary": "Istiqlal's memorandum was cautious and conservative, treating the Islamic reference as the 'starting point' and 'red line' of the reform while accepting improvements on custody and guardianship.",
+        "sources": [
+          "https://www.lavieeco.com/pouvoirs/partis/moudawana-listiqlal-presente-ses-propositions/",
+          "https://www.lodj.ma/Que-disent-les-partis-politiques-les-plus-representatifs-au-Parlement-sur-la-reforme-de-la-Moudawana_a74073.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI supports the royal-led reform as head of the government carrying it; it has not championed inheritance equality.",
+        "sources": [
+          "https://medias24.com/2024/12/24/moudawana-voici-les-principaux-axes-au-coeur-de-la-reforme-ouahbi/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "moudawana",
+      "family-code",
+      "women",
+      "inheritance",
+      "polygamy",
+      "islam"
+    ],
+    "sources": [
+      "https://medias24.com/2024/12/24/moudawana-voici-les-principaux-axes-au-coeur-de-la-reforme-ouahbi/",
+      "https://ledesk.ma/2024/12/24/moudawana-les-principaux-points-de-la-reforme-en-cours/",
+      "https://theconversation.com/polygamie-heritage-et-filiation-ce-que-le-code-de-la-famille-marocain-laisse-inchange-249239",
+      "https://medias24.com/2023/12/04/pi-pps-usfp-et-fgd-ce-que-proposent-les-partis-pour-la-moudawana/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "world-cup-2030-award-2023",
+    "date": "2023-10-04",
+    "end_date": null,
+    "title": "Morocco chosen to co-host the 2030 FIFA World Cup",
+    "category": "economy",
+    "description": "On 4 October 2023 the FIFA Council designated the Morocco-Spain-Portugal bid as the sole candidate for the 2030 World Cup, confirmed by the FIFA Congress on 11 December 2024. Morocco launched a programme of stadium construction and renovation (including the 115,000-seat Grand Stade Hassan II at Benslimane), high-speed rail extension to Marrakech and airport expansion, alongside hosting the 2025 Africa Cup of Nations. The scale of sports spending became a grievance of the GenZ 212 protests under the slogan 'stadiums yes, but where are the hospitals?'.",
+    "significance": "Flagship of the state's development narrative, supported by all parliamentary parties, but a symbol of misplaced priorities for protesters and increasingly for the opposition.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The government presents the World Cup as an accelerator of infrastructure and jobs.",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2030_FIFA_World_Cup"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "conditional",
+        "summary": "The PJD welcomed the award but, after GenZ 212, criticised the priority given to stadiums over hospitals and schools.",
+        "sources": [
+          "https://carnegieendowment.org/middle-east/diwan/2025/10/moroccos-genz-uprising"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "conditional",
+        "summary": "The FGD questioned the opacity and social opportunity cost of mega-projects.",
+        "sources": [
+          "https://carnegieendowment.org/middle-east/diwan/2025/10/moroccos-genz-uprising"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "world-cup-2030",
+      "infrastructure",
+      "stadiums",
+      "afcon-2025"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2030_FIFA_World_Cup",
+      "https://en.wikipedia.org/wiki/2025_Moroccan_Gen_Z_protests"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "teachers-strikes-unified-statute-2023",
+    "date": "2023-10-05",
+    "end_date": "2023-12-26",
+    "title": "Teachers' strikes against the unified statute",
+    "category": "social-policy",
+    "description": "After a January 2023 agreement with the main unions, the government adopted in September 2023 a decree creating a unified statute for Education Ministry staff. From 5 October 2023 teachers' coordinations and unions launched rolling strikes, with the minister acknowledging some 90,000 strikers on peak days, rejecting new obligations and demanding wage increases. On 27 November the government froze the statute; a 10 December agreement granted a 1,500 MAD monthly raise, and a revised agreement on 26 December 2023 closed the crisis, with teachers suspended for striking later reinstated.",
+    "significance": "The longest education strike in decades; it exposed the limits of union representativeness and fed the GenZ 212 critique of public education two years later.",
+    "positions": [
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "First secretary Driss Lachgar criticised the government's 'ineffective management' of dialogue and its failure to keep its promise to raise education salaries.",
+        "sources": [
+          "https://telquel.ma/instant-t/2023/11/13/driss-lachgar-se-livre-sur-le-statut-unifie-des-enseignants-et-la-situation-economique-au-maroc_1840709/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD joined the USFP in denouncing the majority's 'incoherence' over the statute and called for withdrawing sanctions against strikers.",
+        "sources": [
+          "https://lematin.ma/express/2023/lusfp-pjd-fustigent-incoherences-majorite/388921.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The Akhannouch government defended the statute as a negotiated reform before freezing it and conceding raises.",
+        "sources": [
+          "https://medias24.com/2023/10/29/tensions-dans-lenseignement-voici-ce-quen-dit-chakib-benmoussa-entretien/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Coalition partner; its union (UGTM) signed the December agreements.",
+        "sources": [
+          "https://lematin.ma/nation/statut-de-leducation-le-nouvel-accord-gouvernement-syndicats-signe/206491"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "education",
+      "teachers",
+      "strike",
+      "unions",
+      "statute"
+    ],
+    "sources": [
+      "https://www.jeuneafrique.com/1511692/politique/greve-des-enseignants-au-maroc-un-accord-qui-ne-regle-pas-tout/",
+      "https://lematin.ma/nation/statut-de-leducation-le-nouvel-accord-gouvernement-syndicats-signe/206491",
+      "https://telquel.ma/instant-t/2023/12/04/education-nouvelle-greve-des-enseignants-malgre-le-gel-de-leur-nouveau-statut_1844386/",
+      "https://medias24.com/2023/10/23/greves-sit-in-et-protestations-refuse-par-toutes-les-categories-de-lenseignement-le-nouveau-statut-unifie-fait-des-remous/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "gaza-war-normalisation-debate-2023",
+    "date": "2023-10-07",
+    "end_date": null,
+    "title": "Gaza war and the domestic debate on normalisation with Israel",
+    "category": "foreign-policy",
+    "description": "After the Hamas attack of 7 October 2023 and the Israeli war on Gaza, Morocco condemned attacks on civilians, sent humanitarian aid through Kerem Shalom and maintained but froze the momentum of its relations with Israel (flights suspended, no embassy upgrade). Weekly demonstrations, authorised by the authorities, gathered in front of parliament in Rabat and in Casablanca demanding an end to normalisation, while Arab Barometer found support for normalisation falling from 31% (2022) to 13%. Parties positioned themselves between condemning the war and respecting the royal foreign-policy prerogative.",
+    "significance": "Turned normalisation into an electoral issue for 2026, in which the PJD campaigns on its rejection while the majority parties avoid the subject.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD hailed the 7 October attack as a 'heroic operation', expressed support for Hamas, and Benkirane declared that Moroccans and the PJD 'refuse normalisation', admitting the 2020 signature was an error.",
+        "sources": [
+          "https://www.middleeasteye.net/fr/actu-et-enquetes/attaque-hamas-maroc-pjd-roi-jerusalem-manifestations-israel-normalisation-palestine",
+          "https://fr.hespress.com/340135-benkirane-les-marocains-et-le-pjd-refusent-la-normalisation-des-relations-avec-israel.html",
+          "https://www.jeuneafrique.com/1507000/politique/au-maroc-benkirane-et-le-pjd-derapent-encore-au-sujet-de-la-guerre-israel-hamas/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "oppose",
+        "summary": "The FGD called on the state to 'reverse the shameful normalisation with the Zionist entity' and demanded the closure of Israel's liaison office.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "annahj",
+        "stance": "oppose",
+        "summary": "Annahj rejected normalisation and co-organised the demonstrations through the Moroccan Front for the Support of Palestine.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "mixed",
+        "summary": "The PPS condemned the Israeli bombings and called for a ceasefire, without formally demanding an end to relations.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "The USFP condemned the war but avoided a clear position on ending normalisation.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "rni",
+        "stance": "silent",
+        "summary": "The coalition parties (RNI, PAM, Istiqlal) aligned with the royal position and stayed silent on normalisation.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "silent",
+        "summary": "Aligned with the royal position; no call to reverse normalisation.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "silent",
+        "summary": "Aligned with the royal position; Istiqlal had welcomed Israel's July 2023 recognition of Moroccan sovereignty over the Sahara.",
+        "sources": [
+          "https://www.yabiladi.com/articles/details/143421/gaza-partis-maroc-veulent-l-expulsion.html"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "gaza",
+      "israel",
+      "normalisation",
+      "palestine",
+      "protest"
+    ],
+    "sources": [
+      "https://www.arabnews.fr/monde-arabe/au-maroc-la-normalisation-avec-israel-freinee-par-la-guerre-a-gaza-447436",
+      "https://fr.hespress.com/430354-apres-les-massacres-a-gaza-le-soutien-a-la-normalisation-avec-israel-chute-a-13-au-maroc.html",
+      "https://iremmo.org/publications/la-normalisation-entre-le-maroc-et-israel-a-lombre-des-guerres-au-proche-orient/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "drought-water-crisis-2022-2025",
+    "date": "2024-01-16",
+    "end_date": null,
+    "title": "Multi-year drought and water stress",
+    "category": "disaster",
+    "description": "Morocco experienced six consecutive years of drought to 2024-2025, with dam reserves falling below 25% in early 2024, restrictions on urban water use, a decline in the national herd and, in February 2025, a royal call to forgo the Eid al-Adha sacrifice. The King chaired a water-policy meeting on 16 January 2024 and the state accelerated the 2020-2027 National Programme for Drinking Water and Irrigation: seawater desalination plants (Casablanca, Agadir, Dakhla), the Sebou-Bouregreg 'water highway' and dam construction. Agricultural GDP contractions weighed on growth and rural employment.",
+    "significance": "Structural constraint on the economy and a campaign theme in 2026 (water sovereignty, agricultural model, Green Morocco Plan legacy), with the opposition questioning the export-oriented irrigation model championed by Akhannouch as Agriculture Minister (2007-2021).",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The government presents desalination and interconnection projects as its response; Akhannouch defends the agricultural strategies he led.",
+        "sources": [
+          "https://arabcenterdc.org/resource/morocco-at-breaking-point-drought-misrule-and-the-rise-of-gen-z-212/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD criticises the water-intensive export agriculture model (avocados, watermelons) and the management of the crisis.",
+        "sources": [
+          "https://arabcenterdc.org/resource/morocco-at-breaking-point-drought-misrule-and-the-rise-of-gen-z-212/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Istiqlal's Nizar Baraka, as Minister of Equipment and Water, leads the dam and desalination programme.",
+        "sources": [
+          "https://arabcenterdc.org/resource/morocco-at-breaking-point-drought-misrule-and-the-rise-of-gen-z-212/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "drought",
+      "water",
+      "desalination",
+      "agriculture",
+      "climate"
+    ],
+    "sources": [
+      "https://arabcenterdc.org/resource/morocco-at-breaking-point-drought-misrule-and-the-rise-of-gen-z-212/",
+      "https://history.stanford.edu/news/morocco-breaking-point-drought-misrule-and-rise-gen-z-212"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "penal-code-article-490-abortion-debate-2024",
+    "date": "2024-05-01",
+    "end_date": null,
+    "title": "Penal code reform debate: Article 490, consensual relations and abortion",
+    "category": "social-policy",
+    "description": "Article 490 of the penal code punishes sexual relations outside marriage with one month to one year in prison; Article 453 criminalises abortion except to save the mother's life. The 'Hors-la-loi' collective (2019, after the Hajar Raissouni case) and rights groups have campaigned for repeal. In 2024 Justice Minister Abdellatif Ouahbi (PAM) said the future penal code would end the criminalisation of consensual relations in private, reminded that hotels demanding marriage certificates act illegally, and floated extending legal abortion to rape, incest and foetal malformation; Benkirane and the PJD attacked him for 'legalising debauchery'. The full penal code bill had not been adopted by the end of the legislature.",
+    "significance": "Marks the frontier of the individual-freedoms debate that divides the PAM and the left from the PJD and religious conservatives, and a campaign theme in 2026.",
+    "positions": [
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Through Justice Minister Ouahbi, the PAM advocated decriminalising consensual adult relations in private and broadening abortion exceptions.",
+        "sources": [
+          "https://www.challenge.ma/maroc-vers-la-depenalisation-des-relations-hors-mariage-264809/",
+          "https://fr.le360.ma/politique/reforme-du-code-penal-abdelilah-benkirane-et-abdellatif-ouahbi-a-couteaux-tires-sur-la-question-du_BQJONB7XSZGUHHL4HOFEJG624A/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "Benkirane and the PJD rejected any decriminalisation of extramarital relations or broad abortion liberalisation as contrary to Islam and the family.",
+        "sources": [
+          "https://fr.le360.ma/politique/reforme-du-code-penal-abdelilah-benkirane-et-abdellatif-ouahbi-a-couteaux-tires-sur-la-question-du_BQJONB7XSZGUHHL4HOFEJG624A/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "USFP figures have supported repealing Article 490 and decriminalising abortion in the framework of individual freedoms.",
+        "sources": [
+          "https://www.jeuneafrique.com/1129442/politique/libertes-sexuelles-les-politiques-marocains-sommes-de-prendre-position/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "The FGD supports decriminalisation of consensual relations and abortion.",
+        "sources": [
+          "https://www.jeuneafrique.com/1129442/politique/libertes-sexuelles-les-politiques-marocains-sommes-de-prendre-position/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "silent",
+        "summary": "No clear party line retrieved; Istiqlal has generally avoided the issue.",
+        "sources": [
+          "https://www.jeuneafrique.com/1129442/politique/libertes-sexuelles-les-politiques-marocains-sommes-de-prendre-position/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "rni",
+        "stance": "silent",
+        "summary": "The RNI has not taken a formal position; the head of government has left the file to the Justice Minister.",
+        "sources": [
+          "https://www.challenge.ma/maroc-vers-la-depenalisation-des-relations-hors-mariage-264809/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "penal-code",
+      "article-490",
+      "abortion",
+      "individual-freedoms",
+      "ouahbi",
+      "benkirane"
+    ],
+    "sources": [
+      "https://www.middleeasteye.net/fr/actu-et-enquetes/maroc-abrogation-article490-rapports-sexuels-extraconjugaux-mariage-legislatives",
+      "https://www.jeuneafrique.com/1575334/politique/au-maroc-des-hoteliers-renoncent-a-exiger-un-acte-de-mariage-malgre-larticle-490/",
+      "https://www.challenge.ma/maroc-vers-la-depenalisation-des-relations-hors-mariage-264809/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "france-recognises-autonomy-plan-2024",
+    "date": "2024-07-30",
+    "end_date": "2024-10-30",
+    "title": "France endorses Moroccan sovereignty over the Sahara",
+    "category": "foreign-policy",
+    "description": "In a letter to Mohammed VI made public on 30 July 2024, President Emmanuel Macron stated that 'the present and future of Western Sahara fall within Moroccan sovereignty' and that the autonomy plan is the sole basis for a solution, ending a three-year Franco-Moroccan crisis and provoking Algeria's recall of its ambassador from Paris. Macron paid a state visit to Rabat on 28-30 October 2024 and repeated the position before parliament. Spain (2022), the United States (2020), the United Kingdom (2025) and other partners had made comparable moves.",
+    "significance": "Completed the alignment of Morocco's key Western partners behind the autonomy plan ahead of UNSC resolution 2797; celebrated across the political spectrum.",
+    "positions": [],
+    "tags": [
+      "sahara",
+      "france",
+      "macron",
+      "autonomy",
+      "diplomacy"
+    ],
+    "sources": [
+      "https://www.publicsenat.fr/actualites/international/la-france-reconnait-la-souverainete-marocaine-sur-le-sahara-occidental-ce-qui-relance-les-tensions-avec-lalgerie",
+      "https://fr.allafrica.com/stories/202407310247.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "strike-law-97-15-2025",
+    "date": "2025-02-05",
+    "end_date": null,
+    "title": "Adoption of organic law 97-15 on the right to strike",
+    "category": "social-policy",
+    "description": "The organic law on the exercise of the right to strike, pending since 2016 and required by Article 29 of the 2011 constitution, was adopted by the House of Councillors on 3 February 2025 (41 for, 7 against) and definitively by the House of Representatives in second reading on 5 February 2025. The text defines who may call a strike, notice periods, minimum service in essential sectors and sanctions for obstruction; the government presented it as balancing the right to strike with economic continuity. The UMT walked out of the Councillors' session and the CDT and UMT called a general strike on 5-6 February against a 'restriction' of a constitutional right.",
+    "significance": "First organic law on strikes in Morocco's history, adopted over united union opposition; a marker of the majority's confrontation with organised labour before the 2026 election.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The majority parties (RNI, PAM, Istiqlal) defended and voted the law as a constitutional obligation and a guarantee for investors.",
+        "sources": [
+          "https://medias24.com/2025/02/04/la-chambre-des-conseillers-adopte-a-la-majorite-le-projet-de-loi-sur-la-greve/",
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Voted for as a majority party.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Voted for as a majority party, although its union (UGTM) had reservations.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "Opposition deputies from the PJD voted against, denouncing a law that restricts a constitutional right.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "Voted against, in line with the FDT/CDT unions.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "Voted against.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "Voted against with the rest of the opposition.",
+        "sources": [
+          "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "tags": [
+      "strike",
+      "labour",
+      "unions",
+      "organic-law",
+      "umt",
+      "cdt"
+    ],
+    "sources": [
+      "https://www.jeuneafrique.com/1654818/politique/maroc-le-parlement-adopte-la-loi-sur-le-droit-de-greve/",
+      "https://medias24.com/2025/02/04/la-chambre-des-conseillers-adopte-a-la-majorite-le-projet-de-loi-sur-la-greve/",
+      "https://www.maroc.ma/fr/actualites/la-chambre-des-conseillers-adopte-la-majorite-le-projet-de-loi-sur-la-greve",
+      "https://drh.ma/loi-organique-97-15-une-reforme-majeure-du-droit-de-greve-au-maroc/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "penal-procedure-code-2025",
+    "date": "2025-05-20",
+    "end_date": "2025-12-08",
+    "title": "Reform of the Code of Criminal Procedure (bill 03.23)",
+    "category": "institutional",
+    "description": "The House of Representatives adopted bill 03.23 amending the Code of Criminal Procedure on 20 May 2025 after more than eight hours of debate (130 for, 40 against), Justice Minister Ouahbi having rejected 1,194 amendments; a second reading followed on 22 July 2025 and the new code entered into force on 8 December 2025. It introduces alternatives to detention, limits on custody and new procedural rights, but Articles 3 and 7 restrict the right of associations to file complaints in corruption cases, reserving the initiative to the Prosecutor General or requiring ministry authorisation. Anti-corruption NGOs, Transparency Maroc and jurists denounced an 'adoption in force'.",
+    "significance": "Major justice reform of the legislature, but its corruption provisions are cited by the opposition and civil society as a step backwards contradicting the UN Convention against Corruption.",
+    "positions": [
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Justice Minister Ouahbi (PAM) authored and defended the bill and rejected most opposition amendments.",
+        "sources": [
+          "https://fr.le360.ma/politique/code-de-procedure-penale-abdellatif-ouahbi-rejette-1194-amendements_2BDMNSXVKBGVJMV7S4F5TCEANA/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Majority vote in favour.",
+        "sources": [
+          "https://www.chambredesrepresentants.ma/fr/SeanceL220725"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Majority vote in favour.",
+        "sources": [
+          "https://www.chambredesrepresentants.ma/fr/SeanceL220725"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "The PJD centred its criticism on Articles 3 and 7, judged contrary to the spirit of the constitution, and voted against.",
+        "sources": [
+          "https://lematin.ma/nation/procedure-penale-la-polemique-saccentue-malgre-ladoption-de-la-reforme/281013"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "USFP deputies (e.g. Malika Zakhnini) denounced a text 'prisoner of an obsolete security vision' lacking guarantees for fundamental rights, and voted against.",
+        "sources": [
+          "https://lematin.ma/nation/procedure-penale-la-polemique-saccentue-malgre-ladoption-de-la-reforme/281013"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pps",
+        "stance": "oppose",
+        "summary": "Opposition vote against, notably over the corruption articles.",
+        "sources": [
+          "https://fr.allafrica.com/stories/202506030595.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "oppose",
+        "summary": "Opposition vote against.",
+        "sources": [
+          "https://fr.allafrica.com/stories/202506030595.html"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "justice",
+      "criminal-procedure",
+      "corruption",
+      "ouahbi",
+      "civil-society"
+    ],
+    "sources": [
+      "https://www.chambredesrepresentants.ma/fr/SeanceL220725",
+      "https://lematin.ma/nation/procedure-penale-la-polemique-saccentue-malgre-ladoption-de-la-reforme/281013",
+      "https://fr.allafrica.com/stories/202506030595",
+      "https://fr.le360.ma/politique/code-de-procedure-penale-dix-nouveautes-majeures-pour-renforcer-les-droits-du-citoyen_VZTPSC6XHFDXPJQWIV5Y2ZJQWY/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "censure-motion-dispute-2025",
+    "date": "2025-05-23",
+    "end_date": null,
+    "title": "Failed opposition motion of censure and USFP withdrawal from opposition coordination",
+    "category": "institutional",
+    "description": "In spring 2025 the PJD pushed the four opposition groups (USFP, MP, PPS, PJD) to table a motion of censure against the Akhannouch government, which under Article 105 of the constitution requires the signatures of one fifth of deputies (79) and an absolute majority to pass. The USFP refused to co-sign, judging the motion doomed and politically counter-productive, and withdrew from the opposition coordination; the PJD and USFP exchanged public accusations ('at daggers drawn'). No motion was filed.",
+    "significance": "Exposed the fragmentation of the opposition a year before the election and the USFP's strategy of keeping open a future coalition with the majority parties.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD advocated the censure motion to sanction the government's record and accused the USFP of protecting the majority.",
+        "sources": [
+          "https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "The USFP refused to sign a motion it considered a publicity stunt without a majority and left the opposition coordination.",
+        "sources": [
+          "https://en.hespress.com/111025-moroccos-socialist-party-withdraws-from-opposition-coordination-over-no-confidence-motion-dispute.html",
+          "https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "mp",
+        "stance": "support",
+        "summary": "Reported as favourable to the motion within the coordination.",
+        "sources": [
+          "https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "Reported as favourable to the motion within the coordination.",
+        "sources": [
+          "https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "motion-of-censure",
+      "opposition",
+      "pjd",
+      "usfp",
+      "parliament"
+    ],
+    "sources": [
+      "https://medias24.com/2025/05/23/motion-censure-le-pjd-et-usfp-a-couteaux-tires/",
+      "https://en.hespress.com/111025-moroccos-socialist-party-withdraws-from-opposition-coordination-over-no-confidence-motion-dispute.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "genz212-protests-2025",
+    "date": "2025-09-27",
+    "end_date": "2025-10-18",
+    "title": "GenZ 212 youth protests",
+    "category": "protest",
+    "description": "From 27 September 2025 anonymous, leaderless collectives organised on Discord under the name GenZ 212 (and 'Moroccan Youth Voice') held daily protests in Rabat, Casablanca, Marrakech, Agadir, Tangier and dozens of towns, demanding better public health and education, jobs and an end to corruption, and contrasting World Cup stadium spending with hospital conditions after deaths of women in childbirth in Agadir. Clashes and looting on 1 October in Lqliaa (Agadir) left three dead when gendarmes fired on attackers; over 2,400 people were arrested and hundreds prosecuted. On 3 October the movement demanded the government's dismissal in a letter to the King; it suspended protests on 10 October for the King's parliamentary speech, which called for accelerated social reforms without endorsing the resignation. The government announced on 19 October a 2026 budget raising health and education spending by about 16% (140 billion MAD) and 27,000 hires; the movement judged the response insufficient and staged further rallies on 25-26 October before fading.",
+    "significance": "The largest protest wave since 2011 and the first to explicitly reject all parties and unions as intermediaries; it triggered the Akhannouch coalition's crisis, Akhannouch's exit from the RNI leadership and the 2026 campaign's focus on youth, health and education.",
+    "positions": [
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "The PJD backed the peaceful protests of 27 September and their social demands, called for an end to violence and welcomed the later release of detainees; Benkirane urged the movement to prolong its suspension 'out of respect for the King', while activists recalled his 2014 calls to reduce the state's role in health and education.",
+        "sources": [
+          "https://kech24.com/%D8%AC%D9%8A%D9%84-z-%D9%8A%D9%8F%D9%82%D9%8E%D9%8A%D9%85-%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B1%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A.html",
+          "https://en.yabiladi.com/articles/details/178268/benkirane-urges-genz-extend-protest.html",
+          "https://www.atlanticcouncil.org/blogs/new-atlanticist/four-questions-and-expert-answers-about-the-antigovernment-protests-in-morocco/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "rni",
+        "stance": "conditional",
+        "summary": "Akhannouch convened the majority leaders on 30 September, affirmed 'willingness to respond to social demands' and to dialogue, rejected resignation, and steered the 2026 budget towards health and education; he left the RNI presidency in February 2026.",
+        "sources": [
+          "https://www.aljazeera.net/politics/2025/9/30/%D8%A7%D8%AD%D8%AA%D8%AC%D8%A7%D8%AC%D8%A7%D8%AA-%D8%AC%D9%8A%D9%84-%D8%B2%D8%AF-%D8%AA%D8%AA%D9%88%D8%A7%D8%B5%D9%84-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D9%81%D9%87%D9%84",
+          "https://www.ledevoir.com/monde/moyen-orient/922458/appel-demission-gouvernement-marocain-apres-nouvelle-mobilisation-jeunesse",
+          "https://en.wikipedia.org/wiki/2025_Moroccan_Gen_Z_protests"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "conditional",
+        "summary": "Istiqlal attended the majority meeting and later proposed measures to 'contain the anger of the street'; the movement itself rated its initial reaction as silence.",
+        "sources": [
+          "https://www.akhbarona.com/politic/413773.html",
+          "https://kech24.com/%D8%AC%D9%8A%D9%84-z-%D9%8A%D9%8F%D9%82%D9%8E%D9%8A%D9%85-%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B1%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "conditional",
+        "summary": "The PAM stood by the government; its Youth Minister's statements were dismissed by the movement as 'rhetorical'.",
+        "sources": [
+          "https://kech24.com/%D8%AC%D9%8A%D9%84-z-%D9%8A%D9%8F%D9%82%D9%8E%D9%8A%D9%85-%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B1%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "mixed",
+        "summary": "The USFP expressed understanding for the demands and criticised the government's record, but the movement judged its position 'bland and almost absent'; the party did not call for resignation.",
+        "sources": [
+          "https://kech24.com/%D8%AC%D9%8A%D9%84-z-%D9%8A%D9%8F%D9%82%D9%8E%D9%8A%D9%85-%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B1%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "mp",
+        "stance": "mixed",
+        "summary": "Same assessment by the movement: a 'bland' reaction; the MP expressed sympathy for the demands.",
+        "sources": [
+          "https://kech24.com/%D8%AC%D9%8A%D9%84-z-%D9%8A%D9%8F%D9%82%D9%8E%D9%8A%D9%85-%D8%AA%D9%81%D8%A7%D8%B9%D9%84-%D8%A7%D9%84%D8%A7%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-%D9%85%D8%B9-%D8%AD%D8%B1%D8%A7%D9%83%D9%87-%D8%A7%D9%84%D8%B4%D8%A8%D8%A7%D8%A8%D9%8A.html"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "fgd",
+        "stance": "support",
+        "summary": "FGD/PSU leader Nabila Mounib expressed support, but GenZ 212 publicly rebuffed her ('today's youth are not tools in politicians' hands'), refusing any partisan recuperation.",
+        "sources": [
+          "https://dialogueinitiatives.org/%D8%AC%D9%8A%D9%84-%D8%B2%D8%AF-212-%D8%AD%D9%8A%D9%86-%D9%8A%D9%88%D8%A7%D8%AC%D9%87-%D8%AC%D9%8A%D9%84-%D8%A8%D8%A3%D9%83%D9%85%D9%84%D9%87-%D8%A7%D9%84%D9%81%D8%B1%D8%A7%D8%BA-%D8%A7%D9%84%D8%B3"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pps",
+        "stance": "support",
+        "summary": "The PPS expressed support for the demands and, with other parties, welcomed the release of detainees and called for closing the file.",
+        "sources": [
+          "https://thepress.ma/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%AA%D8%B4%D9%8A%D8%AF-%D8%A8%D8%A5%D8%B7%D9%84%D8%A7%D9%82-%D8%B3%D8%B1%D8%A7%D8%AD-%D9%85%D8%B9%D8%AA%D9%82%D9%84%D9%8A-%D8%AC%D9%8A%D9%84-z-%D9%88%D8%AA%D8%B7%D8%A7/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "genz212",
+      "youth",
+      "protest",
+      "health",
+      "education",
+      "corruption",
+      "stadiums-vs-hospitals"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/2025_Moroccan_Gen_Z_protests",
+      "https://carnegieendowment.org/middle-east/diwan/2025/10/moroccos-genz-uprising",
+      "https://www.hrw.org/news/2025/10/15/morocco-protests-met-with-repression-violence",
+      "https://www.france24.com/en/africa/20251003-morocco-protest-leaders-government",
+      "https://fr.allafrica.com/stories/202510270203.html",
+      "https://www.aljazeera.net/news/2025/10/1/%D9%85%D8%B8%D8%A7%D9%87%D8%B1%D8%A7%D8%AA-%D8%AC%D9%8A%D9%84-%D8%B2%D8%AF-212-%D8%AA%D8%AB%D9%8A%D8%B1-%D8%AA%D9%81%D8%A7%D8%B9%D9%84%D8%A7-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A7"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "unsc-resolution-2797-2025",
+    "date": "2025-10-31",
+    "end_date": null,
+    "title": "UN Security Council resolution 2797 endorses autonomy as the basis for a Sahara settlement",
+    "category": "foreign-policy",
+    "description": "On 31 October 2025 the Security Council adopted resolution 2797 by eleven votes to none with three abstentions, extending MINURSO's mandate to 31 October 2026 and, for the first time, describing 'genuine autonomy under Moroccan sovereignty' as the most feasible basis for a just, lasting and mutually acceptable solution, inviting the parties to negotiate on that basis. Ambassador Omar Hilale called it 'an unprecedented political verdict'; the King addressed the nation the same evening. Algeria and the Polisario rejected the text's framing.",
+    "significance": "Diplomatic culmination of the 2007 autonomy strategy, unanimously celebrated by Moroccan parties and used by the majority as a foreign-policy achievement in the 2026 campaign.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The RNI hailed a 'historic decision', fruit of 26 years of royal diplomacy.",
+        "sources": [
+          "https://lematin.ma/nation/resolution-2797-les-partis-saluent-un-tournant-historique-pour-le-sahara/311135"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "The PAM expressed pride and attachment to the King's vision.",
+        "sources": [
+          "https://lematin.ma/nation/resolution-2797-les-partis-saluent-un-tournant-historique-pour-le-sahara/311135"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "support",
+        "summary": "PJD leader Mustapha El Khalfi said the resolution definitively removed the referendum option and consolidated recognition of Moroccan sovereignty.",
+        "sources": [
+          "https://www.pjd.ma/222510-%D8%A7%D9%84%D8%AE%D9%84%D9%81%D9%8A-%D9%82%D8%B1%D8%A7%D8%B1-%D9%85%D8%AC%D9%84%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D9%86-2797-%D8%A3%D8%B3%D9%82%D8%B7-%D8%AE%D9%8A%D8%A7%D8%B1-%D8%A7%D9%84%D8%A7%D8%B3.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Reported among the parties saluting a 'historic turning point' (Le Matin round-up).",
+        "sources": [
+          "https://lematin.ma/nation/resolution-2797-les-partis-saluent-un-tournant-historique-pour-le-sahara/311135"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "support",
+        "summary": "Reported among the parties saluting the resolution (Le Matin round-up).",
+        "sources": [
+          "https://lematin.ma/nation/resolution-2797-les-partis-saluent-un-tournant-historique-pour-le-sahara/311135"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "sahara",
+      "un",
+      "security-council",
+      "autonomy",
+      "minurso"
+    ],
+    "sources": [
+      "https://lematin.ma/nation/resolution-2797-les-partis-saluent-un-tournant-historique-pour-le-sahara/311135",
+      "https://www.lereporter.ma/la-resolution-2797-un-verdict-politique-sans-precedent-pour-clore-definitivement-le-differend-du-sahara-marocain-hilale/",
+      "https://www.policycenter.ma/publications/la-resolution-2797-du-conseil-de-securite-la-solution-dautonomie-plebiscitee",
+      "https://www.dohainstitute.org/ar/PoliticalStudies/Pages/security-council-resolution-2797-background-and-implications-for-western-sahara.aspx"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "rni-leadership-change-2026",
+    "date": "2026-02-07",
+    "end_date": null,
+    "title": "Akhannouch leaves the RNI presidency; Mohamed Chaouki elected",
+    "category": "institutional",
+    "description": "At an extraordinary congress in El Jadida on 7 February 2026, Mohamed Chaouki, deputy for Boulemane and chairman of the RNI parliamentary group, was elected president of the RNI with 1,910 of 1,933 votes, succeeding Aziz Akhannouch after ten years. Akhannouch, still head of government, declined a third term citing the party statutes and described a 'calm transition toward a new generation of leaders' rather than a withdrawal. Commentators linked the move to the GenZ 212 protests and the personal targeting of Akhannouch's business interests.",
+    "significance": "Separates the RNI's 2026 campaign from Akhannouch's personal record while keeping him in government; raises the question of who would lead a future RNI-led government.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "The congress endorsed Chaouki almost unanimously; Akhannouch remained head of government and a party figure.",
+        "sources": [
+          "https://ledesk.ma/encontinu/mohamed-chaouki-elu-president-du-rni-succede-a-aziz-akhannouch/",
+          "https://telquel.ma/2026/02/09/rni-mohamed-chaouki-president-et-apres_1974502"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "PJD commentators presented the departure as an admission of failure after GenZ 212 ('politically finished', per an analyst quoted by Maroc Hebdo) rather than a real change.",
+        "sources": [
+          "https://www.maroc-hebdo.com/article/abderrahim-el-allam-aziz-akhannouch-est-politiquement-fini"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "rni",
+      "akhannouch",
+      "chaouki",
+      "leadership",
+      "elections-2026"
+    ],
+    "sources": [
+      "https://ledesk.ma/encontinu/mohamed-chaouki-elu-president-du-rni-succede-a-aziz-akhannouch/",
+      "https://telquel.ma/2026/02/09/rni-mohamed-chaouki-president-et-apres_1974502",
+      "https://medias24.com/2026/02/08/reportage-le-chant-de-la-colombe-de-aziz-akhannouch-desormais-ex-patron-du-rni-1624535/",
+      "https://www.jeuneafrique.com/1763018/politique/au-maroc-pourquoi-le-retrait-daziz-akhannouch-pourrait-fragiliser-le-rni/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "electoral-reform-2025-2026",
+    "date": "2026-04-09",
+    "end_date": null,
+    "title": "Pre-electoral reform package for the 2026 elections",
+    "category": "electoral",
+    "description": "Ahead of the 23 September 2026 legislative elections, parliament and the government adopted a package of amendments to the electoral organic laws and implementing decrees, presented as the largest overhaul since 2011: stricter eligibility and 'moralisation' rules for candidates, harsher penalties for vote-buying and misuse of funds, digitalised candidacy filing and electoral rolls, and decree 2.26.311 creating annual public funding for parties fielding candidates under 35. The texts were published in spring 2026 (Médias24 overview of 9 April 2026). Party-by-party votes were not retrieved.",
+    "significance": "Frames the 2026 contest and the government's answer to GenZ 212 demands for youth representation and clean politics; the quotient rule of 2021 was retained.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Majority sponsor of the reform, presented as strengthening representative democracy.",
+        "sources": [
+          "https://medias24.com/2026/04/09/elections-2026-ces-textes-qui-actent-la-reforme-electorale-1657092/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Majority partner supporting the package.",
+        "sources": [
+          "https://lematin.ma/nation/elections-2026-un-arsenal-juridique-renouvele/362079"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Majority partner supporting the package.",
+        "sources": [
+          "https://lematin.ma/nation/elections-2026-un-arsenal-juridique-renouvele/362079"
+        ],
+        "confidence": "low"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "silent",
+        "summary": "The PJD's vote on the 2026 amendments was not retrieved; it continued to denounce the 2021 quotient and the use of money in elections.",
+        "sources": [
+          "https://www.lebrief.ma/elections-2026-quest-ce-qui-change-vraiment-100149956/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "tags": [
+      "electoral-law",
+      "vote-buying",
+      "youth",
+      "party-funding",
+      "elections-2026"
+    ],
+    "sources": [
+      "https://medias24.com/2026/04/09/elections-2026-ces-textes-qui-actent-la-reforme-electorale-1657092/",
+      "https://www.lebrief.ma/elections-2026-quest-ce-qui-change-vraiment-100149956/",
+      "https://lematin.ma/nation/elections-2026-un-arsenal-juridique-renouvele/362079",
+      "https://atlasinfo.fr/legislatives-2026-le-maroc-se-dote-dun-arsenal-juridique-renouvele-pour-moraliser-le-scrutin.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "legislative-campaign-2026",
+    "date": "2026-09-10",
+    "end_date": "2026-09-23",
+    "title": "Campaign for the 23 September 2026 legislative elections",
+    "category": "electoral",
+    "description": "The official campaign opened on 10 September 2026 and runs until 22 September for the 395 seats of the House of Representatives, with 27 parties and 702 lists competing for more than 15.8 million registered voters. The three outgoing coalition parties (RNI, PAM, Istiqlal) face an opposition led by the USFP, the PJD, the MP and the PPS. Programmes converge on purchasing power, jobs, public services and social protection: the RNI ('Dignity and opportunities for all', one million jobs, inflation-indexed social aid, higher SMIG), the PAM (20 commitments, 'five pacts', 350 billion MAD), Istiqlal ('Watani Moustaqbali', family cohesion, 5,000 MAD marriage grant, anti-corruption), the USFP (250,000 industrial jobs, unemployment under 8%), the PJD ('Programme of dignity' against 'the economy of rents, conflicts of interest and monopoly') and the UC ('a single-speed Morocco'). The election had not taken place at the time of writing.",
+    "significance": "First national vote after GenZ 212; tests whether the administrative coalition survives, whether the PJD recovers and whether youth turnout responds to the reforms.",
+    "positions": [
+      {
+        "party_id": "rni",
+        "stance": "support",
+        "summary": "Campaigns on the outgoing government's record (AMO, direct aid, infrastructure) under new president Chaouki, without ruling out renewing the coalition.",
+        "sources": [
+          "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/",
+          "https://leseco.ma/maroc/legislatives-2026-programmes-partisans-la-bataille-des-voix-et-des-chiffres-aussi.html"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pam",
+        "stance": "support",
+        "summary": "Positions itself as the force to lead 'a new political stage' within the majority, with a 350 billion MAD programme.",
+        "sources": [
+          "https://fr.le360.ma/politique/legislatives-2026-le-pam-presente-un-programme-electoral-de-20-engagements-pour-350-milliards-de_6X35BVEOVJDSXPORDJWQEC75MA/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "istiqlal",
+        "stance": "support",
+        "summary": "Programme centred on family, middle class, public services, anti-corruption and 'strategic sovereignty'.",
+        "sources": [
+          "https://ledesk.ma/2026/08/30/le-parti-de-listiqlal-devoile-les-promesses-phares-de-son-programme-pour-les-legislatives-du-23-septembre/",
+          "https://snrtnews.com/article/157683"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "usfp",
+        "stance": "oppose",
+        "summary": "Opposition programme focused on industrial jobs, exports and growth targets.",
+        "sources": [
+          "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "pjd",
+        "stance": "oppose",
+        "summary": "'Programme of dignity' attacking rents, conflicts of interest and monopolies, with education, health coverage and SMEs, while keeping its identity markers (Moudawana, normalisation).",
+        "sources": [
+          "https://barnamaj2026.pjd.ma/",
+          "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "party_id": "uc",
+        "stance": "support",
+        "summary": "Programme 'For a single-speed Morocco', emphasising family and the middle class.",
+        "sources": [
+          "https://linformation.ma/news/politique/elections-2026-27-partis-politiques-marocains-en-campagne-jusqu-au-22-septembre/65586"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "tags": [
+      "elections-2026",
+      "campaign",
+      "programmes",
+      "coalition"
+    ],
+    "sources": [
+      "https://lematin.ma/nation/elections-2026-27-partis-lancent-leur-campagne-jusquau-22-septembre/364364",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/",
+      "https://medias24.com/dossier/elections-legislatives-2026/",
+      "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+      "https://mondafrique.com/politique/legislatives-maroc-un-scrutin-sous-tension/"
+    ],
+    "confidence": "high"
+  }
+]
