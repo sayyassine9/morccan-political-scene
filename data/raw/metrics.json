@@ -1,0 +1,2798 @@
+{
+  "_meta": {
+    "compiled": "2026-09-16",
+    "method": "WebSearch only (16 successful queries before the session's search budget was exhausted; WebFetch/curl blocked). Items flagged unverified_prior_knowledge=true were not confirmed by any source this session and must be re-checked.",
+    "keys": "party slugs per SCHEMA.md, plus '_all_parties' (totals across parties) and '_indexes' (regional presidencies, mayors, group sizes as tables)."
+  },
+  "_all_parties": {
+    "public_funding_totals_mad": [
+      {
+        "year": 2023,
+        "budget_allocated": 140000000,
+        "support_actually_granted": 60380000,
+        "share_granted_pct": 43,
+        "parties_receiving": 17,
+        "women_representation_support": 100813.2,
+        "total_declared_resources_all_parties": 104970000,
+        "state_share_of_resources_pct": 58,
+        "own_resources_all_parties": 44490000,
+        "change_vs_2022_pct": -25.5,
+        "parties_submitting_accounts": 27,
+        "notes": "Cour des comptes report on 2023 party accounts (published May 2024). State support 'actually granted' 60.38 MDH vs 140 MDH budget line; 60.48 MDH incl. women-representation support.",
+        "sources": [
+          "https://www.courdescomptes.ma/wp-content/uploads/2024/05/Synthese-du-rapport.pdf",
+          "https://ecoactu.ma/partis-politiques-une-baisse/",
+          "https://www.yabiladi.com/articles/details/167489/maroc-soutien-public-partis-politiques.html",
+          "https://linformation.ma/news/politique/audit-des-comptes-des-partis-politiques-ce-que-revele-le-nouveau-rapport-de-la-cour-des-comptes/57714",
+          "https://lareleve.ma/154570/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2022,
+        "support_actually_granted": 81170000,
+        "notes": "Derived from the 2023 report ('baisse de 25,5 % par rapport à 2022 (81,17 MDH)'). Restitutions to Treasury during 2022: 18.28 MDH.",
+        "sources": [
+          "https://www.courdescomptes.ma/wp-content/uploads/2024/05/Synthese-du-rapport.pdf",
+          "https://ecoactu.ma/partis-politiques-une-baisse/",
+          "https://www.yabiladi.com/articles/details/167489/maroc-soutien-public-partis-politiques.html",
+          "https://www.courdescomptes.ma/wp-content/uploads/2024/02/Synthese-du-rapport.pdf"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "year": 2021,
+        "total_declared_resources_all_parties": 499690000,
+        "state_campaign_contribution_2021_elections": 348290000,
+        "own_resources_all_parties": 92600000,
+        "annual_support_derived": 58800000,
+        "management_expenses_declared": 123370000,
+        "expenses_with_insufficiencies": 5140000,
+        "parties_with_insufficiencies": 15,
+        "parties_submitting_accounts": 29,
+        "parties_registered": 34,
+        "parties_submitting_on_time": 18,
+        "notes": "Cour des comptes 2021 report (published Feb/Mar 2023). Annual support figure (58.80 MDH) is derived as total resources minus campaign contribution minus own resources; the report's own headline figure should be checked. Restitutions: 7.68 MDH in 2021, 18.28 MDH in 2022, 2.89 MDH to end-April 2023 (16 parties); 14 parties still owed 21.85 MDH (Le360) / 'about 22 MDH awaiting restitution' (LesEco).",
+        "sources": [
+          "https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf",
+          "https://www.courdescomptes.ma/wp-content/uploads/2023/02/Rapport-relatif-a-laudit-des-comptes-des-partis-politiques-et-a-la-verification-de-la-sincerite-de-leurs-depenses-au-titre-du-soutien-public.pdf",
+          "http://www.courdescomptes.ma/publication/rapport-relatif-a-laudit-des-comptes-des-partis-politiques-au-titre-de-lannee-2021/",
+          "https://fnh.ma/article/actualites-marocaines/cour-des-comptes-partis-politiques-maroc",
+          "https://fr.allafrica.com/stories/202303160417.html",
+          "https://leseco.ma/maroc/financement-public-des-partis-politiques-22-mdh-en-attente-de-restitution.html",
+          "https://fr.le360.ma/politique/cour-des-comptes-14-partis-politiques-doivent-restituer-2185-millions-de-dirhams_SMTJFJ5SGZGJHBBYRQH6M5XBQQ/",
+          "https://www.lesiteinfo.com/maroc/647525-partis-politiques-la-cour-des-comptes-epingle-des-irregularites-dans-la-gestion-des-fonds-publics.html",
+          "https://www.leconomiste.com/flash-infos/partis-politiques-la-cour-des-comptes-devoile-les-details-de-l-audit-des-comptes-0/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "year": 2020,
+        "notes": "Cour des comptes 2020 report (Dec 2021). Retrieved facts: restitutions of 7.09 MDH (2020) and 7.34 MDH (2021 - note: the 2021 report says 7.68 MDH for 2021, discrepancy recorded); 195,000 MAD granted for strengthening women's political representation; state-financing shares: PAM 81%, PJD 49%, Istiqlal 47%, RNI 22%. Total annual support amount not captured in snippets.",
+        "sources": [
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752",
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://fr.hespress.com/355077-cour-des-comptes-le-manque-de-transparence-financiere-ebranle-plusieurs-partis-politiques.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "year": 2019,
+        "notes": "Cour des comptes 2019 report: 5.06 MDH restituted by nine parties; resource shares PJD 29.43%, RNI 28.82%, PAM 14.9%, Istiqlal 9.24% (year attribution per LesEco/Le360 snippets; verify against the report). Total annual support amount not captured.",
+        "sources": [
+          "https://leseco.ma/lapolitique/finances-des-partis-politiques-le-verdict-de-la-cour-des-comptes.html",
+          "https://fr.le360.ma/politique/quel-parti-politique-coute-le-plus-a-letat_HQ55IU3OQZH63HACNAQNAW7F5Q/",
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "year": 2018,
+        "notes": "Report exists (courdescomptes.ma, synthèse PDF). Amounts not captured this session.",
+        "sources": [
+          "https://www.courdescomptes.ma/publication/rapport-relatif-a-l-audit-des-comptes-des-partis-politiques-au-titre-de-l-annee-2018/",
+          "https://www.courdescomptes.ma/wp-content/uploads/2023/01/Synthese-des-partis-politiques-2018.pdf"
+        ],
+        "confidence": "low"
+      },
+      {
+        "year": 2016,
+        "notes": "Reports for 2016 and 2017 exist on the Cour des comptes 'audit des comptes des partis politiques' mission page; amounts not captured this session.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "year": 2017,
+        "notes": "See 2016 entry.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "parties_failing_to_justify_spending": [
+      {
+        "year": 2021,
+        "summary": "15 of 29 parties had expenses with 'insuffisances' totalling 5.14 MDH (4.17% of declared management expenses), up from 1% in 2020; 5 of 34 parties did not submit accounts at all and 11 submitted late. Individual party names were not captured in the snippets - see the report's annexes.",
+        "sources": [
+          "https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf",
+          "https://fnh.ma/article/actualites-marocaines/cour-des-comptes-partis-politiques-maroc",
+          "https://fr.allafrica.com/stories/202303160417.html"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "year": 2022,
+        "summary": "Le Desk: 'les mêmes critiques d'année en année' - recurring findings of unjustified expenses and non-restitution; 14 parties owed 21.85 MDH in unspent/unjustified support (Le360). Party names not captured.",
+        "sources": [
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://fr.le360.ma/politique/cour-des-comptes-14-partis-politiques-doivent-restituer-2185-millions-de-dirhams_SMTJFJ5SGZGJHBBYRQH6M5XBQQ/",
+          "https://leseco.ma/maroc/financement-public-des-partis-politiques-22-mdh-en-attente-de-restitution.html"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "parliament_2021_totals": {
+      "seats": 395,
+      "women_mps": 96,
+      "women_pct": 24.3,
+      "notes": "96 women (60 via regional lists + local-list winners) is widely reported; per-party split not captured this session. Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election"
+      ],
+      "confidence": "low"
+    },
+    "legislative_activity": {
+      "found": false,
+      "notes": "No source quantifying bills proposed or oral questions per parliamentary group was retrieved before the search budget ran out. Candidate sources to check: chambredesrepresentants.ma 'bilan de la session' pages, Le Brief 'RNI-PAM-Istiqlal: qui a le mieux tiré son épingle du jeu ?' (partially about the legislature's record), and press 'bilan législatif' articles.",
+      "sources": [
+        "https://www.lebrief.ma/rni-pam-istiqlal-lequel-sort-renforce-de-la-legislature-100164427/"
+      ]
+    }
+  },
+  "rni": {
+    "public_funding_mad": [
+      {
+        "year": 2020,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Cour des comptes 2020 report (per TelQuel/Le Desk summaries): RNI's resources were financed 22% by the State in 2020 (i.e. 78% own resources, mainly membership dues - see Médias24 Feb 2020 'le RNI monte en force grâce aux cotisations de ses membres'). Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752",
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://medias24.com/2020/02/10/argent-des-partis-le-rni-monte-en-force-grace-aux-cotisations-de-ses-membres/"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "year": 2019,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Share of all parties' declared resources in the 2019 report: RNI 28.82% (second after PJD 29.43%). Year attribution of this ranking (2019 report) is per LesEco/Le360 summaries; verify. Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://leseco.ma/lapolitique/finances-des-partis-politiques-le-verdict-de-la-cour-des-comptes.html",
+          "https://fr.le360.ma/politique/quel-parti-politique-coute-le-plus-a-letat_HQ55IU3OQZH63HACNAQNAW7F5Q/"
+        ],
+        "confidence": "low"
+      },
+      {
+        "year": 2021,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Restitution: RNI had returned 13,377,681.18 MAD of unspent public support to the Treasury by end-2022 (largest single restitution; Cour des comptes 2021 report / LesEco). Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/wp-content/uploads/2023/03/Synthese_R_PP_-2021_Fr.pdf",
+          "https://leseco.ma/maroc/financement-public-des-partis-politiques-22-mdh-en-attente-de-restitution.html"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 4,
+        "regions": [
+          {
+            "region": "Tanger-Tétouan-Al Hoceïma",
+            "president": "Omar Moro"
+          },
+          {
+            "region": "Drâa-Tafilalet",
+            "president": "Hro Abrou"
+          },
+          {
+            "region": "Souss-Massa",
+            "president": "Karim Achengli"
+          },
+          {
+            "region": "Guelmim-Oued Noun",
+            "president": "Mbarka Bouaida"
+          }
+        ],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high",
+        "notes": "Elected 20-21 Sept 2021; RNI, PAM and Istiqlal took four regions each (H24, Maroc.ma, Médias24, L'Economiste agree). Mbarka Bouaida is the only woman regional president."
+      },
+      {
+        "year": 2015,
+        "count": 2,
+        "regions": [
+          {
+            "region": "Souss-Massa",
+            "president": "Brahim Hafidi",
+            "verification": "verified"
+          },
+          {
+            "region": "Guelmim-Oued Noun",
+            "president": "Abderrahim Ben Bouaida",
+            "verification": "name from prior knowledge; RNI control verified. Replaced by Mbarka Bouaida (RNI) in Feb 2019 - Bouaida's 2021 win is described as her 'second term' (H24)"
+          }
+        ],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "medium",
+        "notes": "Sept 2015: PAM 5, PJD 2, RNI 2, Istiqlal 2, MP 1 (Médias24, Jeune Afrique, Aujourd'hui le Maroc agree on the distribution). Presidents marked 'verified' appear in this session's sources; others are prior knowledge."
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 27,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 8,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 9995,
+        "votes": null,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021"
+        ],
+        "confidence": "high",
+        "notes": "Communal + arrondissement council seats, 8 Sept 2021 (Interior ministry results via Le Matin; Wikipedia). Vote totals per party not captured."
+      },
+      {
+        "year": 2015,
+        "seats": 4408,
+        "seat_pct": 13.99,
+        "votes": null,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "confidence": "high",
+        "notes": "4 Sept 2015 communal elections, 31,503 seats. Seat percentages per Anadolu/Aujourd'hui le Maroc (Interior ministry). Votes: PJD > 1.5 million, PAM approx. 1.3 million, Istiqlal just over 1 million (bladi.net, communal+regional combined)."
+      }
+    ],
+    "big_city_mayors_2021": [
+      {
+        "city": "Casablanca",
+        "mayor": "Nabila Rmili",
+        "since": 2021,
+        "confidence": "high",
+        "notes": "Elected 20 Sept 2021; first woman mayor of Casablanca.",
+        "sources": [
+          "https://medias24.com/2021/09/20/nabila-rmili-rni-elue-maire-de-casablanca/",
+          "https://snrtnews.com/fr/article/rmili-elue-maire-de-casablanca-19075",
+          "https://fr.le360.ma/politique/officiel-nabila-rmili-elue-maire-de-casablanca-245992/",
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/"
+        ]
+      },
+      {
+        "city": "Rabat",
+        "mayor": "Asmaa Rhlalou",
+        "since": 2021,
+        "confidence": "medium",
+        "notes": "Name and 'first woman mayor of the capital' verified (AIMF); party affiliation (RNI) from prior knowledge. Resigned in late 2023 and replaced by Fatiha El Moudni (RNI) - prior knowledge, unverified.",
+        "sources": [
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/"
+        ]
+      },
+      {
+        "city": "Fès",
+        "mayor": "Abdeslam Bekkali",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      },
+      {
+        "city": "Tanger",
+        "mayor": "Mounir Laymouri",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      },
+      {
+        "city": "Agadir",
+        "mayor": "Aziz Akhannouch",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. (Akhannouch was elected president of the Agadir communal council in Sept 2021 while Head of Government.)",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      },
+      {
+        "city": "Salé",
+        "mayor": "Omar Sentissi",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      },
+      {
+        "city": "Meknès",
+        "mayor": "Jawad Bahaji",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      }
+    ],
+    "membership_claims": [
+      {
+        "year": 2020,
+        "claimed": null,
+        "source": "Cour des comptes / Médias24: RNI's own resources (membership dues) exceeded its public funding - 78% self-financed in 2020",
+        "verification": "Dues income is audited by the Cour des comptes but the report does not certify the number of members; no independent membership audit exists.",
+        "confidence": "low",
+        "sources": [
+          "https://medias24.com/2020/02/10/argent-des-partis-le-rni-monte-en-force-grace-aux-cotisations-de-ses-membres/",
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752"
+        ],
+        "notes": "No headline membership figure captured this session."
+      }
+    ],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 102,
+      "seats_confidence": "high",
+      "group_name": "Groupe du Rassemblement national des indépendants",
+      "group_size_start_2021": 102,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 5,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "jettou-1",
+          "ministers": 6,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-fassi",
+          "ministers": 7,
+          "cabinet_total": 34,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-2",
+          "ministers": 8,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-1",
+          "ministers": 6,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-2",
+          "ministers": 4,
+          "cabinet_total": 23,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "akhannouch-1",
+          "ministers": 7,
+          "cabinet_total": 24,
+          "confidence": "medium",
+          "sources": [
+            "https://www.cg.gov.ma/en/composition-government",
+            "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/"
+          ],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "pam": {
+    "public_funding_mad": [
+      {
+        "year": 2020,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "PAM financed 81% by the State in 2020 (Cour des comptes 2020 report via TelQuel/Le Desk). Share of all resources in 2019 report: 14.9%. Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752",
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://leseco.ma/lapolitique/finances-des-partis-politiques-le-verdict-de-la-cour-des-comptes.html"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 4,
+        "regions": [
+          {
+            "region": "Oriental",
+            "president": "Abdenbi Bioui"
+          },
+          {
+            "region": "Rabat-Salé-Kénitra",
+            "president": "Rachid El Abdi"
+          },
+          {
+            "region": "Marrakech-Safi",
+            "president": "Samir Goudar"
+          },
+          {
+            "region": "Béni Mellal-Khénifra",
+            "president": "Adil Barakat"
+          }
+        ],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high",
+        "notes": "Elected 20-21 Sept 2021; RNI, PAM and Istiqlal took four regions each (H24, Maroc.ma, Médias24, L'Economiste agree). Mbarka Bouaida is the only woman regional president."
+      },
+      {
+        "year": 2015,
+        "count": 5,
+        "regions": [
+          {
+            "region": "Casablanca-Settat",
+            "president": "Mustapha Bakkoury",
+            "verification": "verified"
+          },
+          {
+            "region": "Tanger-Tétouan-Al Hoceïma",
+            "president": "Ilyas El Omari",
+            "verification": "verified"
+          },
+          {
+            "region": "Marrakech-Safi",
+            "president": "Ahmed Akhchichine",
+            "verification": "verified"
+          },
+          {
+            "region": "Béni Mellal-Khénifra",
+            "president": "Brahim Moujahid",
+            "verification": "verified"
+          },
+          {
+            "region": "Oriental",
+            "president": "Abdenbi Bioui",
+            "verification": "name from prior knowledge; PAM control of Oriental verified"
+          }
+        ],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "medium",
+        "notes": "Sept 2015: PAM 5, PJD 2, RNI 2, Istiqlal 2, MP 1 (Médias24, Jeune Afrique, Aujourd'hui le Maroc agree on the distribution). Presidents marked 'verified' appear in this session's sources; others are prior knowledge."
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 19,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 23,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 6210,
+        "votes": null,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+          "data/raw/elections.json (sibling research file, independently sourced)"
+        ],
+        "confidence": "medium",
+        "notes": "Communal + arrondissement council seats, 8 Sept 2021 (Interior ministry results via Le Matin; Wikipedia). Vote totals per party not captured. Discrepancy: data/raw/elections.json records 6208 seats for this party in 2021 vs 6210 in the Le Matin/Wikipedia summary used here; difference likely provisional vs final Interior-ministry figures or seat re-allocations after court rulings. Unresolved."
+      },
+      {
+        "year": 2015,
+        "seats": 6655,
+        "seat_pct": 21.12,
+        "votes": 1300000,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "confidence": "high",
+        "notes": "4 Sept 2015 communal elections, 31,503 seats. Seat percentages per Anadolu/Aujourd'hui le Maroc (Interior ministry). Votes: PJD > 1.5 million, PAM approx. 1.3 million, Istiqlal just over 1 million (bladi.net, communal+regional combined).",
+        "votes_note": "'1,3 million' (bladi.net) - rounded"
+      }
+    ],
+    "big_city_mayors_2021": [
+      {
+        "city": "Marrakech",
+        "mayor": "Fatima-Zahra Mansouri",
+        "since": 2021,
+        "confidence": "high",
+        "notes": "Verified (AIMF; Challenge 'retour aux commandes du PAM à Marrakech'). Also Minister of Housing since Oct 2021.",
+        "sources": [
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/",
+          "https://archive.challenge.ma/elections-2021-au-maroc-communales-retour-aux-commandes-du-pam-a-marrakech-220198/"
+        ]
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 87,
+      "seats_confidence": "high",
+      "group_name": "Groupe Authenticité et Modernité",
+      "group_size_start_2021": 87,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "akhannouch-1",
+          "ministers": 5,
+          "cabinet_total": 24,
+          "confidence": "medium",
+          "sources": [
+            "https://www.cg.gov.ma/en/composition-government",
+            "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/"
+          ],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "istiqlal": {
+    "public_funding_mad": [
+      {
+        "year": 2020,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Istiqlal financed 47% by the State in 2020. Share of all resources in 2019 report: 9.24%. Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752",
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://leseco.ma/lapolitique/finances-des-partis-politiques-le-verdict-de-la-cour-des-comptes.html"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 4,
+        "regions": [
+          {
+            "region": "Casablanca-Settat",
+            "president": "Abdellatif Maâzouz"
+          },
+          {
+            "region": "Fès-Meknès",
+            "president": "Abdelouahed El Ansari"
+          },
+          {
+            "region": "Laâyoune-Sakia El Hamra",
+            "president": "Sidi Hamdi Ould Errachid"
+          },
+          {
+            "region": "Dakhla-Oued Eddahab",
+            "president": "El Khattat Yanja"
+          }
+        ],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high",
+        "notes": "Elected 20-21 Sept 2021; RNI, PAM and Istiqlal took four regions each (H24, Maroc.ma, Médias24, L'Economiste agree). Mbarka Bouaida is the only woman regional president."
+      },
+      {
+        "year": 2015,
+        "count": 2,
+        "regions": [
+          {
+            "region": "Laâyoune-Sakia El Hamra",
+            "president": "Sidi Hamdi Ould Errachid",
+            "verification": "name from prior knowledge; 2021 sources say he was 're-elected', confirming 2015 tenure"
+          },
+          {
+            "region": "Dakhla-Oued Eddahab",
+            "president": "El Khattat Yanja",
+            "verification": "name from prior knowledge; Istiqlal control of both Saharan regions verified"
+          }
+        ],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "medium",
+        "notes": "Sept 2015: PAM 5, PJD 2, RNI 2, Istiqlal 2, MP 1 (Médias24, Jeune Afrique, Aujourd'hui le Maroc agree on the distribution). Presidents marked 'verified' appear in this session's sources; others are prior knowledge."
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 17,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 24,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 5600,
+        "votes": null,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+          "data/raw/elections.json (sibling research file, independently sourced)"
+        ],
+        "confidence": "medium",
+        "notes": "Communal + arrondissement council seats, 8 Sept 2021 (Interior ministry results via Le Matin; Wikipedia). Vote totals per party not captured. Discrepancy: data/raw/elections.json records 5603 seats for this party in 2021 vs 5600 in the Le Matin/Wikipedia summary used here; difference likely provisional vs final Interior-ministry figures or seat re-allocations after court rulings. Unresolved."
+      },
+      {
+        "year": 2015,
+        "seats": 5106,
+        "seat_pct": 16.09,
+        "votes": 1000000,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "confidence": "high",
+        "notes": "4 Sept 2015 communal elections, 31,503 seats. Seat percentages per Anadolu/Aujourd'hui le Maroc (Interior ministry). Votes: PJD > 1.5 million, PAM approx. 1.3 million, Istiqlal just over 1 million (bladi.net, communal+regional combined).",
+        "votes_note": "'un peu plus d'1 million' (bladi.net) - rounded"
+      }
+    ],
+    "big_city_mayors_2021": [
+      {
+        "city": "Oujda",
+        "mayor": "Omar Hejira",
+        "since": 2021,
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. (Hejira later joined government as Secretary of State for Foreign Trade in the Oct 2024 reshuffle - unverified.)",
+        "sources": [],
+        "unverified_prior_knowledge": true
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 81,
+      "seats_confidence": "high",
+      "group_name": "Groupe istiqlalien de l'unité et de l'égalitarisme",
+      "group_size_start_2021": 81,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 6,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "jettou-1",
+          "ministers": 8,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-fassi",
+          "ministers": 9,
+          "cabinet_total": 34,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-1",
+          "ministers": 6,
+          "cabinet_total": 31,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "akhannouch-1",
+          "ministers": 4,
+          "cabinet_total": 24,
+          "confidence": "medium",
+          "sources": [
+            "https://www.cg.gov.ma/en/composition-government",
+            "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/"
+          ],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "usfp": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 8,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 5,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 2415,
+        "votes": null,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021"
+        ],
+        "confidence": "high",
+        "notes": "Communal + arrondissement council seats, 8 Sept 2021 (Interior ministry results via Le Matin; Wikipedia). Vote totals per party not captured."
+      },
+      {
+        "year": 2015,
+        "seats": 2656,
+        "votes": null,
+        "sources": [
+          "data/raw/elections.json (sibling research file, independently sourced)",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/"
+        ],
+        "confidence": "medium",
+        "notes": "Figure taken from data/raw/elections.json (com-2015, high there, sourced from the Interior ministry's full table); not directly seen in a search snippet this session."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 34,
+      "seats_confidence": "medium",
+      "group_name": "Groupe socialiste - opposition ittihadie",
+      "group_size_start_2021": 34,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 14,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "jettou-1",
+          "ministers": 8,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-fassi",
+          "ministers": 5,
+          "cabinet_total": 34,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-1",
+          "ministers": 3,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-2",
+          "ministers": 2,
+          "cabinet_total": 23,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "pjd": {
+    "public_funding_mad": [
+      {
+        "year": 2020,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "PJD financed 49% by the State in 2020. In the 2019 report PJD had the largest share of all parties' declared resources (29.43%). Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://telquel.ma/2021/12/28/cour-des-comptes-5-chiffres-a-retenir-sur-le-financement-des-partis-politiques-en-2020_1748752",
+          "https://ledesk.ma/enclair/argent-public-verse-aux-partis-politiques-les-memes-critiques-dannee-en-annee/",
+          "https://leseco.ma/lapolitique/finances-des-partis-politiques-le-verdict-de-la-cour-des-comptes.html",
+          "https://fr.le360.ma/politique/quel-parti-politique-coute-le-plus-a-letat_HQ55IU3OQZH63HACNAQNAW7F5Q/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 2,
+        "regions": [
+          {
+            "region": "Rabat-Salé-Kénitra",
+            "president": "Abdessamad Sekkal",
+            "verification": "name from prior knowledge; PJD control verified"
+          },
+          {
+            "region": "Drâa-Tafilalet",
+            "president": "Habib Choubani",
+            "verification": "verified"
+          }
+        ],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "medium",
+        "notes": "Sept 2015: PAM 5, PJD 2, RNI 2, Istiqlal 2, MP 1 (Médias24, Jeune Afrique, Aujourd'hui le Maroc agree on the distribution). Presidents marked 'verified' appear in this session's sources; others are prior knowledge."
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 3,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 12,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 777,
+        "votes": null,
+        "sources": [
+          "data/raw/elections.json (sibling research file, independently sourced)"
+        ],
+        "confidence": "medium",
+        "notes": "777 seats: corroborated by data/raw/elections.json (com-2021, high) - not independently confirmed by a search result this session."
+      },
+      {
+        "year": 2015,
+        "seats": 5021,
+        "seat_pct": 15.94,
+        "votes": 1500000,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "confidence": "high",
+        "notes": "4 Sept 2015 communal elections, 31,503 seats. Seat percentages per Anadolu/Aujourd'hui le Maroc (Interior ministry). Votes: PJD > 1.5 million, PAM approx. 1.3 million, Istiqlal just over 1 million (bladi.net, communal+regional combined).",
+        "votes_note": "'plus de 1,5 million de voix' (bladi.net) - rounded"
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 13,
+      "seats_confidence": "high",
+      "group_name": "Groupement parlementaire (below the 20-member threshold for a 'groupe')",
+      "group_size_start_2021": 13,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "benkirane-1",
+          "ministers": 12,
+          "cabinet_total": 31,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-2",
+          "ministers": 13,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-1",
+          "ministers": 12,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-2",
+          "ministers": 7,
+          "cabinet_total": 23,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "mp": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 1,
+        "regions": [
+          {
+            "region": "Fès-Meknès",
+            "president": "Mohand Laenser",
+            "verification": "verified"
+          }
+        ],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "medium",
+        "notes": "Sept 2015: PAM 5, PJD 2, RNI 2, Istiqlal 2, MP 1 (Médias24, Jeune Afrique, Aujourd'hui le Maroc agree on the distribution). Presidents marked 'verified' appear in this session's sources; others are prior knowledge."
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 12,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 10,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "communal_council_seats": [
+      {
+        "year": 2021,
+        "seats": 2253,
+        "votes": null,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021"
+        ],
+        "confidence": "high",
+        "notes": "Communal + arrondissement council seats, 8 Sept 2021 (Interior ministry results via Le Matin; Wikipedia). Vote totals per party not captured."
+      },
+      {
+        "year": 2015,
+        "seats": 3007,
+        "seat_pct": 9.54,
+        "votes": null,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "confidence": "high",
+        "notes": "4 Sept 2015 communal elections, 31,503 seats. Seat percentages per Anadolu/Aujourd'hui le Maroc (Interior ministry). Votes: PJD > 1.5 million, PAM approx. 1.3 million, Istiqlal just over 1 million (bladi.net, communal+regional combined)."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 28,
+      "seats_confidence": "medium",
+      "group_name": "Groupe haraki",
+      "group_size_start_2021": 28,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "jettou-1",
+          "ministers": 4,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-1",
+          "ministers": 4,
+          "cabinet_total": 31,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-2",
+          "ministers": 5,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-1",
+          "ministers": 4,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-2",
+          "ministers": 3,
+          "cabinet_total": 23,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "pps": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "low",
+        "notes": "Sources list 'other parties: 3 seats (1 each)' without naming them; this party may hold 1. 5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 2,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 22,
+      "seats_confidence": "medium",
+      "group_name": "Groupe du progrès et du socialisme",
+      "group_size_start_2021": 22,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 2,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "jettou-1",
+          "ministers": 2,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-fassi",
+          "ministers": 3,
+          "cabinet_total": 34,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-1",
+          "ministers": 4,
+          "cabinet_total": 31,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "benkirane-2",
+          "ministers": 4,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-1",
+          "ministers": 3,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    },
+    "communal_council_seats": [
+      {
+        "year": 2015,
+        "seats": 1766,
+        "votes": null,
+        "sources": [
+          "data/raw/elections.json (sibling research file, independently sourced)",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/"
+        ],
+        "confidence": "medium",
+        "notes": "Figure taken from data/raw/elections.json (com-2015, high there, sourced from the Interior ministry's full table); not directly seen in a search snippet this session."
+      }
+    ]
+  },
+  "uc": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 2,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 3,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 18,
+      "seats_confidence": "medium",
+      "group_name": "Groupe constitutionnel, démocratique et social (UC + MDS joint group)",
+      "group_size_start_2021": 23,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "el-othmani-1",
+          "ministers": 2,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "el-othmani-2",
+          "ministers": 1,
+          "cabinet_total": 23,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    },
+    "communal_council_seats": [
+      {
+        "year": 2015,
+        "seats": 1489,
+        "votes": null,
+        "sources": [
+          "data/raw/elections.json (sibling research file, independently sourced)",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/"
+        ],
+        "confidence": "medium",
+        "notes": "Figure taken from data/raw/elections.json (com-2015, high there, sourced from the Interior ministry's full table); not directly seen in a search snippet this session."
+      }
+    ]
+  },
+  "mds": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "low",
+        "notes": "Sources list 'other parties: 3 seats (1 each)' without naming them; this party may hold 1. 5 Oct 2021 indirect election, 120 seats. Party totals cover partisan seats (local-council and professional-chamber colleges); the remaining seats went to trade-union and CGEM colleges (28) and 1 non-affiliated. 'Other parties 3 seats, 1 each' not itemised in sources."
+      },
+      {
+        "year": 2015,
+        "seats": 3,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 5,
+      "seats_confidence": "medium",
+      "group_name": "(within UC-MDS joint group)",
+      "group_size_start_2021": 5,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "fgd": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 0,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "medium",
+        "notes": "Not named among parties with seats; 'other parties 3 seats (1 each)' not itemised."
+      },
+      {
+        "year": 2015,
+        "seats": 0,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 1,
+      "seats_confidence": "medium",
+      "group_name": null,
+      "group_size_start_2021": null,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/",
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. Seats won in 2021 for this party corroborated by data/raw/elections.json (leg-2021, confidence high there).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "psu": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "regional_presidencies": [
+      {
+        "year": 2021,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://h24info.ma/maroc/regionales-2021-voici-les-presidents-des-12-regions-du-maroc-infographie/",
+          "https://www.maroc.ma/fr/actualites/liste-des-nouveaux-presidents-des-conseils-des-12-regions-du-royaume",
+          "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+          "https://www.leconomiste.com/flash-infos/les-presidents-des-conseils-des-12-regions/",
+          "https://mapnews.ma/fr/actualites/politique/liste-des-nouveaux-pr%C3%A9sidents-des-conseils-des-12-r%C3%A9gions-du-royaume",
+          "https://www.lebrief.ma/12881-qui-sont-les-nouveaux-maires-et-presidents-des-regions/",
+          "https://archive.challenge.ma/ceux-qui-presideront-aux-destinees-de-nos-regions-221678/"
+        ],
+        "confidence": "high"
+      },
+      {
+        "year": 2015,
+        "count": 0,
+        "regions": [],
+        "sources": [
+          "https://medias24.com/2015/09/14/le-pam-remporte-5-presidences-de-regions-sur-12/",
+          "https://www.jeuneafrique.com/264752/politique/elections-des-presidents-de-region-au-maroc-le-pam-en-force/",
+          "https://aujourdhui.ma/politique/voici-les-nouveaux-presidents-de-region-120668",
+          "https://telquel.ma/2015/09/14/elections-les-12-nouveaux-presidents-regions-connus_1462831",
+          "https://www.yabiladi.com/articles/details/38869/maroc-grace-rafle-presidences-cinq.html",
+          "https://archive.challenge.ma/maroc-qui-dirige-votre-region-55513/",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2021,
+        "seats": 0,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "medium",
+        "notes": "Not named among parties with seats; 'other parties 3 seats (1 each)' not itemised."
+      },
+      {
+        "year": 2015,
+        "seats": 0,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 1,
+      "seats_confidence": "medium",
+      "group_name": null,
+      "group_size_start_2021": null,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page. elections.json gives PSU 1 seat (Nabila Mounib) in 2021 (medium).",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "al-ahd": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2015,
+        "seats": 1,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 1,
+      "seats_confidence": "low",
+      "group_name": null,
+      "group_size_start_2021": null,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "prd": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "house_of_councillors_seats": [
+      {
+        "year": 2015,
+        "seats": 1,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ],
+        "confidence": "medium",
+        "notes": "2 Oct 2015 indirect election, 120 seats. Figures per Maroc.ma (Ministry of Interior release). Partisan totals: PI 24, PAM 23, PJD 12, MP 10, RNI 8, USFP 5, UC 3, MDS 3, PPS 2, Al Ahd 1, PRD 1, non-affiliated 8 (= 100); remaining 20 seats are the trade-union college. Single official source found; cross-check with fr.wikipedia 'Élections à la Chambre des conseillers 2015' still needed."
+      }
+    ],
+    "membership_claims": [],
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "pdi": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "membership_claims": [],
+    "parliamentary_groups_2021": {
+      "seats_won_2021": 1,
+      "seats_confidence": "low",
+      "group_name": null,
+      "group_size_start_2021": null,
+      "group_size_latest": null,
+      "latest_date": null,
+      "sources": [
+        "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+        "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021",
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/",
+        "https://fr.le360.ma/politique/chambre-des-representants-rni-istiqlal-mp-uc-mds-et-pps-ont-designe-les-presidents-de-groupes-247157/"
+      ],
+      "notes": "Seats for RNI (102), PAM (87), Istiqlal (81) and PJD (13) verified (Médias24/Interior; Wikipedia). Other parties' seat counts and all group sizes are prior knowledge. Group sizes as of 2025-2026 not captured: sources found describe a 'vague de démissions' and 'transhumance inversée' (RNI to PAM) ahead of the 2026 elections, the Constitutional Court's invalidation of two PAM/Istiqlal MPs (June 2022) and by-elections won mostly by the majority parties, but no per-group headcount table. Check chambredesrepresentants.ma 'groupes parlementaires' page.",
+      "unverified_prior_knowledge": true
+    },
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "mnp": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "membership_claims": [],
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 3,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        },
+        {
+          "government": "jettou-1",
+          "ministers": 3,
+          "cabinet_total": 39,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "ffd": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "membership_claims": [],
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 1,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "psd": {
+    "public_funding_mad": [
+      {
+        "year": null,
+        "amount": null,
+        "currency": "MAD",
+        "notes": "Per-party annual state support amounts (soutien annuel aux frais de gestion) are published in each Cour des comptes report's annexes; they could not be extracted this session because only search-result snippets were accessible (WebFetch blocked, search budget exhausted). Amount is therefore null; the party-specific facts that were retrievable are recorded in notes.",
+        "sources": [
+          "https://www.courdescomptes.ma/missions/audit-des-comptes-des-partis-politiques/"
+        ],
+        "confidence": "low"
+      }
+    ],
+    "membership_claims": [],
+    "women_mps_2021": {
+      "count": null,
+      "notes": "Per-party split of the 96 women elected in 2021 not captured this session (Médias24 list of names by party could be tallied).",
+      "sources": [
+        "https://medias24.com/2021/09/13/chambre-des-representants-voici-la-liste-des-noms-elus-par-parti-infographie/"
+      ],
+      "confidence": "low"
+    },
+    "mps_under_40": {
+      "count": null,
+      "notes": "Not found this session.",
+      "sources": []
+    },
+    "ministers_by_government": {
+      "series": [
+        {
+          "government": "youssoufi-1",
+          "ministers": 1,
+          "cabinet_total": 41,
+          "confidence": "low",
+          "sources": [],
+          "unverified_prior_knowledge": true
+        }
+      ],
+      "notes": "Counts include the head of government, ministers, delegate ministers and secretaries of state as usually reported in the press at cabinet formation; 'technocrat' = no party affiliation (incl. sovereignty portfolios). Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. Only the Akhannouch cabinet size (24) and its three-party composition are corroborated by sources found this session (cg.gov.ma composition page; Médias24)."
+    }
+  },
+  "_indexes": {
+    "regional_presidencies_2021": [
+      {
+        "region": "Tanger-Tétouan-Al Hoceïma",
+        "president": "Omar Moro",
+        "party": "rni"
+      },
+      {
+        "region": "Drâa-Tafilalet",
+        "president": "Hro Abrou",
+        "party": "rni"
+      },
+      {
+        "region": "Souss-Massa",
+        "president": "Karim Achengli",
+        "party": "rni"
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "president": "Mbarka Bouaida",
+        "party": "rni"
+      },
+      {
+        "region": "Oriental",
+        "president": "Abdenbi Bioui",
+        "party": "pam"
+      },
+      {
+        "region": "Rabat-Salé-Kénitra",
+        "president": "Rachid El Abdi",
+        "party": "pam"
+      },
+      {
+        "region": "Marrakech-Safi",
+        "president": "Samir Goudar",
+        "party": "pam"
+      },
+      {
+        "region": "Béni Mellal-Khénifra",
+        "president": "Adil Barakat",
+        "party": "pam"
+      },
+      {
+        "region": "Casablanca-Settat",
+        "president": "Abdellatif Maâzouz",
+        "party": "istiqlal"
+      },
+      {
+        "region": "Fès-Meknès",
+        "president": "Abdelouahed El Ansari",
+        "party": "istiqlal"
+      },
+      {
+        "region": "Laâyoune-Sakia El Hamra",
+        "president": "Sidi Hamdi Ould Errachid",
+        "party": "istiqlal"
+      },
+      {
+        "region": "Dakhla-Oued Eddahab",
+        "president": "El Khattat Yanja",
+        "party": "istiqlal"
+      }
+    ],
+    "regional_presidencies_2015": [
+      {
+        "region": "Casablanca-Settat",
+        "president": "Mustapha Bakkoury",
+        "party": "pam",
+        "verification": "verified"
+      },
+      {
+        "region": "Tanger-Tétouan-Al Hoceïma",
+        "president": "Ilyas El Omari",
+        "party": "pam",
+        "verification": "verified"
+      },
+      {
+        "region": "Marrakech-Safi",
+        "president": "Ahmed Akhchichine",
+        "party": "pam",
+        "verification": "verified"
+      },
+      {
+        "region": "Béni Mellal-Khénifra",
+        "president": "Brahim Moujahid",
+        "party": "pam",
+        "verification": "verified"
+      },
+      {
+        "region": "Oriental",
+        "president": "Abdenbi Bioui",
+        "party": "pam",
+        "verification": "name from prior knowledge; PAM control of Oriental verified"
+      },
+      {
+        "region": "Rabat-Salé-Kénitra",
+        "president": "Abdessamad Sekkal",
+        "party": "pjd",
+        "verification": "name from prior knowledge; PJD control verified"
+      },
+      {
+        "region": "Drâa-Tafilalet",
+        "president": "Habib Choubani",
+        "party": "pjd",
+        "verification": "verified"
+      },
+      {
+        "region": "Souss-Massa",
+        "president": "Brahim Hafidi",
+        "party": "rni",
+        "verification": "verified"
+      },
+      {
+        "region": "Guelmim-Oued Noun",
+        "president": "Abderrahim Ben Bouaida",
+        "party": "rni",
+        "verification": "name from prior knowledge; RNI control verified. Replaced by Mbarka Bouaida (RNI) in Feb 2019 - Bouaida's 2021 win is described as her 'second term' (H24)"
+      },
+      {
+        "region": "Laâyoune-Sakia El Hamra",
+        "president": "Sidi Hamdi Ould Errachid",
+        "party": "istiqlal",
+        "verification": "name from prior knowledge; 2021 sources say he was 're-elected', confirming 2015 tenure"
+      },
+      {
+        "region": "Dakhla-Oued Eddahab",
+        "president": "El Khattat Yanja",
+        "party": "istiqlal",
+        "verification": "name from prior knowledge; Istiqlal control of both Saharan regions verified"
+      },
+      {
+        "region": "Fès-Meknès",
+        "president": "Mohand Laenser",
+        "party": "mp",
+        "verification": "verified"
+      }
+    ],
+    "big_city_mayors_2021": [
+      {
+        "city": "Casablanca",
+        "mayor": "Nabila Rmili",
+        "party": "rni",
+        "confidence": "high",
+        "notes": "Elected 20 Sept 2021; first woman mayor of Casablanca.",
+        "sources": [
+          "https://medias24.com/2021/09/20/nabila-rmili-rni-elue-maire-de-casablanca/",
+          "https://snrtnews.com/fr/article/rmili-elue-maire-de-casablanca-19075",
+          "https://fr.le360.ma/politique/officiel-nabila-rmili-elue-maire-de-casablanca-245992/",
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/"
+        ]
+      },
+      {
+        "city": "Rabat",
+        "mayor": "Asmaa Rhlalou",
+        "party": "rni",
+        "confidence": "medium",
+        "notes": "Name and 'first woman mayor of the capital' verified (AIMF); party affiliation (RNI) from prior knowledge. Resigned in late 2023 and replaced by Fatiha El Moudni (RNI) - prior knowledge, unverified.",
+        "sources": [
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/"
+        ]
+      },
+      {
+        "city": "Marrakech",
+        "mayor": "Fatima-Zahra Mansouri",
+        "party": "pam",
+        "confidence": "high",
+        "notes": "Verified (AIMF; Challenge 'retour aux commandes du PAM à Marrakech'). Also Minister of Housing since Oct 2021.",
+        "sources": [
+          "https://www.aimf.asso.fr/actualite/rabat-casablanca-marrakech-portrait-des-3-nouvelles-maires/",
+          "https://archive.challenge.ma/elections-2021-au-maroc-communales-retour-aux-commandes-du-pam-a-marrakech-220198/"
+        ]
+      },
+      {
+        "city": "Fès",
+        "mayor": "Abdeslam Bekkali",
+        "party": "rni",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": []
+      },
+      {
+        "city": "Tanger",
+        "mayor": "Mounir Laymouri",
+        "party": "rni",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": []
+      },
+      {
+        "city": "Agadir",
+        "mayor": "Aziz Akhannouch",
+        "party": "rni",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. (Akhannouch was elected president of the Agadir communal council in Sept 2021 while Head of Government.)",
+        "sources": []
+      },
+      {
+        "city": "Salé",
+        "mayor": "Omar Sentissi",
+        "party": "rni",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": []
+      },
+      {
+        "city": "Meknès",
+        "mayor": "Jawad Bahaji",
+        "party": "rni",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional.",
+        "sources": []
+      },
+      {
+        "city": "Oujda",
+        "mayor": "Omar Hejira",
+        "party": "istiqlal",
+        "confidence": "low",
+        "notes": "Not re-verified by web search in this session (search budget exhausted); compiler's prior knowledge - treat as provisional. (Hejira later joined government as Secretary of State for Foreign Trade in the Oct 2024 reshuffle - unverified.)",
+        "sources": []
+      }
+    ],
+    "house_of_councillors": {
+      "2021": {
+        "rni": 27,
+        "pam": 19,
+        "istiqlal": 17,
+        "mp": 12,
+        "usfp": 8,
+        "pjd": 3,
+        "uc": 2,
+        "other_parties_1_each": 3,
+        "non_affiliated": 1,
+        "unions_and_cgem": 28,
+        "total": 120,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/%C3%89lections_%C3%A0_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://www.leconomiste.com/flash-infos/chambre-des-conseillers-le-rni-en-tete-avec-27-sieges",
+          "https://lareleve.ma/42316/"
+        ],
+        "union_cgem_breakdown_from_elections_json": {
+          "cgem": 8,
+          "umt": 8,
+          "ugtm": 6,
+          "cdt": 3,
+          "untm": 2,
+          "fdt": 1
+        }
+      },
+      "2015": {
+        "rni": 8,
+        "pam": 23,
+        "istiqlal": 24,
+        "mp": 10,
+        "usfp": 5,
+        "pjd": 12,
+        "uc": 3,
+        "mds": 3,
+        "pps": 2,
+        "al-ahd": 1,
+        "prd": 1,
+        "non_affiliated": 8,
+        "union_college": 20,
+        "total": 120,
+        "sources": [
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers"
+        ]
+      }
+    },
+    "communal_seats": {
+      "2021": {
+        "rni": 9995,
+        "pam": 6210,
+        "istiqlal": 5600,
+        "usfp": 2415,
+        "mp": 2253,
+        "sources": [
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_l%C3%A9gislatives_marocaines_de_2021"
+        ],
+        "pjd": 777,
+        "discrepancy": "elections.json: pam 6208, istiqlal 5603 (vs 6210 / 5600 here)"
+      },
+      "2015": {
+        "rni": 4408,
+        "pam": 6655,
+        "istiqlal": 5106,
+        "mp": 3007,
+        "pjd": 5021,
+        "total_seats": 31503,
+        "sources": [
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles",
+          "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+          "https://www.bladi.net/elections-maroc-resultats-definitifs,42958.html",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://open.africa/dataset/elections-communales-par-circonscription-maroc-2015"
+        ],
+        "usfp": 2656,
+        "pps": 1766,
+        "uc": 1489
+      }
+    },
+    "regional_council_seats_2015": {
+      "pjd": 174,
+      "pam": 132,
+      "istiqlal": 119,
+      "total": 678,
+      "pct": {
+        "pjd": 25.6,
+        "pam": 19.4,
+        "istiqlal": 17.5
+      },
+      "sources": [
+        "https://fr.wikipedia.org/wiki/%C3%89lections_communales_marocaines_de_2015",
+        "https://fr.wikipedia.org/wiki/%C3%89lections_r%C3%A9gionales_marocaines_de_2015",
+        "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914"
+      ],
+      "confidence": "medium",
+      "rni": 90,
+      "mp": 67,
+      "usfp": 37,
+      "note_rni_mp_usfp": "from data/raw/elections.json, low confidence there"
+    },
+    "ministers_by_government": {
+      "youssoufi-1": {
+        "usfp": 14,
+        "istiqlal": 6,
+        "rni": 5,
+        "mnp": 3,
+        "pps": 2,
+        "ffd": 1,
+        "psd": 1,
+        "technocrat": 9,
+        "_total": 41
+      },
+      "jettou-1": {
+        "usfp": 8,
+        "istiqlal": 8,
+        "rni": 6,
+        "mp": 4,
+        "mnp": 3,
+        "pps": 2,
+        "technocrat": 8,
+        "_total": 39
+      },
+      "el-fassi": {
+        "istiqlal": 9,
+        "rni": 7,
+        "usfp": 5,
+        "pps": 3,
+        "technocrat": 10,
+        "_total": 34
+      },
+      "benkirane-1": {
+        "pjd": 12,
+        "istiqlal": 6,
+        "mp": 4,
+        "pps": 4,
+        "technocrat": 5,
+        "_total": 31
+      },
+      "benkirane-2": {
+        "pjd": 13,
+        "rni": 8,
+        "mp": 5,
+        "pps": 4,
+        "technocrat": 9,
+        "_total": 39
+      },
+      "el-othmani-1": {
+        "pjd": 12,
+        "rni": 6,
+        "mp": 4,
+        "usfp": 3,
+        "uc": 2,
+        "pps": 3,
+        "technocrat": 9,
+        "_total": 39
+      },
+      "el-othmani-2": {
+        "pjd": 7,
+        "rni": 4,
+        "mp": 3,
+        "usfp": 2,
+        "uc": 1,
+        "technocrat": 6,
+        "_total": 23
+      },
+      "akhannouch-1": {
+        "rni": 7,
+        "pam": 5,
+        "istiqlal": 4,
+        "technocrat": 8,
+        "_total": 24
+      }
+    },
+    "parliamentary_groups_start_2021": {
+      "rni": {
+        "name": "Groupe du Rassemblement national des indépendants",
+        "size": 102
+      },
+      "pam": {
+        "name": "Groupe Authenticité et Modernité",
+        "size": 87
+      },
+      "istiqlal": {
+        "name": "Groupe istiqlalien de l'unité et de l'égalitarisme",
+        "size": 81
+      },
+      "usfp": {
+        "name": "Groupe socialiste - opposition ittihadie",
+        "size": 34
+      },
+      "mp": {
+        "name": "Groupe haraki",
+        "size": 28
+      },
+      "pps": {
+        "name": "Groupe du progrès et du socialisme",
+        "size": 22
+      },
+      "uc": {
+        "name": "Groupe constitutionnel, démocratique et social (UC + MDS joint group)",
+        "size": 23
+      },
+      "mds": {
+        "name": "(within UC-MDS joint group)",
+        "size": 5
+      },
+      "pjd": {
+        "name": "Groupement parlementaire (below the 20-member threshold for a 'groupe')",
+        "size": 13
+      }
+    },
+    "regional_council_seats_2021": {
+      "rni": 196,
+      "istiqlal": 144,
+      "pam": 143,
+      "total": 678,
+      "sources": [
+        "data/raw/elections.json (sibling research file, independently sourced)"
+      ],
+      "confidence": "medium"
+    }
+  }
+}

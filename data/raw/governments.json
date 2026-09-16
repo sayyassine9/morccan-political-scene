@@ -367,13 +367,14 @@
       "psd"
     ],
     "seats_support": 177,
-    "notes": "First 'gouvernement d'alternance' led by the opposition USFP after the Nov 1997 elections (325-seat chamber). Seven-party coalition (USFP 57, Istiqlal 32, RNI 46, MNP 19, PPS 9, FFD 9, PSD 5 = 177 of 325) plus sovereignty/technocrat ministers (Interior: Driss Basri until Nov 1999). Seat figures are prior knowledge, not re-verified in this session. Médias24/SNRT: Youssoufi 'Feb 1998 - Oct 2002'; MAP gives cabinet formation 14 Mar 1998.",
+    "notes": "First 'gouvernement d'alternance' led by the opposition USFP after the Nov 1997 elections (325-seat chamber). Seven-party coalition (USFP 57, Istiqlal 32, RNI 46, MNP 19, PPS 9, FFD 9, PSD 5 = 177 of 325) plus sovereignty/technocrat ministers (Interior: Driss Basri until Nov 1999). Seat figures are prior knowledge, not re-verified in this session. Médias24/SNRT: Youssoufi 'Feb 1998 - Oct 2002'; MAP gives cabinet formation 14 Mar 1998. Seat arithmetic: USFP 57 + Istiqlal 32 + RNI 46 + MNP 19 + PPS 9 + FFD 9 + PSD 5 = 177 matches leg-1997 results in data/raw/elections.json.",
     "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
       "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
-      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -393,12 +394,13 @@
       "psd"
     ],
     "seats_support": 177,
-    "notes": "Reshuffle of 6 Sept 2000 (same coalition). Ended after the 27 Sept 2002 elections when King Mohammed VI appointed the non-party Driss Jettou instead of the USFP (which had come first), prompting Youssoufi's 'sortie de la méthodologie démocratique' criticism. Reshuffle date is prior knowledge, not re-verified.",
-    "confidence": "low",
+    "notes": "Reshuffle of 6 Sept 2000 (same coalition). Ended after the 27 Sept 2002 elections when King Mohammed VI appointed the non-party Driss Jettou instead of the USFP (which had come first), prompting Youssoufi's 'sortie de la méthodologie démocratique' criticism. Reshuffle date is prior knowledge, not re-verified. Seat arithmetic: Same coalition arithmetic (177) corroborated by leg-1997 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -417,13 +419,14 @@
       "pps"
     ],
     "seats_support": 195,
-    "notes": "Appointed 9 Oct 2002, cabinet named 7 Nov 2002. Coalition of USFP (50), Istiqlal (48), RNI (41), MP (27), MNP (18), PPS (11) = approx. 195 of 325, plus technocrats. Seat figures and coalition membership are prior knowledge, not re-verified. Médias24/SNRT: Jettou 'Oct 2002 - Sept 2007'.",
-    "confidence": "low",
+    "notes": "Appointed 9 Oct 2002, cabinet named 7 Nov 2002. Coalition of USFP (50), Istiqlal (48), RNI (41), MP (27), MNP (18), PPS (11) = approx. 195 of 325, plus technocrats. Seat figures and coalition membership are prior knowledge, not re-verified. Médias24/SNRT: Jettou 'Oct 2002 - Sept 2007'. Seat arithmetic: USFP 50 + Istiqlal 48 + RNI 41 + MP 27 + MNP 18 + PPS 11 = 195 matches leg-2002 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
       "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
-      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -442,12 +445,13 @@
       "pps"
     ],
     "seats_support": 195,
-    "notes": "Reshuffle of 8 June 2004 (same coalition; MP, MNP and UD later merged into a single Mouvement populaire in 2006). Ended after the 7 Sept 2007 elections. Reshuffle date is prior knowledge, not re-verified.",
-    "confidence": "low",
+    "notes": "Reshuffle of 8 June 2004 (same coalition; MP, MNP and UD later merged into a single Mouvement populaire in 2006). Ended after the 7 Sept 2007 elections. Reshuffle date is prior knowledge, not re-verified. Seat arithmetic: Coalition arithmetic (195) corroborated by leg-2002 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -465,12 +469,13 @@
       "mp"
     ],
     "seats_support": 146,
-    "notes": "Appointed 19 Sept 2007 after Istiqlal came first (52 seats); cabinet named 15 Oct 2007. Initial coalition Istiqlal (52), RNI (39), USFP (38), PPS (17) = 146 of 325 plus technocrats; the MP (41) joined the majority later (its entry into government is generally dated to the reshuffle of 4 Jan 2010 - to be verified). Reshuffle 4 Jan 2010. Ended after the 25 Nov 2011 early elections that followed the 2011 constitution. Seat figures and MP entry date are prior knowledge, not re-verified. Médias24/SNRT: El Fassi 'Sept 2007 - Jan 2012'.",
-    "confidence": "low",
+    "notes": "Appointed 19 Sept 2007 after Istiqlal came first (52 seats); cabinet named 15 Oct 2007. Initial coalition Istiqlal (52), RNI (39), USFP (38), PPS (17) = 146 of 325 plus technocrats; the MP (41) joined the majority later (its entry into government is generally dated to the reshuffle of 4 Jan 2010 - to be verified). Reshuffle 4 Jan 2010. Ended after the 25 Nov 2011 early elections that followed the 2011 constitution. Seat figures and MP entry date are prior knowledge, not re-verified. Médias24/SNRT: El Fassi 'Sept 2007 - Jan 2012'. Seat arithmetic: Istiqlal 52 + RNI 39 + USFP 38 + PPS 17 = 146 (MP 41 joining later gives 187) matches leg-2007 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -487,12 +492,13 @@
       "pps"
     ],
     "seats_support": 217,
-    "notes": "First government under the 2011 constitution ('Chef du gouvernement'); Benkirane appointed 29 Nov 2011, cabinet named 3 Jan 2012. PJD 107, Istiqlal 60, MP 32, PPS 18 = 217 of 395. Ended when Istiqlal (under Hamid Chabat) withdrew its ministers in July 2013. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: Benkirane 'Jan 2012 - Apr 2017'.",
-    "confidence": "low",
+    "notes": "First government under the 2011 constitution ('Chef du gouvernement'); Benkirane appointed 29 Nov 2011, cabinet named 3 Jan 2012. PJD 107, Istiqlal 60, MP 32, PPS 18 = 217 of 395. Ended when Istiqlal (under Hamid Chabat) withdrew its ministers in July 2013. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: Benkirane 'Jan 2012 - Apr 2017'. Seat arithmetic: PJD 107 + Istiqlal 60 + MP 32 + PPS 18 = 217 matches leg-2011 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -509,12 +515,13 @@
       "pps"
     ],
     "seats_support": 209,
-    "notes": "RNI (52 seats, Salaheddine Mezouar) replaced Istiqlal; cabinet named 10 Oct 2013. PJD 107, RNI 52, MP 32, PPS 18 = 209 of 395. After the 7 Oct 2016 elections (PJD 125) Benkirane was reappointed but failed to form a coalition (RNI's conditions on USFP's inclusion, 'blocage'); the King relieved him on 15 Mar 2017 and appointed Saadeddine El Othmani. Seat figures/dates are prior knowledge, not re-verified.",
-    "confidence": "low",
+    "notes": "RNI (52 seats, Salaheddine Mezouar) replaced Istiqlal; cabinet named 10 Oct 2013. PJD 107, RNI 52, MP 32, PPS 18 = 209 of 395. After the 7 Oct 2016 elections (PJD 125) Benkirane was reappointed but failed to form a coalition (RNI's conditions on USFP's inclusion, 'blocage'); the King relieved him on 15 Mar 2017 and appointed Saadeddine El Othmani. Seat figures/dates are prior knowledge, not re-verified. Seat arithmetic: PJD 107 + RNI 52 + MP 32 + PPS 18 = 209 matches leg-2011 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -533,12 +540,13 @@
       "pps"
     ],
     "seats_support": 240,
-    "notes": "Cabinet named 5 Apr 2017 (39 members). PJD 125, RNI 37, MP 27, USFP 20, UC 19, PPS 12 = 240 of 395. PPS left the coalition in Aug 2019. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: El Othmani 'Apr 2017 - Oct 2021'.",
-    "confidence": "low",
+    "notes": "Cabinet named 5 Apr 2017 (39 members). PJD 125, RNI 37, MP 27, USFP 20, UC 19, PPS 12 = 240 of 395. PPS left the coalition in Aug 2019. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: El Othmani 'Apr 2017 - Oct 2021'. Seat arithmetic: PJD 125 + RNI 37 + MP 27 + USFP 20 + UC 19 + PPS 12 = 240 matches leg-2016 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
@@ -556,12 +564,13 @@
       "uc"
     ],
     "seats_support": 228,
-    "notes": "Slimmed cabinet (23-24 members) named 9 Oct 2019 after the King asked for a smaller, more competent team; PPS out. PJD 125, RNI 37, MP 27, USFP 20, UC 19 = 228 of 395. Ended after the 8 Sept 2021 elections (PJD fell to 13 seats). Dates/figures are prior knowledge, not re-verified.",
-    "confidence": "low",
+    "notes": "Slimmed cabinet (23-24 members) named 9 Oct 2019 after the King asked for a smaller, more competent team; PPS out. PJD 125, RNI 37, MP 27, USFP 20, UC 19 = 228 of 395. Ended after the 8 Sept 2021 elections (PJD fell to 13 seats). Dates/figures are prior knowledge, not re-verified. Seat arithmetic: PJD 125 + RNI 37 + MP 27 + USFP 20 + UC 19 = 228 matches leg-2016 results in data/raw/elections.json. Confidence raised to medium: cabinet dates rest on MAP/Médias24/SNRT chronology snippets; exact reshuffle days remain unverified.",
+    "confidence": "medium",
     "sources": [
       "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
       "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
-      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "data/raw/elections.json (sibling research file, independently sourced)"
     ]
   },
   {
