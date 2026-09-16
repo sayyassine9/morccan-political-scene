@@ -1,0 +1,33 @@
+[
+ {
+  "id": "elothmani-1",
+  "name": "El Othmani I",
+  "pm": "Saadeddine El Othmani",
+  "pm_party": "pjd",
+  "from": "2017-04-05",
+  "to": "2021-10-07",
+  "coalition": [
+   "pjd",
+   "rni",
+   "mp",
+   "usfp",
+   "uc",
+   "pps"
+  ],
+  "sources": []
+ },
+ {
+  "id": "akhannouch-1",
+  "name": "Akhannouch government",
+  "pm": "Aziz Akhannouch",
+  "pm_party": "rni",
+  "from": "2021-10-07",
+  "to": null,
+  "coalition": [
+   "rni",
+   "pam",
+   "istiqlal"
+  ],
+  "sources": []
+ }
+]

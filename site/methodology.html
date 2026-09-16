@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology — Moroccan political scene</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/vendor/chart.umd.js"></script>
+<script src="data.js"></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-page="methodology">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">🇲🇦 Moroccan political scene</a>
+  <nav>
+    <a href="index.html" data-page="dashboard">Dashboard</a>
+    <a href="elections.html" data-page="elections">Elections</a>
+    <a href="events.html" data-page="events">Events &amp; positions</a>
+    <a href="methodology.html" data-page="methodology">Methodology &amp; sources</a>
+  </nav>
+  <button class="theme-btn" id="theme-toggle" type="button">Theme</button>
+</div></header>
+<main><div class="wrap">
+<h1>Methodology and sources</h1>
+<p class="sub">How the data was gathered, cross-checked and rated.</p>
+<div id="methodology-body" class="card"></div>
+<script>document.addEventListener('DOMContentLoaded',()=>{document.getElementById('methodology-body').innerHTML=(window.DATA&&window.DATA.meta&&window.DATA.meta.methodology_html)||'<p>See docs/METHODOLOGY.md in the repository.</p>';});</script>
+</div></main>
+<footer><div class="wrap">Data bank of Moroccan political parties. Figures are cross-checked against multiple sources where possible; see <a href="methodology.html">methodology</a>. Data snapshot: <span id="generated"></span>.</div></footer>
+</body>
+</html>

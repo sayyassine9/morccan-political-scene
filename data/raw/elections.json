@@ -1,0 +1,3515 @@
+[
+  {
+    "id": "leg-1963",
+    "date": "1963-05-17",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 144,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 71.8,
+    "valid_votes": null,
+    "electoral_system": "First-past-the-post in 144 single-member constituencies (direct universal suffrage); a 120-seat House of Councillors was elected indirectly on 12 October 1963",
+    "results": [
+      {
+        "party_id": "fdic",
+        "votes": null,
+        "pct": 34.8,
+        "seats": 69,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1963_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1963",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMEve/1753",
+          "https://books.openedition.org/iremam/648?lang=en"
+        ],
+        "confidence": "high",
+        "notes": "Front pour la défense des institutions constitutionnelles, palace-aligned front created by Ahmed Reda Guedira months before the vote"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 30.0,
+        "seats": 41,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1963_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1963",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMEve/1753",
+          "https://books.openedition.org/iremam/648?lang=en"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "unfp",
+        "votes": null,
+        "pct": 22.5,
+        "seats": 28,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1963_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1963",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMEve/1753",
+          "https://books.openedition.org/iremam/648?lang=en"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ind",
+        "votes": null,
+        "pct": 12.6,
+        "seats": 6,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1963_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1963",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMEve/1753",
+          "https://books.openedition.org/iremam/648?lang=en"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      }
+    ],
+    "outcome": "FDIC plurality; minority pro-palace government. Supreme Court annulled several opposition seats in November 1963. Parliament suspended under the state of exception of 7 June 1965.",
+    "notes": "Seat totals and vote shares agree across Wikipedia EN and FR. Registered-voter and vote-cast absolute numbers not retrieved (search budget). Indirect part: House of Councillors (120 seats) elected 12 Oct 1963 by local councils and professional chambers; FDIC won 102 of 120.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1963_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1963",
+      "https://perspective.usherbrooke.ca/bilan/servlet/BMEve/1753",
+      "https://books.openedition.org/iremam/648?lang=en"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-1970",
+    "date": "1970-08-21",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 240,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 85.0,
+    "valid_votes": null,
+    "electoral_system": "240 seats: 90 elected directly (single-member, public ballot) on 21 August 1970; 90 elected by colleges of local councillors and 60 by four professional colleges on 28 August 1970 (IPU)",
+    "results": [
+      {
+        "party_id": "ind",
+        "votes": null,
+        "pct": null,
+        "seats": 159,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "medium",
+        "notes": "Pro-palace independents; total across direct and indirect seats"
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": null,
+        "seats": 60,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "medium",
+        "notes": "Party officially boycotted; some candidates ran anyway"
+      },
+      {
+        "party_id": "unfp",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "medium",
+        "notes": "Party officially boycotted"
+      },
+      {
+        "party_id": "pdc",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "low",
+        "notes": "Listed as 'PDC' in Wikipedia EN table; identity of this label unverified"
+      },
+      {
+        "party_id": "other",
+        "votes": null,
+        "pct": null,
+        "seats": 10,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+          "https://www.wikidata.org/wiki/Q3587208"
+        ],
+        "confidence": "low",
+        "notes": "Wikipedia EN labels these 10 seats 'PPS', which is anachronistic (PPS founded 1974; predecessor PLS banned 1969); a French summary describes them as 'social progress / salaried workers' seats, i.e. probably the employees' professional college"
+      }
+    ],
+    "outcome": "Overwhelming majority for independents and MP after the Koutla (Istiqlal, UNFP) boycott; parliament dissolved after the 1972 constitution.",
+    "notes": "Direct-seat vs indirect-seat breakdown by party not retrieved. Turnout of 85% is the official figure reported by Wikipedia; the opposition disputed it. 293 candidates, all male (Wikipedia).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1970_Moroccan_general_election",
+      "http://archive.ipu.org/parline-e/reports/arc/MOROCCO_1970_E.PDF",
+      "https://www.wikidata.org/wiki/Q3587208"
+    ],
+    "confidence": "low"
+  },
+  {
+    "id": "leg-1977",
+    "date": "1977-06-03",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 264,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 82.36,
+    "valid_votes": null,
+    "electoral_system": "264 seats: 176 directly elected (single-member FPTP) on 3 June 1977; 88 indirect — 48 by colleges of local councillors and 40 by professional colleges (15 agriculture, 10 commerce & industry, 7 handicrafts, 8 employees' organisations) on 21 June 1977",
+    "results": [
+      {
+        "party_id": "ind",
+        "votes": null,
+        "pct": 44.68,
+        "seats": 141,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Total seats (direct + indirect). Direct seats: 81 (unverified figure). Most independents founded the RNI in October 1978"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 21.62,
+        "seats": 51,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats: 45 (unverified)"
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 12.4,
+        "seats": 44,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats: 29 (unverified)"
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 14.64,
+        "seats": 15,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Wikipedia EN total 15; some sources give 16 direct seats — discrepancy unresolved"
+      },
+      {
+        "party_id": "umt",
+        "votes": null,
+        "pct": 0.52,
+        "seats": 7,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Union seats via the employees' professional college"
+      },
+      {
+        "party_id": "mpdc",
+        "votes": null,
+        "pct": 2.03,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Mouvement populaire démocratique et constitutionnel (Khatib), later became PJD"
+      },
+      {
+        "party_id": "pa",
+        "votes": null,
+        "pct": 1.8,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 2.31,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+          "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+          "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+        ],
+        "confidence": "medium",
+        "notes": "Ali Yata, first communist MP"
+      }
+    ],
+    "outcome": "Independents' absolute majority; Osman government with Istiqlal and MP participation.",
+    "notes": "Vote percentages refer to the direct ballot; seat totals include indirect seats (Wikipedia EN). Per-party direct/indirect split not confirmed by a second source. Registered-voter numbers not retrieved. IPU (archive) report gives the official figures.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1977_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1977",
+      "http://archive.ipu.org/parline-f/reports/arc/MOROCCO_1977_F.PDF",
+      "https://perspective.usherbrooke.ca/bilan/servlet/BMElection?codePays=MAR&dateElection=MAR197763&codeInstitution=1"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-1984",
+    "date": "1984-09-14",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 306,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 67.43,
+    "valid_votes": null,
+    "electoral_system": "306 seats: direct single-member FPTP on 14 September 1984 (Wikipedia EN: 199 direct seats; other accounts give 204 direct seats, including 5 constituencies for Moroccans abroad) plus 102 indirect seats (60 by local councillors, 32 by professional bodies, 10 by workers' organisations) elected 2 October 1984",
+    "results": [
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 24.79,
+        "seats": 83,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "high",
+        "notes": "Union constitutionnelle, created 1983 by PM Maati Bouabid"
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 17.18,
+        "seats": 61,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 15.54,
+        "seats": 47,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 15.33,
+        "seats": 41,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "medium",
+        "notes": "One search summary gave 43; Wikipedia EN table gives 41"
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 12.39,
+        "seats": 36,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pnd",
+        "votes": null,
+        "pct": 8.92,
+        "seats": 24,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "oadp",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+          "https://www.wikidata.org/wiki/Q3587210",
+          "https://www.universalis.fr/chronologie/maroc/1984/1/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      }
+    ],
+    "outcome": "UC plurality; pro-palace majority (UC, RNI, MP, PND). Ahmed Osman's RNI displaced as first party.",
+    "notes": "Listed seats sum to 295 of 306; the remaining ~11 seats (independents, MPDC, other minor lists, union seats) not resolved. Vote shares are for the direct ballot only. Universalis: 'sept millions de Marocains' elected 199 representatives by direct suffrage. Registered/vote-cast absolute numbers not retrieved. Direct vs indirect split per party not retrieved.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1984_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1984",
+      "https://www.wikidata.org/wiki/Q3587210",
+      "https://www.universalis.fr/chronologie/maroc/1984/1/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-1993",
+    "date": "1993-06-25",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 333,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 62.75,
+    "valid_votes": null,
+    "electoral_system": "333 seats: 222 directly elected (single-member FPTP) on 25 June 1993; 111 indirect seats elected 17 September 1993 (69 by communal councils, 15 Chamber of Agriculture, 10 Chamber of Commerce & Industry, 7 Chamber of Craftspeople, 10 labour unions)",
+    "results": [
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": null,
+        "seats": 54,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats: 27 (unverified)"
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 13.19,
+        "seats": 52,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "high",
+        "notes": "Direct seats: 48 (Encyclopedia.com); opposition accused the indirect round of being rigged against the Koutla"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 12.22,
+        "seats": 52,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats: 43 (Encyclopedia.com); Encyclopedia.com says only 8 indirect seats, which would total 51 — discrepancy with Wikipedia total 52"
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 12.08,
+        "seats": 51,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "high",
+        "notes": "Direct seats: 33 (unverified)"
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 41,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats: 28 (unverified); vote share not retrieved"
+      },
+      {
+        "party_id": "mnp",
+        "votes": null,
+        "pct": 10.64,
+        "seats": 25,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "high",
+        "notes": "Mouvement national populaire (Ahardane split from MP, 1991); direct seats 14 (unverified)"
+      },
+      {
+        "party_id": "pnd",
+        "votes": null,
+        "pct": 8.04,
+        "seats": 24,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "high",
+        "notes": "Direct seats 14 (unverified)"
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 3.94,
+        "seats": 10,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "high",
+        "notes": "Direct seats 6 (unverified)"
+      },
+      {
+        "party_id": "oadp",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+          "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+          "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+          "https://www.bladi.net/retrospective-elections-marocains.html"
+        ],
+        "confidence": "medium",
+        "notes": "Direct seats 2 (unverified)"
+      }
+    ],
+    "outcome": "Koutla (USFP, Istiqlal) won the direct round but lost ground in the indirect round; refused to join government ('alternance' attempt failed); Filali technocratic governments followed.",
+    "notes": "Listed seats sum to 311 of 333; remaining seats went to PA, PDI, independents and others (not resolved). Vote shares are for the direct ballot only and were not retrieved for UC and RNI. Per-party direct/indirect split only partially confirmed (Encyclopedia.com for Istiqlal and USFP).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1993_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_1993",
+      "http://archive.ipu.org/parline-f/reports/arc/1221_93.htm",
+      "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/istiqlal-party-morocco",
+      "https://www.bladi.net/retrospective-elections-marocains.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-1997",
+    "date": "1997-11-14",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 325,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 58.3,
+    "valid_votes": null,
+    "electoral_system": "325 seats, all directly elected by first-past-the-post in single-member constituencies (first election under the 1996 constitution; the new 270-seat House of Councillors was elected indirectly on 5 December 1997)",
+    "results": [
+      {
+        "party_id": "usfp",
+        "votes": 884061,
+        "pct": 13.87,
+        "seats": 57,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 10.2,
+        "seats": 50,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Vote count not retrieved"
+      },
+      {
+        "party_id": "rni",
+        "votes": 705397,
+        "pct": 11.07,
+        "seats": 46,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": 659331,
+        "pct": 10.35,
+        "seats": 40,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": 9.5,
+        "seats": 32,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Mouvement démocratique et social (Archane), founded 1996"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": 840315,
+        "pct": 13.19,
+        "seats": 32,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "Second in votes, sixth in seats"
+      },
+      {
+        "party_id": "mnp",
+        "votes": null,
+        "pct": 6.8,
+        "seats": 19,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "pnd",
+        "votes": null,
+        "pct": 4.2,
+        "seats": 10,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "ffd",
+        "votes": null,
+        "pct": 3.8,
+        "seats": 9,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Front des forces démocratiques (PPS split, 1997)"
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 4.3,
+        "seats": 9,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Wikipedia EN search summary rendered the label as 'PRP'; taken as PPS"
+      },
+      {
+        "party_id": "mpdc",
+        "votes": null,
+        "pct": 4.1,
+        "seats": 9,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Ran as MPDC (label 'CDPM' in Wikipedia EN); renamed PJD in 1998 after Benkirane's group joined"
+      },
+      {
+        "party_id": "psd",
+        "votes": null,
+        "pct": null,
+        "seats": 5,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": "Parti socialiste démocratique (OADP split)"
+      },
+      {
+        "party_id": "oadp",
+        "votes": null,
+        "pct": null,
+        "seats": 4,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "pa",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "pdi",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+          "https://www.wikidata.org/wiki/Q778369",
+          "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      }
+    ],
+    "outcome": "USFP first in seats; led to the 'alternance' government of Abderrahmane Youssoufi (March 1998) with Istiqlal, PPS, RNI, MNP, FFD, PSD.",
+    "notes": "Seats sum to 325. Absolute vote counts retrieved only for USFP, Istiqlal, RNI, MP (Wikipedia EN table, IPU-sourced). Registered voters (~12.8 million per IPU archive, not re-verified) and votes cast not retrieved. Turnout 58.3% (Wikipedia/IPU).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/1997_Moroccan_general_election",
+      "http://archive.ipu.org/parline-e/reports/arc/2221_97.htm",
+      "https://www.wikidata.org/wiki/Q778369",
+      "https://www.universalis.fr/evenement/14-novembre-1997-victoire-relative-de-l-opposition-aux-elections-legislatives/"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-2002",
+    "date": "2002-09-27",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 325,
+    "registered_voters": 14041100,
+    "votes_cast": null,
+    "turnout_pct": 51.61,
+    "valid_votes": null,
+    "electoral_system": "Closed-list proportional representation (largest remainder): 295 seats in 91 local constituencies plus a 30-seat national list reserved in practice for women; 3% threshold. First PR election in Morocco",
+    "results": [
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 11.88,
+        "seats": 50,
+        "seat_change": -7,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 9.89,
+        "seats": 48,
+        "seat_change": 16,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 9.84,
+        "seats": 42,
+        "seat_change": 33,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": "Vote share more than doubled vs MPDC in 1997; PJD deliberately limited the number of constituencies it contested"
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 9.28,
+        "seats": 41,
+        "seat_change": -5,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 6.56,
+        "seats": 27,
+        "seat_change": -13,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mnp",
+        "votes": null,
+        "pct": 5.16,
+        "seats": 18,
+        "seat_change": -1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 5.14,
+        "seats": 16,
+        "seat_change": -34,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ffd",
+        "votes": null,
+        "pct": 4.9,
+        "seats": 12,
+        "seat_change": 3,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pnd",
+        "votes": null,
+        "pct": 4.56,
+        "seats": 12,
+        "seat_change": 2,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 4.55,
+        "seats": 11,
+        "seat_change": 2,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ud",
+        "votes": null,
+        "pct": 4.04,
+        "seats": 10,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": "Union démocratique (Bouazza Ikken), new"
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": 2.7,
+        "seats": 7,
+        "seat_change": -25,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "psd",
+        "votes": null,
+        "pct": 2.96,
+        "seats": 6,
+        "seat_change": 1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "al-ahd",
+        "votes": null,
+        "pct": 2.28,
+        "seats": 5,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": "Parti Al Ahd (Najib El Ouazzani), new"
+      },
+      {
+        "party_id": "adl",
+        "votes": null,
+        "pct": 2.18,
+        "seats": 4,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": "Alliance des libertés (Ali Belhaj), new"
+      },
+      {
+        "party_id": "cni",
+        "votes": null,
+        "pct": 1.99,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "high",
+        "notes": "Parti du congrès national ittihadi (USFP split)"
+      },
+      {
+        "party_id": "gsu",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Gauche socialiste unifiée (OADP + others), later PSU — seat count from memory of Wikipedia table, not confirmed in search"
+      },
+      {
+        "party_id": "prd",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Parti de la réforme et du développement — unconfirmed"
+      },
+      {
+        "party_id": "pml",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Parti marocain libéral — unconfirmed"
+      },
+      {
+        "party_id": "pfc",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Parti des forces citoyennes — unconfirmed"
+      },
+      {
+        "party_id": "pedd",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Parti de l'environnement et du développement — unconfirmed"
+      },
+      {
+        "party_id": "pdi",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+          "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+          "https://www.electionguide.org/elections/id/297/",
+          "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+          "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+        ],
+        "confidence": "low",
+        "notes": "Unconfirmed"
+      }
+    ],
+    "outcome": "No clear winner; King appointed technocrat Driss Jettou as PM (Nov 2002) heading a USFP-Istiqlal-RNI-MP-MNP-PPS coalition. 35 women elected (30 via national list).",
+    "notes": "The 16 parties with confirmed shares (Wikipedia EN) account for 310 seats; the remaining 15 seats attributed to GSU, PRD, PML, PFC, PED, PDI are from memory of the Wikipedia/IPU table and are flagged low confidence. Registered voters 14,041,100 is from the IPU archive as recalled and was not re-verified (search summary only echoed the query). Turnout 51.61% confirmed (Wikipedia, IPU).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2002_Moroccan_general_election",
+      "http://archive.ipu.org/parline-e/reports/arc/2221_02.htm",
+      "https://www.electionguide.org/elections/id/297/",
+      "http://psephos.adam-carr.net/countries/m/morocco/morocco1.txt",
+      "https://www.open.africa/dataset/elections-legislatives-maroc-2002"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-2007",
+    "date": "2007-09-07",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 325,
+    "registered_voters": 15462362,
+    "votes_cast": 5721073,
+    "turnout_pct": 37.0,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR (largest remainder): 295 seats in 95 local constituencies plus 30-seat national list (women); 6% threshold",
+    "results": [
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 8.51,
+        "seats": 52,
+        "seat_change": 4,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": "First in seats although second in votes"
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 9.15,
+        "seats": 46,
+        "seat_change": 4,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": "First in votes (about 503,000 per Wikipedia/IPU, unverified here) but second in seats"
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 7.3,
+        "seats": 41,
+        "seat_change": 14,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": "MP had reabsorbed MNP and UD in 2006"
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 7.65,
+        "seats": 39,
+        "seat_change": -2,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 7.0,
+        "seats": 38,
+        "seat_change": -12,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 2.92,
+        "seats": 27,
+        "seat_change": 11,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 4.38,
+        "seats": 17,
+        "seat_change": 6,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pnd-al-ahd",
+        "votes": null,
+        "pct": 3.12,
+        "seats": 11,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "medium",
+        "notes": "Joint PND–Al Ahd lists (Wikipedia EN); a further 3 seats listed separately under PND (0.49%)"
+      },
+      {
+        "party_id": "pnd",
+        "votes": null,
+        "pct": 0.49,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "medium",
+        "notes": ""
+      },
+      {
+        "party_id": "ffd",
+        "votes": null,
+        "pct": 3.57,
+        "seats": 9,
+        "seat_change": -3,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": null,
+        "seats": 9,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "low",
+        "notes": "Seat count from memory; not confirmed in search"
+      },
+      {
+        "party_id": "pt",
+        "votes": null,
+        "pct": null,
+        "seats": 5,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "low",
+        "notes": "Parti travailliste (Abdelkrim Benatiq), new — unconfirmed"
+      },
+      {
+        "party_id": "pedd",
+        "votes": null,
+        "pct": null,
+        "seats": 5,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "low",
+        "notes": "Unconfirmed"
+      },
+      {
+        "party_id": "prv",
+        "votes": null,
+        "pct": 0.66,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+          "https://www.electionguide.org/elections/id/406/",
+          "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+          "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+          "https://www.wikidata.org/wiki/Q2053507"
+        ],
+        "confidence": "medium",
+        "notes": "Parti de la renaissance et de la vertu (PJD split)"
+      }
+    ],
+    "outcome": "Istiqlal's Abbas El Fassi appointed PM; coalition Istiqlal-RNI-USFP-PPS-MP. Lowest turnout in Moroccan history; c. 19% of ballots blank or spoiled (Carnegie).",
+    "notes": "Registered 15,462,362, votes cast 5,721,073, turnout 37.00% (Wikipedia EN/IPU; Carnegie). Confirmed parties account for 303 seats; the remaining ~22 seats (MDS, PT, PED, UD-successors, ADL, PRD, PML, PS, independents, etc.) not fully resolved — entries marked low are from memory. Absolute votes per party not retrieved. Parties: 33 plus 13 independent candidates.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2007_Moroccan_general_election",
+      "https://www.electionguide.org/elections/id/406/",
+      "https://carnegieendowment.org/europe/research/2007/09/the-2007-moroccan-parliamentary-elections-results-and-implications",
+      "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+      "https://www.wikidata.org/wiki/Q2053507"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "leg-2011",
+    "date": "2011-11-25",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 395,
+    "registered_voters": 13600000,
+    "votes_cast": null,
+    "turnout_pct": 45.4,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR (largest remainder): 305 seats in 92 local constituencies plus a 90-seat national list (60 women, 30 men under 40); 6% threshold in local constituencies, 3% on the national list. First election under the 2011 constitution",
+    "results": [
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 27.08,
+        "seats": 107,
+        "seat_change": 61,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "27.08% of votes cast per Universalis/FR sources; Interior published no full vote tables"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 60,
+        "seat_change": 8,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 52,
+        "seat_change": 13,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": null,
+        "seats": 47,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "First legislative election for PAM (founded 2008)"
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": null,
+        "seats": 39,
+        "seat_change": 1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": null,
+        "seats": 32,
+        "seat_change": -9,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": null,
+        "seats": 23,
+        "seat_change": -4,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": null,
+        "seats": 18,
+        "seat_change": 1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pt",
+        "votes": null,
+        "pct": null,
+        "seats": 4,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pre",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "Parti du renouveau et de l'équité"
+      },
+      {
+        "party_id": "pedd",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "al-ahd",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pgvm",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "Parti de la gauche verte marocaine"
+      },
+      {
+        "party_id": "pljs",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "Parti de la liberté et de la justice sociale"
+      },
+      {
+        "party_id": "ffd",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": -8,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pa",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pud",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+          "https://www.electionguide.org/elections/id/504/",
+          "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+          "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+          "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+        ],
+        "confidence": "high",
+        "notes": "Parti de l'unité et de la démocratie"
+      }
+    ],
+    "outcome": "PJD first; Abdelilah Benkirane appointed head of government (first under the 2011 constitution); coalition PJD-Istiqlal-MP-PPS, later PJD-RNI-MP-PPS after Istiqlal left in 2013.",
+    "notes": "Seats sum to 395 (18 parties won seats out of 30 contesting). Turnout: Interior/APCE 45.40%; Wikipedia EN 45.50% — discrepancy noted. Registered voters c. 13.6 million (bladi.net; APCE) — exact figure not retrieved, entered as 13,600,000 rounded. Wikipedia EN: no vote totals were released by the ministry; per-party vote counts therefore null. 20 February Movement and some left parties (PSU, PADS, CNI, Annahj) boycotted.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2011",
+      "https://www.electionguide.org/elections/id/504/",
+      "http://aujourdhui.ma/actualite/resultats-des-legislatives-2011-le-pjd-consolide-son-leadership-avec-107-sieges-80308",
+      "https://www.bladi.net/elections-2011-maroc-resultats-definitifs.html",
+      "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=12923",
+      "https://www.universalis.fr/evenement/25-30-novembre-2011-victoire-des-islamistes-aux-elections-legislatives/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "leg-2016",
+    "date": "2016-10-07",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 395,
+    "registered_voters": 15702592,
+    "votes_cast": 6640626,
+    "turnout_pct": 42.29,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR (largest remainder): 305 seats in 92 local constituencies plus 90-seat national list (60 women, 30 under-40); threshold lowered from 6% to 3%",
+    "results": [
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 27.88,
+        "seats": 125,
+        "seat_change": 18,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": "Médias24: 1,618,963 votes on the national list (27.88%); c. 1.57 million in local constituencies"
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": 20.95,
+        "seats": 102,
+        "seat_change": 55,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 10.68,
+        "seats": 46,
+        "seat_change": -14,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 9.32,
+        "seats": 37,
+        "seat_change": -15,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 6.84,
+        "seats": 27,
+        "seat_change": -5,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 6.19,
+        "seats": 20,
+        "seat_change": -19,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 4.52,
+        "seats": 19,
+        "seat_change": -4,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 4.72,
+        "seats": 12,
+        "seat_change": -6,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": 1.34,
+        "seats": 3,
+        "seat_change": 1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "fgd",
+        "votes": null,
+        "pct": 2.83,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": "Fédération de la gauche démocratique (PSU, CNI, PADS alliance)"
+      },
+      {
+        "party_id": "pud",
+        "votes": null,
+        "pct": 0.41,
+        "seats": 1,
+        "seat_change": 0,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+          "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+          "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+          "https://www.electionguide.org/elections/id/2656/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "PJD first; Benkirane failed to form a government ('blocage', 5 months); Saadeddine El Othmani (PJD) formed PJD-RNI-MP-USFP-UC-PPS government in April 2017.",
+    "notes": "Registered 15,702,592; voters 6,640,626; turnout 42.29% (APCE report; Interior announced 'about 43%'). The eleven listed parties (Wikipedia EN / IPU) sum to 394 seats of 395 — the one-seat gap is unresolved. Absolute per-party vote counts not retrieved except PJD national-list figure (Médias24).",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2016_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2016",
+      "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+      "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-FR.asp?fileid=23193&lang=FR",
+      "https://medias24.com/2016/11/02/legislatives-2016-les-resultats-en-nombre-de-voix-et-de-sieges/",
+      "https://www.electionguide.org/elections/id/2656/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "leg-2021",
+    "date": "2021-09-08",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 395,
+    "registered_voters": 17983490,
+    "votes_cast": 8789676,
+    "turnout_pct": 50.35,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR: 305 seats in 92 local constituencies plus 90 seats on 12 regional lists (replacing the national list); electoral quotient computed on registered voters (2021 reform), largest remainder, no threshold. Held on the same day as communal and regional elections",
+    "results": [
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 27.69,
+        "seats": 102,
+        "seat_change": 65,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": "Wikipedia EN vote share 27.69%; the project schema example gives 24.67% and 2,147,424 votes — denominators differ (local vs regional ballots); unresolved"
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": 18.47,
+        "seats": 87,
+        "seat_change": -15,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 16.87,
+        "seats": 81,
+        "seat_change": 35,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 7.89,
+        "seats": 34,
+        "seat_change": 14,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 7.05,
+        "seats": 28,
+        "seat_change": 1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 5.0,
+        "seats": 22,
+        "seat_change": 10,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 5.53,
+        "seats": 18,
+        "seat_change": -1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 4.26,
+        "seats": 13,
+        "seat_change": -112,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": "Collapse from 125 to 13; leadership resigned 9 Sep 2021"
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": 1.67,
+        "seats": 5,
+        "seat_change": 2,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ffd",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "medium",
+        "notes": "FR Wikipedia / lodj.ma; share not retrieved"
+      },
+      {
+        "party_id": "fgd",
+        "votes": null,
+        "pct": 1.1,
+        "seats": 1,
+        "seat_change": -1,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "psu",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+          "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+          "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+          "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+          "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+          "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+          "https://www.electionguide.org/elections/id/3628/",
+          "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+        ],
+        "confidence": "medium",
+        "notes": "FR Wikipedia / lodj.ma"
+      }
+    ],
+    "outcome": "RNI-led coalition with PAM and Istiqlal (Akhannouch government, 7 October 2021; 270 seats).",
+    "notes": "Seats sum to 395. Turnout 50.35% announced by Interior Minister Laftit; Interior's figure of 8,789,676 voters implies 48.9% of 17,983,490 registered — the schema example cites 8,998,585 votes cast; the basis of the 50.35% figure is unresolved (possibly a different registered-voter base). Vote shares from Wikipedia EN (IPU); absolute votes per party not retrieved.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2021",
+      "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+      "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+      "https://www.lodj.ma/Resultats-definitifs-des-elections-legislatives-2021_a18503.html",
+      "https://telquel.ma/2021/09/09/resultats-definitifs-des-legislatives-le-rni-augmente-son-nombre-de-sieges_1736299",
+      "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats",
+      "https://www.electionguide.org/elections/id/3628/",
+      "https://www.realinstitutoelcano.org/en/analyses/the-moroccan-elections-of-2021-a-new-political-architecture-for-a-new-development-model/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "com-2009",
+    "date": "2009-06-12",
+    "type": "communal",
+    "chamber": "Communal councils",
+    "seats_total": 27795,
+    "registered_voters": 13360219,
+    "votes_cast": 7005050,
+    "turnout_pct": 52.4,
+    "valid_votes": null,
+    "electoral_system": "List PR in communes over 35,000 inhabitants; single-member majority in smaller communes; first application of a 12% reserved 'additional list' for women",
+    "results": [
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": 21.7,
+        "seats": 6015,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": "PAM's first election (founded Aug 2008)"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 19.1,
+        "seats": 5292,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 14.8,
+        "seats": 4112,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 11.6,
+        "seats": 3226,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 8.0,
+        "seats": 2213,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 5.5,
+        "seats": 1513,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": "Sixth nationally but first in urban communes (734 urban seats)"
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 4.7,
+        "seats": 1307,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 4.0,
+        "seats": 1102,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+          "https://www.bladi.net/resultats-elections-communales-maroc.html",
+          "https://www.bladi.net/elections-communales-maroc-2009.html",
+          "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+          "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "PAM first; 3,406 women elected (vs 127 in 2003).",
+    "notes": "pct = share of seats, not votes. Total seats: Wikipedia FR 27,795; one bladi.net item says 27,006 — discrepancy noted. Registered 13.36 million (bladi), voters 7,005,050, turnout 52.4%. Smaller parties' seats not retrieved.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2009",
+      "https://www.bladi.net/resultats-elections-communales-maroc.html",
+      "https://www.bladi.net/elections-communales-maroc-2009.html",
+      "http://www.libreafrique.org/Majidi_elections_communales_Maroc_060709",
+      "http://maghrebinfo.actu-monde.com/maroc-elections-communales-2009-resultats/article4834.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "com-2015",
+    "date": "2015-09-04",
+    "type": "communal",
+    "chamber": "Communal councils",
+    "seats_total": 31503,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 53.67,
+    "valid_votes": null,
+    "electoral_system": "List PR in communes over 35,000 inhabitants and arrondissements; majority vote in smaller communes; women's reserved seats; held with the first regional elections",
+    "results": [
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": 21.12,
+        "seats": 6655,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 16.22,
+        "seats": 5106,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 15.94,
+        "seats": 5021,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": "First in the big cities; c. 1.5 million votes (bladi.net), ahead of all parties in votes"
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 13.99,
+        "seats": 4408,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": 9.54,
+        "seats": 3007,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": 8.43,
+        "seats": 2656,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": 5.61,
+        "seats": 1766,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": 4.73,
+        "seats": 1489,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+          "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+          "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+          "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+          "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+          "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+          "https://www.bladi.net/elections-2015-pjd,42959.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "PAM first in seats (rural strength); PJD won most large cities (Casablanca, Rabat, Fès, Tanger, Marrakech, Agadir).",
+    "notes": "pct = share of seats. Turnout: Interior final 53.67% (aujourdhui.ma); provisional election-night figure 52.36%; some outlets round to 53%. Total seats c. 31,500 (implied by shares; exact official total not confirmed — entered 31,503, medium confidence). Le Matin's early figure of 5,064 PAM seats was provisional.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2015",
+      "https://aujourdhui.ma/actualite/resultats-finaux-des-communales-2015-le-pam-en-tete-suivi-du-pi-et-du-pjd-120520",
+      "https://www.aa.com.tr/fr/politique/maroc-communales-2015-le-pam-remporte-les-%C3%A9lections/13914",
+      "https://fr.le360.ma/politique/communales-2015-le-pam-en-tete-suivi-du-pjd-et-du-pi-50223/",
+      "https://medias24.com/2015/09/14/elections-en-nombre-de-sieges-les-resultats-complets-et-definitifs-commune-par-commune-parti-par-parti/",
+      "https://telquel.ma/2015/09/05/resultats-definitifs-percee-fulgurante-du-pjd-aux-communales_1461991",
+      "https://www.bladi.net/elections-2015-pjd,42959.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "reg-2015",
+    "date": "2015-09-04",
+    "type": "regional",
+    "chamber": "Regional councils (12 regions)",
+    "seats_total": 678,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 53.6,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR by prefecture/province within each of the 12 regions; first direct election of regional councils under the 2011 constitution and organic law 111-14; 3% threshold",
+    "results": [
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": 25.6,
+        "seats": 174,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": 19.4,
+        "seats": 132,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": 17.5,
+        "seats": 119,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 90,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "low",
+        "notes": "From memory of Wikipedia FR; not confirmed in search"
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": null,
+        "seats": 67,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "low",
+        "notes": "Unconfirmed"
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": null,
+        "seats": 37,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+          "https://fnh.ma/article/actualite-politique/regionales-2015",
+          "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+          "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+        ],
+        "confidence": "low",
+        "notes": "Unconfirmed"
+      }
+    ],
+    "outcome": "PJD first; PAM won 5 regional presidencies, PJD 2, Istiqlal 2, RNI 2, MP 1 (from memory, unverified).",
+    "notes": "pct = share of seats. Only the top three parties confirmed by two sources; remaining seats (PPS, UC, MDS, others) not retrieved. Turnout 53.6% (Wikipedia FR) vs 53.67% for the combined poll.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2015",
+      "https://fnh.ma/article/actualite-politique/regionales-2015",
+      "https://www.france24.com/fr/20150905-elections-locales-percee-parti-islamiste-marocain-pjd-pam-benkirane",
+      "https://aujourdhui.ma/politique/elections-communales-et-regionales-2015-linterieur-publie-les-resultats-detailles"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "com-2021",
+    "date": "2021-09-08",
+    "type": "communal",
+    "chamber": "Communal and arrondissement councils",
+    "seats_total": 31503,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 50.35,
+    "valid_votes": null,
+    "electoral_system": "List PR (quotient on registered voters, no threshold) in communes over 50,000 inhabitants and arrondissements; single-member vote elsewhere; held simultaneously with legislative and regional elections",
+    "results": [
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 9995,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://medias24.com/2021/09/29/elections-communales-2021-les-resultats-complets-des-partis-et-candidats-circonscription-par-circonscription/",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": null,
+        "seats": 6208,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://medias24.com/2021/09/29/elections-communales-2021-les-resultats-complets-des-partis-et-candidats-circonscription-par-circonscription/",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats"
+        ],
+        "confidence": "medium",
+        "notes": "Wikipedia FR 6,208; ecoactu/Interior round-up 6,210"
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 5603,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://medias24.com/2021/09/29/elections-communales-2021-les-resultats-complets-des-partis-et-candidats-circonscription-par-circonscription/",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats"
+        ],
+        "confidence": "medium",
+        "notes": "Wikipedia FR 5,603; ecoactu 5,600"
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": null,
+        "seats": 777,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+          "https://medias24.com/2021/09/29/elections-communales-2021-les-resultats-complets-des-partis-et-candidats-circonscription-par-circonscription/",
+          "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats"
+        ],
+        "confidence": "high",
+        "notes": "Eighth place (Interior)"
+      }
+    ],
+    "outcome": "RNI first by a wide margin; PJD lost almost all major cities.",
+    "notes": "Seats for USFP, MP, PPS, UC, MDS and others not retrieved (they ranked 4th–7th ahead of PJD). Total seats 31,503 (1,503 communes and 41 arrondissements) — from memory of Interior figures, not confirmed. Turnout 50.35% is the figure announced for the combined 8 September poll.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_communales_marocaines_de_2021",
+      "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+      "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+      "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html",
+      "https://medias24.com/2021/09/29/elections-communales-2021-les-resultats-complets-des-partis-et-candidats-circonscription-par-circonscription/",
+      "https://www.mapnews.ma/fr/dossier/elections-g%C3%A9n%C3%A9rales-2021-r%C3%A9sultats"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "reg-2021",
+    "date": "2021-09-08",
+    "type": "regional",
+    "chamber": "Regional councils (12 regions)",
+    "seats_total": 678,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": 50.35,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR by prefecture/province within each region; quotient on registered voters; 1,123 candidate lists",
+    "results": [
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": 28.9,
+        "seats": 196,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 144,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": null,
+        "seats": 143,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021",
+          "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+          "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+          "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "RNI first; RNI, PAM and Istiqlal took the 12 regional presidencies between them (RNI 6? — unverified split).",
+    "notes": "Only top three confirmed. Seats for USFP, MP, PPS, UC, PJD, MDS not retrieved. pct for RNI is share of seats (196/678).",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_régionales_marocaines_de_2021",
+      "https://ecoactu.ma/rni-communes-conseils-des-regions/",
+      "https://www.lopinion.ma/Voici-les-resultats-officiels-des-elections-legislatives-regionales-et-communales_a18448.html",
+      "https://lematin.ma/express/2021/voici-resultats-generaux-elections-legislatives-communales-regionales/364172.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cons-2015",
+    "date": "2015-10-02",
+    "type": "councillors",
+    "chamber": "House of Councillors",
+    "seats_total": 120,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": null,
+    "valid_votes": null,
+    "electoral_system": "Indirect election: 72 seats by electoral colleges of local/regional councillors, 20 by professional chambers, 8 by employers' organisations (CGEM), 20 by wage-earners' unions (organic law 28-11)",
+    "results": [
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 24,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": null,
+        "seats": 23,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": null,
+        "seats": 12,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": null,
+        "seats": 10,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": null,
+        "seats": 5,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mds",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pps",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "al-ahd",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "prd",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ind",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "high",
+        "notes": "Sans appartenance politique (SAP) — mostly professional-chamber and employers' seats"
+      },
+      {
+        "party_id": "unions",
+        "votes": null,
+        "pct": null,
+        "seats": 20,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+          "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+          "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+          "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+        ],
+        "confidence": "medium",
+        "notes": "20 union seats (UMT, UGTM, CDT, UNTM, FDT); per-union split not retrieved"
+      }
+    ],
+    "outcome": "Istiqlal and PAM (both then in opposition) largest; Hakim Benchamach (PAM) elected president of the chamber.",
+    "notes": "Party seats (100 incl. SAP) from maroc.ma / Wikipedia FR; union breakdown not retrieved.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2015",
+      "https://fr.wikipedia.org/wiki/Chambre_des_conseillers_(Maroc)",
+      "https://www.maroc.ma/fr/actualites/resultats-des-elections-des-membres-de-la-chambre-des-conseillers",
+      "https://www.bladi.net/maroc-rni-grand-gagnant-elections-profesionnelles,85287.html"
+    ],
+    "confidence": "medium"
+  },
+  {
+    "id": "cons-2021",
+    "date": "2021-10-05",
+    "type": "councillors",
+    "chamber": "House of Councillors",
+    "seats_total": 120,
+    "registered_voters": null,
+    "votes_cast": null,
+    "turnout_pct": null,
+    "valid_votes": null,
+    "electoral_system": "Indirect election: 72 seats by colleges of local/regional councillors, 20 by professional chambers, 8 by employers (CGEM), 20 by unions",
+    "results": [
+      {
+        "party_id": "rni",
+        "votes": null,
+        "pct": null,
+        "seats": 27,
+        "seat_change": 19,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pam",
+        "votes": null,
+        "pct": null,
+        "seats": 19,
+        "seat_change": -4,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "istiqlal",
+        "votes": null,
+        "pct": null,
+        "seats": 17,
+        "seat_change": -7,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "mp",
+        "votes": null,
+        "pct": null,
+        "seats": 12,
+        "seat_change": 2,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "usfp",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": 3,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "pjd",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": -9,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "uc",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": -1,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "other",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "medium",
+        "notes": "Three other parties with 1 seat each (Médias24) — identities not retrieved"
+      },
+      {
+        "party_id": "ind",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "cgem",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": "Employers' college"
+      },
+      {
+        "party_id": "umt",
+        "votes": null,
+        "pct": null,
+        "seats": 8,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "ugtm",
+        "votes": null,
+        "pct": null,
+        "seats": 6,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "cdt",
+        "votes": null,
+        "pct": null,
+        "seats": 3,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "untm",
+        "votes": null,
+        "pct": null,
+        "seats": 2,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      },
+      {
+        "party_id": "fdt",
+        "votes": null,
+        "pct": null,
+        "seats": 1,
+        "seat_change": null,
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+          "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+          "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+          "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+          "https://lareleve.ma/42316/"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "Governing RNI-PAM-Istiqlal coalition secured a majority (63 of 120 party seats plus allied unions); Enaam Mayara (Istiqlal/UGTM) elected president.",
+    "notes": "Seats sum to 120 (Médias24 breakdown). PJD 3 seats: Médias24; some outlets reported 2 provisionally.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Élections_à_la_chambre_des_conseillers_marocaine_de_2021",
+      "https://medias24.com/2021/10/05/voici-repartition-des-120-sieges/",
+      "https://medias24.com/2021/10/07/chambre-des-conseillers-voici-les-noms-et-appartenances-des-120-elus/",
+      "https://data.ipu.org/parliament/MA/MA-UC01/election/MA-UC01-E20211005/",
+      "https://lareleve.ma/42316/"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "ref-2011",
+    "date": "2011-07-01",
+    "type": "referendum",
+    "chamber": null,
+    "seats_total": null,
+    "registered_voters": 13451404,
+    "votes_cast": null,
+    "turnout_pct": 73.46,
+    "valid_votes": 9800210,
+    "electoral_system": "Nationwide yes/no referendum on the draft constitution announced by King Mohammed VI on 17 June 2011",
+    "results": [
+      {
+        "party_id": "yes",
+        "votes": 9653492,
+        "pct": 98.5,
+        "seats": null,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum",
+          "https://fr.wikipedia.org/wiki/Référendum_constitutionnel_marocain_de_2011",
+          "https://ballotpedia.org/Moroccan_Constitutional_Referendum,_2011",
+          "https://www.aljazeera.com/news/2011/7/2/moroccans-vote-yes-to-revised-constitution",
+          "https://www.bladi.net/jour-referendum-maroc.html"
+        ],
+        "confidence": "high",
+        "notes": "Reported as 98.49% on 2 July (provisional) and 98.50% in the final table"
+      },
+      {
+        "party_id": "no",
+        "votes": 146718,
+        "pct": 1.5,
+        "seats": null,
+        "seat_change": null,
+        "sources": [
+          "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum",
+          "https://fr.wikipedia.org/wiki/Référendum_constitutionnel_marocain_de_2011",
+          "https://ballotpedia.org/Moroccan_Constitutional_Referendum,_2011",
+          "https://www.aljazeera.com/news/2011/7/2/moroccans-vote-yes-to-revised-constitution",
+          "https://www.bladi.net/jour-referendum-maroc.html"
+        ],
+        "confidence": "high",
+        "notes": ""
+      }
+    ],
+    "outcome": "Constitution approved; promulgated 29 July 2011. Supported by all parliamentary parties; boycotted by the 20 February Movement, PSU, PADS, CNI, Annahj and Al Adl wal Ihsane.",
+    "notes": "Turnout: Interior provisional 73.46% (2 July, Wikipedia EN table); Wikipedia FR reports a final figure of 75.50% announced 17 July 2011 (after including Moroccans abroad / final tallies) — discrepancy noted. Registered 13,451,404 (Wikipedia EN). valid_votes = yes + no.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2011_Moroccan_constitutional_referendum",
+      "https://fr.wikipedia.org/wiki/Référendum_constitutionnel_marocain_de_2011",
+      "https://ballotpedia.org/Moroccan_Constitutional_Referendum,_2011",
+      "https://www.aljazeera.com/news/2011/7/2/moroccans-vote-yes-to-revised-constitution",
+      "https://www.bladi.net/jour-referendum-maroc.html"
+    ],
+    "confidence": "high"
+  },
+  {
+    "id": "leg-2026",
+    "date": "2026-09-23",
+    "type": "legislative",
+    "chamber": "House of Representatives",
+    "seats_total": 395,
+    "registered_voters": 15801162,
+    "votes_cast": null,
+    "turnout_pct": null,
+    "valid_votes": null,
+    "electoral_system": "Closed-list PR: 305 seats in local constituencies plus 90 seats on 12 regional lists; electoral quotient = registered voters in the constituency / seats; remaining seats by largest remainder; no legal threshold (unchanged from the 2021 reform)",
+    "results": [],
+    "outcome": null,
+    "notes": "UPCOMING — election not yet held as of 2026-09-16; no results. Parties: 27 parties are contesting according to Le Matin, Belpresse, Lebrief, Le Matin d'Algérie and Morocco World News (campaign piece); one Morocco World News item counts '28 formations'. Electorate: 15,801,162 registered voters on the lists closed 31 July 2026 (Belpresse/Lebrief; 54% men, 46% women; 55% urban, 45% rural). Interior Minister Abdelouafi Laftit had earlier cited a provisional figure of 'approximately 16.5 million' (Morocco World News, August 2026) — discrepancy between provisional and final figures noted. This is below the 17,983,490 registered in 2021, presumably after a list revision. Candidacies: 1,850 lists and 7,288 candidates (provisional Interior figures reported by Morocco World News, September 2026). Campaign: 10–22 September 2026. Line-up going in: the outgoing majority is the RNI–PAM–Istiqlal coalition of head of government Aziz Akhannouch (270 of 395 seats in 2021); all three seek to hold or expand their weight, and tensions between the allies surfaced before the campaign (Al Jazeera, 3 Sep 2026). Opposition: USFP, PJD, PPS, MP, UC, plus the left-wing PSU and FGD, which are running joint lists (Morocco World News). One report states the RNI is seeking a second term 'despite Akhannouch's withdrawal from its leadership' — not verified here. MP campaigned on a 'Contrat haraki' (Article19). Polls: no published opinion polls located; Moroccan law restricts publication of election polls in the run-up to the vote, and analysts (Arab Weekly, KAS) describe the PJD as lacking coalition partners and the left as divided. Turnout is widely described as the key test (Rio Times, Eurasia Review). Results timing: first official results expected during the night of 23–24 September 2026 (Belpresse); the Interior Ministry announced the full seat distribution the day after the vote in 2021.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+      "https://fr.wikipedia.org/wiki/Élections_législatives_marocaines_de_2026",
+      "https://maroc.ma/fr/elections-legislatives-marocaines-2026",
+      "https://lematin.ma/nation/elections-2026-27-partis-lancent-leur-campagne-jusquau-22-septembre/364449",
+      "https://fr.belpresse.com/elections/legislatives-2026-27-partis-395-sieges-et-158-millions-delecteurs-au-coeur-du-scrutin/",
+      "https://www.lebrief.ma/legislatives-2026-a-savoir-100161459/",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/",
+      "https://medias24.com/2026/07/28/elections-2026-comprendre-le-mecanisme-des-listes-regionales-depuis-la-reforme-de-2021-1732139/",
+      "https://www.moroccoworldnews.com/2026/09/338002/morocco-records-1850-candidate-lists-for-september-23-legislative-elections/",
+      "https://www.moroccoworldnews.com/2026/08/336432/moroccos-2026-elections-what-voters-need-to-know-before-september-23/",
+      "https://www.moroccoworldnews.com/2026/09/337838/moroccos-13-day-election-campaign-opens-with-27-parties-chasing-395-seats/",
+      "https://www.aljazeera.com/news/2026/9/3/moroccos-ruling-allies-turn-on-each-other-before-election-campaign-begins",
+      "https://www.newarab.com/news/morocco-election-campaign-begins-27-parties-vie-power",
+      "https://thearabweekly.com/political-stakes-rise-moroccan-coalition-seeks-gains-upcoming-elections",
+      "https://www.riotimesonline.com/morocco-legislative-elections-september-2026/",
+      "https://article19.ma/accueil/archives/197486"
+    ],
+    "confidence": "medium"
+  }
+]

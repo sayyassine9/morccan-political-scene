@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard — Moroccan political scene</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/vendor/chart.umd.js"></script>
+<script src="data.js"></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-page="dashboard">
+<header class="top"><div class="wrap">
+  <a class="brand" href="index.html">🇲🇦 Moroccan political scene</a>
+  <nav>
+    <a href="index.html" data-page="dashboard">Dashboard</a>
+    <a href="elections.html" data-page="elections">Elections</a>
+    <a href="events.html" data-page="events">Events &amp; positions</a>
+    <a href="methodology.html" data-page="methodology">Methodology &amp; sources</a>
+  </nav>
+  <button class="theme-btn" id="theme-toggle" type="button">Theme</button>
+</div></header>
+<main><div class="wrap">
+<h1>Moroccan political scene</h1>
+<p class="sub">Parties, elections, governments and positions on the major events since independence. Cross-sourced data bank with confidence ratings.</p>
+<div class="hero" id="hero"></div>
+<div class="grid kpi" id="kpis"></div>
+<h2>Current House of Representatives</h2>
+<div class="card"><div id="seatbar"></div><p class="small" style="margin:12px 0 0" id="gov-summary"></p></div>
+<h2>Balance of power over time</h2>
+<div class="grid two">
+  <div class="card chart-card"><div class="head"><span class="title">Seats won by party, every general election</span><span class="note">top 8 parties by 2021 seats; rest folded into Other</span></div><div class="chart-wrap tall"><canvas id="chart-seats"></canvas></div><div id="legend-seats"></div><div id="table-seats"></div></div>
+  <div class="card chart-card"><div class="head"><span class="title">Vote share by party (%)</span><span class="note">elections with published percentages</span></div><div class="chart-wrap tall"><canvas id="chart-votes"></canvas></div><div id="legend-votes"></div><div id="table-votes"></div></div>
+</div>
+<div class="grid two" style="margin-top:14px">
+  <div class="card chart-card"><div class="head"><span class="title">Turnout at general elections</span></div><div class="chart-wrap"><canvas id="chart-turnout"></canvas></div><div id="table-turnout"></div></div>
+  <div class="card chart-card"><div class="head"><span class="title">Who dominated each election</span></div><div id="domination"></div></div>
+</div>
+<h2>Governments since independence</h2>
+<div class="card"><div class="gov-track" id="gov-track"></div><div style="margin-top:10px" id="legend-gov"></div><p class="small muted" style="margin:8px 0 0">Bar colour = prime minister's party. Hover a bar for the coalition.</p></div>
+<h2>Parties</h2>
+<div class="grid parties" id="party-cards"></div>
+<h2>Latest major events</h2>
+<div class="card" id="recent-events"></div>
+</div></main>
+<footer><div class="wrap">Data bank of Moroccan political parties. Figures are cross-checked against multiple sources where possible; see <a href="methodology.html">methodology</a>. Data snapshot: <span id="generated"></span>.</div></footer>
+</body>
+</html>

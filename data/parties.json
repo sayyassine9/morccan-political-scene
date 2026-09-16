@@ -1,0 +1,226 @@
+[
+ {
+  "id": "rni",
+  "names": {
+   "fr": "RNI",
+   "ar": "",
+   "en": "RNI"
+  },
+  "abbr": "RNI",
+  "founded": "1978",
+  "status": "parliamentary",
+  "ideology": [
+   "x",
+   "y"
+  ],
+  "leaders": [
+   {
+    "name": "A",
+    "from": "2016-10-29",
+    "to": null
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2016-10-29",
+    "title": "t",
+    "description": "d",
+    "type": "leadership",
+    "sources": [
+     "https://x"
+    ]
+   }
+  ],
+  "achievements": [],
+  "metrics": {
+   "public_funding_mad": [
+    {
+     "year": 2021,
+     "amount": 12000000,
+     "sources": [
+      "https://x"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   "https://x"
+  ],
+  "data_quality": {
+   "confidence": "medium",
+   "notes": "stub"
+  },
+  "current_leader": {
+   "name": "A",
+   "since": "2016"
+  }
+ },
+ {
+  "id": "pam",
+  "names": {
+   "fr": "PAM",
+   "ar": "",
+   "en": "PAM"
+  },
+  "abbr": "PAM",
+  "founded": "1978",
+  "status": "parliamentary",
+  "ideology": [
+   "x",
+   "y"
+  ],
+  "leaders": [
+   {
+    "name": "A",
+    "from": "2016-10-29",
+    "to": null
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2016-10-29",
+    "title": "t",
+    "description": "d",
+    "type": "leadership",
+    "sources": [
+     "https://x"
+    ]
+   }
+  ],
+  "achievements": [],
+  "metrics": {
+   "public_funding_mad": [
+    {
+     "year": 2021,
+     "amount": 12000000,
+     "sources": [
+      "https://x"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   "https://x"
+  ],
+  "data_quality": {
+   "confidence": "medium",
+   "notes": "stub"
+  },
+  "current_leader": {
+   "name": "A",
+   "since": "2016"
+  }
+ },
+ {
+  "id": "istiqlal",
+  "names": {
+   "fr": "Istiqlal",
+   "ar": "",
+   "en": "Istiqlal"
+  },
+  "abbr": "ISTIQLAL",
+  "founded": "1978",
+  "status": "parliamentary",
+  "ideology": [
+   "x",
+   "y"
+  ],
+  "leaders": [
+   {
+    "name": "A",
+    "from": "2016-10-29",
+    "to": null
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2016-10-29",
+    "title": "t",
+    "description": "d",
+    "type": "leadership",
+    "sources": [
+     "https://x"
+    ]
+   }
+  ],
+  "achievements": [],
+  "metrics": {
+   "public_funding_mad": [
+    {
+     "year": 2021,
+     "amount": 12000000,
+     "sources": [
+      "https://x"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   "https://x"
+  ],
+  "data_quality": {
+   "confidence": "medium",
+   "notes": "stub"
+  },
+  "current_leader": {
+   "name": "A",
+   "since": "2016"
+  }
+ },
+ {
+  "id": "pjd",
+  "names": {
+   "fr": "PJD",
+   "ar": "",
+   "en": "PJD"
+  },
+  "abbr": "PJD",
+  "founded": "1978",
+  "status": "parliamentary",
+  "ideology": [
+   "x",
+   "y"
+  ],
+  "leaders": [
+   {
+    "name": "A",
+    "from": "2016-10-29",
+    "to": null
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2016-10-29",
+    "title": "t",
+    "description": "d",
+    "type": "leadership",
+    "sources": [
+     "https://x"
+    ]
+   }
+  ],
+  "achievements": [],
+  "metrics": {
+   "public_funding_mad": [
+    {
+     "year": 2021,
+     "amount": 12000000,
+     "sources": [
+      "https://x"
+     ]
+    }
+   ]
+  },
+  "sources": [
+   "https://x"
+  ],
+  "data_quality": {
+   "confidence": "medium",
+   "notes": "stub"
+  },
+  "current_leader": {
+   "name": "A",
+   "since": "2016"
+  }
+ }
+]

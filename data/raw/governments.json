@@ -1,0 +1,591 @@
+[
+  {
+    "id": "bekkai-1",
+    "name": "Bekkai I government",
+    "pm": "Mbarek Bekkai",
+    "pm_party": "none",
+    "from": "1955-12-07",
+    "to": "1956-10-26",
+    "coalition": [
+      "istiqlal",
+      "pdi"
+    ],
+    "seats_support": null,
+    "notes": "First government of independent Morocco, formed under Sultan Mohammed V while the protectorate was being wound down (independence 2 March 1956). Bekkai was a non-party figure; cabinet mixed Istiqlal, PDI (Parti démocratique de l'indépendance) and independents. Ended with formation of Bekkai II (28 Oct 1956 per MAP chronology). Médias24 gives 'Dec 1955 - March 1956' for Bekkai, which appears to conflate his term with the independence date; MAP/Wikipedia give continuous Bekkai premiership 7 Dec 1955 - 12 May 1958. Confidence on start date: high (MAP, Wikipedia, Médias24 agree on 7 Dec 1955).",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://www.mapnews.ma/fr/actualites/politique/chronologie-des-gouvernements-marocains-depuis-lind%C3%A9pendance",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Bekka%C3%AF_I"
+    ]
+  },
+  {
+    "id": "bekkai-2",
+    "name": "Bekkai II government",
+    "pm": "Mbarek Bekkai",
+    "pm_party": "none",
+    "from": "1956-10-28",
+    "to": "1958-05-12",
+    "coalition": [
+      "istiqlal",
+      "pdi"
+    ],
+    "seats_support": null,
+    "notes": "Second Bekkai cabinet (MAP chronology: 28 Oct 1956). Ended after Istiqlal ministers' dispute with PDI/Bekkai; Istiqlal ministers resigned in April 1958 and the King accepted Bekkai's resignation. End date 12 May 1958 per en.wikipedia list. Composition detail (Istiqlal-dominated, PDI left in early 1957) is prior knowledge, not re-verified.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "balafrej",
+    "name": "Balafrej government",
+    "pm": "Ahmed Balafrej",
+    "pm_party": "istiqlal",
+    "from": "1958-05-12",
+    "to": "1958-12-16",
+    "coalition": [
+      "istiqlal"
+    ],
+    "seats_support": null,
+    "notes": "First homogeneous Istiqlal government. Ended with Balafrej's resignation amid the split inside Istiqlal between the old guard and the left wing led by Abdallah Ibrahim/Ben Barka. Dates: en.wikipedia list (12 May 1958 - 16 Dec 1958). Médias24 summary says 'March 1956 - December 1958', an evident conflation with Balafrej's earlier role as foreign minister; recorded as discrepancy.",
+    "confidence": "medium",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://en.wikipedia.org/wiki/Ahmed_Balafrej",
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "ibrahim",
+    "name": "Abdallah Ibrahim government",
+    "pm": "Abdallah Ibrahim",
+    "pm_party": "istiqlal",
+    "from": "1958-12-16",
+    "to": "1960-05-20",
+    "coalition": [
+      "istiqlal"
+    ],
+    "seats_support": null,
+    "notes": "Led by the Istiqlal left wing (which became UNFP in Sept 1959; pm_party recorded as istiqlal at appointment, the UNFP split is noted). Dismissed by Mohammed V on 20 May 1960 (en.wikipedia list); Médias24 summary gives 'Dec 1958 - March 1960'. Discrepancy noted; May 1960 retained (two sources: en.wikipedia, MAP chronology).",
+    "confidence": "medium",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "mohammed-v",
+    "name": "Mohammed V government (King as head of government)",
+    "pm": "Mohammed V",
+    "pm_party": "none",
+    "from": "1960-05-26",
+    "to": "1961-02-26",
+    "coalition": [
+      "istiqlal",
+      "mp"
+    ],
+    "seats_support": null,
+    "notes": "After dismissing Ibrahim, King Mohammed V took the presidency of the council himself with Crown Prince Moulay Hassan as deputy PM. Ended with the King's death on 26 Feb 1961. Start date given as 20 May 1960 (en.wikipedia) vs 26 May 1960 (cabinet formation, MAP); both are kept in notes. Coalition list (Istiqlal + Mouvement populaire + independents) is prior knowledge, not re-verified.",
+    "confidence": "medium",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "hassan-ii-1",
+    "name": "Hassan II government (King as PM)",
+    "pm": "Hassan II",
+    "pm_party": "none",
+    "from": "1961-02-26",
+    "to": "1963-11-13",
+    "coalition": [
+      "istiqlal",
+      "mp"
+    ],
+    "seats_support": null,
+    "notes": "Hassan II kept the premiership on his accession (cabinets formed 2 June 1961 and 5 Jan 1963 per MAP chronology numbering). Istiqlal left the government in January 1963 and moved to opposition. First legislative elections held 17 May 1963 (FDIC vs Istiqlal/UNFP). Ended with appointment of Ahmed Bahnini on 13 Nov 1963. Dates/composition here were NOT re-verified by web search in this session (search budget exhausted); they come from the compiler's prior knowledge and must be cross-checked (e.g. fr.wikipedia 'Liste des gouvernements du Maroc', MAP chronology).",
+    "confidence": "medium",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "bahnini",
+    "name": "Bahnini government",
+    "pm": "Ahmed Bahnini",
+    "pm_party": "fdic",
+    "from": "1963-11-13",
+    "to": "1965-06-07",
+    "coalition": [
+      "fdic",
+      "mp"
+    ],
+    "seats_support": null,
+    "notes": "First government drawn from an elected parliament (FDIC, the palace-aligned Front pour la défense des institutions constitutionnelles, with the Mouvement populaire). Dates 13 Nov 1963 - 7 June 1965 confirmed by en.wikipedia list. Ended when Hassan II proclaimed the state of exception (7 June 1965) after the March 1965 Casablanca riots.",
+    "confidence": "high",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "hassan-ii-2",
+    "name": "Hassan II government (state of exception)",
+    "pm": "Hassan II",
+    "pm_party": "none",
+    "from": "1965-06-08",
+    "to": "1967-11-11",
+    "coalition": [],
+    "seats_support": null,
+    "notes": "King again head of government during the state of exception (MAP chronology: 9th government, 8 June 1965). Parliament suspended. Ended with the appointment of Mohamed Benhima on 11 Nov 1967.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+    ]
+  },
+  {
+    "id": "benhima",
+    "name": "Benhima government",
+    "pm": "Mohamed Benhima",
+    "pm_party": "technocrat",
+    "from": "1967-11-11",
+    "to": "1969-10-07",
+    "coalition": [],
+    "seats_support": null,
+    "notes": "Technocratic government under the state of exception (MAP: 11th government, 11 Nov 1967). fr.wikipedia treats Benhima and Laraki as one continuous government ('Gouvernement Benhima/Laraki'), with Ahmed Laraki taking over as PM on 7 Oct 1969.",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benhima/Laraki",
+      "https://en.wikipedia.org/wiki/Mohamed_Benhima",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+    ]
+  },
+  {
+    "id": "laraki-ahmed",
+    "name": "Ahmed Laraki government",
+    "pm": "Ahmed Laraki",
+    "pm_party": "technocrat",
+    "from": "1969-10-07",
+    "to": "1971-08-06",
+    "coalition": [],
+    "seats_support": null,
+    "notes": "Continuation of the Benhima cabinet with Laraki as PM (MAP: same 11th government). Constitution of 1970 and elections of Aug 1970 (boycotted by Koutla parties). Ended after the Skhirat coup attempt (10 July 1971); Karim Lamrani appointed 6 Aug 1971.",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://fr.wikipedia.org/wiki/Gouvernement_Benhima/Laraki",
+      "https://en.wikipedia.org/wiki/Ahmed_Laraki",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+    ]
+  },
+  {
+    "id": "lamrani-1",
+    "name": "Lamrani I government",
+    "pm": "Mohammed Karim Lamrani",
+    "pm_party": "technocrat",
+    "from": "1971-08-06",
+    "to": "1972-11-20",
+    "coalition": [],
+    "seats_support": null,
+    "notes": "Technocratic. MAP chronology counts two cabinets: 12th (6 Aug 1971) and 13th (12 Apr 1972, after the 1972 constitution referendum). Second coup attempt 16 Aug 1972 (Oufkir). SNRT/MAP summary gives end 2 Nov 1972; en.wikipedia and MAP give Osman appointed 20 Nov 1972; 20 Nov retained.",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/Mohammed_Karim_Lamrani",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "osman",
+    "name": "Osman governments (I-III)",
+    "pm": "Ahmed Osman",
+    "pm_party": "rni",
+    "from": "1972-11-20",
+    "to": "1979-03-27",
+    "coalition": [
+      "rni",
+      "mp",
+      "istiqlal"
+    ],
+    "seats_support": null,
+    "notes": "MAP counts three Osman cabinets: 14th (20 Nov 1972), 15th (25 Apr 1974), 16th (10 Oct 1977, after the June 1977 legislative elections). Osman was an independent until he founded the RNI in Oct 1978 out of the pro-government independents (so pm_party 'rni' applies only from Oct 1978; earlier 'none'). The 1977 cabinet included Istiqlal and Mouvement populaire alongside the independents; UNFP/USFP stayed out (Istiqlal/MP participation is prior knowledge, not re-verified). Ended 27 Mar 1979 with Maati Bouabid's appointment.",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/Ahmed_Osman_(politician)",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "bouabid",
+    "name": "Bouabid governments (I-II)",
+    "pm": "Maati Bouabid",
+    "pm_party": "none",
+    "from": "1979-03-27",
+    "to": "1983-11-30",
+    "coalition": [
+      "rni",
+      "istiqlal",
+      "mp"
+    ],
+    "seats_support": null,
+    "notes": "MAP: 17th government (27 Mar 1979, Bouabid also Minister of Justice) and 18th (5 Nov 1981). Bouabid, an ex-UNFP figure, later founded the Union constitutionnelle (UC) in 1983. Coalition composition (RNI, Istiqlal, MP, independents) is prior knowledge, not re-verified. Ended with Lamrani's return 30 Nov 1983.",
+    "confidence": "high",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "lamrani-2",
+    "name": "Lamrani II governments (1983-1986)",
+    "pm": "Mohammed Karim Lamrani",
+    "pm_party": "technocrat",
+    "from": "1983-11-30",
+    "to": "1986-09-30",
+    "coalition": [
+      "uc",
+      "rni",
+      "mp",
+      "istiqlal",
+      "pnd"
+    ],
+    "seats_support": null,
+    "notes": "MAP: 19th government 30 Nov 1983 (a 'national unity' cabinet including USFP before the Sept 1984 elections; USFP participation was brief). 20th government 11 Apr 1985 after the 1984 elections, with UC, RNI, MP, PND and Istiqlal (Istiqlal left in 1985 - prior knowledge, not re-verified). SNRT/Médias24 summary gives Lamrani 'Nov 1983 - Apr 1985' which corresponds to the first of the two cabinets only. End: 30 Sept 1986 (Azzedine Laraki appointed).",
+    "confidence": "medium",
+    "sources": [
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/Mohammed_Karim_Lamrani",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527"
+    ]
+  },
+  {
+    "id": "laraki-azzedine",
+    "name": "Azzedine Laraki government",
+    "pm": "Azzedine Laraki",
+    "pm_party": "istiqlal",
+    "from": "1986-09-30",
+    "to": "1992-08-11",
+    "coalition": [
+      "uc",
+      "rni",
+      "mp",
+      "pnd",
+      "istiqlal"
+    ],
+    "seats_support": null,
+    "notes": "Laraki was an Istiqlal member serving essentially as a technocratic PM. Longest-serving cabinet of the Hassan II era (Sept 1986 - Aug 1992 per Médias24/SNRT). Parliament's term was extended by referendum in 1989. Ended when Lamrani was recalled to prepare the 1992 constitution and elections. Coalition composition is prior knowledge, not re-verified.",
+    "confidence": "medium",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "lamrani-3",
+    "name": "Lamrani III governments (1992-1994)",
+    "pm": "Mohammed Karim Lamrani",
+    "pm_party": "technocrat",
+    "from": "1992-08-11",
+    "to": "1994-05-25",
+    "coalition": [
+      "uc",
+      "rni",
+      "mp",
+      "pnd"
+    ],
+    "seats_support": null,
+    "notes": "Two cabinets: Aug 1992 (transitional, 1992 constitution referendum) and 11 Nov 1993 after the June 1993 elections, when the Koutla (USFP/Istiqlal) refused to enter government; a technocratic cabinet was formed. Lamrani resigned for health reasons; Abdellatif Filali appointed PM 25 May 1994 (cabinet formed 7 June 1994). Médias24/SNRT summary: 'Aug 1992 - June 1994'. Exact day of Nov 1993 cabinet is prior knowledge.",
+    "confidence": "medium",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://en.wikipedia.org/wiki/Mohammed_Karim_Lamrani",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "filali",
+    "name": "Filali governments (I-III)",
+    "pm": "Abdellatif Filali",
+    "pm_party": "technocrat",
+    "from": "1994-05-25",
+    "to": "1998-03-14",
+    "coalition": [
+      "uc",
+      "rni",
+      "mp",
+      "pnd",
+      "mnp"
+    ],
+    "seats_support": null,
+    "notes": "Filali I (June 1994, technocratic continuation), Filali II (27 Feb 1995, after failed 'alternance' talks with the Koutla; UC/RNI/MP/PND/MNP cabinet), Filali III (13 Aug 1997, care-taker cabinet before the Nov 1997 elections). Médias24/SNRT: 'June 1994 - Feb 1998'. Sub-cabinet dates are prior knowledge, not re-verified. Ended with the first 'alternance' government of Youssoufi (appointed 4 Feb 1998, cabinet named 14 Mar 1998).",
+    "confidence": "medium",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://en.wikipedia.org/wiki/Abdellatif_Filali",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "youssoufi-1",
+    "name": "Youssoufi I government (alternance)",
+    "pm": "Abderrahmane Youssoufi",
+    "pm_party": "usfp",
+    "from": "1998-03-14",
+    "to": "2000-09-06",
+    "coalition": [
+      "usfp",
+      "istiqlal",
+      "rni",
+      "mnp",
+      "pps",
+      "ffd",
+      "psd"
+    ],
+    "seats_support": 177,
+    "notes": "First 'gouvernement d'alternance' led by the opposition USFP after the Nov 1997 elections (325-seat chamber). Seven-party coalition (USFP 57, Istiqlal 32, RNI 46, MNP 19, PPS 9, FFD 9, PSD 5 = 177 of 325) plus sovereignty/technocrat ministers (Interior: Driss Basri until Nov 1999). Seat figures are prior knowledge, not re-verified in this session. Médias24/SNRT: Youssoufi 'Feb 1998 - Oct 2002'; MAP gives cabinet formation 14 Mar 1998.",
+    "confidence": "medium",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+    ]
+  },
+  {
+    "id": "youssoufi-2",
+    "name": "Youssoufi II government (reshuffle)",
+    "pm": "Abderrahmane Youssoufi",
+    "pm_party": "usfp",
+    "from": "2000-09-06",
+    "to": "2002-11-07",
+    "coalition": [
+      "usfp",
+      "istiqlal",
+      "rni",
+      "mnp",
+      "pps",
+      "ffd",
+      "psd"
+    ],
+    "seats_support": 177,
+    "notes": "Reshuffle of 6 Sept 2000 (same coalition). Ended after the 27 Sept 2002 elections when King Mohammed VI appointed the non-party Driss Jettou instead of the USFP (which had come first), prompting Youssoufi's 'sortie de la méthodologie démocratique' criticism. Reshuffle date is prior knowledge, not re-verified.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "jettou-1",
+    "name": "Jettou I government",
+    "pm": "Driss Jettou",
+    "pm_party": "technocrat",
+    "from": "2002-11-07",
+    "to": "2004-06-08",
+    "coalition": [
+      "usfp",
+      "istiqlal",
+      "rni",
+      "mp",
+      "mnp",
+      "pps"
+    ],
+    "seats_support": 195,
+    "notes": "Appointed 9 Oct 2002, cabinet named 7 Nov 2002. Coalition of USFP (50), Istiqlal (48), RNI (41), MP (27), MNP (18), PPS (11) = approx. 195 of 325, plus technocrats. Seat figures and coalition membership are prior knowledge, not re-verified. Médias24/SNRT: Jettou 'Oct 2002 - Sept 2007'.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/",
+      "https://en.wikipedia.org/wiki/List_of_heads_of_government_of_Morocco"
+    ]
+  },
+  {
+    "id": "jettou-2",
+    "name": "Jettou II government (reshuffle)",
+    "pm": "Driss Jettou",
+    "pm_party": "technocrat",
+    "from": "2004-06-08",
+    "to": "2007-10-15",
+    "coalition": [
+      "usfp",
+      "istiqlal",
+      "rni",
+      "mp",
+      "mnp",
+      "pps"
+    ],
+    "seats_support": 195,
+    "notes": "Reshuffle of 8 June 2004 (same coalition; MP, MNP and UD later merged into a single Mouvement populaire in 2006). Ended after the 7 Sept 2007 elections. Reshuffle date is prior knowledge, not re-verified.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "el-fassi",
+    "name": "Abbas El Fassi government",
+    "pm": "Abbas El Fassi",
+    "pm_party": "istiqlal",
+    "from": "2007-10-15",
+    "to": "2012-01-03",
+    "coalition": [
+      "istiqlal",
+      "rni",
+      "usfp",
+      "pps",
+      "mp"
+    ],
+    "seats_support": 146,
+    "notes": "Appointed 19 Sept 2007 after Istiqlal came first (52 seats); cabinet named 15 Oct 2007. Initial coalition Istiqlal (52), RNI (39), USFP (38), PPS (17) = 146 of 325 plus technocrats; the MP (41) joined the majority later (its entry into government is generally dated to the reshuffle of 4 Jan 2010 - to be verified). Reshuffle 4 Jan 2010. Ended after the 25 Nov 2011 early elections that followed the 2011 constitution. Seat figures and MP entry date are prior knowledge, not re-verified. Médias24/SNRT: El Fassi 'Sept 2007 - Jan 2012'.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "benkirane-1",
+    "name": "Benkirane I government",
+    "pm": "Abdelilah Benkirane",
+    "pm_party": "pjd",
+    "from": "2012-01-03",
+    "to": "2013-10-10",
+    "coalition": [
+      "pjd",
+      "istiqlal",
+      "mp",
+      "pps"
+    ],
+    "seats_support": 217,
+    "notes": "First government under the 2011 constitution ('Chef du gouvernement'); Benkirane appointed 29 Nov 2011, cabinet named 3 Jan 2012. PJD 107, Istiqlal 60, MP 32, PPS 18 = 217 of 395. Ended when Istiqlal (under Hamid Chabat) withdrew its ministers in July 2013. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: Benkirane 'Jan 2012 - Apr 2017'.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "benkirane-2",
+    "name": "Benkirane II government",
+    "pm": "Abdelilah Benkirane",
+    "pm_party": "pjd",
+    "from": "2013-10-10",
+    "to": "2017-04-05",
+    "coalition": [
+      "pjd",
+      "rni",
+      "mp",
+      "pps"
+    ],
+    "seats_support": 209,
+    "notes": "RNI (52 seats, Salaheddine Mezouar) replaced Istiqlal; cabinet named 10 Oct 2013. PJD 107, RNI 52, MP 32, PPS 18 = 209 of 395. After the 7 Oct 2016 elections (PJD 125) Benkirane was reappointed but failed to form a coalition (RNI's conditions on USFP's inclusion, 'blocage'); the King relieved him on 15 Mar 2017 and appointed Saadeddine El Othmani. Seat figures/dates are prior knowledge, not re-verified.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "el-othmani-1",
+    "name": "El Othmani I government",
+    "pm": "Saadeddine El Othmani",
+    "pm_party": "pjd",
+    "from": "2017-04-05",
+    "to": "2019-10-09",
+    "coalition": [
+      "pjd",
+      "rni",
+      "mp",
+      "usfp",
+      "uc",
+      "pps"
+    ],
+    "seats_support": 240,
+    "notes": "Cabinet named 5 Apr 2017 (39 members). PJD 125, RNI 37, MP 27, USFP 20, UC 19, PPS 12 = 240 of 395. PPS left the coalition in Aug 2019. Seat figures are prior knowledge, not re-verified. Médias24/SNRT: El Othmani 'Apr 2017 - Oct 2021'.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "el-othmani-2",
+    "name": "El Othmani II government (reshuffle)",
+    "pm": "Saadeddine El Othmani",
+    "pm_party": "pjd",
+    "from": "2019-10-09",
+    "to": "2021-10-07",
+    "coalition": [
+      "pjd",
+      "rni",
+      "mp",
+      "usfp",
+      "uc"
+    ],
+    "seats_support": 228,
+    "notes": "Slimmed cabinet (23-24 members) named 9 Oct 2019 after the King asked for a smaller, more competent team; PPS out. PJD 125, RNI 37, MP 27, USFP 20, UC 19 = 228 of 395. Ended after the 8 Sept 2021 elections (PJD fell to 13 seats). Dates/figures are prior knowledge, not re-verified.",
+    "confidence": "low",
+    "sources": [
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/",
+      "https://snrtnews.com/fr/article/chronologie-des-gouvernements-marocains-depuis-lindependance-20527",
+      "https://www.mapexpress.ma/actualite/activite-gouvernementale/chronologie-gouvernements-marocains-depuis-lindependance/"
+    ]
+  },
+  {
+    "id": "akhannouch-1",
+    "name": "Akhannouch government",
+    "pm": "Aziz Akhannouch",
+    "pm_party": "rni",
+    "from": "2021-10-07",
+    "to": null,
+    "coalition": [
+      "rni",
+      "pam",
+      "istiqlal"
+    ],
+    "seats_support": 270,
+    "notes": "Akhannouch appointed 10 Sept 2021 after RNI won 102 seats; RNI-PAM-Istiqlal majority announced 22 Sept 2021 (PAM communiqué; Le Matin); cabinet named 7 Oct 2021 (24 members). 102 + 87 + 81 = 270 of 395 (Médias24/Interior ministry; Wikipedia). Reshuffle of 23 Oct 2024 (new ministers incl. Interior's Abdelouafi Laftit retained; changes at Education, Health, Higher Education, Transport, Tourism etc.; several technocrats) - reshuffle details are prior knowledge, not re-verified. Still in office on 2026-09-16; next general election 23 Sept 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://en.wikipedia.org/wiki/2021_Moroccan_general_election",
+      "https://medias24.com/2021/09/09/resultats-legislatifs-complets-102-sieges-pour-le-rni-13-pour-le-pjd-ministere-de-linterieur/",
+      "https://pam.ma/fr/index.php/2021/09/22/urgent-la-majorite-gouvernementale-composee-du-rni-pam-et-listiqlal-akhannouch/",
+      "https://lematin.ma/journal/2021/pam-listiqlal-entament-tractations-rni-formation-gouvernement-aziz-akhannouch/364601.html",
+      "https://www.cg.gov.ma/en/composition-government",
+      "https://medias24.com/2021/09/11/19-premiers-ministres-et-chefs-de-gouvernement-marocains-depuis-lindependance/"
+    ]
+  }
+]
