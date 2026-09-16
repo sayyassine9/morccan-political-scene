@@ -1,0 +1,3733 @@
+[
+  {
+    "id": "uc",
+    "names": {
+      "fr": "Union constitutionnelle",
+      "ar": "الاتحاد الدستوري",
+      "en": "Constitutional Union"
+    },
+    "abbr": "UC",
+    "founded": "1983",
+    "founders": [
+      "Maati Bouabid"
+    ],
+    "founding_context": "Created in 1983 by Maati Bouabid, a former UNFP/USFP figure who had served as Prime Minister from 1979 to 1983, in the run-up to the 1984 legislative elections. The party is generally classified by academic and encyclopaedic sources (Tafra, Wikipedia) as one of the 'administrative' parties formed with palace backing under Hassan II, and it came first in the 1984 (83 of 306 seats) and 1993 (54 of 333 seats) legislative elections.",
+    "ideology": [
+      "liberalism",
+      "conservatism",
+      "economic liberalism"
+    ],
+    "position": "centre-right",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#2E7DD1",
+    "website": null,
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {
+      "name": "Mohamed Joudar",
+      "since": "2022-10",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Maati Bouabid",
+        "from": "1983",
+        "to": "1996-11",
+        "note": "Founder; led the party until his death in November 1996 (fr.wikipedia)."
+      },
+      {
+        "name": "Abdellatif Semlali",
+        "from": "1996",
+        "to": "2001",
+        "note": "Interim/elected leadership between Bouabid's death and Abied's election. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Mohamed Abied",
+        "from": "2001",
+        "to": "2015-04",
+        "note": "Founding member of the UC (1983); Secretary General 2001-2015 (fr.wikipedia)."
+      },
+      {
+        "name": "Mohamed Sajid",
+        "from": "2015-04",
+        "to": "2022-10",
+        "note": "Elected by the National Council in April 2015 (MAP, Aujourd'hui le Maroc); former mayor of Casablanca; Minister of Tourism 2017-2019."
+      },
+      {
+        "name": "Mohamed Joudar",
+        "from": "2022-10",
+        "to": null,
+        "note": "Elected unopposed at the 6th congress in Casablanca after three other candidates (Lahcen Abyaba, Chaoui Belassal, Mohamed Bensaidi) withdrew; Abyaba became deputy SG and Belassal was reappointed president of the National Council (Le360, Le Desk, Le Matin)."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Maati Bouabid",
+        "role": "Founder; Prime Minister 1979-1983 (before founding the party)",
+        "period": "1983-1996"
+      },
+      {
+        "name": "Mohamed Sajid",
+        "role": "Secretary General; Mayor of Casablanca; Minister of Tourism, Air Transport, Handicrafts and Social Economy",
+        "period": "2015-2022"
+      },
+      {
+        "name": "Mohamed Joudar",
+        "role": "Secretary General; parliamentarian",
+        "period": "2022-"
+      },
+      {
+        "name": "Lahcen Abyaba",
+        "role": "Deputy Secretary General",
+        "period": "2022-"
+      },
+      {
+        "name": "Chaoui Belassal",
+        "role": "President of the National Council",
+        "period": "2022-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1983",
+        "title": "Foundation",
+        "description": "Maati Bouabid founds the Union constitutionnelle ahead of the 1984 legislative elections.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle",
+          "https://partis.tafra.ma/partis/uc",
+          "https://en.wikipedia.org/wiki/Constitutional_Union_(Morocco)"
+        ]
+      },
+      {
+        "date": "1984-09-14",
+        "title": "First place in the 1984 legislative election",
+        "description": "The UC wins 83 of 306 seats and becomes the largest party in the House of Representatives; it takes part in the governments of the 1980s and 1990s.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle",
+          "https://en.wikipedia.org/wiki/Constitutional_Union_(Morocco)"
+        ]
+      },
+      {
+        "date": "1993-06-25",
+        "title": "First place in the 1993 legislative election",
+        "description": "The UC again comes first, with 54 of 333 seats.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle"
+        ]
+      },
+      {
+        "date": "1996-11",
+        "title": "Death of Maati Bouabid",
+        "description": "The founder dies in November 1996; the party enters a period of decline and leadership transition.",
+        "type": "leadership",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle",
+          "https://en.wikipedia.org/wiki/Maati_Bouabid"
+        ]
+      },
+      {
+        "date": "1998-03",
+        "title": "Opposition after the 'alternance' government",
+        "description": "With the formation of the Youssoufi government, the UC sits in opposition; it later joins several coalitions. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "opposition",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle"
+        ]
+      },
+      {
+        "date": "2001",
+        "title": "Mohamed Abied becomes Secretary General",
+        "description": "Founding member Mohamed Abied leads the party for 14 years.",
+        "type": "leadership",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Mohamed_Abied",
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle"
+        ]
+      },
+      {
+        "date": "2015-04",
+        "title": "Mohamed Sajid elected Secretary General",
+        "description": "The National Council elects Mohamed Sajid, then mayor of Casablanca, by a large majority.",
+        "type": "leadership",
+        "sources": [
+          "https://www.mapexpress.ma/actualite/activites-partisanes-et-syndicales/mohamed-sajid-elu-nouveau-secretaire-general-luc/",
+          "https://aujourdhui.ma/politique/conseil-national-de-lunion-constitutionnelle-sajid-porte-par-une-majorite-ecrasante-a-la-tete-de-luc-118050"
+        ]
+      },
+      {
+        "date": "2017-04-05",
+        "title": "Joins the El Othmani government",
+        "description": "The UC enters the coalition government led by Saad-Eddine El Othmani; Sajid becomes Minister of Tourism, Air Transport, Handicrafts and Social Economy (until the October 2019 reshuffle). From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "government",
+        "sources": [
+          "https://en.wikipedia.org/wiki/Mohammed_Sajid_(politician)"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "The UC remains a mid-sized parliamentary party and sits in opposition to the Akhannouch government (seat figures are recorded in elections.json).",
+        "type": "electoral",
+        "sources": [
+          "https://en.wikipedia.org/wiki/2026_Moroccan_general_election",
+          "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+        ]
+      },
+      {
+        "date": "2022-10",
+        "title": "6th congress: Mohamed Joudar succeeds Sajid",
+        "description": "At the 6th congress in Casablanca ('UC: renewal and continuity'), Mohamed Joudar is elected Secretary General unopposed after the other candidates withdraw.",
+        "type": "leadership",
+        "sources": [
+          "https://fr.le360.ma/politique/exit-mohamed-sajid-unique-candidat-mohamed-joudar-est-le-nouveau-secretaire-general-de-luc-267903/",
+          "https://ledesk.ma/encontinu/sajid-remplace-par-mohamed-joudar-a-la-tete-de-lunion-constitutionnelle/",
+          "https://lematin.ma/express/2022/mohamed-joudar-elu-nouveau-secretaire-general-lunion-constitutionnelle/381483.html",
+          "https://www.maroc.ma/fr/sm-le-roi-f%C3%A9licite-le-nouveau-secr%C3%A9taire-g%C3%A9n%C3%A9ral-de-l%E2%80%99union-constitutionnelle/%D8%A3%D9%86%D8%B4%D8%B7%D8%A9-%D9%85%D9%84%D9%83%D9%8A%D8%A9"
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "title": "2026 campaign",
+        "description": "The Interior Ministry's final tally records 74 local lists (256 candidates) and 12 regional lists (90 candidates) for the UC in the 23 September 2026 legislative election.",
+        "type": "electoral",
+        "sources": [
+          "https://www.20minutes.ma/politique/171437.html",
+          "https://al3omk.com/1186744.html",
+          "https://www.alalam.ma/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-7288-%D9%85%D8%AA%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D9%881850-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D9%8828-%D8%AD%D8%B2%D8%A8%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-23-%D8%B4%D8%AA%D9%86%D8%A8%D8%B1_a34862.html",
+          "https://al3omk.com/1186736.html"
+        ]
+      }
+    ],
+    "achievements": [
+      {
+        "year": 1984,
+        "title": "Largest party in the 1984 and 1993 legislative elections",
+        "description": "The UC came first in two successive legislative elections.",
+        "claimed_by_party": false,
+        "verification": "Wikipedia (fr/en) and Tafra concur on 83/306 (1984) and 54/333 (1993).",
+        "confidence": "high",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Union_constitutionnelle",
+          "https://en.wikipedia.org/wiki/Constitutional_Union_(Morocco)",
+          "https://partis.tafra.ma/partis/uc"
+        ]
+      }
+    ],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Local constituency lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 74
+            }
+          ],
+          "unit": "lists (of 92 local constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://al3omk.com/1186744.html",
+            "https://www.alalam.ma/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-7288-%D9%85%D8%AA%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D9%881850-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D9%8828-%D8%AD%D8%B2%D8%A8%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-23-%D8%B4%D8%AA%D9%86%D8%A8%D8%B1_a34862.html",
+            "https://al3omk.com/1186736.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on local lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 256
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://al3omk.com/1186744.html",
+            "https://www.alalam.ma/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-7288-%D9%85%D8%AA%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D9%881850-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D9%8828-%D8%AD%D8%B2%D8%A8%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-23-%D8%B4%D8%AA%D9%86%D8%A8%D8%B1_a34862.html",
+            "https://al3omk.com/1186736.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Regional lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 12
+            }
+          ],
+          "unit": "lists (of 12 regional constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://al3omk.com/1186744.html",
+            "https://www.alalam.ma/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-7288-%D9%85%D8%AA%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D9%881850-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D9%8828-%D8%AD%D8%B2%D8%A8%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-23-%D8%B4%D8%AA%D9%86%D8%A8%D8%B1_a34862.html",
+            "https://al3omk.com/1186736.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on regional lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 90
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://al3omk.com/1186744.html",
+            "https://www.alalam.ma/%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86-%D8%AA%D8%B4%D8%AA%D8%B9%D9%84-7288-%D9%85%D8%AA%D8%B1%D8%B4%D8%AD%D9%8B%D8%A7-%D9%881850-%D9%84%D8%A7%D8%A6%D8%AD%D8%A9-%D9%8828-%D8%AD%D8%B2%D8%A8%D9%8B%D8%A7-%D9%81%D9%8A-%D8%B3%D8%A8%D8%A7%D9%82-23-%D8%B4%D8%AA%D9%86%D8%A8%D8%B1_a34862.html",
+            "https://al3omk.com/1186736.html"
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Union_constitutionnelle",
+      "https://en.wikipedia.org/wiki/Constitutional_Union_(Morocco)",
+      "https://partis.tafra.ma/partis/uc",
+      "https://fr.le360.ma/politique/exit-mohamed-sajid-unique-candidat-mohamed-joudar-est-le-nouveau-secretaire-general-de-luc-267903/",
+      "https://fr.le360.ma/politique/partis-mohamed-joudar-prend-les-renes-de-luc-267938/",
+      "https://ledesk.ma/encontinu/sajid-remplace-par-mohamed-joudar-a-la-tete-de-lunion-constitutionnelle/",
+      "https://lematin.ma/express/2022/mohamed-joudar-elu-nouveau-secretaire-general-lunion-constitutionnelle/381483.html",
+      "https://www.mapexpress.ma/actualite/activites-partisanes-et-syndicales/mohamed-sajid-elu-nouveau-secretaire-general-luc/",
+      "https://aujourdhui.ma/politique/conseil-national-de-lunion-constitutionnelle-sajid-porte-par-une-majorite-ecrasante-a-la-tete-de-luc-118050",
+      "https://www.maroc.ma/fr/sm-le-roi-f%C3%A9licite-le-nouveau-secr%C3%A9taire-g%C3%A9n%C3%A9ral-de-l%E2%80%99union-constitutionnelle/%D8%A3%D9%86%D8%B4%D8%B7%D8%A9-%D9%85%D9%84%D9%83%D9%8A%D8%A9",
+      "https://en.wikipedia.org/wiki/Mohammed_Sajid_(politician)",
+      "https://fr.wikipedia.org/wiki/Mohamed_Abied",
+      "https://en.wikipedia.org/wiki/Maati_Bouabid",
+      "https://www.20minutes.ma/politique/171437.html",
+      "https://al3omk.com/1186744.html",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Founding, 1984/1993 results and the Abied-Sajid-Joudar succession were confirmed by search results (Wikipedia fr/en, Tafra, Le360, Le Desk, Le Matin, MAP). The 1996-2001 leadership (Semlali), the 2017-2019 government participation and the headquarters were not verified in this session (search budget exhausted). Headquarters left null rather than guessed. Colour is an approximation of the party's blue. Public funding figures not found."
+    }
+  },
+  {
+    "id": "mds",
+    "names": {
+      "fr": "Mouvement démocratique et social",
+      "ar": "الحركة الديمقراطية الاجتماعية",
+      "en": "Democratic and Social Movement"
+    },
+    "abbr": "MDS",
+    "founded": "1996",
+    "founders": [
+      "Mahmoud Archane"
+    ],
+    "founding_context": "Founded in 1996 by Mahmoud Archane, a former senior police official and parliamentarian, after a split from Mahjoubi Aherdane's Mouvement national populaire (itself a breakaway from the Mouvement populaire). The party won a sizeable bloc (about 32 seats) in the 1997 legislative election, its best-ever result, and has since been a small parliamentary party generally counted among the 'administrative'/pro-establishment formations.",
+    "ideology": [
+      "conservatism",
+      "social conservatism",
+      "rural interests"
+    ],
+    "position": "centre-right",
+    "family": "administrative",
+    "headquarters": "Rabat",
+    "colour": "#5B9B3A",
+    "website": "https://mds.ma/",
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {
+      "name": "Abdessamad Archane",
+      "since": "2014",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mahmoud Archane",
+        "from": "1996",
+        "to": "2014",
+        "note": "Founder. End date approximate. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Abdessamad Archane",
+        "from": "2014",
+        "to": null,
+        "note": "Son of the founder. Re-elected at the 4th congress (Rabat, 13-14 April 2018) and again at the 5th congress in Salé (ar.lesiteinfo). Start date approximate."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mahmoud Archane",
+        "role": "Founder and first Secretary General",
+        "period": "1996-2014"
+      },
+      {
+        "name": "Abdessamad Archane",
+        "role": "Secretary General",
+        "period": "2014-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1996",
+        "title": "Foundation",
+        "description": "Mahmoud Archane founds the MDS after leaving the Mouvement national populaire.",
+        "type": "founding",
+        "sources": [
+          "https://mds.ma/?page_id=19",
+          "https://fr.wikipedia.org/wiki/Mouvement_d%C3%A9mocratique_et_social"
+        ]
+      },
+      {
+        "date": "1997-11-14",
+        "title": "1997 legislative election",
+        "description": "The MDS wins about 32 seats in its first legislative election, its historical peak.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Mouvement_d%C3%A9mocratique_et_social"
+        ]
+      },
+      {
+        "date": "2002-09-27",
+        "title": "2002 legislative election",
+        "description": "The party's representation falls sharply to a handful of seats and stays in single digits in subsequent elections (details in elections.json).",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Mouvement_d%C3%A9mocratique_et_social"
+        ]
+      },
+      {
+        "date": "2014",
+        "title": "Abdessamad Archane takes over the leadership",
+        "description": "The founder's son becomes Secretary General. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "leadership",
+        "sources": [
+          "https://mds.ma/?page_id=19"
+        ]
+      },
+      {
+        "date": "2018-04-14",
+        "title": "4th national congress (Rabat)",
+        "description": "Held at the National Theatre in Rabat on 13-14 April 2018; Abdessamad Archane is re-elected Secretary General.",
+        "type": "leadership",
+        "sources": [
+          "https://ar.lesiteinfo.com/politique/%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B5%D9%85%D8%AF-%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D8%A3%D9%85%D9%8A%D9%86%D8%A7-%D8%B9%D8%A7%D9%85-695067.html"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "The MDS keeps a small parliamentary presence (seat figures in elections.json).",
+        "type": "electoral",
+        "sources": [
+          "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+        ]
+      },
+      {
+        "date": "2023",
+        "title": "5th national congress (Salé)",
+        "description": "Abdessamad Archane is re-elected Secretary General at the 5th congress held in Salé (year approximate; the search result did not give the date).",
+        "type": "leadership",
+        "sources": [
+          "https://ar.lesiteinfo.com/politique/%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B5%D9%85%D8%AF-%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D8%A3%D9%85%D9%8A%D9%86%D8%A7-%D8%B9%D8%A7%D9%85-695067.html"
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "title": "2026 campaign: employment and rural development platform",
+        "description": "Archane presents a programme centred on youth employment and rural development and calls for 'political realism'. The MDS files 68 local lists (234 candidates) and 10 regional lists (80 candidates).",
+        "type": "electoral",
+        "sources": [
+          "https://www.hespress.com/%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D9%8A%D8%AF%D8%B9%D9%88-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D9%8A%D8%B6%D8%B9-1803176.html",
+          "https://aljareeda.net/92328-%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D9%8A%D8%B9%D8%B1%D8%B6-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7.html",
+          "https://www.20minutes.ma/politique/171437.html",
+          "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Local constituency lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 68
+            }
+          ],
+          "unit": "lists (of 92 local constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on local lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 234
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Regional lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 10
+            }
+          ],
+          "unit": "lists (of 12 regional constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on regional lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 80
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    "sources": [
+      "https://mds.ma/?page_id=19",
+      "https://ar.lesiteinfo.com/politique/%D8%A5%D8%B9%D8%A7%D8%AF%D8%A9-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B5%D9%85%D8%AF-%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D8%A3%D9%85%D9%8A%D9%86%D8%A7-%D8%B9%D8%A7%D9%85-695067.html",
+      "https://www.hespress.com/%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D9%8A%D8%AF%D8%B9%D9%88-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%88%D8%A7%D9%82%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9-%D9%88%D9%8A%D8%B6%D8%B9-1803176.html",
+      "https://aljareeda.net/92328-%D8%B9%D8%B1%D8%B4%D8%A7%D9%86-%D9%8A%D8%B9%D8%B1%D8%B6-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7.html",
+      "https://fr.wikipedia.org/wiki/Mouvement_d%C3%A9mocratique_et_social",
+      "https://www.20minutes.ma/politique/171437.html",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Current leader, the 2018 congress and the 2026 list counts were confirmed by search results. Founding year and founder appear on the party's own history page (mds.ma) and Wikipedia; the 1997 seat count (32) and the 2014 leadership handover are from background knowledge and were not cross-checked in this session. Colour approximate. No public-funding or councillors data found."
+    }
+  },
+  {
+    "id": "fgd",
+    "names": {
+      "fr": "Fédération de la gauche démocratique",
+      "ar": "فيدرالية اليسار الديمقراطي",
+      "en": "Federation of the Democratic Left"
+    },
+    "abbr": "FGD",
+    "founded": "2014",
+    "founders": [
+      "Parti socialiste unifié (PSU)",
+      "Parti de l'avant-garde démocratique et socialiste (PADS)",
+      "Congrès national ittihadi (CNI)"
+    ],
+    "founding_context": "Launched in 2014 as an electoral and political alliance of three small left-wing parties (PSU, PADS, CNI) that had boycotted the 2011 legislative election. It contested the 2015 local and 2016 legislative elections under a common banner, winning two seats in 2016 (Omar Balafrej and Nabila Mounib). In late 2022, after about eight years as a coalition, the PADS, the CNI and the 'Gauche unitaire' current (with the 'Alternative progressiste' and independent activists) dissolved themselves and merged into a single party carrying the FGD name; the PSU did not join the merger and remains a separate party.",
+    "ideology": [
+      "democratic socialism",
+      "social democracy",
+      "secularism"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": "Rabat",
+    "colour": "#C8102E",
+    "website": "https://www.fgd.ma/",
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": "2022-12",
+      "title": "Collective leadership (48-member political bureau elected at the 2022 merger congress); the identity of the top officer was described as unclear by Al Aoual"
+    },
+    "leaders": [
+      {
+        "name": "Collective coordination (PSU/PADS/CNI leaders)",
+        "from": "2014",
+        "to": "2022",
+        "note": "As an alliance the FGD was run by a coordination of the three parties' secretaries general (Nabila Mounib, Ali Boutouala, Abdesslam El Aziz). Names of PADS/CNI leaders from background knowledge."
+      },
+      {
+        "name": "Political bureau (48 members)",
+        "from": "2022-12",
+        "to": null,
+        "note": "Elected at the unification congress; Al Aoual reported 'ambiguity about the leader of the phase'."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Omar Balafrej",
+        "role": "MP for Rabat-Océan 2016-2021 (elected on the FGD ticket); later left the PSU",
+        "period": "2016-2021"
+      },
+      {
+        "name": "Nabila Mounib",
+        "role": "PSU Secretary General and FGD figurehead; MP 2016-2021 and 2021-2026",
+        "period": "2014-2023"
+      },
+      {
+        "name": "Ali Boutouala",
+        "role": "Last Secretary General of the PADS; announced its dissolution into the FGD party",
+        "period": "2022"
+      },
+      {
+        "name": "Abdesslam El Aziz",
+        "role": "Secretary General of the CNI at the time of the merger",
+        "period": "2022"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2014",
+        "title": "Alliance launched",
+        "description": "PSU, PADS and CNI form the Fédération de la gauche démocratique as a joint political and electoral front.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique",
+          "https://alarab.co.uk/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B7-%D8%A8%D9%87%D8%A7-%D8%B4%D9%83%D9%88%D9%83-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9"
+        ]
+      },
+      {
+        "date": "2015-09-04",
+        "title": "2015 communal and regional elections",
+        "description": "First joint participation under the FGD label. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2016-10-07",
+        "title": "Two seats in the 2016 legislative election",
+        "description": "Omar Balafrej (Rabat) and Nabila Mounib are elected; Mounib had been presented as the alliance's candidate for head of government.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "The FGD list wins one seat (seat figures in elections.json).",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2022-11",
+        "title": "Component parties dissolve themselves",
+        "description": "PADS, CNI and the Gauche unitaire vote to dissolve in preparation for a merger; some PADS branches contest the step in a public statement.",
+        "type": "merger",
+        "sources": [
+          "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+          "https://alyaoum24.com/1910536.html"
+        ]
+      },
+      {
+        "date": "2022-12",
+        "title": "Unification congress: FGD becomes a single party",
+        "description": "Under the slogan 'Paths unite and a left renews', the components merge into one party keeping the FGD name; a 48-member political bureau is elected. Al Arab and Al Araby describe it as the largest merger on the Moroccan left in two decades, while noting scepticism about its prospects. The PSU stays outside.",
+        "type": "merger",
+        "sources": [
+          "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html",
+          "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333801.html",
+          "https://alarab.co.uk/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B7-%D8%A8%D9%87%D8%A7-%D8%B4%D9%83%D9%88%D9%83-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9",
+          "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-2022-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D9%85-%D8%A7%D9%84%D8%B4%D9%85%D9%84"
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "title": "'Alliance de la gauche' with the PSU",
+        "description": "The FGD party and the PSU announce a joint electoral alliance (Tahalouf al-Yassar) to run common lists in all constituencies in the September 2026 election, with a joint symbol combining the PSU candle and the FGD letter/envelope.",
+        "type": "other",
+        "sources": [
+          "https://www.hespress.com/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D9%85-1723490.html",
+          "https://www.hespress.com/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D9%82%D8%A8-%D8%A8%D9%8A%D9%86-1729544.html",
+          "https://www.hespress.com/%D8%AA%D8%B1%D9%85%D9%8A%D8%B2-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-1751205.html",
+          "https://www.belpresse.com/featured/629966.html",
+          "https://www.assahifa.com/%D9%81%D9%8A-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A%D8%A9-%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D9%8F-%D8%A7%D9%84/",
+          "https://yassar.ma/post/joint-statement-left-federation-and-united-socialist-party"
+        ]
+      },
+      {
+        "date": "2026-09",
+        "title": "Candidates struck off; alliance protests",
+        "description": "The FGD denounces the striking-off of some alliance candidates as an attempt to exclude 'the democratic voice' and to engineer the 2026 election; it presents a slate described as young activists, academics and human-rights campaigners.",
+        "type": "electoral",
+        "sources": [
+          "https://www.fgd.ma/infos/8475",
+          "https://www.fgd.ma/infos/8489"
+        ]
+      }
+    ],
+    "achievements": [
+      {
+        "year": 2016,
+        "title": "Won two seats with a small left alliance",
+        "description": "Balafrej and Mounib entered parliament on FGD lists.",
+        "claimed_by_party": false,
+        "verification": "Consistent across Wikipedia and press; exact vote figures belong in elections.json.",
+        "confidence": "medium",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      }
+    ],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Alliance de la gauche (FGD + PSU) joint lists, 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": null
+            }
+          ],
+          "unit": "lists",
+          "sources": [
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/",
+            "https://www.hespress.com/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D9%85-1723490.html"
+          ],
+          "confidence": "low",
+          "notes": "The Interior Ministry counted the alliance separately from the 28 parties; per-list totals not captured."
+        }
+      ]
+    },
+    "sources": [
+      "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html",
+      "https://alarab.co.uk/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B7-%D8%A8%D9%87%D8%A7-%D8%B4%D9%83%D9%88%D9%83-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9",
+      "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-2022-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D9%85-%D8%A7%D9%84%D8%B4%D9%85%D9%84",
+      "https://alyaoum24.com/1910536.html",
+      "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333801.html",
+      "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+      "https://www.hespress.com/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D9%85-1723490.html",
+      "https://www.hespress.com/%D8%AA%D9%81%D8%A7%D8%B5%D9%8A%D9%84-%D8%A7%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%A7%D9%84%D9%85%D8%B1%D8%AA%D9%82%D8%A8-%D8%A8%D9%8A%D9%86-1729544.html",
+      "https://www.hespress.com/%D8%AA%D8%B1%D9%85%D9%8A%D8%B2-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-1751205.html",
+      "https://www.belpresse.com/featured/629966.html",
+      "https://www.assahifa.com/%D9%81%D9%8A-%D8%BA%D9%8A%D8%A7%D8%A8-%D8%A7%D9%84%D8%AA%D9%82%D8%AF%D9%85-%D9%88%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A%D8%A9-%D8%AA%D8%AD%D8%A7%D9%84%D9%81%D9%8F-%D8%A7%D9%84/",
+      "https://www.fgd.ma/infos/8475",
+      "https://www.fgd.ma/infos/8489",
+      "https://yassar.ma/post/joint-statement-left-federation-and-united-socialist-party",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/",
+      "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "The 2022 merger into a single party (PADS + CNI + Gauche unitaire; PSU excluded) and the June 2026 PSU-FGD alliance are well attested by several outlets. The name of the party's current top officer could not be established (Al Aoual itself reported ambiguity); the 2016 two-seat result and 2015 participation are from background knowledge. Status set to extra-parliamentary because the FGD's 2021 seat was held by a PSU member (Mounib) and the PSU did not join the 2022 merger; this reading should be checked. Colour approximate."
+    }
+  },
+  {
+    "id": "psu",
+    "names": {
+      "fr": "Parti socialiste unifié",
+      "ar": "الحزب الاشتراكي الموحد",
+      "en": "Unified Socialist Party"
+    },
+    "abbr": "PSU",
+    "founded": "2002",
+    "founders": [
+      "Organisation de l'action démocratique populaire (OADP)",
+      "Mouvement pour la démocratie",
+      "Démocrates indépendants",
+      "Potentialités de gauche",
+      "Fidélité à la démocratie (Mohamed Sassi, joined 2005)"
+    ],
+    "founding_context": "Created in July 2002 as the Gauche socialiste unifiée (GSU) by the merger of Mohamed Bensaid Aït Idder's OADP with several small left groups; it took the name Parti socialiste unifié in 2005 after absorbing the 'Fidélité à la démocratie' current led by Mohamed Sassi, a former USFP figure. The PSU positions itself as a democratic-socialist party critical of the constitutional balance of power; it boycotted the 2011 legislative election, then contested 2016 and 2021 within the FGD alliance. In January 2012 Nabila Mounib became its Secretary General, widely reported as the first woman to head a Moroccan political party.",
+    "ideology": [
+      "democratic socialism",
+      "secularism",
+      "constitutional reform"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": "Casablanca",
+    "colour": "#E03C31",
+    "website": null,
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {
+      "name": "Jamal El Asri",
+      "since": "2023-11-05",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mohamed Moujahid",
+        "from": "2002",
+        "to": "2012-01",
+        "note": "First Secretary General (GSU then PSU). From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Nabila Mounib",
+        "from": "2012-01",
+        "to": "2023-11-05",
+        "note": "Two consecutive terms; reported as the first woman to lead a Moroccan party (al3omk, ar.le360). Became deputy SG in 2023."
+      },
+      {
+        "name": "Jamal El Asri",
+        "from": "2023-11-05",
+        "to": null,
+        "note": "Chosen by the 25-member political bureau elected at the 5th congress (20-22 Oct 2023) after Najib Saber withdrew and Lahrouni El Alami was excluded; born 11 Oct 1967 in Agadir, secondary-school teacher in Tangier with a doctorate in Arabic literature (al3omk, ar.le360, Hespress)."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mohamed Bensaid Aït Idder",
+        "role": "Historic leader of the OADP, founding component; veteran of the resistance",
+        "period": "2002-"
+      },
+      {
+        "name": "Mohamed Sassi",
+        "role": "Leader of 'Fidélité à la démocratie', co-founder of the PSU; political scientist",
+        "period": "2005-"
+      },
+      {
+        "name": "Nabila Mounib",
+        "role": "Secretary General 2012-2023; MP 2016-2021 and 2021-2026",
+        "period": "2012-"
+      },
+      {
+        "name": "Omar Balafrej",
+        "role": "MP 2016-2021 (FGD ticket); later left the party",
+        "period": "2016-2021"
+      },
+      {
+        "name": "Jamal El Asri",
+        "role": "Secretary General",
+        "period": "2023-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2002-07",
+        "title": "Gauche socialiste unifiée founded",
+        "description": "Merger of the OADP with the Mouvement pour la démocratie, the Démocrates indépendants and Potentialités de gauche.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)",
+          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF_(%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8)"
+        ]
+      },
+      {
+        "date": "2005",
+        "title": "Becomes the Parti socialiste unifié",
+        "description": "The GSU merges with Mohamed Sassi's 'Fidélité à la démocratie' and adopts the PSU name.",
+        "type": "merger",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)",
+          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF_(%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8)"
+        ]
+      },
+      {
+        "date": "2007-09-07",
+        "title": "2007 legislative election",
+        "description": "The PSU wins a handful of seats (figures in elections.json). From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)"
+        ]
+      },
+      {
+        "date": "2011-11-25",
+        "title": "Boycott of the 2011 legislative election",
+        "description": "With the PADS, the CNI and Annahj, the PSU boycotts the first election under the 2011 constitution, judging the reform insufficient. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)"
+        ]
+      },
+      {
+        "date": "2012-01",
+        "title": "Nabila Mounib elected Secretary General",
+        "description": "Mounib becomes the first woman to lead a Moroccan political party.",
+        "type": "leadership",
+        "sources": [
+          "https://al3omk.com/885294.html",
+          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF_(%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8)"
+        ]
+      },
+      {
+        "date": "2014",
+        "title": "Co-founds the Fédération de la gauche démocratique",
+        "description": "Alliance with the PADS and the CNI.",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2016-10-07",
+        "title": "Returns to parliament via the FGD",
+        "description": "Mounib and Balafrej are elected on FGD lists.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2022-12",
+        "title": "Stays out of the FGD merger",
+        "description": "The PSU does not dissolve into the new FGD party created by the PADS, CNI and Gauche unitaire.",
+        "type": "split",
+        "sources": [
+          "https://alarab.co.uk/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B7-%D8%A8%D9%87%D8%A7-%D8%B4%D9%83%D9%88%D9%83-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9",
+          "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333801.html"
+        ]
+      },
+      {
+        "date": "2023-10-22",
+        "title": "5th national congress",
+        "description": "Held 20-22 October 2023; four candidates compete to succeed Mounib.",
+        "type": "leadership",
+        "sources": [
+          "https://al3omk.com/881507.html",
+          "https://al3omk.com/885294.html"
+        ]
+      },
+      {
+        "date": "2023-11-05",
+        "title": "Jamal El Asri elected Secretary General",
+        "description": "The political bureau elects El Asri; Mounib becomes his deputy. El Asri rejects accusations of 'tahakkum' (control from above) in a Hespress interview.",
+        "type": "leadership",
+        "sources": [
+          "https://al3omk.com/885294.html",
+          "https://ar.le360.ma/politique/ESPMNLAE7BGSRM6XWVYYCCDJ2I/",
+          "https://www.hespress.com/%E2%80%AA%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84-1261210.html"
+        ]
+      },
+      {
+        "date": "2026-06-03",
+        "title": "'Alliance de la gauche' with the FGD party",
+        "description": "Joint lists for September 2026 with a combined candle-and-letter symbol; the PSU does not present a separate programme.",
+        "type": "other",
+        "sources": [
+          "https://www.hespress.com/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D9%85-1723490.html",
+          "https://www.hespress.com/%D8%AA%D8%B1%D9%85%D9%8A%D8%B2-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-1751205.html",
+          "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/",
+          "https://yassar.ma/post/joint-statement-left-federation-and-united-socialist-party"
+        ]
+      },
+      {
+        "date": "2026-07-12",
+        "title": "5th National Council approves 2026 candidates",
+        "description": "The PSU's National Council validates the party's candidates for the 23 September 2026 election.",
+        "type": "electoral",
+        "sources": [
+          "https://www.fgd.ma/infos/8489",
+          "https://www.belpresse.com/featured/629966.html"
+        ]
+      }
+    ],
+    "achievements": [
+      {
+        "year": 2012,
+        "title": "First woman to lead a Moroccan political party",
+        "description": "Nabila Mounib's election as Secretary General.",
+        "claimed_by_party": true,
+        "verification": "Widely reported in the press (al3omk, Le360). Note: Zhor Chekkafi led the micro-party Parti de la société démocratique earlier; the 'first' claim usually refers to parties with parliamentary weight.",
+        "confidence": "medium",
+        "sources": [
+          "https://al3omk.com/885294.html",
+          "https://ar.le360.ma/politique/ESPMNLAE7BGSRM6XWVYYCCDJ2I/"
+        ]
+      }
+    ],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A_%D8%A7%D9%84%D9%85%D9%88%D8%AD%D8%AF_(%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8)",
+      "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)",
+      "https://al3omk.com/885294.html",
+      "https://ar.le360.ma/politique/ESPMNLAE7BGSRM6XWVYYCCDJ2I/",
+      "https://www.hespress.com/%E2%80%AA%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84-1261210.html",
+      "https://al3omk.com/881507.html",
+      "https://www.hespress.com/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D9%88%D8%A7%D9%84%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%D9%83%D9%8A-%D8%A7%D9%84%D9%85-1723490.html",
+      "https://www.hespress.com/%D8%AA%D8%B1%D9%85%D9%8A%D8%B2-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D9%8A-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D8%AA%D8%AD%D8%A7%D9%84%D9%81-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-1751205.html",
+      "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/",
+      "https://yassar.ma/post/joint-statement-left-federation-and-united-socialist-party",
+      "https://www.belpresse.com/featured/629966.html"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Leadership since 2023 and the 2026 alliance are confirmed by multiple 2023-2026 press items. Founding details (2002 GSU, 2005 PSU), Moujahid's tenure, the 2011 boycott and headquarters are from background knowledge and were not re-verified. Colour approximate."
+    }
+  },
+  {
+    "id": "pads",
+    "names": {
+      "fr": "Parti de l'avant-garde démocratique et socialiste",
+      "ar": "حزب الطليعة الديمقراطي الاشتراكي",
+      "en": "Democratic and Socialist Vanguard Party"
+    },
+    "abbr": "PADS",
+    "founded": "1983",
+    "founders": [
+      "Ahmed Benjelloun"
+    ],
+    "founding_context": "Born from a 1983 split in the USFP led by Ahmed Benjelloun and activists opposed to the party's participation in elections they considered rigged; the PADS was only legally recognised in 1991. It was a small, radical socialist party that frequently boycotted elections, joined the FGD alliance in 2014 and voted to dissolve itself in late 2022 to merge into the new FGD party, a decision contested by some of its branches.",
+    "ideology": [
+      "socialism",
+      "Marxism-influenced left"
+    ],
+    "position": "far-left",
+    "family": "left",
+    "headquarters": "Casablanca",
+    "colour": "#B22222",
+    "website": null,
+    "international_affiliation": [],
+    "status": "merged",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": "Dissolved into the FGD party (2022)"
+    },
+    "leaders": [
+      {
+        "name": "Ahmed Benjelloun",
+        "from": "1983",
+        "to": "2008",
+        "note": "Founder. End date approximate. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Ali Boutouala",
+        "from": "2010s",
+        "to": "2022",
+        "note": "Last Secretary General; announced that the party had been dissolved and merged into the FGD (Alyaoum24)."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Ahmed Benjelloun",
+        "role": "Founder",
+        "period": "1983-2008"
+      },
+      {
+        "name": "Ali Boutouala",
+        "role": "Secretary General",
+        "period": "-2022"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1983",
+        "title": "Split from the USFP",
+        "description": "Ahmed Benjelloun and allies leave the USFP.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_de_l%27avant-garde_d%C3%A9mocratique_et_socialiste"
+        ]
+      },
+      {
+        "date": "1991",
+        "title": "Legal recognition",
+        "description": "The party obtains legal status after years of clandestinity. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_de_l%27avant-garde_d%C3%A9mocratique_et_socialiste"
+        ]
+      },
+      {
+        "date": "2011",
+        "title": "Boycott of the 2011 election",
+        "description": "Together with the PSU, CNI and Annahj.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_de_l%27avant-garde_d%C3%A9mocratique_et_socialiste"
+        ]
+      },
+      {
+        "date": "2014",
+        "title": "Joins the FGD alliance",
+        "description": "",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2022-11",
+        "title": "Dissolution and merger into the FGD party",
+        "description": "Boutouala states the party has been dissolved and merged; a dissident PADS statement contests the dissolution.",
+        "type": "merger",
+        "sources": [
+          "https://alyaoum24.com/1910536.html",
+          "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+          "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://alyaoum24.com/1910536.html",
+      "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+      "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html",
+      "https://alarab.co.uk/%D9%81%D9%8A%D8%AF%D8%B1%D8%A7%D9%84%D9%8A%D8%A9-%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9-%D8%A7%D9%86%D8%AF%D9%85%D8%A7%D8%AC-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D8%AA%D8%AD%D9%8A%D8%B7-%D8%A8%D9%87%D8%A7-%D8%B4%D9%83%D9%88%D9%83-%D9%83%D8%AB%D9%8A%D8%B1%D8%A9",
+      "https://fr.wikipedia.org/wiki/Parti_de_l%27avant-garde_d%C3%A9mocratique_et_socialiste"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "The 2022 dissolution/merger is confirmed by Alyaoum24, Al Aoual and Hespress. Founding date, 1991 recognition and leader dates are from background knowledge. Whether a residual PADS faction still claims the name should be checked."
+    }
+  },
+  {
+    "id": "cni",
+    "names": {
+      "fr": "Congrès national ittihadi",
+      "ar": "المؤتمر الوطني الاتحادي",
+      "en": "National Ittihadi Congress"
+    },
+    "abbr": "CNI",
+    "founded": "2001",
+    "founders": [
+      "Abdelmajid Bouzoubaa"
+    ],
+    "founding_context": "Founded in 2001 by USFP dissidents close to the CDT trade union, led by Abdelmajid Bouzoubaa, who objected to the USFP leadership's conduct in the 'alternance' government. It remained a small left party, later led by Abdesslam El Aziz, joined the FGD alliance in 2014 and merged into the FGD party at the 2022 unification congress.",
+    "ideology": [
+      "socialism",
+      "trade-unionist left"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": "Casablanca",
+    "colour": "#B22222",
+    "website": null,
+    "international_affiliation": [],
+    "status": "merged",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": "Dissolved into the FGD party (2022)"
+    },
+    "leaders": [
+      {
+        "name": "Abdelmajid Bouzoubaa",
+        "from": "2001",
+        "to": "2000s",
+        "note": "Founder. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Abdesslam El Aziz",
+        "from": "2000s",
+        "to": "2022",
+        "note": "Secretary General at the time of the FGD merger. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Abdelmajid Bouzoubaa",
+        "role": "Founder",
+        "period": "2001-"
+      },
+      {
+        "name": "Abdesslam El Aziz",
+        "role": "Secretary General",
+        "period": "-2022"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2001",
+        "title": "Split from the USFP",
+        "description": "USFP dissidents around the CDT create the CNI.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Congr%C3%A8s_national_ittihadi"
+        ]
+      },
+      {
+        "date": "2011",
+        "title": "Boycott of the 2011 election",
+        "description": "",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Congr%C3%A8s_national_ittihadi"
+        ]
+      },
+      {
+        "date": "2014",
+        "title": "Joins the FGD alliance",
+        "description": "",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_gauche_d%C3%A9mocratique"
+        ]
+      },
+      {
+        "date": "2022-12",
+        "title": "Merges into the FGD party",
+        "description": "The CNI dissolves and merges with the PADS and Gauche unitaire.",
+        "type": "merger",
+        "sources": [
+          "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html",
+          "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+          "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-2022-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D9%85-%D8%A7%D9%84%D8%B4%D9%85%D9%84"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://www.hespress.com/%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8-%D8%A7%D9%84%D8%B7%D9%84%D9%8A%D8%B9%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%A4%D8%AA%D9%85%D8%B1-%D8%A7%D9%84%D9%88%D8%B7%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D9%8A%D8%B3%D8%A7-1094576.html",
+      "https://alaoual.com/%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9/333629.html",
+      "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D9%8A%D8%B3%D8%A7%D8%B1-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%81%D9%8A-2022-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-%D9%84%D9%84%D9%85-%D8%A7%D9%84%D8%B4%D9%85%D9%84",
+      "https://fr.wikipedia.org/wiki/Congr%C3%A8s_national_ittihadi"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Merger confirmed by search results; founding details and leader names from background knowledge, not re-verified."
+    }
+  },
+  {
+    "id": "annahj",
+    "names": {
+      "fr": "Annahj Addimocrati Al Oummali (Voie démocratique ouvrière)",
+      "ar": "النهج الديمقراطي العمالي",
+      "en": "Democratic Way (Workers' Democratic Way)"
+    },
+    "abbr": "Annahj",
+    "founded": "1995",
+    "founders": [
+      "Former militants of the Marxist-Leninist organisation Ila al-Amam (incl. Abdellah El Harif)"
+    ],
+    "founding_context": "Founded in 1995 by former members of the clandestine Marxist-Leninist organisation 'Ila al-Amam' (of which it describes itself as the political and intellectual continuation); it was legally recognised only in 2004. The party rejects participation in elections it considers non-democratic and has called for a boycott of every legislative election since its creation; it renamed itself 'Annahj Addimocrati Al Oummali' (Workers' Democratic Way) at its 5th congress in 2022 and describes itself as the 'party of the working class and all toilers'.",
+    "ideology": [
+      "Marxism-Leninism",
+      "anti-imperialism",
+      "republicanism (implicit)"
+    ],
+    "position": "far-left",
+    "family": "left",
+    "headquarters": "Casablanca",
+    "colour": "#B00020",
+    "website": "https://annahjaddimocrati.org/",
+    "international_affiliation": [],
+    "status": "boycotting",
+    "current_leader": {
+      "name": "Jamal Braja",
+      "since": "2022",
+      "title": "National Secretary"
+    },
+    "leaders": [
+      {
+        "name": "Abdellah El Harif",
+        "from": "1995",
+        "to": "2012",
+        "note": "Founding National Secretary. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Mustapha Brahma",
+        "from": "2012",
+        "to": "2022",
+        "note": "National Secretary until the 2022 congress (Hespress)."
+      },
+      {
+        "name": "Jamal Braja",
+        "from": "2022",
+        "to": null,
+        "note": "Elected at the 5th national congress (2022), which also adopted the new name (Hespress, lemaroc35, party site)."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Abraham Serfaty",
+        "role": "Historic figure of Ila al-Amam, associated with the party's origins",
+        "period": "1995-2010"
+      },
+      {
+        "name": "Abdellah El Harif",
+        "role": "Founding National Secretary",
+        "period": "1995-2012"
+      },
+      {
+        "name": "Mustapha Brahma",
+        "role": "National Secretary",
+        "period": "2012-2022"
+      },
+      {
+        "name": "Jamal Braja",
+        "role": "National Secretary",
+        "period": "2022-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1995",
+        "title": "Foundation",
+        "description": "Ex-Ila al-Amam activists found Annahj Addimocrati.",
+        "type": "founding",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%AC_%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A",
+          "https://annahjaddimocrati.org/ar/12541",
+          "https://annahjaddimocrati.org/ar/12207"
+        ]
+      },
+      {
+        "date": "2004",
+        "title": "Legal recognition",
+        "description": "The party obtains legal status. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "other",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%AC_%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A"
+        ]
+      },
+      {
+        "date": "2011-11",
+        "title": "Boycott of the 2011 election and 'Mamsawtinch' campaign",
+        "description": "The party campaigns for a boycott ('I will not vote'); Hespress reports violence against its activists during the campaign.",
+        "type": "electoral",
+        "sources": [
+          "https://www.hespress.com/%D8%A7%D8%B3%D8%AA%D9%86%D9%83%D8%A7%D8%B1-%D9%8A%D9%88%D8%A7%D8%B2%D9%8A-%D8%AA%D8%B9%D9%86%D9%8A%D9%81-%D8%B1%D9%81%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A8%D8%AD%D9%85%D9%84-239329.html",
+          "https://annahjaddimocrati.org/ar/6793"
+        ]
+      },
+      {
+        "date": "2015-08-29",
+        "title": "Boycott of the 2015 local elections",
+        "description": "Annahj and Al Adl wal Ihsane announce they will boycott the communal and regional elections (Al Jazeera).",
+        "type": "electoral",
+        "sources": [
+          "https://www.aljazeera.net/news/2015/8/29/%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D9%86-%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D9%8A%D9%82%D8%A7%D8%B7%D8%B9%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA"
+        ]
+      },
+      {
+        "date": "2016-10",
+        "title": "Boycott of the 2016 legislative election",
+        "description": "Al Quds al-Arabi notes that 32 parties take part while Annahj boycotts; Hespress describes it as a party that has boycotted elections for over two decades.",
+        "type": "electoral",
+        "sources": [
+          "https://www.alquds.co.uk/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-32-%D8%AD%D8%B2%D8%A8%D8%A7-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%86/",
+          "https://www.hespress.com/%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%AD%D8%B2%D8%A8-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%8A%D9%82%D8%A7%D8%B7%D8%B9-%D8%A7%D9%84-421917.html"
+        ]
+      },
+      {
+        "date": "2021-08",
+        "title": "Boycott of the 2021 elections",
+        "description": "The party denounces the social and health situation and calls for a boycott, citing a lack of confidence in the electoral process.",
+        "type": "electoral",
+        "sources": [
+          "https://www.aps.dz/ar/monde/110714-2021-08-02-11-43-39"
+        ]
+      },
+      {
+        "date": "2022",
+        "title": "5th congress: new name and new National Secretary",
+        "description": "The party becomes 'Annahj Addimocrati Al Oummali' and elects Jamal Braja to succeed Mustapha Brahma.",
+        "type": "leadership",
+        "sources": [
+          "https://www.hespress.com/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7-1023182.html",
+          "https://lemaroc35.ma/32397",
+          "https://annahjaddimocrati.org/ar/9911"
+        ]
+      },
+      {
+        "date": "2026-06-28",
+        "title": "Central Committee decides to boycott the 2026 elections",
+        "description": "Meeting on 27-28 June 2026, the Central Committee decides to boycott the 23 September 2026 legislative election, citing dependent economic policies and the absence of democratic conditions; the political bureau calls for 'general mobilisation' for the boycott and for a 'broad popular front'.",
+        "type": "electoral",
+        "sources": [
+          "https://www.ahewar.org/debat/show.art.asp?aid=924152",
+          "https://m.alayam24.com/articles-636149.html",
+          "https://www.intelligencia.ma/politique-19/511014.html",
+          "https://www.housepresse.ma/archives/120202"
+        ]
+      },
+      {
+        "date": "2026-09-14",
+        "title": "Boycott campaign faces bans and arrests",
+        "description": "The party launches a boycott campaign; local activities are reportedly banned and activists briefly detained, prompting protests from the leadership. Braja tells Hespress the boycott is a 'tactical choice' and building a workers' party the priority.",
+        "type": "other",
+        "sources": [
+          "https://tanwer.ma/2026/09/14/%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AD%D9%85%D9%84%D8%A9-%D8%A7%D9%84/",
+          "https://alhayatalyaoumia.ma/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D8%AA%D9%85%D9%86%D8%B9-%D8%AD%D9%85%D9%84%D8%A9-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D9%84%D9%85%D9%82%D8%A7%D8%B7%D8%B9%D8%A9-%D8%A7%D9%84/",
+          "https://www.hespress.com/%D8%A8%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D9%86%D8%A7%D8%A1-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%B7%D8%A8%D9%82%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D8%A9-%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A9-1789682.html",
+          "https://www.ahewar.org/debat/show.art.asp?aid=929290"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%86%D9%87%D8%AC_%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A",
+      "https://annahjaddimocrati.org/ar/11938",
+      "https://annahjaddimocrati.org/ar/9911",
+      "https://annahjaddimocrati.org/ar/12541",
+      "https://annahjaddimocrati.org/ar/12207",
+      "https://annahjaddimocrati.org/ar/6793",
+      "https://www.hespress.com/%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D9%86-%D8%A7%D9%84%D8%B9%D8%A7%D9%85-%D8%A7%D9%84%D8%AC%D8%AF%D9%8A%D8%AF-%D9%84%D9%80%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7-1023182.html",
+      "https://lemaroc35.ma/32397",
+      "https://www.hespress.com/%D8%A8%D8%B1%D8%A7%D8%AC%D8%B9-%D8%A8%D9%86%D8%A7%D8%A1-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D8%B7%D8%A8%D9%82%D8%A9-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%84%D8%A9-%D8%A3%D9%88%D9%84%D9%88%D9%8A%D8%A9-1789682.html",
+      "https://m.alayam24.com/articles-636149.html",
+      "https://www.intelligencia.ma/politique-19/511014.html",
+      "https://www.ahewar.org/debat/show.art.asp?aid=924152",
+      "https://www.ahewar.org/debat/show.art.asp?aid=929290",
+      "https://www.housepresse.ma/archives/120202",
+      "https://tanwer.ma/2026/09/14/%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D9%8A-%D9%8A%D8%B7%D9%84%D9%82-%D8%AD%D9%85%D9%84%D8%A9-%D8%A7%D9%84/",
+      "https://alhayatalyaoumia.ma/%D8%A7%D9%84%D8%B3%D9%84%D8%B7%D8%A7%D8%AA-%D8%AA%D9%85%D9%86%D8%B9-%D8%AD%D9%85%D9%84%D8%A9-%D8%AD%D8%B2%D8%A8-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D9%84%D9%85%D9%82%D8%A7%D8%B7%D8%B9%D8%A9-%D8%A7%D9%84/",
+      "https://www.alquds.co.uk/%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8-32-%D8%AD%D8%B2%D8%A8%D8%A7-%D9%8A%D8%B4%D8%A7%D8%B1%D9%83-%D9%81%D9%8A-%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D9%88%D8%A7%D9%84%D9%86/",
+      "https://www.aps.dz/ar/monde/110714-2021-08-02-11-43-39",
+      "https://www.aljazeera.net/news/2015/8/29/%D8%A7%D9%84%D8%A5%D8%AD%D8%B3%D8%A7%D9%86-%D9%88-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D9%8A%D9%82%D8%A7%D8%B7%D8%B9%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA",
+      "https://www.hespress.com/%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A-%D8%AD%D8%B2%D8%A8-%D9%85%D8%BA%D8%B1%D8%A8%D9%8A-%D9%8A%D9%82%D8%A7%D8%B7%D8%B9-%D8%A7%D9%84-421917.html",
+      "https://www.hespress.com/%D8%A7%D8%B3%D8%AA%D9%86%D9%83%D8%A7%D8%B1-%D9%8A%D9%88%D8%A7%D8%B2%D9%8A-%D8%AA%D8%B9%D9%86%D9%8A%D9%81-%D8%B1%D9%81%D8%A7%D9%82-%D8%A7%D9%84%D9%86%D9%87%D8%AC-%D8%A8%D8%AD%D9%85%D9%84-239329.html"
+    ],
+    "data_quality": {
+      "confidence": "high",
+      "notes": "Founding (1995, Ila al-Amam lineage), the 2022 rename and Braja's election, and the 2015/2016/2021/2026 boycotts are each supported by two or more sources. The 2004 legalisation date and El Harif's tenure dates are from background knowledge. The party's positions on the Sahara question (support for self-determination) are documented elsewhere but were not captured in this session's results and are therefore omitted."
+    }
+  },
+  {
+    "id": "al-ahd",
+    "names": {
+      "fr": "Parti Al Ahd Addimocrati",
+      "ar": "حزب العهد الديمقراطي",
+      "en": "Democratic Covenant Party"
+    },
+    "abbr": "Al Ahd",
+    "founded": "2002-03",
+    "founders": [
+      "Najib El Ouazzani"
+    ],
+    "founding_context": "Founded in March 2002 by Najib El Ouazzani, a surgeon and trade unionist born in Nador in 1955, shortly before the September 2002 legislative election in which the party won 5 of 325 seats. It was one of the small parties that merged into the Parti authenticité et modernité in 2008-2009, then re-emerged under the name 'Al Ahd Addimocrati'. It has since remained a micro-party; in 2026 it filed a single local list with three candidates, and its Secretary General has stood for office under another party's colours.",
+    "ideology": [
+      "centrism",
+      "regional (Rif) interests"
+    ],
+    "position": "centre",
+    "family": "administrative",
+    "headquarters": "Rabat",
+    "colour": "#1F77B4",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Najib El Ouazzani",
+      "since": "2002",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Najib El Ouazzani",
+        "from": "2002",
+        "to": null,
+        "note": "Founder; ar.wikipedia describes him as the party's president; assahifa reports he did not run under the party's name."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Najib El Ouazzani",
+        "role": "Founder, Secretary General, former MP",
+        "period": "2002-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2002-03",
+        "title": "Foundation",
+        "description": "Najib El Ouazzani founds Al Ahd.",
+        "type": "founding",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF",
+          "https://ar.wikipedia.org/wiki/%D9%86%D8%AC%D9%8A%D8%A8_%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D9%86%D9%8A"
+        ]
+      },
+      {
+        "date": "2002-09-27",
+        "title": "Five seats in the 2002 election",
+        "description": "The new party wins 5 of 325 seats.",
+        "type": "electoral",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF"
+        ]
+      },
+      {
+        "date": "2008",
+        "title": "Merger into the PAM and later re-creation",
+        "description": "Al Ahd is among the parties absorbed by the PAM; it is later re-established as 'Al Ahd Addimocrati'. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "merger",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF"
+        ]
+      },
+      {
+        "date": "2021-09",
+        "title": "Former SG elected commune president for another party",
+        "description": "Al Omk reports the party's former Secretary General elected president of the Al Hoceima commune under another party's colours.",
+        "type": "other",
+        "sources": [
+          "https://al3omk.com/681761.html"
+        ]
+      },
+      {
+        "date": "2026-09",
+        "title": "Single list in the 2026 election",
+        "description": "The party files one local list with three candidates; Assahifa describes a party 'wavering between survival and merger' whose leader does not run under its banner.",
+        "type": "electoral",
+        "sources": [
+          "https://www.assahifa.com/%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D8%A7%D9%85-%D9%84%D8%A7-%D9%8A%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A8%D8%A7%D8%B3%D9%85-%D8%AD%D8%B2%D8%A8%D9%87-%D9%88%D8%AD%D8%B2%D8%A8%D9%8C-%D9%85%D8%AA%D8%A3%D8%B1%D8%AC/",
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Local constituency lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 1
+            }
+          ],
+          "unit": "lists (of 92 local constituencies)",
+          "sources": [
+            "https://www.assahifa.com/%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D8%A7%D9%85-%D9%84%D8%A7-%D9%8A%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A8%D8%A7%D8%B3%D9%85-%D8%AD%D8%B2%D8%A8%D9%87-%D9%88%D8%AD%D8%B2%D8%A8%D9%8C-%D9%85%D8%AA%D8%A3%D8%B1%D8%AC/",
+            "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on local lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 3
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.assahifa.com/%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D8%A7%D9%85-%D9%84%D8%A7-%D9%8A%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A8%D8%A7%D8%B3%D9%85-%D8%AD%D8%B2%D8%A8%D9%87-%D9%88%D8%AD%D8%B2%D8%A8%D9%8C-%D9%85%D8%AA%D8%A3%D8%B1%D8%AC/",
+            "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF"
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    "sources": [
+      "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D8%B9%D9%87%D8%AF",
+      "https://ar.wikipedia.org/wiki/%D9%86%D8%AC%D9%8A%D8%A8_%D8%A7%D9%84%D9%88%D8%B2%D8%A7%D9%86%D9%8A",
+      "https://al3omk.com/681761.html",
+      "https://www.assahifa.com/%D8%A3%D9%85%D9%8A%D9%86-%D8%B9%D8%A7%D9%85-%D9%84%D8%A7-%D9%8A%D8%AA%D8%B1%D8%B4%D8%AD-%D8%A8%D8%A7%D8%B3%D9%85-%D8%AD%D8%B2%D8%A8%D9%87-%D9%88%D8%AD%D8%B2%D8%A8%D9%8C-%D9%85%D8%AA%D8%A3%D8%B1%D8%AC/"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Founding date, 2002 result, founder biography and 2026 single-list participation come from ar.wikipedia and Assahifa/Al Omk. The 2008 PAM merger and re-creation are background knowledge. Headquarters and colour unverified."
+    }
+  },
+  {
+    "id": "pud",
+    "names": {
+      "fr": "Parti de l'unité et de la démocratie",
+      "ar": "حزب الوحدة والديمقراطية",
+      "en": "Party of Unity and Democracy"
+    },
+    "abbr": "PUD",
+    "founded": "2009-01-02",
+    "founders": [
+      "Ahmed Fitri"
+    ],
+    "founding_context": "Created by Ahmed Fitri after a split from the Istiqlal Party and officially recognised on 2 January 2009 (ar.wikipedia). It is a small centrist party (also referred to as 'Parti Al Wahda wa Addimocratia', the transliteration of its Arabic name) with occasional single-seat parliamentary representation.",
+    "ideology": [
+      "centrism",
+      "national unity"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": "Rabat",
+    "colour": "#0B6E4F",
+    "website": "https://pud.ma/",
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Ahmed Fitri",
+      "since": "2009",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Ahmed Fitri",
+        "from": "2009",
+        "to": null,
+        "note": "Founder (ar.wikipedia, pud.ma)."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Ahmed Fitri",
+        "role": "Founder and Secretary General",
+        "period": "2009-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2009-01-02",
+        "title": "Official recognition",
+        "description": "The Interior Ministry recognises the party founded by Istiqlal dissident Ahmed Fitri.",
+        "type": "founding",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9_%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9",
+          "https://pud.ma/"
+        ]
+      },
+      {
+        "date": "2011-11-25",
+        "title": "2011 legislative election",
+        "description": "The PUD wins a single seat. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9_%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "No seat won (figures in elections.json). From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9_%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://ar.wikipedia.org/wiki/%D8%AD%D8%B2%D8%A8_%D8%A7%D9%84%D9%88%D8%AD%D8%AF%D8%A9_%D9%88%D8%A7%D9%84%D8%AF%D9%8A%D9%85%D9%82%D8%B1%D8%A7%D8%B7%D9%8A%D8%A9",
+      "https://pud.ma/",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Founding, founder and recognition date confirmed by ar.wikipedia and the party website. Electoral history from background knowledge; 2026 participation not confirmed in the captured tallies."
+    }
+  },
+  {
+    "id": "ffd",
+    "names": {
+      "fr": "Front des forces démocratiques",
+      "ar": "جبهة القوى الديمقراطية",
+      "en": "Front of Democratic Forces"
+    },
+    "abbr": "FFD",
+    "founded": "1997",
+    "founders": [
+      "Thami El Khyari"
+    ],
+    "founding_context": "Founded in 1997 by Thami El Khyari and other dissidents of the Parti du progrès et du socialisme (the former communist party) who contested Ismaïl Alaoui's leadership. The FFD won nine seats in 1997 and took part in the 'alternance' government of Abderrahmane Youssoufi (1998-2002) and subsequent coalitions; its representation fell to one seat in 2011 and none in 2016 before a modest recovery in 2021. Thami El Khyari died in 2016 and was succeeded by Mustapha Benali.",
+    "ideology": [
+      "social democracy",
+      "democratic socialism"
+    ],
+    "position": "centre-left",
+    "family": "left",
+    "headquarters": "Rabat",
+    "colour": "#D62828",
+    "website": null,
+    "international_affiliation": [],
+    "status": "parliamentary",
+    "current_leader": {
+      "name": "Mustapha Benali",
+      "since": "2017",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Thami El Khyari",
+        "from": "1997",
+        "to": "2016",
+        "note": "Founder; died in 2016. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      },
+      {
+        "name": "Mustapha Benali",
+        "from": "2017",
+        "to": null,
+        "note": "Start year approximate. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Thami El Khyari",
+        "role": "Founder; minister in the Youssoufi government",
+        "period": "1997-2016"
+      },
+      {
+        "name": "Mustapha Benali",
+        "role": "Secretary General",
+        "period": "2017-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1997",
+        "title": "Split from the PPS",
+        "description": "Thami El Khyari founds the FFD.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1997-11-14",
+        "title": "Nine seats in the 1997 election",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1998-03-14",
+        "title": "Joins the Youssoufi 'alternance' government",
+        "description": "The FFD is part of the coalition; El Khyari holds a ministerial portfolio. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "government",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2016",
+        "title": "Death of Thami El Khyari",
+        "description": "The founder dies; Mustapha Benali later takes over. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "leadership",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "Return to parliament",
+        "description": "The FFD wins a few seats in 2021 and sits in opposition (figures in elections.json).",
+        "type": "electoral",
+        "sources": [
+          "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "title": "2026 campaign",
+        "description": "The FFD files 68 local lists (238 candidates) and 8 regional lists (67 candidates); Le Brief lists it among parties seeking to consolidate their parliamentary presence.",
+        "type": "electoral",
+        "sources": [
+          "https://www.20minutes.ma/politique/171437.html",
+          "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Local constituency lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 68
+            }
+          ],
+          "unit": "lists (of 92 local constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on local lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 238
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Regional lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 8
+            }
+          ],
+          "unit": "lists (of 12 regional constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Candidates on regional lists, 23 Sep 2026",
+          "series": [
+            {
+              "year": 2026,
+              "value": 67
+            }
+          ],
+          "unit": "candidates",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html",
+            "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/"
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    "sources": [
+      "https://www.20minutes.ma/politique/171437.html",
+      "https://www.lebrief.ma/legislatives-partis-en-lice-100164159/",
+      "https://www.lebrief.ma/legislatives-2026-programmes-passes-au-crible/",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Only the 2026 list counts and the party's parliamentary status were confirmed by search results. Founding (1997, El Khyari), government participation, Khyari's death and Benali's succession are from background knowledge; the dedicated queries could not be run (search budget exhausted). Verify leader tenure dates and headquarters."
+    }
+  },
+  {
+    "id": "prv",
+    "names": {
+      "fr": "Parti de la renaissance et de la vertu",
+      "ar": "حزب النهضة والفضيلة",
+      "en": "Renaissance and Virtue Party"
+    },
+    "abbr": "PRV",
+    "founded": "2005",
+    "founders": [
+      "Mohamed Khalidi"
+    ],
+    "founding_context": "Founded in 2005 by Mohamed Khalidi, a former PJD parliamentarian, with other PJD dissidents. It is a small conservative party with an Islamic reference; it briefly held a seat in the House of Representatives. It is the same party referred to as 'Annahda wal Fadila' (transliteration of the Arabic name).",
+    "ideology": [
+      "conservatism",
+      "Islamic reference"
+    ],
+    "position": "right",
+    "family": "islamist",
+    "headquarters": null,
+    "colour": "#2E8B57",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Mohamed Khalidi",
+      "since": "2005",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mohamed Khalidi",
+        "from": "2005",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mohamed Khalidi",
+        "role": "Secretary General",
+        "period": "2005-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2005",
+        "title": "Foundation by PJD dissidents",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2007-09-07",
+        "title": "2007 legislative election",
+        "description": "Wins a single seat. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "No seat. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "All details from background knowledge; dedicated queries (fr/ar) could not be run. 2026 participation not confirmed."
+    }
+  },
+  {
+    "id": "pedd",
+    "names": {
+      "fr": "Parti de l'environnement et du développement durable",
+      "ar": "حزب البيئة والتنمية المستدامة",
+      "en": "Party of the Environment and Sustainable Development"
+    },
+    "abbr": "PEDD",
+    "founded": "2002",
+    "founders": [
+      "Ahmed El Alami"
+    ],
+    "founding_context": "Small green-labelled party led by Ahmed El Alami, created in the 2002 wave of new parties (originally as Parti de l'environnement et du développement) and later reconstituted under its present name after the 2008 PAM mergers. It has held one or two seats in some legislatures. Academic and encyclopaedic sources (Tafra encyclopaedia; Wikipedia 'Partis politiques au Maroc') generally class this formation among the small parties created around the 2002-2011 electoral cycles with little organisational base; this classification is reported neutrally, not asserted. ",
+    "ideology": [
+      "environmentalism",
+      "centrism"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#3CB371",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Ahmed El Alami",
+      "since": "2002",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Ahmed El Alami",
+        "from": "2002",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Ahmed El Alami",
+        "role": "Secretary General",
+        "period": "2002-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2002",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2011-11-25",
+        "title": "2011 legislative election",
+        "description": "Wins two seats. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2021-09-08",
+        "title": "2021 legislative election",
+        "description": "Figures in elections.json.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "All details from background knowledge; the relationship between the 2002 PED (merged into PAM) and the current PEDD needs verification."
+    }
+  },
+  {
+    "id": "pgvm",
+    "names": {
+      "fr": "Parti de la gauche verte marocaine",
+      "ar": "حزب اليسار الأخضر المغربي",
+      "en": "Moroccan Green Left Party"
+    },
+    "abbr": "PGVM",
+    "founded": "2010",
+    "founders": [
+      "Mohamed Fares"
+    ],
+    "founding_context": "Green-left micro-party founded around 2010 by Mohamed Fares. It has no parliamentary representation. Not to be confused with the Parti des verts marocains (see `pvm`).",
+    "ideology": [
+      "green politics",
+      "left"
+    ],
+    "position": "left",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#228B22",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Mohamed Fares",
+      "since": "2010",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mohamed Fares",
+        "from": "2010",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mohamed Fares",
+        "role": "Secretary General",
+        "period": "2010-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2010",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only; founder/date to verify. Distinct from `pvm` per the Tafra encyclopaedia, which has a separate 'Parti des Verts Marocains' entry."
+    }
+  },
+  {
+    "id": "pvm",
+    "names": {
+      "fr": "Parti des verts marocains",
+      "ar": "حزب الخضر المغربي",
+      "en": "Moroccan Greens Party"
+    },
+    "abbr": "PVM",
+    "founded": null,
+    "founders": [],
+    "founding_context": "Small ecologist party listed in the Tafra encyclopaedia of Moroccan parties. Founding date, founder and current leadership were not established in this session.",
+    "ideology": [
+      "green politics"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#2E8B57",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://partis.tafra.ma/partis/pvm",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Only the existence of a Tafra encyclopaedia entry was captured. Everything else is a gap."
+    }
+  },
+  {
+    "id": "pdi",
+    "names": {
+      "fr": "Parti démocrate de l'indépendance (Parti de la Choura et de l'Istiqlal)",
+      "ar": "حزب الشورى والاستقلال",
+      "en": "Democratic Independence Party"
+    },
+    "abbr": "PDI",
+    "founded": "1946",
+    "founders": [
+      "Mohamed Hassan El Ouazzani"
+    ],
+    "founding_context": "Historic nationalist party founded in 1946 by Mohamed Hassan El Ouazzani as a rival to the Istiqlal in the independence struggle. Marginalised after independence, it survived as a small party and was reactivated in the 1990s-2000s under Secretary General Abdelouahed Maach, occasionally winning one or two seats.",
+    "ideology": [
+      "nationalism",
+      "liberal constitutionalism"
+    ],
+    "position": "centre",
+    "family": "nationalist",
+    "headquarters": null,
+    "colour": "#556B2F",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Abdelouahed Maach",
+      "since": "2000s",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Abdelouahed Maach",
+        "from": "2000s",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Abdelouahed Maach",
+        "role": "Secretary General",
+        "period": "2000s-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1946",
+        "title": "Foundation",
+        "description": "Mohamed Hassan El Ouazzani founds the Parti de la Choura et de l'Istiqlal.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1956",
+        "title": "Independence and marginalisation",
+        "description": "The PDI is eclipsed by the Istiqlal after independence. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2007-09-07",
+        "title": "2007 legislative election",
+        "description": "Wins a seat. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Founding facts are well established historically but were not re-verified in this session; current leader tenure unverified."
+    }
+  },
+  {
+    "id": "prd",
+    "names": {
+      "fr": "Parti de la réforme et du développement",
+      "ar": "حزب الإصلاح والتنمية",
+      "en": "Reform and Development Party"
+    },
+    "abbr": "PRD",
+    "founded": "2001",
+    "founders": [
+      "Abderrahmane El Cohen"
+    ],
+    "founding_context": "Founded in 2001 by Abderrahmane El Cohen, a former RNI parliamentarian; centrist micro-party with occasional single-seat representation. Academic and encyclopaedic sources (Tafra encyclopaedia; Wikipedia 'Partis politiques au Maroc') generally class this formation among the small parties created around the 2002-2011 electoral cycles with little organisational base; this classification is reported neutrally, not asserted. ",
+    "ideology": [
+      "centrism",
+      "liberalism"
+    ],
+    "position": "centre",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#4682B4",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Abderrahmane El Cohen",
+      "since": "2001",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Abderrahmane El Cohen",
+        "from": "2001",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Abderrahmane El Cohen",
+        "role": "Secretary General",
+        "period": "2001-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2001",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2007-09-07",
+        "title": "2007 legislative election",
+        "description": "Wins a seat. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only."
+    }
+  },
+  {
+    "id": "pml",
+    "names": {
+      "fr": "Parti marocain libéral",
+      "ar": "الحزب المغربي الحر",
+      "en": "Moroccan Liberal Party"
+    },
+    "abbr": "PML",
+    "founded": "2002",
+    "founders": [
+      "Mohamed Ziane"
+    ],
+    "founding_context": "Founded in 2002 by lawyer Mohamed Ziane, a former Minister for Human Rights (1995-1996). A small liberal party without seats in recent legislatures; its founder was sentenced to prison in 2022 on charges he and his supporters described as political. For the 2026 election the PML filed 51 local and 9 regional lists and entered the 'Coalition populaire' alliance with the Mouvement populaire and the Parti national démocrate.",
+    "ideology": [
+      "liberalism"
+    ],
+    "position": "centre-right",
+    "family": "liberal",
+    "headquarters": null,
+    "colour": "#1E90FF",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Mohamed Ziane",
+      "since": "2002",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mohamed Ziane",
+        "from": "2002",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mohamed Ziane",
+        "role": "Secretary General",
+        "period": "2002-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2002",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2022",
+        "title": "Founder imprisoned",
+        "description": "Mohamed Ziane is convicted and jailed. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "scandal",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2026-06",
+        "title": "'Coalition populaire' with the MP and PND",
+        "description": "Al Jazeera reports the three parties coordinating through a new alliance ahead of the 2026 vote.",
+        "type": "other",
+        "sources": [
+          "https://www.aljazeera.net/politics/2026/6/22/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-2026"
+        ]
+      },
+      {
+        "date": "2026-09-10",
+        "title": "2026 lists",
+        "description": "51 local lists and 9 regional lists filed.",
+        "type": "electoral",
+        "sources": [
+          "https://www.20minutes.ma/politique/171437.html"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": [
+        {
+          "name": "Local constituency lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 51
+            }
+          ],
+          "unit": "lists (of 92 local constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "name": "Regional lists filed for the 23 Sep 2026 legislative election",
+          "series": [
+            {
+              "year": 2026,
+              "value": 9
+            }
+          ],
+          "unit": "lists (of 12 regional constituencies)",
+          "sources": [
+            "https://www.20minutes.ma/politique/171437.html"
+          ],
+          "confidence": "high"
+        }
+      ]
+    },
+    "sources": [
+      "https://www.20minutes.ma/politique/171437.html",
+      "https://www.aljazeera.net/politics/2026/6/22/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-2026",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "2026 list counts and the Coalition populaire are from captured sources; founding, Ziane's biography and the 2022 conviction from background knowledge. Whether Ziane still formally leads the party is unverified."
+    }
+  },
+  {
+    "id": "ps",
+    "names": {
+      "fr": "Parti socialiste",
+      "ar": "الحزب الاشتراكي",
+      "en": "Socialist Party"
+    },
+    "abbr": "PS",
+    "founded": "2006",
+    "founders": [
+      "Abdelmajid Bouzoubaa (reported)"
+    ],
+    "founding_context": "Small socialist party created in the mid-2000s by a group that left the Congrès national ittihadi; commonly attributed to Abdelmajid Bouzoubaa. It won a couple of seats in 2007 and 2011 and has been marginal since. Founder attribution and dates are provisional.",
+    "ideology": [
+      "socialism"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": null,
+    "colour": "#C0392B",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "2006",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Weakly remembered; founder and founding year must be verified before use. 2026 participation not confirmed."
+    }
+  },
+  {
+    "id": "pnd",
+    "names": {
+      "fr": "Parti national démocrate",
+      "ar": "الحزب الوطني الديمقراطي",
+      "en": "National Democratic Party"
+    },
+    "abbr": "PND",
+    "founded": "1981",
+    "founders": [
+      "Mohamed Arsalane El Jadidi",
+      "RNI dissidents"
+    ],
+    "founding_context": "Founded in 1981 by a group of RNI parliamentarians led by Mohamed Arsalane El Jadidi; a rural-notable, pro-establishment party that held 20-plus seats in the 1980s-90s under Abdellah Kadiri. It merged into the PAM in 2008-2009, then was re-established after Kadiri's departure from the PAM. For 2026 it is reported (as 'Parti démocratique national') in the 'Coalition populaire' with the Mouvement populaire and the Parti marocain libéral; the task brief's 'Parti démocratique national' is treated here as the same party.",
+    "ideology": [
+      "conservatism",
+      "rural interests"
+    ],
+    "position": "centre-right",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#8B4513",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "1981",
+        "title": "Split from the RNI",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2008",
+        "title": "Merger into the PAM",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "merger",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2010",
+        "title": "Re-established",
+        "description": "Kadiri leaves the PAM and revives the PND. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "split",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2026-06",
+        "title": "'Coalition populaire' with MP and PML",
+        "description": "",
+        "type": "other",
+        "sources": [
+          "https://www.aljazeera.net/politics/2026/6/22/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-2026"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://www.aljazeera.net/politics/2026/6/22/%D8%A7%D9%84%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%B4%D8%B1%D9%8A%D8%B9%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8%D9%8A%D8%A9-2026",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Coalition populaire from Al Jazeera (June 2026). History from background knowledge. Current leader unknown; the identity 'Parti démocratique national' = PND is an assumption flagged in the notes file."
+    }
+  },
+  {
+    "id": "pa",
+    "names": {
+      "fr": "Parti de l'action",
+      "ar": "حزب العمل",
+      "en": "Action Party"
+    },
+    "abbr": "PA",
+    "founded": "1974",
+    "founders": [
+      "Abdellah Senhaji"
+    ],
+    "founding_context": "Founded in 1974 by Abdellah Senhaji; one of the oldest small parties, with an Amazigh-leaning, pro-establishment profile. It has had one or two seats in several legislatures (1977, 1984) and none in recent ones.",
+    "ideology": [
+      "Amazigh interests",
+      "conservatism"
+    ],
+    "position": "centre",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#DAA520",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "1974",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only; current leader unknown."
+    }
+  },
+  {
+    "id": "pcs",
+    "names": {
+      "fr": "Parti du centre social",
+      "ar": "حزب الوسط الاجتماعي",
+      "en": "Social Centre Party"
+    },
+    "abbr": "PCS",
+    "founded": "1983",
+    "founders": [
+      "Lahcen Madih"
+    ],
+    "founding_context": "Small centrist party founded in 1983 by Lahcen Madih; it has intermittently held a single seat. Academic and encyclopaedic sources (Tafra encyclopaedia; Wikipedia 'Partis politiques au Maroc') generally class this formation among the small parties created around the 2002-2011 electoral cycles with little organisational base; this classification is reported neutrally, not asserted. ",
+    "ideology": [
+      "centrism"
+    ],
+    "position": "centre",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#708090",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Lahcen Madih",
+      "since": "1983",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Lahcen Madih",
+        "from": "1983",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Lahcen Madih",
+        "role": "Secretary General",
+        "period": "1983-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "1983",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only."
+    }
+  },
+  {
+    "id": "pt",
+    "names": {
+      "fr": "Parti travailliste",
+      "ar": "حزب العمال",
+      "en": "Labour Party"
+    },
+    "abbr": "PT",
+    "founded": "2005",
+    "founders": [
+      "Abdelkrim Benatiq"
+    ],
+    "founding_context": "Founded in 2005 by Abdelkrim Benatiq, a former USFP figure. It won 5 seats in 2007 and 4 in 2011; Benatiq later served as minister delegate for Moroccans abroad (2017-2019). The party has a Tafra encyclopaedia entry.",
+    "ideology": [
+      "social democracy",
+      "labour"
+    ],
+    "position": "centre-left",
+    "family": "left",
+    "headquarters": null,
+    "colour": "#B03A2E",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Abdelkrim Benatiq",
+      "since": "2005",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Abdelkrim Benatiq",
+        "from": "2005",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Abdelkrim Benatiq",
+        "role": "Secretary General",
+        "period": "2005-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2005",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://partis.tafra.ma/partis/pt"
+        ]
+      },
+      {
+        "date": "2007-09-07",
+        "title": "Five seats in 2007",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://partis.tafra.ma/partis/pt"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://partis.tafra.ma/partis/pt",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Tafra entry captured; seat counts and Benatiq's tenure from background knowledge. Whether the PT is still active/registered in 2026 is unverified."
+    }
+  },
+  {
+    "id": "pljs",
+    "names": {
+      "fr": "Parti de la liberté et de la justice sociale",
+      "ar": "حزب الحرية والعدالة الاجتماعية",
+      "en": "Party of Liberty and Social Justice"
+    },
+    "abbr": "PLJS",
+    "founded": "2011",
+    "founders": [
+      "Miloud Moussaoui (reported)"
+    ],
+    "founding_context": "Micro-party listed among registered Moroccan parties by Wikipedia (fr); founded in the early 2010s. No parliamentary representation.",
+    "ideology": [
+      "centrism"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "2011",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Existence confirmed via Wikipedia listing; everything else provisional."
+    }
+  },
+  {
+    "id": "neo-democrates",
+    "names": {
+      "fr": "Parti des néo-démocrates",
+      "ar": "حزب النيو ديمقراطيين",
+      "en": "Neo-Democrats Party"
+    },
+    "abbr": "PND-Néo",
+    "founded": "2014",
+    "founders": [
+      "Mohamed Darif"
+    ],
+    "founding_context": "Small party founded around 2014 by political scientist Mohamed Darif; listed among registered parties by Wikipedia (fr). No parliamentary representation.",
+    "ideology": [
+      "centrism",
+      "reformism"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Mohamed Darif",
+      "since": "2014",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Mohamed Darif",
+        "from": "2014",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Mohamed Darif",
+        "role": "Secretary General",
+        "period": "2014-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2014",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Existence confirmed via Wikipedia listing; founder/date provisional."
+    }
+  },
+  {
+    "id": "pre",
+    "names": {
+      "fr": "Parti du renouveau et de l'équité",
+      "ar": "حزب التجديد والإنصاف",
+      "en": "Renewal and Equity Party"
+    },
+    "abbr": "PRE",
+    "founded": "2006",
+    "founders": [
+      "Chakir Achahbar"
+    ],
+    "founding_context": "Founded in 2006 by Tangier businessman Chakir Achahbar; listed by Wikipedia among the parties created after 2002. It has held at most one seat. The task brief's 'Parti de l'équité' is taken to refer to this party.",
+    "ideology": [
+      "centrism"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Chakir Achahbar",
+      "since": "2006",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Chakir Achahbar",
+        "from": "2006",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Chakir Achahbar",
+        "role": "Secretary General",
+        "period": "2006-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2006",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Wikipedia listing captured (PRE among six parties created from 2002 onward); leader and results from background knowledge."
+    }
+  },
+  {
+    "id": "al-amal",
+    "names": {
+      "fr": "Parti Al Amal (Parti de l'espoir)",
+      "ar": "حزب الأمل",
+      "en": "Hope Party"
+    },
+    "abbr": "Al Amal",
+    "founded": "2012",
+    "founders": [
+      "Mohamed Bani (reported)"
+    ],
+    "founding_context": "Micro-party created in the early 2010s, commonly attributed to former PJD parliamentarian Mohamed Bani. 'Parti de l'espoir' and 'Parti Al Amal' in the task brief refer to the same party.",
+    "ideology": [
+      "conservatism"
+    ],
+    "position": "centre-right",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "2012",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only; founder attribution uncertain."
+    }
+  },
+  {
+    "id": "psd",
+    "names": {
+      "fr": "Parti de la société démocratique",
+      "ar": "حزب المجتمع الديمقراطي",
+      "en": "Democratic Society Party"
+    },
+    "abbr": "PSD",
+    "founded": "2009",
+    "founders": [
+      "Zhor Chekkafi"
+    ],
+    "founding_context": "Micro-party led by Zhor Chekkafi, one of the first women to head a Moroccan party (before Nabila Mounib's 2012 election at the PSU). No parliamentary representation.",
+    "ideology": [
+      "centrism",
+      "women's participation"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": "Zhor Chekkafi",
+      "since": "2009",
+      "title": "Secretary General"
+    },
+    "leaders": [
+      {
+        "name": "Zhor Chekkafi",
+        "from": "2009",
+        "to": null,
+        "note": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional."
+      }
+    ],
+    "notable_members": [
+      {
+        "name": "Zhor Chekkafi",
+        "role": "Secretary General",
+        "period": "2009-"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2009",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Background knowledge only; founding year approximate."
+    }
+  },
+  {
+    "id": "ennahda",
+    "names": {
+      "fr": "Parti de la renaissance (Ennahda)",
+      "ar": "حزب النهضة",
+      "en": "Renaissance Party"
+    },
+    "abbr": "Ennahda",
+    "founded": "2006",
+    "founders": [],
+    "founding_context": "Small party registered in the mid-2000s; no parliamentary representation. Leadership not established in this session.",
+    "ideology": [
+      "conservatism"
+    ],
+    "position": "centre-right",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "2006",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Gap: leader, exact founding date and status unverified."
+    }
+  },
+  {
+    "id": "pcd",
+    "names": {
+      "fr": "Parti de la citoyenneté et du développement",
+      "ar": "حزب المواطنة والتنمية",
+      "en": "Citizenship and Development Party"
+    },
+    "abbr": "PCD",
+    "founded": "2010",
+    "founders": [],
+    "founding_context": "Micro-party registered around 2010; no parliamentary representation. Leadership not established in this session.",
+    "ideology": [
+      "centrism"
+    ],
+    "position": "centre",
+    "family": "other",
+    "headquarters": null,
+    "colour": "#888888",
+    "website": null,
+    "international_affiliation": [],
+    "status": "extra-parliamentary",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "2010",
+        "title": "Foundation",
+        "description": "From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "low",
+      "notes": "Gap: leader and exact founding date unverified."
+    }
+  },
+  {
+    "id": "unfp",
+    "names": {
+      "fr": "Union nationale des forces populaires",
+      "ar": "الاتحاد الوطني للقوات الشعبية",
+      "en": "National Union of Popular Forces"
+    },
+    "abbr": "UNFP",
+    "founded": "1959-09-06",
+    "founders": [
+      "Mehdi Ben Barka",
+      "Abderrahim Bouabid",
+      "Abdellah Ibrahim",
+      "Mahjoub Ben Seddik"
+    ],
+    "founding_context": "Left-wing split from the Istiqlal in September 1959 led by Mehdi Ben Barka, Abderrahim Bouabid and Abdellah Ibrahim, with the UMT trade union. It was the main opposition force of the 1960s, repressed after Ben Barka's disappearance (1965). In 1975 the Rabat wing under Bouabid became the USFP; the residual UNFP (Casablanca wing, Abdellah Ibrahim) boycotted elections and faded into inactivity.",
+    "ideology": [
+      "socialism",
+      "Arab nationalism"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": null,
+    "colour": "#8B0000",
+    "website": null,
+    "international_affiliation": [],
+    "status": "dissolved",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "1959-09-06",
+        "title": "Foundation",
+        "description": "Split from the Istiqlal.",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1965-10-29",
+        "title": "Disappearance of Mehdi Ben Barka",
+        "description": "",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1975-01",
+        "title": "USFP split",
+        "description": "The Rabat wing becomes the USFP; the UNFP continues nominally under Abdellah Ibrahim.",
+        "type": "split",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Historical entry from background knowledge (well-established history); not re-verified in this session."
+    }
+  },
+  {
+    "id": "oadp",
+    "names": {
+      "fr": "Organisation de l'action démocratique populaire",
+      "ar": "منظمة العمل الديمقراطي الشعبي",
+      "en": "Organisation of Democratic and Popular Action"
+    },
+    "abbr": "OADP",
+    "founded": "1983",
+    "founders": [
+      "Mohamed Bensaid Aït Idder"
+    ],
+    "founding_context": "New-left party founded in 1983 by Mohamed Bensaid Aït Idder and former members of the '23 March' Marxist group. It held a few seats in the 1990s and merged into the Gauche socialiste unifiée (later PSU) in 2002.",
+    "ideology": [
+      "democratic socialism"
+    ],
+    "position": "left",
+    "family": "left",
+    "headquarters": null,
+    "colour": "#8B0000",
+    "website": null,
+    "international_affiliation": [],
+    "status": "merged",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "1983",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "2002-07",
+        "title": "Merger into the GSU/PSU",
+        "description": "",
+        "type": "merger",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Parti_socialiste_unifi%C3%A9_(Maroc)"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Historical entry from background knowledge."
+    }
+  },
+  {
+    "id": "fdic",
+    "names": {
+      "fr": "Front pour la défense des institutions constitutionnelles",
+      "ar": "جبهة الدفاع عن المؤسسات الدستورية",
+      "en": "Front for the Defence of Constitutional Institutions"
+    },
+    "abbr": "FDIC",
+    "founded": "1963",
+    "founders": [
+      "Ahmed Réda Guédira"
+    ],
+    "founding_context": "Palace-aligned electoral front created in 1963 by Ahmed Réda Guédira, a close adviser of Hassan II, to counter the Istiqlal and UNFP in the first legislative election; it grouped the Mouvement populaire, the Parti démocrate constitutionnel and independents. It won a plurality in 1963 and broke up within a few years; it is the archetype of the 'administrative party' in Moroccan political analysis.",
+    "ideology": [
+      "monarchism",
+      "conservatism"
+    ],
+    "position": "right",
+    "family": "administrative",
+    "headquarters": null,
+    "colour": "#4B0082",
+    "website": null,
+    "international_affiliation": [],
+    "status": "dissolved",
+    "current_leader": {
+      "name": null,
+      "since": null,
+      "title": null
+    },
+    "leaders": [],
+    "notable_members": [],
+    "timeline": [
+      {
+        "date": "1963",
+        "title": "Foundation",
+        "description": "",
+        "type": "founding",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1963-05-17",
+        "title": "1963 legislative election",
+        "description": "The FDIC wins a plurality of seats. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "electoral",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      },
+      {
+        "date": "1965",
+        "title": "Dissolution",
+        "description": "The front breaks up after the 1965 state of exception. From the researcher's background knowledge; the session's WebSearch budget was exhausted before this item could be cross-checked with two independent queries. Treat as provisional.",
+        "type": "other",
+        "sources": [
+          "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+          "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+          "https://partis.tafra.ma/",
+          "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+        ]
+      }
+    ],
+    "achievements": [],
+    "metrics": {
+      "government_participation": [],
+      "regional_presidencies": [],
+      "house_of_councillors_seats": [],
+      "communal_seats": [],
+      "public_funding_mad": [],
+      "membership_claims": [],
+      "women_mps": [],
+      "custom": []
+    },
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Partis_politiques_au_Maroc",
+      "https://ar.wikipedia.org/wiki/%D9%82%D8%A7%D8%A6%D9%85%D8%A9_%D8%A7%D9%84%D8%A3%D8%AD%D8%B2%D8%A7%D8%A8_%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B3%D9%8A%D8%A9_%D9%81%D9%8A_%D8%A7%D9%84%D9%85%D8%BA%D8%B1%D8%A8",
+      "https://partis.tafra.ma/",
+      "https://www.maroc.ma/fr/content/annuaire-des-partis-politiques"
+    ],
+    "data_quality": {
+      "confidence": "medium",
+      "notes": "Historical entry from background knowledge."
+    }
+  }
+]
