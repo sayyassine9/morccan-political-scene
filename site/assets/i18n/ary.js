@@ -13,6 +13,8 @@ window.I18N.ary = {
   "Elections": "الانتخابات",
   "Events & positions": "الأحداث والمواقف",
   "Methodology & sources": "المنهجية والمصادر",
+  "Policy map": "خريطة المواقف",
+  "Programmes": "البرامج",
   "Theme": "المظهر",
 
   // page titles / headings

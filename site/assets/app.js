@@ -375,6 +375,183 @@
     els.forEach(e => { const c = document.getElementById('sb-' + e.id); if (c && e.seats_total) seatBar(e.results.filter(r => r.seats), e.seats_total, c); });
   }
 
+  // ---------- POLICY MAP PAGE ----------
+  function pagePolicy() {
+    const dims = D.policy_dimensions || [];
+    const positions = D.policy_positions || [];
+    const root = $('#policy');
+    if (!dims.length || !root) { if (root) root.innerHTML = '<p class="muted">No policy data available.</p>'; return; }
+    const posByParty = {};
+    positions.forEach(p => { (posByParty[p.party_id] = posByParty[p.party_id] || {})[p.dimension_id] = p; });
+    const state = { x: dims[0].id, y: (dims[1] || dims[0]).id, selected: null };
+    const dim = (id) => dims.find(d => d.id === id);
+
+    root.innerHTML = `
+      <p class="sub">Editorial coding of party positions on ${dims.length} policy dimensions, scored −2..+2 from dated statements and programmes. Missing evidence is omitted, never assumed neutral.</p>
+      <div class="pill-row">
+        <label class="small">Horizontal axis <select id="pol-x">${dims.map(d => `<option value="${esc(d.id)}">${esc(d.label)}</option>`).join('')}</select></label>
+        <label class="small">Vertical axis <select id="pol-y">${dims.map(d => `<option value="${esc(d.id)}">${esc(d.label)}</option>`).join('')}</select></label>
+      </div>
+      <div class="grid two" style="align-items:start">
+        <div class="card chart-card"><div class="chart-wrap tall"><canvas id="chart-policy"></canvas></div><div id="table-policy"></div></div>
+        <div class="card" id="policy-detail"></div>
+      </div>
+      <h2>All positions</h2>
+      <div class="card" id="policy-matrix"></div>`;
+    $('#pol-x').value = state.x; $('#pol-y').value = state.y;
+
+    function render() {
+      const rows = Object.keys(posByParty)
+        .filter(pid => posByParty[pid][state.x] && posByParty[pid][state.y])
+        .map(pid => ({ pid, x: posByParty[pid][state.x].score, y: posByParty[pid][state.y].score }));
+      makeChart('chart-policy', () => ({
+        type: 'scatter',
+        data: { datasets: rows.map(r => ({ label: partyName(r.pid), data: [{ x: r.x, y: r.y }], backgroundColor: partyColor(r.pid), pointRadius: 8, pointHoverRadius: 10 })) },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          scales: {
+            x: axisOpts({ min: -2.3, max: 2.3, title: { display: true, text: dim(state.x).label, color: css('--muted') } }),
+            y: axisOpts({ min: -2.3, max: 2.3, title: { display: true, text: dim(state.y).label, color: css('--muted') } }),
+          },
+          plugins: { legend: { display: false }, tooltip: { callbacks: { label: (i) => `${i.dataset.label}: ${i.parsed.x}, ${i.parsed.y}` } } },
+          onClick: (evt, els) => { if (els.length) { state.selected = rows[els[0].datasetIndex].pid; renderDetail(); } },
+        },
+      }));
+      $('#table-policy').innerHTML = tableHtml(['Party', { label: dim(state.x).label, num: true }, { label: dim(state.y).label, num: true }],
+        rows.map(r => [partyLabel(r.pid), r.x, r.y]));
+      renderDetail();
+      renderMatrix();
+    }
+
+    function renderDetail() {
+      const box = $('#policy-detail');
+      if (!state.selected) { box.innerHTML = '<p class="muted">Click a point on the chart to see the evidence behind it.</p>'; return; }
+      const pid = state.selected;
+      box.innerHTML = `<h3>${partyLabel(pid)}</h3>` + dims.map(d => {
+        const o = (posByParty[pid] || {})[d.id];
+        return `<div class="pos"><div class="head"><b>${esc(d.label)}</b>${o ? `<span class="chip">${o.score > 0 ? '+' : ''}${o.score}</span>` : '<span class="muted small">Unknown</span>'}</div>
+          ${o ? `<div class="summary">${esc(o.note || '')}</div><p class="small muted" style="margin:4px 0">${esc(o.date || '')}${o.scope ? ' · ' + esc(o.scope) : ''}</p>${sourcesHtml(o.sources)}` : `<p class="small muted">${esc(d.description || '')}</p>`}</div>`;
+      }).join('');
+    }
+
+    function renderMatrix() {
+      const pids = Object.keys(posByParty).sort();
+      $('#policy-matrix').innerHTML = tableHtml(['Party'].concat(dims.map(d => ({ label: d.label, num: true }))),
+        pids.map(pid => [partyLabel(pid)].concat(dims.map(d => { const o = posByParty[pid][d.id]; return o ? (o.score > 0 ? '+' : '') + o.score : '—'; }))));
+    }
+
+    $('#pol-x').onchange = e => { state.x = e.target.value; render(); };
+    $('#pol-y').onchange = e => { state.y = e.target.value; render(); };
+    render();
+  }
+
+  // ---------- PROGRAMMES PAGE ----------
+  function pageProgrammes() {
+    const pr = D.programmes || {};
+    const claims = pr.claims || [];
+    const root = $('#programmes');
+    if (!claims.length || !root) { if (root) root.innerHTML = '<p class="muted">No programme data available.</p>'; return; }
+    const partiesWithDocs = Array.from(new Set((pr.documents || []).map(d => d.party_id)));
+    const topics = Array.from(new Set(claims.map(c => c.topic).filter(Boolean))).sort();
+    const state = { tab: 'current', topic: '', parties: partiesWithDocs.slice(0, 4), selected: null };
+
+    root.innerHTML = `
+      <p class="sub">Selected programme commitments, sourced claims and parliamentary records — not an exhaustive manifesto inventory or a promise-completion score.</p>
+      <div class="pill-row" id="pr-tabs">
+        <button class="pill" data-tab="current" type="button">2026 proposals</button>
+        <button class="pill" data-tab="past" type="button">Previous promises</button>
+        <button class="pill" data-tab="parliament" type="button">Parliamentary record</button>
+      </div>
+      <p class="small muted" style="margin:6px 0 2px">Parties to compare (up to 4)</p>
+      <div class="pill-row" id="pr-parties"></div>
+      <label class="small">Subject <select id="pr-topic"><option value="">All subjects</option>${topics.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join('')}</select></label>
+      <div id="pr-results"></div>`;
+
+    function renderTabs() { $$('#pr-tabs .pill').forEach(b => b.classList.toggle('on', b.dataset.tab === state.tab)); }
+    function renderPartyPicker() {
+      $('#pr-parties').innerHTML = partiesWithDocs.map(pid => `<button class="pill ${state.parties.includes(pid) ? 'on' : ''}" data-party="${esc(pid)}" type="button">${esc(partyName(pid))}</button>`).join('');
+      $$('#pr-parties [data-party]').forEach(b => b.onclick = () => {
+        const pid = b.dataset.party;
+        if (state.parties.includes(pid)) state.parties = state.parties.filter(x => x !== pid);
+        else if (state.parties.length < 4) state.parties.push(pid);
+        state.selected = null; render();
+      });
+    }
+
+    function selectedClaims() {
+      return claims.filter(c => state.parties.includes(c.party_id) && (!state.topic || c.topic === state.topic) && (state.tab === 'past' ? c.year < 2026 : c.year === 2026));
+    }
+
+    function promiseCard(c) {
+      return `<div class="card" data-claim="${esc(c.id)}" style="cursor:pointer;margin-bottom:8px">
+        <div class="small muted">${esc(c.topic || '')}</div><b>${esc(c.title || '')}</b>
+        ${c.value != null ? `<div>${fmt(c.value)} <span class="small muted">${esc(c.unit || '')}</span></div>` : '<div class="small muted">Qualitative commitment</div>'}
+        <p class="small" style="margin:4px 0 0">${esc(c.promise || '')}</p></div>`;
+    }
+
+    function renderClaimDetail() {
+      const box = $('#pr-claim-detail'); if (!box) return;
+      const c = claims.find(c => c.id === state.selected);
+      if (!c) { box.innerHTML = '<p class="muted">Click a commitment to see its proposed method, dated records and evidence limits.</p>'; return; }
+      box.innerHTML = `<h3>${esc(c.title)} — ${partyLabel(c.party_id)}</h3>
+        <p><b>The promise:</b> ${esc(c.promise || '')}</p>
+        <p class="small muted">Target date: ${esc(c.deadline || '—')}</p>
+        ${c.method ? `<p><b>How they propose to do it:</b> ${esc(c.method)}</p>` : ''}
+        ${sourcesHtml(c.sources)}
+        ${(c.history || []).length ? '<h4 style="margin:10px 0 4px">Public record</h4>' + c.history.map(r => `<div class="pos"><b>${esc(r.date || '')}</b> — ${esc(r.title || '')}<p class="small">${esc(r.detail || '')}</p>${sourcesHtml(r.sources)}</div>`).join('') : '<p class="small muted">No sufficiently matched action or outcome record has been collected. This is an evidence gap, not proof of inaction.</p>'}
+        ${c.limits ? `<div class="notice" style="margin-top:8px"><b>Evidence limits</b><p style="margin:4px 0 0">${esc(c.limits)}</p></div>` : ''}`;
+    }
+
+    function employmentSection() {
+      const rr = pr.employment_outcomes || [];
+      if (!rr.length || state.tab !== 'past') return '';
+      return `<div class="card" style="margin:10px 0"><h3 style="margin-top:0">Employment outcomes — an independent measure</h3><p class="small muted">Annual national net employment change (HCP), not attributable to one party or measure.</p>
+        ${tableHtml(['Year', { label: 'Change', num: true }], rr.map(r => [r.year, (r.value > 0 ? '+' : '') + fmt(r.value)]))}</div>`;
+    }
+
+    function renderParliament(el) {
+      const rr = (pr.legislation || []).filter(l => (l.party_ids || []).some(p => state.parties.includes(p)) && (!state.topic || l.topic === state.topic));
+      el.innerHTML = `<div class="notice">These are legislative records, not a scorecard of fulfilled promises. The attribution beneath each entry states what is known.</div>` +
+        (rr.map(l => {
+          const total = l.votes ? Object.values(l.votes).reduce((a, b) => a + b, 0) : 0;
+          return `<div class="card" style="margin:10px 0">
+            <div class="small muted">${esc(l.date || '')} · ${esc(l.law || '')}</div><h3 style="margin:2px 0">${esc(l.title)}</h3><span class="chip">${esc(l.stage || '')}</span>
+            <p class="small" style="margin:6px 0">${esc(l.summary || '')}</p>
+            ${l.vote_note ? `<div class="notice"><b>Disputed tally</b><p style="margin:4px 0 0">${esc(l.vote_note)}</p></div>` : ''}
+            ${l.votes && total ? `<div class="small">For ${l.votes.for || 0} · Against ${l.votes.against || 0} · Abstain ${l.votes.abstain || 0}</div>` : '<p class="small muted">Numerical vote breakdown not recorded in this entry.</p>'}
+            <p class="small muted" style="margin-top:6px">Parties: ${(l.party_ids || []).map(partyName).join(', ')}</p>
+            <p class="small muted">${esc(l.attribution || '')}</p>${sourcesHtml(l.sources)}</div>`;
+        }).join('') || '<p class="muted">No matched legislative record in this selection.</p>');
+    }
+
+    function renderResults() {
+      const el = $('#pr-results');
+      if (state.tab === 'parliament') { renderParliament(el); return; }
+      const rr = selectedClaims();
+      el.innerHTML = `
+        <div class="grid kpi" style="margin:10px 0">
+          <div class="card tile"><div class="label">Selected commitments</div><div class="value">${rr.length}</div></div>
+          <div class="card tile"><div class="label">With numerical targets</div><div class="value">${rr.filter(c => c.value != null).length}</div></div>
+          <div class="card tile"><div class="label">With related records</div><div class="value">${rr.filter(c => (c.history || []).length).length}</div></div>
+        </div>
+        ${state.tab === 'current' ? '<div class="notice">The 2026 election has not taken place. These are future pledges, not completed achievements or broken promises.</div>' : '<div class="notice">Missing records are not evidence of failure; opposition parties did not control government policy.</div>'}
+        ${employmentSection()}
+        <div class="grid" style="grid-template-columns:repeat(${Math.max(1, state.parties.length)},1fr);gap:12px;margin-top:10px">
+          ${state.parties.map(pid => `<div><h3>${partyLabel(pid)}</h3>${rr.filter(c => c.party_id === pid).map(promiseCard).join('') || '<p class="muted small">No reviewed commitment for this party in the selected period and subject.</p>'}</div>`).join('') || '<p class="muted">Choose a party above to begin the comparison.</p>'}
+        </div>
+        <div id="pr-claim-detail" class="card" style="margin:10px 0"></div>
+        ${tableHtml(['Party', 'Topic', 'Title', { label: 'Value', num: true }, 'Unit', 'Deadline', 'Status'],
+          rr.map(c => [partyName(c.party_id), esc(c.topic || ''), esc(c.title || ''), c.value != null ? fmt(c.value) : '—', esc(c.unit || ''), esc(c.deadline || ''), esc(c.status || '')]))}`;
+      $$('#pr-results [data-claim]').forEach(b => b.onclick = () => { state.selected = b.dataset.claim; renderClaimDetail(); });
+      renderClaimDetail();
+    }
+
+    function render() { renderTabs(); renderPartyPicker(); renderResults(); }
+    $$('#pr-tabs .pill').forEach(b => b.onclick = () => { state.tab = b.dataset.tab; state.selected = null; render(); });
+    $('#pr-topic').onchange = e => { state.topic = e.target.value; state.selected = null; render(); };
+    render();
+  }
+
   // ---------- init ----------
   document.addEventListener('DOMContentLoaded', () => {
     initTheme();
@@ -386,6 +563,8 @@
       else if (page === 'party') pageParty();
       else if (page === 'events') pageEvents();
       else if (page === 'elections') pageElections();
+      else if (page === 'policy') pagePolicy();
+      else if (page === 'programmes') pageProgrammes();
     } catch (err) { console.error(err); const m = $('main .wrap'); if (m) m.insertAdjacentHTML('afterbegin', `<div class="notice">Rendering error: ${esc(err.message)}. Run <code>python3 scripts/build.py</code> to regenerate data.js.</div>`); }
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', rerenderCharts);
   });

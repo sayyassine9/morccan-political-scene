@@ -14,6 +14,8 @@ window.I18N.fr = {
   "Elections": "Élections",
   "Events & positions": "Événements et positions",
   "Methodology & sources": "Méthodologie et sources",
+  "Policy map": "Carte des positions",
+  "Programmes": "Programmes",
   "Theme": "Thème",
 
   // page titles / headings
