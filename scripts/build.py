@@ -38,6 +38,10 @@ def check_conf(v, ctx):
         errors.append(f'{ctx}: bad confidence {v!r}')
 
 
+def opt(name):
+    return load(name) if os.path.exists(os.path.join(DATA, name)) else None
+
+
 def main():
     parties = load('parties.json'); elections = load('elections.json'); events = load('events.json'); govs = load('governments.json')
     gm = load('global-metrics.json') if os.path.exists(os.path.join(DATA, 'global-metrics.json')) else {}
@@ -116,6 +120,65 @@ def main():
         for c in g.get('coalition', []):
             ref(c, ctx)
 
+    sources_registry = opt('sources.json') or {}
+
+    def sref(sid, ctx):
+        if sid not in sources_registry:
+            warnings.append(f'{ctx}: unknown source id {sid!r} (not in sources.json)')
+
+    policy = opt('policy-positions.json')
+    if policy:
+        dim_ids = set()
+        for d in policy.get('dimensions', []):
+            if not d.get('id'):
+                errors.append('policy dimension missing id')
+            elif d['id'] in dim_ids:
+                errors.append(f"policy dimension {d['id']}: duplicate id")
+            dim_ids.add(d.get('id'))
+        for pos in policy.get('positions', []):
+            ctx = f"policy position {pos.get('party_id')}/{pos.get('dimension_id')}"
+            ref(pos.get('party_id'), ctx)
+            if pos.get('dimension_id') not in dim_ids:
+                errors.append(f'{ctx}: unknown dimension id {pos.get("dimension_id")!r}')
+            if pos.get('score') is not None and not (-2 <= pos['score'] <= 2):
+                errors.append(f'{ctx}: score {pos["score"]!r} out of range -2..2')
+            for s in pos.get('sources', []):
+                sref(s, ctx)
+
+    programmes = opt('programmes.json')
+    if programmes:
+        for c in programmes.get('claims', []):
+            ref(c.get('party_id'), f"programme claim {c.get('id')}")
+        for d in programmes.get('documents', []):
+            ref(d.get('party_id'), f"programme document {d.get('party_id')}/{d.get('year')}")
+        for l in programmes.get('legislation', []):
+            for pid in l.get('party_ids', []):
+                ref(pid, f"legislation {l.get('id')}")
+
+    media = opt('media.json')
+    if media:
+        seen_media_ids = set()
+        for m in media:
+            ctx = f"media {m.get('id')}"
+            if not m.get('id'):
+                errors.append('media entry missing id')
+            elif m['id'] in seen_media_ids:
+                errors.append(f'{ctx}: duplicate id')
+            seen_media_ids.add(m.get('id'))
+            if m.get('party_id'):
+                ref(m['party_id'], ctx)
+            path = m.get('path') or ''
+            abs_path = os.path.join(ROOT, 'site', path)
+            if not path or not os.path.exists(abs_path):
+                errors.append(f'{ctx}: file not found at site/{path}')
+            elif m.get('sha256'):
+                import hashlib
+                actual = hashlib.sha256(open(abs_path, 'rb').read()).hexdigest()
+                if actual != m['sha256']:
+                    errors.append(f'{ctx}: sha256 mismatch (file may be corrupt or truncated)')
+            if not m.get('license'):
+                warnings.append(f'{ctx}: missing license')
+
     meth = os.path.join(ROOT, 'docs', 'METHODOLOGY.md')
     meth_html = ''
     if os.path.exists(meth):
@@ -124,6 +187,11 @@ def main():
         'meta': {'generated_at': datetime.date.today().isoformat(), 'methodology_html': meth_html,
                  'counts': {'parties': len(parties), 'elections': len(elections), 'events': len(events), 'governments': len(govs)}},
         'parties': parties, 'elections': elections, 'events': events, 'governments': govs, 'global_metrics': gm, 'labels': labels,
+        'sources': sources_registry,
+        'policy_dimensions': (policy or {}).get('dimensions', []),
+        'policy_positions': (policy or {}).get('positions', []),
+        'programmes': programmes or {},
+        'media': media or [],
     }
     for w in warnings:
         print('WARN', w)
