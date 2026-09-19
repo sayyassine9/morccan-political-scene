@@ -23,6 +23,8 @@ jobs:
           python-version: '3.12'
       - name: Validate data and build bundle
         run: python3 scripts/build.py --strict
+      - name: Export SQLite database
+        run: python3 scripts/export_sqlite.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
