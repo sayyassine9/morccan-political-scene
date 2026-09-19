@@ -1,4 +1,4 @@
-/* Moroccan political scene — data bank front-end (vanilla JS + Chart.js) */
+/* Ntikhabat — data bank front-end (vanilla JS + Chart.js) */
 (function () {
   'use strict';
   const D = window.DATA || { parties: [], elections: [], events: [], governments: [], meta: {} };
@@ -207,7 +207,7 @@
     const id = qs('id'); const p = partyById[id];
     const root = $('#party');
     if (!p) { root.innerHTML = `<h1>Party not found</h1><p class="sub">No party with id “${esc(id)}”.</p><p>${D.parties.map(x => `<a href="party.html?id=${esc(x.id)}">${esc(x.abbr || x.names.fr)}</a>`).join(' · ')}</p>`; return; }
-    document.title = `${p.abbr || p.names.fr} — Moroccan political scene`;
+    document.title = `${p.abbr || p.names.fr} — Ntikhabat`;
     const ss = seatSeries(p.id); const last = ss[ss.length - 1] || {};
     const m = p.metrics || {};
     const govNow = D.governments.filter(g => !g.to)[0];

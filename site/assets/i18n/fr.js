@@ -8,8 +8,7 @@
    theirs exactly. */
 window.I18N = window.I18N || {};
 window.I18N.fr = {
-  // nav / chrome
-  "🇲🇦 Moroccan political scene": "🇲🇦 Scène politique marocaine",
+  // nav / chrome -- "Ntikhabat" is the product/brand name and stays unchanged in every language
   "Dashboard": "Tableau de bord",
   "Elections": "Élections",
   "Events & positions": "Événements et positions",
@@ -19,7 +18,6 @@ window.I18N.fr = {
   "Theme": "Thème",
 
   // page titles / headings
-  "Moroccan political scene": "Scène politique marocaine",
   "Parties, elections, governments and positions on the major events since independence. Cross-sourced data bank with confidence ratings.":
     "Partis, élections, gouvernements et positions sur les événements majeurs depuis l'indépendance. Base de données recoupée avec niveaux de confiance.",
   "Current House of Representatives": "Chambre des représentants actuelle",

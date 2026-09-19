@@ -1,4 +1,4 @@
-# Moroccan political scene — data bank and dashboard
+# Ntikhabat — Moroccan political data bank and dashboard
 
 A cross-sourced data bank of Moroccan political parties (history, leaders, ideology, election results, metrics, positions on major events, policy positions and programme comparisons) with a static, multi-language dashboard.
 

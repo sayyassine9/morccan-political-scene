@@ -1,4 +1,4 @@
-/* Moroccan political scene — lightweight i18n.
+/* Ntikhabat — lightweight i18n.
    Phrase-dictionary translation: original English text is the lookup key, dictionaries
    are keyed by language. DOM text nodes are walked and swapped after every render (app.js
    is dynamic-HTML-driven, so a MutationObserver catches re-renders too). Numeric strings

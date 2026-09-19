@@ -7,8 +7,7 @@
    translation -- flagging that explicitly rather than presenting it as verified. */
 window.I18N = window.I18N || {};
 window.I18N.ary = {
-  // nav / chrome
-  "🇲🇦 Moroccan political scene": "🇲🇦 المشهد السياسي المغربي",
+  // nav / chrome -- "Ntikhabat" is the product/brand name and stays unchanged in every language
   "Dashboard": "لوحة القيادة",
   "Elections": "الانتخابات",
   "Events & positions": "الأحداث والمواقف",
@@ -18,7 +17,6 @@ window.I18N.ary = {
   "Theme": "المظهر",
 
   // page titles / headings
-  "Moroccan political scene": "المشهد السياسي المغربي",
   "Parties, elections, governments and positions on the major events since independence. Cross-sourced data bank with confidence ratings.":
     "الأحزاب، الانتخابات، الحكومات، ومواقف الأحزاب من الأحداث الكبرى منذ الاستقلال. قاعدة معطيات متأكد منها بمصادر متعددة.",
   "Current House of Representatives": "مجلس النواب الحالي",
