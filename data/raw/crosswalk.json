@@ -1,0 +1,266 @@
+[
+  {
+    "majlis_id": "rni",
+    "majlis_name": "National Rally of Independents",
+    "majlis_name_fr": "Rassemblement National des Indépendants",
+    "target_id": "rni",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pam",
+    "majlis_name": "Authenticity and Modernity",
+    "majlis_name_fr": "Parti Authenticité et Modernité",
+    "target_id": "pam",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pi",
+    "majlis_name": "Istiqlal / Independence Party",
+    "majlis_name_fr": "Parti de l'Istiqlal",
+    "target_id": "istiqlal",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pjd",
+    "majlis_name": "Justice and Development",
+    "majlis_name_fr": "Parti de la Justice et du Développement",
+    "target_id": "pjd",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "usfp",
+    "majlis_name": "Socialist Union of Popular Forces",
+    "majlis_name_fr": "Union Socialiste des Forces Populaires",
+    "target_id": "usfp",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pps",
+    "majlis_name": "Progress and Socialism",
+    "majlis_name_fr": "Parti du Progrès et du Socialisme",
+    "target_id": "pps",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "mp",
+    "majlis_name": "Popular Movement",
+    "majlis_name_fr": "Mouvement Populaire",
+    "target_id": "mp",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "uc",
+    "majlis_name": "Constitutional Union",
+    "majlis_name_fr": "Union Constitutionnelle",
+    "target_id": "uc",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "mds",
+    "majlis_name": "Democratic and Social Movement",
+    "majlis_name_fr": "Mouvement Démocratique et Social",
+    "target_id": "mds",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "ffd",
+    "majlis_name": "Front of Democratic Forces",
+    "majlis_name_fr": "Front des Forces Démocratiques",
+    "target_id": "ffd",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "psu",
+    "majlis_name": "Unified Socialist Party",
+    "majlis_name_fr": "Parti Socialiste Unifié",
+    "target_id": "psu",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "neo",
+    "majlis_name": "Neo-Democrats",
+    "majlis_name_fr": "Parti des Néo-Démocrates",
+    "target_id": "neo-democrates",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pdi",
+    "majlis_name": "Democratic Independence / Choura and Istiqlal",
+    "majlis_name_fr": "Parti Démocratique de l'Indépendance",
+    "target_id": "pdi",
+    "confidence": "confirmed",
+    "note": "Both sides name the Choura/Istiqlal split explicitly (target fr: \"Parti de la Choura et de l'Istiqlal\"; majlis fr: \"Parti Démocratique de l'Indépendance\"). Automated matcher tied this against 'istiqlal' only because 'Independence'/'Istiqlal' is a shared translation token, not a real party overlap -- manually confirmed as pdi<->pdi."
+  },
+  {
+    "majlis_id": "pdn",
+    "majlis_name": "National Democrat Party",
+    "majlis_name_fr": "Parti Démocrate National",
+    "target_id": "pnd",
+    "confidence": "confirmed",
+    "note": "Same party, abbreviation letter order differs between sources (target: Parti National Démocrate = PND; majlis: Parti Démocrate National = PDN)."
+  },
+  {
+    "majlis_id": "pml",
+    "majlis_name": "Moroccan Liberal Party",
+    "majlis_name_fr": "Parti Marocain Libéral",
+    "target_id": "pml",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pvm",
+    "majlis_name": "Moroccan Greens",
+    "majlis_name_fr": "Parti des Verts Marocains",
+    "target_id": "pvm",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pljs",
+    "majlis_name": "Freedom and Social Justice",
+    "majlis_name_fr": "Parti de la Liberté et de la Justice Sociale",
+    "target_id": "pljs",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pcs",
+    "majlis_name": "Social Centre Party",
+    "majlis_name_fr": "Parti du Centre Social",
+    "target_id": "pcs",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pe",
+    "majlis_name": "Hope Party / Al Amal",
+    "majlis_name_fr": "Parti de l'Espoir",
+    "target_id": "al-amal",
+    "confidence": "confirmed",
+    "note": "Majlis \"Hope Party / Al Amal\" (fr: Parti de l'Espoir) matches target's al-amal (fr: \"Parti Al Amal (Parti de l'espoir)\") exactly."
+  },
+  {
+    "majlis_id": "pud",
+    "majlis_name": "Unity and Democracy",
+    "majlis_name_fr": "Parti de l'Unité et de la Démocratie",
+    "target_id": "pud",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pan",
+    "majlis_name": "Renaissance / Annahda",
+    "majlis_name_fr": "Parti de la Renaissance",
+    "target_id": "ennahda",
+    "confidence": "confirmed",
+    "note": "Majlis \"Renaissance / Annahda\" matches target's ennahda (fr: \"Parti de la renaissance (Ennahda)\") exactly. Transliteration differs (majlis: Annahda, target: Ennahda) which is why automated string match missed it."
+  },
+  {
+    "majlis_id": "pa",
+    "majlis_name": "Action Party",
+    "majlis_name_fr": "Parti de l'Action",
+    "target_id": "pa",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pedd",
+    "majlis_name": "Environment and Sustainable Development",
+    "majlis_name_fr": "Parti de l'Environnement et du Développement Durable",
+    "target_id": "pedd",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "prd",
+    "majlis_name": "Reform and Development",
+    "majlis_name_fr": "Parti de la Réforme et du Développement",
+    "target_id": "prd",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "psd",
+    "majlis_name": "Democratic Society",
+    "majlis_name_fr": "Parti de la Société Démocratique",
+    "target_id": "psd-societe",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "umd",
+    "majlis_name": "Moroccan Union for Democracy",
+    "majlis_name_fr": "Union Marocaine pour la Démocratie",
+    "target_id": null,
+    "confidence": "new",
+    "note": "Union Marocaine pour la Démocratie -- confirmed absent from target's 48 parties (no name/id match, no mention in data/raw/). Add as a new party record with a fresh target-style slug id (e.g. 'umd')."
+  },
+  {
+    "majlis_id": "cni",
+    "majlis_name": "National Ittihadi Congress",
+    "majlis_name_fr": "Congrès National Ittihadi",
+    "target_id": "cni",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "pads",
+    "majlis_name": "Democratic Socialist Vanguard",
+    "majlis_name_fr": "Parti de l'Avant-Garde Démocratique et Socialiste",
+    "target_id": "pads",
+    "confidence": "exact",
+    "note": ""
+  },
+  {
+    "majlis_id": "equity",
+    "majlis_name": "Equity Party / Al Insaaf",
+    "majlis_name_fr": "Equity Party / Al Insaaf",
+    "target_id": null,
+    "confidence": "new",
+    "note": "Equity Party / Al Insaaf -- confirmed distinct from target's existing 'pre' (Parti du renouveau et de l'équité / Renewal and Equity Party): majlis's name has no \"renouveau/renewal\" component and no raw research file backs it on the Majlis side either (no equity.json in research/raw/). Grepped both repos for \"insaf\"/\"insaaf\" -- no prior mention in target. Treat as a new, low-confidence party record; do not conflate with pre."
+  },
+  {
+    "majlis_id": "ag2026",
+    "majlis_name": "Alliance of the Left · 2026",
+    "majlis_name_fr": "Alliance of the Left · 2026",
+    "target_id": "fgd",
+    "confidence": "tentative",
+    "note": "\"Alliance of the Left · 2026\" appears to be the same recurring alliance's 2026 rebrand (FGD 2016 -> AFG 2021 -> FGD 2022 -> AG 2026), continuing the naming pattern. NOT auto-collapsed into fgd like the other cycles -- flagged tentative because the Sept 2026 election hasn't happened yet (target's own leg-2026 entry is an empty stub) and composition for this specific cycle is least verified. Confirm against Majlis's ag2026 record and target's raw notes before folding into fgd."
+  },
+  {
+    "majlis_id": "afg2021",
+    "majlis_name": "Alliance of the Left Federation · 2021",
+    "majlis_name_fr": "Alliance of the Left Federation · 2021",
+    "target_id": "fgd",
+    "confidence": "confirmed",
+    "note": "Same recurring left alliance, renamed 'Alliance of the Left Federation' for the 2021 cycle. Collapse into fgd per merge plan -- fold into fgd.timeline tagged 2021. NEEDS VERIFICATION before Phase 2: confirm the 2021 alliance had the same member-party composition as 2016/2022 before merging election results (not just leadership/timeline facts)."
+  },
+  {
+    "majlis_id": "fgd2016",
+    "majlis_name": "Federation of the Democratic Left · 2016",
+    "majlis_name_fr": "Federation of the Democratic Left · 2016",
+    "target_id": "fgd",
+    "confidence": "confirmed",
+    "note": "Per merge plan: collapse Majlis's per-cycle alliance records (fgd2016/afg2021/fgd2022/ag2026) into target's single unified 'fgd' record. Fold this cycle's sourced facts (leadership, seats) into fgd.timeline tagged 2016, do not create a separate party record."
+  },
+  {
+    "majlis_id": "fgd2022",
+    "majlis_name": "Federation of the Democratic Left",
+    "majlis_name_fr": "Fédération de la gauche démocratique",
+    "target_id": "fgd",
+    "confidence": "confirmed",
+    "note": "Exact name match already resolved by automated pass (fr: \"Fédération de la gauche démocratique\" on both sides). Fold cycle-specific facts into fgd.timeline tagged 2022."
+  }
+]
