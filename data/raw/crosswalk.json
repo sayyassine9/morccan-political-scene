@@ -205,7 +205,7 @@
     "majlis_name_fr": "Union Marocaine pour la Démocratie",
     "target_id": null,
     "confidence": "new",
-    "note": "Union Marocaine pour la Démocratie -- confirmed absent from target's 48 parties (no name/id match, no mention in data/raw/). Add as a new party record with a fresh target-style slug id (e.g. 'umd')."
+    "note": "Union Marocaine pour la Démocratie -- confirmed absent from target's 48 parties (no name/id match, no mention in data/raw/). Add as a new party record with a fresh target-style slug id (e.g. 'umd'). User-confirmed 2026-09-19: add as a new party record in Phase 2."
   },
   {
     "majlis_id": "cni",
@@ -229,15 +229,15 @@
     "majlis_name_fr": "Equity Party / Al Insaaf",
     "target_id": null,
     "confidence": "new",
-    "note": "Equity Party / Al Insaaf -- confirmed distinct from target's existing 'pre' (Parti du renouveau et de l'équité / Renewal and Equity Party): majlis's name has no \"renouveau/renewal\" component and no raw research file backs it on the Majlis side either (no equity.json in research/raw/). Grepped both repos for \"insaf\"/\"insaaf\" -- no prior mention in target. Treat as a new, low-confidence party record; do not conflate with pre."
+    "note": "Equity Party / Al Insaaf -- confirmed distinct from target's existing 'pre' (Parti du renouveau et de l'équité / Renewal and Equity Party): majlis's name has no \"renouveau/renewal\" component and no raw research file backs it on the Majlis side either (no equity.json in research/raw/). Grepped both repos for \"insaf\"/\"insaaf\" -- no prior mention in target. Treat as a new, low-confidence party record; do not conflate with pre. User-confirmed 2026-09-19: add as a new low-confidence party record in Phase 2."
   },
   {
     "majlis_id": "ag2026",
     "majlis_name": "Alliance of the Left · 2026",
     "majlis_name_fr": "Alliance of the Left · 2026",
     "target_id": "fgd",
-    "confidence": "tentative",
-    "note": "\"Alliance of the Left · 2026\" appears to be the same recurring alliance's 2026 rebrand (FGD 2016 -> AFG 2021 -> FGD 2022 -> AG 2026), continuing the naming pattern. NOT auto-collapsed into fgd like the other cycles -- flagged tentative because the Sept 2026 election hasn't happened yet (target's own leg-2026 entry is an empty stub) and composition for this specific cycle is least verified. Confirm against Majlis's ag2026 record and target's raw notes before folding into fgd."
+    "confidence": "confirmed",
+    "note": "User-confirmed 2026-09-19: fold into fgd now like the other three cycles, even though the Sept 23 2026 election hasn't happened yet. Tag facts in fgd.timeline as 2026 and revisit composition once results land."
   },
   {
     "majlis_id": "afg2021",
