@@ -21,6 +21,12 @@
 
   // ---------- data helpers ----------
   const partyById = {}; D.parties.forEach(p => partyById[p.id] = p);
+  const mediaByParty = {}; (D.media || []).forEach(m => { (mediaByParty[m.party_id] = mediaByParty[m.party_id] || []).push(m); });
+  const partyLogo = (id) => (mediaByParty[id] || []).find(m => m.kind === 'logo');
+  // Portraits carry a person_name but no party_id in the source data (the link is only
+  // implicit via a party's leadership list), so match on name across all media, not per-party.
+  const portraitFor = (id, name) => (D.media || []).find(m => m.kind === 'portrait' && m.person_name === name);
+  const mediaCredit = (m) => `<details class="sources" style="margin-top:4px"><summary>Image credit</summary><p class="small muted" style="margin:4px 0 0">${esc(m.title || '')}${m.credit ? ' · ' + esc(m.credit) : ''}${m.license ? ' · ' + esc(m.license) : ''}${m.restrictions ? ' · ' + esc(m.restrictions) : ''}</p>${m.source_page ? `<p class="small"><a href="${esc(m.source_page)}" target="_blank" rel="noopener">Source</a></p>` : ''}</details>`;
   const legs = D.elections.filter(e => e.type === 'legislative' && e.results && e.results.length).sort((a, b) => a.date.localeCompare(b.date));
   const latestLeg = legs[legs.length - 1];
   const LABELS = D.labels || {};
@@ -213,9 +219,11 @@
     const govPart = (m.government_participation || []);
     const lastGov = govPart.slice().sort((a, b) => (a.from || '').localeCompare(b.from || '')).pop();
 
+    const logo = partyLogo(p.id);
     root.innerHTML = `
       <div class="pill-row">${[p.family, p.position, p.status].filter(Boolean).map(x => `<span class="chip">${esc(x)}</span>`).join('')}${inGov ? '<span class="chip stance stance-support">in government</span>' : (last.seats ? '<span class="chip">opposition</span>' : '')}</div>
-      <h1><span class="swatch" style="background:${partyColor(p.id)};width:16px;height:16px;border-radius:4px;vertical-align:-1px"></span> ${esc(p.names.fr)} ${p.abbr ? `(${esc(p.abbr)})` : ''}</h1>
+      <h1 style="display:flex;align-items:center;gap:10px">${logo ? `<img src="${esc(logo.path)}" alt="${esc(p.abbr || '')}" style="width:36px;height:36px;object-fit:contain;border-radius:6px;background:var(--surface-2)" onerror="this.style.display='none'">` : `<span class="swatch" style="background:${partyColor(p.id)};width:16px;height:16px;border-radius:4px"></span>`} ${esc(p.names.fr)} ${p.abbr ? `(${esc(p.abbr)})` : ''}</h1>
+      ${logo ? mediaCredit(logo) : ''}
       <p class="sub">${esc(p.names.ar || '')} · ${esc(p.names.en || '')}</p>
       <p class="sub">${esc(p.founding_context || '')}</p>
       <div class="grid kpi" id="p-kpis"></div>
@@ -229,7 +237,7 @@
       </div>
       <div id="p-metrics"></div>
       <h2>Leadership</h2>
-      <div class="leaders">${(p.leaders || []).map(l => `<div class="leader"><b>${esc(l.name)}</b><span class="muted">${esc(l.from || '?')} → ${esc(l.to || 'present')}</span>${l.note ? `<div class="small">${esc(l.note)}</div>` : ''}</div>`).join('') || '<p class="muted">No leader data.</p>'}</div>
+      <div class="leaders">${(p.leaders || []).map(l => { const portrait = portraitFor(p.id, l.name); return `<div class="leader">${portrait ? `<img src="${esc(portrait.path)}" alt="${esc(l.name)}" style="width:100%;max-width:120px;border-radius:8px;object-fit:cover;margin-bottom:6px" onerror="this.style.display='none'">` : ''}<b>${esc(l.name)}</b><span class="muted">${esc(l.from || '?')} → ${esc(l.to || 'present')}</span>${l.note ? `<div class="small">${esc(l.note)}</div>` : ''}${portrait ? mediaCredit(portrait) : ''}</div>`; }).join('') || '<p class="muted">No leader data.</p>'}</div>
       ${(p.notable_members || []).length ? `<h3>Notable members</h3><div class="table-scroll"><table><thead><tr><th>Name</th><th>Role</th><th>Period</th></tr></thead><tbody>${p.notable_members.map(n => `<tr><td>${esc(n.name)}</td><td>${esc(n.role)}</td><td>${esc(n.period || '')}</td></tr>`).join('')}</tbody></table></div>` : ''}
       <h2>Timeline</h2>
       <div class="filters" id="tl-filters"></div>
