@@ -1,0 +1,1310 @@
+{
+  "documents": [
+    {
+      "party_id": "rni",
+      "year": 2026,
+      "sources": [
+        "programme-rni-press",
+        "programme-rni"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "pam",
+      "year": 2026,
+      "sources": [
+        "programme-pam-press",
+        "programme-pam"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "istiqlal",
+      "year": 2026,
+      "sources": [
+        "programme-pi-press",
+        "programme-pi"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "pps",
+      "year": 2026,
+      "sources": [
+        "programme-pps-press",
+        "programme-pps"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "pjd",
+      "year": 2026,
+      "sources": [
+        "programme-pjd-press"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "usfp",
+      "year": 2026,
+      "sources": [
+        "programme-usfp-press",
+        "programme-usfp"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "mp",
+      "year": 2026,
+      "sources": [
+        "programme-mp-press",
+        "programme-mp"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "uc",
+      "year": 2026,
+      "sources": [
+        "programme-uc-press"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    },
+    {
+      "party_id": "fgd",
+      "year": 2026,
+      "sources": [
+        "programme-ag2026-press",
+        "programme-ag2026"
+      ],
+      "coverage": "Selected commitments; not an exhaustive manifesto inventory."
+    }
+  ],
+  "claims": [
+    {
+      "id": "rni-jobs-26",
+      "topic": "Employment",
+      "title": "One million jobs",
+      "promise": "Create one million jobs.",
+      "method": "Sector targets, investment support and a productive-loan fund.",
+      "sources": [
+        "programme-rni",
+        "programme-rni-press"
+      ],
+      "metric": "jobs",
+      "value": 1000000,
+      "unit": "jobs",
+      "deadline": "2031",
+      "definition": "Jobs announced in the 2026 programme; do not equate with HCP net employment.",
+      "history": [
+        {
+          "date": "2021",
+          "title": "The earlier million-job pledge",
+          "detail": "Create one million direct jobs.",
+          "sources": [
+            "rni-programme2021"
+          ],
+          "kind": "Earlier programme proposal"
+        },
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        },
+        {
+          "date": "2022–2025",
+          "title": "Net employment changed unevenly",
+          "detail": "HCP reports −24,000, −157,000, +82,000 and +193,000 jobs in successive years. These are economy-wide net changes, not a count of jobs caused by a party.",
+          "sources": [
+            "hcp2022",
+            "hcp2024",
+            "hcp2025"
+          ],
+          "kind": "Official outcome data"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "rni"
+    },
+    {
+      "id": "rni-health-26",
+      "topic": "Health",
+      "title": "More health professionals",
+      "promise": "Reach 45 health professionals per 10,000 people.",
+      "method": "Territorial health groups, family doctors and rural health agents.",
+      "sources": [
+        "programme-rni",
+        "programme-rni-press"
+      ],
+      "metric": "health_density",
+      "value": 45,
+      "unit": "per 10,000 people",
+      "deadline": "2030",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-12-07",
+          "title": "Health framework adopted",
+          "detail": "Law 06.22 was adopted. The bill record lists 119 votes for; the sitting summary lists 199. Both list zero against and one abstention. The discrepancy remains unresolved.",
+          "sources": [
+            "house-health",
+            "house-health-session"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "rni"
+    },
+    {
+      "id": "rni-aid-26",
+      "topic": "Social protection",
+      "title": "Protect aid against inflation",
+      "promise": "Index social assistance against inflation.",
+      "method": "Automatic adjustment above a predefined inflation threshold, with an annual budget cap. The document does not give the numerical threshold.",
+      "sources": [
+        "programme-rni",
+        "programme-rni-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "rni"
+    },
+    {
+      "id": "pam-jobs-26",
+      "topic": "Employment",
+      "title": "One million net jobs",
+      "promise": "Create at least one million net jobs.",
+      "method": "Private investment and sector programmes, including World Cup activity.",
+      "sources": [
+        "programme-pam",
+        "programme-pam-press"
+      ],
+      "metric": "jobs",
+      "value": 1000000,
+      "unit": "jobs",
+      "deadline": "2031",
+      "definition": "Explicitly net jobs; temporary World Cup activity may form part of the projection.",
+      "history": [
+        {
+          "date": "2021",
+          "title": "Earlier employment target",
+          "detail": "Create 820,000 jobs by 2026.",
+          "sources": [
+            "pam-promises2021"
+          ],
+          "kind": "Earlier programme proposal"
+        },
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        },
+        {
+          "date": "2022–2025",
+          "title": "Net employment changed unevenly",
+          "detail": "HCP reports −24,000, −157,000, +82,000 and +193,000 jobs in successive years. These are economy-wide net changes, not a count of jobs caused by a party.",
+          "sources": [
+            "hcp2022",
+            "hcp2024",
+            "hcp2025"
+          ],
+          "kind": "Official outcome data"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pam"
+    },
+    {
+      "id": "pam-aid-26",
+      "topic": "Social protection",
+      "title": "Raise the aid floor",
+      "promise": "Gradually raise minimum monthly direct aid to MAD 1,000.",
+      "method": "Replace score-based targeting with household-income eligibility.",
+      "sources": [
+        "programme-pam",
+        "programme-pam-press"
+      ],
+      "metric": "monthly_aid",
+      "value": 1000,
+      "unit": "MAD / household / month",
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pam"
+    },
+    {
+      "id": "pam-pension-26",
+      "topic": "Social protection",
+      "title": "A minimum pension",
+      "promise": "Set a minimum pension of MAD 3,000 from the second year.",
+      "method": "Raise the floor across pension systems.",
+      "sources": [
+        "programme-pam"
+      ],
+      "metric": "pension",
+      "value": 3000,
+      "unit": "MAD / month",
+      "deadline": "2028",
+      "definition": "",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pam"
+    },
+    {
+      "id": "pi-family-26",
+      "topic": "Social protection",
+      "title": "Support young households",
+      "promise": "Offer up to MAD 5,000 to young people who marry.",
+      "method": "A family-support package including childcare and care-related assistance.",
+      "sources": [
+        "programme-pi",
+        "programme-pi-press"
+      ],
+      "metric": "marriage_grant",
+      "value": 5000,
+      "unit": "MAD / grant",
+      "deadline": "2031",
+      "definition": "Maximum proposed marriage grant; not a monthly benefit.",
+      "history": [
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "istiqlal"
+    },
+    {
+      "id": "pi-prices-26",
+      "topic": "Cost of living",
+      "title": "Shorter food distribution chains",
+      "promise": "Reduce distribution costs and make margins more transparent.",
+      "method": "Regional purchasing, storage and distribution companies.",
+      "sources": [
+        "programme-pi",
+        "programme-pi-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "No reviewed total budget or precise financing plan; future delivery is unassessed.",
+      "party_id": "istiqlal"
+    },
+    {
+      "id": "pi-integrity-26",
+      "topic": "Governance",
+      "title": "Conflict-of-interest rules",
+      "promise": "Strengthen declarations of assets and interests and protect whistleblowers.",
+      "method": "A dedicated conflict-of-interest law and stronger oversight.",
+      "sources": [
+        "programme-pi",
+        "programme-pi-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "istiqlal"
+    },
+    {
+      "id": "pps-health-26",
+      "topic": "Health",
+      "title": "Expand public hospital capacity",
+      "promise": "Add 9,000 public hospital beds.",
+      "method": "A health package with additional recruitment and investment.",
+      "sources": [
+        "programme-pps",
+        "programme-pps-press"
+      ],
+      "metric": "hospital_beds",
+      "value": 9000,
+      "unit": "additional beds",
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-12-07",
+          "title": "Health framework adopted",
+          "detail": "Law 06.22 was adopted. The bill record lists 119 votes for; the sitting summary lists 199. Both list zero against and one abstention. The discrepancy remains unresolved.",
+          "sources": [
+            "house-health",
+            "house-health-session"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pps"
+    },
+    {
+      "id": "pps-research-26",
+      "topic": "Education",
+      "title": "Research investment",
+      "promise": "Raise research and development funding to 1.5% of GDP.",
+      "method": "Research tax credits and links between laboratories and productive sectors.",
+      "sources": [
+        "programme-pps"
+      ],
+      "metric": "research_gdp",
+      "value": 1.5,
+      "unit": "% of GDP",
+      "deadline": "2031",
+      "definition": "Research and development funding; scope may differ from university research budgets.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pps"
+    },
+    {
+      "id": "pps-jobs-26",
+      "topic": "Employment",
+      "title": "One million jobs",
+      "promise": "Target one million jobs over five years.",
+      "method": "Industrial transformation and public investment financed by tax reform.",
+      "sources": [
+        "programme-pps-press"
+      ],
+      "metric": "jobs",
+      "value": 1000000,
+      "unit": "jobs",
+      "deadline": "2031",
+      "definition": "Programme employment target; net/direct definitions must be checked before comparison.",
+      "history": [
+        {
+          "date": "2022–2025",
+          "title": "Net employment changed unevenly",
+          "detail": "HCP reports −24,000, −157,000, +82,000 and +193,000 jobs in successive years. These are economy-wide net changes, not a count of jobs caused by a party.",
+          "sources": [
+            "hcp2022",
+            "hcp2024",
+            "hcp2025"
+          ],
+          "kind": "Official outcome data"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pps"
+    },
+    {
+      "id": "pps-wealth-26",
+      "topic": "Taxation",
+      "title": "Wealth solidarity tax",
+      "promise": "Introduce a progressive wealth tax of 0.3% to 0.5%.",
+      "method": "Earmark proceeds for medical coverage and social protection.",
+      "sources": [
+        "programme-pps"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2021",
+          "title": "Earlier wealth-tax proposal",
+          "detail": "Introduce a wealth tax and taxation of large inheritances.",
+          "sources": [
+            "pps-programme2021"
+          ],
+          "kind": "Earlier programme proposal"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "A party financing proposal; revenue forecasts are not audited receipts.",
+      "party_id": "pps"
+    },
+    {
+      "id": "pjd-research-26",
+      "topic": "Education",
+      "title": "Research funding",
+      "promise": "Gradually raise scientific research financing to 1.5% of GDP.",
+      "method": "Increase research financing alongside changes to public education.",
+      "sources": [
+        "programme-pjd-press"
+      ],
+      "metric": "research_gdp",
+      "value": 1.5,
+      "unit": "% of GDP",
+      "deadline": "2031",
+      "definition": "Scientific research financing as reported; no matching implementation budget reviewed.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pjd"
+    },
+    {
+      "id": "pjd-tax-26",
+      "topic": "Taxation",
+      "title": "Higher tax on concentrated sectors",
+      "promise": "Apply a 40% corporate-tax rate to monopoly and oligopoly sectors.",
+      "method": "Target sectors such as fuel distribution, telecoms and cement.",
+      "sources": [
+        "programme-pjd-press"
+      ],
+      "metric": "corporate_tax",
+      "value": 40,
+      "unit": "%",
+      "deadline": "2031",
+      "definition": "Targeted rate; not the proposed rate for all businesses.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pjd"
+    },
+    {
+      "id": "pjd-protest-26",
+      "topic": "Civil liberties",
+      "title": "Peaceful assembly by notification",
+      "promise": "Replace prior authorization with notification for peaceful demonstrations.",
+      "method": "Require reasons for prohibitions and narrower pretrial-detention criteria.",
+      "sources": [
+        "programme-pjd-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2025-09-30",
+          "title": "Different response during GenZ protests",
+          "detail": "Benkirane called for demonstrations to stop while recognizing grievances. A political appeal and a legal proposal have different scopes.",
+          "sources": [
+            "genz-parties"
+          ],
+          "kind": "Dated party response"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "pjd"
+    },
+    {
+      "id": "usfp-health-26",
+      "topic": "Health",
+      "title": "Shorter waiting times",
+      "promise": "Reduce healthcare waiting times by 50%.",
+      "method": "Recruitment, hospital upgrades and stronger regulation of private clinics.",
+      "sources": [
+        "programme-usfp",
+        "programme-usfp-press"
+      ],
+      "metric": "waiting_time",
+      "value": 50,
+      "unit": "% reduction",
+      "deadline": "2031",
+      "definition": "No common baseline or waiting-time dataset reviewed.",
+      "history": [
+        {
+          "date": "2022-12-07",
+          "title": "Health framework adopted",
+          "detail": "Law 06.22 was adopted. The bill record lists 119 votes for; the sitting summary lists 199. Both list zero against and one abstention. The discrepancy remains unresolved.",
+          "sources": [
+            "house-health",
+            "house-health-session"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "usfp"
+    },
+    {
+      "id": "usfp-research-26",
+      "topic": "Education",
+      "title": "A larger research budget",
+      "promise": "Raise the scientific-research budget to 2% of GDP.",
+      "method": "New university clusters and stronger applied research.",
+      "sources": [
+        "programme-usfp",
+        "programme-usfp-press"
+      ],
+      "metric": "research_gdp",
+      "value": 2,
+      "unit": "% of GDP",
+      "deadline": "2031",
+      "definition": "Scientific-research budget; programme scopes are not perfectly harmonized.",
+      "history": [
+        {
+          "date": "2021",
+          "title": "Earlier research-spending target",
+          "detail": "Raise research and development spending to 2.5% of GDP by 2030.",
+          "sources": [
+            "usfp-programme2021"
+          ],
+          "kind": "Earlier programme proposal"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "usfp"
+    },
+    {
+      "id": "usfp-pay-26",
+      "topic": "Cost of living",
+      "title": "Higher net incomes",
+      "promise": "Increase employees’ net income by 15%.",
+      "method": "Lower the tax burden and link wage growth to economic growth.",
+      "sources": [
+        "programme-usfp",
+        "programme-usfp-press"
+      ],
+      "metric": "net_income",
+      "value": 15,
+      "unit": "% increase",
+      "deadline": "2031",
+      "definition": "Programme target; no single income baseline reviewed.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "usfp"
+    },
+    {
+      "id": "mp-school-26",
+      "topic": "Education",
+      "title": "Tax relief for education",
+      "promise": "Allow deductions for education expenses up to MAD 500 a month per family.",
+      "method": "Create a social tax account; a deduction is not a cash payment of the same value.",
+      "sources": [
+        "programme-mp-press"
+      ],
+      "metric": "school_deduction",
+      "value": 500,
+      "unit": "MAD / family / month",
+      "deadline": "2031",
+      "definition": "Deductible expense ceiling, not an equivalent reduction in tax due.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "mp"
+    },
+    {
+      "id": "mp-smallfirms-26",
+      "topic": "Employment",
+      "title": "Tax incentives for small firms",
+      "promise": "Offer exemptions to eligible small firms creating at least three jobs.",
+      "method": "Eligibility includes capital no higher than MAD 500,000.",
+      "sources": [
+        "programme-mp-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "mp"
+    },
+    {
+      "id": "mp-aid-26",
+      "topic": "Social protection",
+      "title": "Change social-aid eligibility",
+      "promise": "Give specified vulnerable groups direct access to social protection.",
+      "method": "Use actual income and regional thresholds for other households.",
+      "sources": [
+        "programme-mp-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "mp"
+    },
+    {
+      "id": "uc-regions-26",
+      "topic": "Governance",
+      "title": "Stronger regional powers",
+      "promise": "Transfer broader executive responsibilities to regions.",
+      "method": "Pair devolution with more balanced public investment.",
+      "sources": [
+        "programme-uc-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "uc"
+    },
+    {
+      "id": "uc-health-26",
+      "topic": "Health",
+      "title": "Care closer to home",
+      "promise": "Improve effective medical coverage and reduce patient costs.",
+      "method": "Organize care around family doctors and primary care.",
+      "sources": [
+        "programme-uc-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-12-07",
+          "title": "Health framework adopted",
+          "detail": "Law 06.22 was adopted. The bill record lists 119 votes for; the sitting summary lists 199. Both list zero against and one abstention. The discrepancy remains unresolved.",
+          "sources": [
+            "house-health",
+            "house-health-session"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "uc"
+    },
+    {
+      "id": "uc-jobs-26",
+      "topic": "Employment",
+      "title": "Investment tied to jobs",
+      "promise": "Link investment incentives to employment creation.",
+      "method": "Training, first-job programmes and support for self-employment.",
+      "sources": [
+        "programme-uc-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "uc"
+    },
+    {
+      "id": "ag-pay-26",
+      "topic": "Cost of living",
+      "title": "A higher minimum wage",
+      "promise": "Raise the minimum wage to MAD 4,100 in 2027.",
+      "method": "A staged wage path with inflation indexation.",
+      "sources": [
+        "programme-ag2026",
+        "programme-ag2026-press"
+      ],
+      "metric": "minimum_wage",
+      "value": 4100,
+      "unit": "MAD / month",
+      "deadline": "2027",
+      "definition": "Starting target in the alliance programme; later stages have different amounts.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "fgd"
+    },
+    {
+      "id": "ag-amnesty-26",
+      "topic": "Civil liberties",
+      "title": "Amnesty legislation",
+      "promise": "Submit a general amnesty bill for opinion and social-movement detainees.",
+      "method": "A legislative proposal accompanied by withdrawal of prosecutions.",
+      "sources": [
+        "programme-ag2026",
+        "programme-ag2026-press"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2031",
+      "definition": "",
+      "history": [
+        {
+          "date": "2025-11",
+          "title": "A constituent MP had proposed amnesty",
+          "detail": "PSU MP Nabila Mounib proposed an amnesty bill. The record establishes a proposal, not enactment or a joint-alliance action.",
+          "sources": [
+            "genz-amnesty"
+          ],
+          "kind": "Earlier legislative proposal"
+        }
+      ],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "fgd"
+    },
+    {
+      "id": "ag-birth-26",
+      "topic": "Social protection",
+      "title": "A universal birth allowance",
+      "promise": "Generalize a birth allowance reaching MAD 5,000.",
+      "method": "A phased rollout supported by proposed tax and redistribution measures.",
+      "sources": [
+        "programme-ag2026",
+        "programme-ag2026-press"
+      ],
+      "metric": "birth_grant",
+      "value": 5000,
+      "unit": "MAD / grant",
+      "deadline": "2031",
+      "definition": "Birth allowance; not directly comparable to a marriage grant.",
+      "history": [],
+      "year": 2026,
+      "status": "Future pledge",
+      "limits": "Delivery cannot yet be assessed for the next parliamentary term.",
+      "party_id": "fgd"
+    },
+    {
+      "id": "rni-jobs-21",
+      "topic": "Employment",
+      "title": "The earlier million-job pledge",
+      "promise": "Create one million direct jobs.",
+      "method": "National production, industry and post-pandemic recovery.",
+      "sources": [
+        "rni-programme2021"
+      ],
+      "metric": "jobs",
+      "value": 1000000,
+      "unit": "jobs",
+      "deadline": "2026",
+      "definition": "Direct jobs promised in 2021; different from net employment.",
+      "history": [
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        },
+        {
+          "date": "2022–2025",
+          "title": "Net employment changed unevenly",
+          "detail": "HCP reports −24,000, −157,000, +82,000 and +193,000 jobs in successive years. These are economy-wide net changes, not a count of jobs caused by a party.",
+          "sources": [
+            "hcp2022",
+            "hcp2024",
+            "hcp2025"
+          ],
+          "kind": "Official outcome data"
+        }
+      ],
+      "year": 2021,
+      "status": "Outcome not established",
+      "limits": "The comparable HCP annual series here ends in 2025. Gross/direct jobs and net employment differ; a completion percentage would be misleading.",
+      "party_id": "rni"
+    },
+    {
+      "id": "rni-teachers-21",
+      "topic": "Education",
+      "title": "Starting teacher pay",
+      "promise": "Raise starting teacher pay to MAD 7,500.",
+      "method": "Salary reform and investment in the teaching profession.",
+      "sources": [
+        "rni-programme2021",
+        "rni-teacher2021"
+      ],
+      "metric": "teacher_pay",
+      "value": 7500,
+      "unit": "MAD / month",
+      "deadline": "2026",
+      "definition": "",
+      "history": [
+        {
+          "date": "2023-12-26",
+          "title": "Government–union salary agreement",
+          "detail": "An agreement provided a MAD 1,500 increase in two instalments. This source alone does not verify the final starting salary or every payment.",
+          "sources": [
+            "teachers-agreement",
+            "teachers-agreement2"
+          ],
+          "kind": "Signed agreement"
+        }
+      ],
+      "year": 2021,
+      "status": "Related action recorded",
+      "limits": "An agreed increase is not proof that the original salary target was reached for every eligible teacher.",
+      "party_id": "rni"
+    },
+    {
+      "id": "rni-elderly-21",
+      "topic": "Social protection",
+      "title": "Income for vulnerable older people",
+      "promise": "Guarantee at least MAD 1,000 monthly income to vulnerable people aged 65 or over by 2026.",
+      "method": "Progressive income support alongside free medical coverage.",
+      "sources": [
+        "rni-teacher2021"
+      ],
+      "metric": "elderly_income",
+      "value": 1000,
+      "unit": "MAD / eligible person / month",
+      "deadline": "2026",
+      "definition": "",
+      "history": [
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2021,
+      "status": "Outcome not established",
+      "limits": "Household social assistance and an individual elderly-income guarantee are different promises. No matched beneficiary/payment series was reviewed.",
+      "party_id": "rni"
+    },
+    {
+      "id": "pam-jobs-21",
+      "topic": "Employment",
+      "title": "Earlier employment target",
+      "promise": "Create 820,000 jobs by 2026.",
+      "method": "Support higher-value industry, innovation and strategic public/private investment.",
+      "sources": [
+        "pam-promises2021"
+      ],
+      "metric": "jobs",
+      "value": 820000,
+      "unit": "jobs",
+      "deadline": "2026",
+      "definition": "Cumulative 2021 programme target; the reviewed summary does not harmonize gross and net jobs.",
+      "history": [
+        {
+          "date": "2022-10-18",
+          "title": "Investment charter adopted",
+          "detail": "The House adopted framework law 03.22. This is a coalition-era instrument; adoption does not establish how many jobs it created.",
+          "sources": [
+            "house-investment"
+          ],
+          "kind": "Parliamentary adoption"
+        },
+        {
+          "date": "2022–2025",
+          "title": "Net employment changed unevenly",
+          "detail": "HCP reports −24,000, −157,000, +82,000 and +193,000 jobs in successive years. These are economy-wide net changes, not a count of jobs caused by a party.",
+          "sources": [
+            "hcp2022",
+            "hcp2024",
+            "hcp2025"
+          ],
+          "kind": "Official outcome data"
+        }
+      ],
+      "year": 2021,
+      "status": "Outcome not established",
+      "limits": "The HCP series measures national net changes through 2025, not jobs attributable to PAM or the full target period.",
+      "party_id": "pam"
+    },
+    {
+      "id": "pi-protection-21",
+      "topic": "Social protection",
+      "title": "Universal social protection",
+      "promise": "Generalize social protection.",
+      "method": "Expand coverage to unemployed people and employees, alongside family benefits.",
+      "sources": [
+        "pi-promises2021",
+        "pi-promises2021-snrt"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2026",
+      "definition": "",
+      "history": [
+        {
+          "date": "2022-12-07",
+          "title": "Health framework adopted",
+          "detail": "Law 06.22 was adopted. The bill record lists 119 votes for; the sitting summary lists 199. Both list zero against and one abstention. The discrepancy remains unresolved.",
+          "sources": [
+            "house-health",
+            "house-health-session"
+          ],
+          "kind": "Parliamentary adoption"
+        },
+        {
+          "date": "2023-11-27",
+          "title": "Direct-aid framework adopted",
+          "detail": "The House unanimously adopted bills 58.23 and 59.23. This establishes legislation, not fulfilment of every earlier income promise.",
+          "sources": [
+            "house-aid"
+          ],
+          "kind": "Parliamentary adoption"
+        }
+      ],
+      "year": 2021,
+      "status": "Related action recorded",
+      "limits": "Health and assistance laws are related coalition actions. They do not demonstrate effective universal coverage or exclusive Istiqlal authorship.",
+      "party_id": "istiqlal"
+    },
+    {
+      "id": "pjd-jobs-21",
+      "topic": "Employment",
+      "title": "An annual job target",
+      "promise": "Create 160,000 jobs per year.",
+      "method": "Structural governance reforms and digital transformation.",
+      "sources": [
+        "pjd-promises2021"
+      ],
+      "metric": "jobs_annual",
+      "value": 160000,
+      "unit": "jobs / year",
+      "deadline": "2026",
+      "definition": "Annual target; not directly comparable with a five-year cumulative target.",
+      "history": [
+        {
+          "date": "2021-09",
+          "title": "Outside the governing coalition",
+          "detail": "The government coalition comprised RNI, PAM and Istiqlal. Opposition parties did not control the executive during this term.",
+          "sources": [
+            "pcns"
+          ],
+          "kind": "Institutional context"
+        }
+      ],
+      "year": 2021,
+      "status": "No executive mandate",
+      "limits": "This was a conditional electoral proposal. PJD did not enter the 2021 government; national employment outcomes cannot be treated as its implementation record.",
+      "party_id": "pjd"
+    },
+    {
+      "id": "pps-wealth-21",
+      "topic": "Taxation",
+      "title": "Earlier wealth-tax proposal",
+      "promise": "Introduce a wealth tax and taxation of large inheritances.",
+      "method": "Broaden the tax base and reduce exemptions, as part of progressive tax reform.",
+      "sources": [
+        "pps-programme2021"
+      ],
+      "metric": null,
+      "value": null,
+      "unit": null,
+      "deadline": "2026",
+      "definition": "",
+      "history": [
+        {
+          "date": "2021-09",
+          "title": "Outside the governing coalition",
+          "detail": "The government coalition comprised RNI, PAM and Istiqlal. Opposition parties did not control the executive during this term.",
+          "sources": [
+            "pcns"
+          ],
+          "kind": "Institutional context"
+        },
+        {
+          "date": "2026-09",
+          "title": "Wealth taxation proposed again",
+          "detail": "The 2026 programme proposes a wealth solidarity tax of 0.3% to 0.5%. A renewed proposal is not an enacted tax.",
+          "sources": [
+            "programme-pps"
+          ],
+          "kind": "Later programme proposal"
+        }
+      ],
+      "year": 2021,
+      "status": "No executive mandate",
+      "limits": "No matched enactment or party-sponsored bill has been established here. Absence from this bank is not evidence that no parliamentary initiative existed.",
+      "party_id": "pps"
+    },
+    {
+      "id": "usfp-research-21",
+      "topic": "Education",
+      "title": "Earlier research-spending target",
+      "promise": "Raise research and development spending to 2.5% of GDP by 2030.",
+      "method": "Fund national research, create regional research bodies and support university–business partnerships.",
+      "sources": [
+        "usfp-programme2021"
+      ],
+      "metric": "research_gdp",
+      "value": 2.5,
+      "unit": "% of GDP",
+      "deadline": "2030",
+      "definition": "2021 target for total research and development expenditure, with a 2030 deadline.",
+      "history": [
+        {
+          "date": "2021-09",
+          "title": "Outside the governing coalition",
+          "detail": "The government coalition comprised RNI, PAM and Istiqlal. Opposition parties did not control the executive during this term.",
+          "sources": [
+            "pcns"
+          ],
+          "kind": "Institutional context"
+        },
+        {
+          "date": "2026-08",
+          "title": "A later research-budget pledge",
+          "detail": "The 2026 programme proposes a scientific-research budget of 2% of GDP. Budget scope and deadlines differ; this is not a measured fall in expenditure.",
+          "sources": [
+            "programme-usfp"
+          ],
+          "kind": "Later programme proposal"
+        }
+      ],
+      "year": 2021,
+      "status": "No executive mandate",
+      "limits": "The 2030 deadline is still ahead. USFP was outside the executive in this term; no matching actual-expenditure series has been reviewed.",
+      "party_id": "usfp"
+    }
+  ],
+  "legislation": [
+    {
+      "id": "investment",
+      "date": "2022-10-18",
+      "title": "Investment charter",
+      "law": "03.22",
+      "topic": "Employment",
+      "stage": "House adoption",
+      "votes": null,
+      "summary": "Framework for private investment incentives, territorial support and job creation.",
+      "sources": [
+        "house-investment"
+      ],
+      "attribution": "Coalition-era government bill; individual party roll calls not established.",
+      "party_ids": [
+        "rni",
+        "pam",
+        "istiqlal"
+      ]
+    },
+    {
+      "id": "health",
+      "date": "2022-12-07",
+      "title": "National health framework",
+      "law": "06.22",
+      "topic": "Health",
+      "stage": "House adoption",
+      "votes": {
+        "for": 119,
+        "against": 0,
+        "abstain": 1
+      },
+      "summary": "A legal framework for reform of the national health system.",
+      "sources": [
+        "house-health",
+        "house-health-session"
+      ],
+      "vote_note": "Displayed tally follows the bill record: 119 for, 0 against, 1 abstention. The sitting summary instead lists 199 for. The discrepancy remains unresolved.",
+      "attribution": "Government legislation. Aggregate votes are not a party-by-party roll call.",
+      "party_ids": [
+        "rni",
+        "pam",
+        "istiqlal"
+      ]
+    },
+    {
+      "id": "aid",
+      "date": "2023-11-27",
+      "title": "Direct social assistance",
+      "law": "58.23 / 59.23",
+      "topic": "Social protection",
+      "stage": "House adoption",
+      "votes": null,
+      "summary": "The House adopted the aid scheme and national agency bills unanimously; no numerical tally is stated here.",
+      "sources": [
+        "house-aid"
+      ],
+      "attribution": "Royal initiative and shared government/parliamentary action, not one party’s exclusive achievement.",
+      "party_ids": [
+        "rni",
+        "pam",
+        "istiqlal"
+      ]
+    },
+    {
+      "id": "strike",
+      "date": "2025-02-05",
+      "title": "Strike-rights framework",
+      "law": "97.15",
+      "topic": "Employment",
+      "stage": "Final House adoption",
+      "votes": {
+        "for": 84,
+        "against": 20,
+        "abstain": 0
+      },
+      "summary": "The final House tally records a contested adoption. Group responses can be inspected in the event dossier.",
+      "sources": [
+        "strike",
+        "strike2",
+        "house-strike-session"
+      ],
+      "attribution": "Recorded positions include committee responses and statements; they are not individual plenary roll calls.",
+      "event": "strike-2025",
+      "party_ids": [
+        "rni",
+        "pam",
+        "istiqlal",
+        "pjd",
+        "pps",
+        "usfp",
+        "mp"
+      ]
+    }
+  ],
+  "employment_outcomes": [
+    {
+      "id": "hcp-employment-2022",
+      "label": "HCP national net employment change",
+      "year": 2022,
+      "value": -24000,
+      "unit": "jobs",
+      "note": "National net change, not attributable to one party or measure.",
+      "sources": [
+        "hcp2022"
+      ]
+    },
+    {
+      "id": "hcp-employment-2023",
+      "label": "HCP national net employment change",
+      "year": 2023,
+      "value": -157000,
+      "unit": "jobs",
+      "note": "National net change, not attributable to one party or measure.",
+      "sources": [
+        "hcp2024"
+      ]
+    },
+    {
+      "id": "hcp-employment-2024",
+      "label": "HCP national net employment change",
+      "year": 2024,
+      "value": 82000,
+      "unit": "jobs",
+      "note": "National net change, not attributable to one party or measure.",
+      "sources": [
+        "hcp2024"
+      ]
+    },
+    {
+      "id": "hcp-employment-2025",
+      "label": "HCP national net employment change",
+      "year": 2025,
+      "value": 193000,
+      "unit": "jobs",
+      "note": "National net change, not attributable to one party or measure.",
+      "sources": [
+        "hcp2025"
+      ]
+    }
+  ]
+}
