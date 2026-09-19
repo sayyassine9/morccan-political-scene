@@ -42,6 +42,14 @@ header.top nav { display: flex; gap: 4px; flex: 1; overflow-x: auto; }
 header.top nav a { color: var(--ink-2); padding: 6px 10px; border-radius: 8px; white-space: nowrap; font-size: 14px; }
 header.top nav a.active, header.top nav a:hover { background: var(--surface-2); color: var(--ink); text-decoration: none; }
 .theme-btn { border: 1px solid var(--border); background: transparent; color: var(--ink-2); border-radius: 8px; padding: 6px 10px; cursor: pointer; font: inherit; font-size: 13px; }
+.lang-select { border: 1px solid var(--border); background: transparent; color: var(--ink-2); border-radius: 8px; padding: 6px 8px; cursor: pointer; font: inherit; font-size: 13px; }
+
+/* RTL (Darija) */
+html[dir="rtl"] header.top nav { flex-direction: row-reverse; }
+html[dir="rtl"] .seg span, html[dir="rtl"] .key { direction: rtl; }
+html[dir="rtl"] .table-scroll table { text-align: right; }
+html[dir="rtl"] .table-scroll td.num, html[dir="rtl"] .table-scroll th.num { text-align: left; }
+html[dir="rtl"] .swatch { margin-left: 6px; margin-right: 0; }
 main { padding: 24px 0 64px; }
 h1 { font-size: 28px; letter-spacing: -0.02em; margin: 0 0 6px; line-height: 1.2; }
 h2 { font-size: 19px; margin: 32px 0 12px; letter-spacing: -0.01em; }
