@@ -1,0 +1,618 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-19T22:05:18Z",
+  "title": "Design System: Ntikhabat",
+  "extensions": {
+    "colorMeta": {
+      "signal-amber": {
+        "role": "primary",
+        "displayName": "Signal Amber",
+        "canonical": "oklch(76.1% 0.141 72.1)",
+        "hex": "#e8a13a",
+        "tonalRamp": [
+          "oklch(15% 0.085 72.1)",
+          "oklch(25% 0.099 72.1)",
+          "oklch(37% 0.116 72.1)",
+          "oklch(49% 0.133 72.1)",
+          "oklch(61% 0.133 72.1)",
+          "oklch(73% 0.116 72.1)",
+          "oklch(85% 0.099 72.1)",
+          "oklch(95% 0.085 72.1)"
+        ]
+      },
+      "slate": {
+        "role": "secondary",
+        "displayName": "Slate",
+        "canonical": "oklch(47.0% 0.07 239.7)",
+        "hex": "#33607e",
+        "tonalRamp": [
+          "oklch(15% 0.042 239.7)",
+          "oklch(25% 0.049 239.7)",
+          "oklch(37% 0.057 239.7)",
+          "oklch(49% 0.066 239.7)",
+          "oklch(61% 0.066 239.7)",
+          "oklch(73% 0.057 239.7)",
+          "oklch(85% 0.049 239.7)",
+          "oklch(95% 0.042 239.7)"
+        ]
+      },
+      "newsprint": {
+        "role": "neutral",
+        "displayName": "Newsprint",
+        "canonical": "oklch(95.2% 0.012 91.5)",
+        "hex": "#f2efe6",
+        "tonalRamp": [
+          "oklch(15% 0.007 91.5)",
+          "oklch(25% 0.008 91.5)",
+          "oklch(37% 0.01 91.5)",
+          "oklch(49% 0.011 91.5)",
+          "oklch(61% 0.011 91.5)",
+          "oklch(73% 0.01 91.5)",
+          "oklch(85% 0.008 91.5)",
+          "oklch(95% 0.007 91.5)"
+        ]
+      },
+      "page-stock": {
+        "role": "neutral",
+        "displayName": "Page Stock",
+        "canonical": "oklch(98.2% 0.008 91.5)",
+        "hex": "#fbf9f3",
+        "tonalRamp": [
+          "oklch(15% 0.005 91.5)",
+          "oklch(25% 0.006 91.5)",
+          "oklch(37% 0.007 91.5)",
+          "oklch(49% 0.008 91.5)",
+          "oklch(61% 0.008 91.5)",
+          "oklch(73% 0.007 91.5)",
+          "oklch(85% 0.006 91.5)",
+          "oklch(95% 0.005 91.5)"
+        ]
+      },
+      "trough": {
+        "role": "neutral",
+        "displayName": "Trough",
+        "canonical": "oklch(91.5% 0.018 92.7)",
+        "hex": "#e7e3d6",
+        "tonalRamp": [
+          "oklch(15% 0.011 92.7)",
+          "oklch(25% 0.013 92.7)",
+          "oklch(37% 0.015 92.7)",
+          "oklch(49% 0.017 92.7)",
+          "oklch(61% 0.017 92.7)",
+          "oklch(73% 0.015 92.7)",
+          "oklch(85% 0.013 92.7)",
+          "oklch(95% 0.011 92.7)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "oklch(20.8% 0.009 255.6)",
+        "hex": "#15181c",
+        "tonalRamp": [
+          "oklch(15% 0.005 255.6)",
+          "oklch(25% 0.006 255.6)",
+          "oklch(37% 0.007 255.6)",
+          "oklch(49% 0.008 255.6)",
+          "oklch(61% 0.008 255.6)",
+          "oklch(73% 0.007 255.6)",
+          "oklch(85% 0.006 255.6)",
+          "oklch(95% 0.005 255.6)"
+        ]
+      },
+      "ink-secondary": {
+        "role": "neutral",
+        "displayName": "Ink Secondary",
+        "canonical": "oklch(42.6% 0.013 256.8)",
+        "hex": "#4a4f56",
+        "tonalRamp": [
+          "oklch(15% 0.008 256.8)",
+          "oklch(25% 0.009 256.8)",
+          "oklch(37% 0.011 256.8)",
+          "oklch(49% 0.012 256.8)",
+          "oklch(61% 0.012 256.8)",
+          "oklch(73% 0.011 256.8)",
+          "oklch(85% 0.009 256.8)",
+          "oklch(95% 0.008 256.8)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "oklch(50.3% 0.01 264.5)",
+        "hex": "#61646a",
+        "tonalRamp": [
+          "oklch(15% 0.006 264.5)",
+          "oklch(25% 0.007 264.5)",
+          "oklch(37% 0.008 264.5)",
+          "oklch(49% 0.009 264.5)",
+          "oklch(61% 0.009 264.5)",
+          "oklch(73% 0.008 264.5)",
+          "oklch(85% 0.007 264.5)",
+          "oklch(95% 0.006 264.5)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule",
+        "canonical": "oklch(86.7% 0.021 91.6)",
+        "hex": "#d8d3c4",
+        "tonalRamp": [
+          "oklch(15% 0.013 91.6)",
+          "oklch(25% 0.015 91.6)",
+          "oklch(37% 0.017 91.6)",
+          "oklch(49% 0.02 91.6)",
+          "oklch(61% 0.02 91.6)",
+          "oklch(73% 0.017 91.6)",
+          "oklch(85% 0.015 91.6)",
+          "oklch(95% 0.013 91.6)"
+        ]
+      },
+      "rule-strong": {
+        "role": "neutral",
+        "displayName": "Rule Strong",
+        "canonical": "oklch(76.7% 0.026 91.7)",
+        "hex": "#b9b3a1",
+        "tonalRamp": [
+          "oklch(15% 0.016 91.7)",
+          "oklch(25% 0.018 91.7)",
+          "oklch(37% 0.021 91.7)",
+          "oklch(49% 0.024 91.7)",
+          "oklch(61% 0.024 91.7)",
+          "oklch(73% 0.021 91.7)",
+          "oklch(85% 0.018 91.7)",
+          "oklch(95% 0.016 91.7)"
+        ]
+      },
+      "slot-1": {
+        "role": "tertiary",
+        "displayName": "Slot 1",
+        "canonical": "oklch(53.1% 0.123 250.3)",
+        "hex": "#2a6fb0",
+        "tonalRamp": [
+          "oklch(15% 0.074 250.3)",
+          "oklch(25% 0.086 250.3)",
+          "oklch(37% 0.101 250.3)",
+          "oklch(49% 0.116 250.3)",
+          "oklch(61% 0.116 250.3)",
+          "oklch(73% 0.101 250.3)",
+          "oklch(85% 0.086 250.3)",
+          "oklch(95% 0.074 250.3)"
+        ]
+      },
+      "slot-2": {
+        "role": "tertiary",
+        "displayName": "Slot 2",
+        "canonical": "oklch(58.4% 0.158 42.4)",
+        "hex": "#c5541f",
+        "tonalRamp": [
+          "oklch(15% 0.095 42.4)",
+          "oklch(25% 0.111 42.4)",
+          "oklch(37% 0.13 42.4)",
+          "oklch(49% 0.149 42.4)",
+          "oklch(61% 0.149 42.4)",
+          "oklch(73% 0.13 42.4)",
+          "oklch(85% 0.111 42.4)",
+          "oklch(95% 0.095 42.4)"
+        ]
+      },
+      "slot-3": {
+        "role": "tertiary",
+        "displayName": "Slot 3",
+        "canonical": "oklch(55.7% 0.105 169.9)",
+        "hex": "#17876a",
+        "tonalRamp": [
+          "oklch(15% 0.063 169.9)",
+          "oklch(25% 0.073 169.9)",
+          "oklch(37% 0.086 169.9)",
+          "oklch(49% 0.099 169.9)",
+          "oklch(61% 0.099 169.9)",
+          "oklch(73% 0.086 169.9)",
+          "oklch(85% 0.073 169.9)",
+          "oklch(95% 0.063 169.9)"
+        ]
+      },
+      "slot-4": {
+        "role": "tertiary",
+        "displayName": "Slot 4",
+        "canonical": "oklch(62.5% 0.129 79.9)",
+        "hex": "#b07d00",
+        "tonalRamp": [
+          "oklch(15% 0.077 79.9)",
+          "oklch(25% 0.09 79.9)",
+          "oklch(37% 0.106 79.9)",
+          "oklch(49% 0.121 79.9)",
+          "oklch(61% 0.121 79.9)",
+          "oklch(73% 0.106 79.9)",
+          "oklch(85% 0.09 79.9)",
+          "oklch(95% 0.077 79.9)"
+        ]
+      },
+      "slot-5": {
+        "role": "tertiary",
+        "displayName": "Slot 5",
+        "canonical": "oklch(54.1% 0.119 350.5)",
+        "hex": "#a14f78",
+        "tonalRamp": [
+          "oklch(15% 0.071 350.5)",
+          "oklch(25% 0.083 350.5)",
+          "oklch(37% 0.098 350.5)",
+          "oklch(49% 0.112 350.5)",
+          "oklch(61% 0.112 350.5)",
+          "oklch(73% 0.098 350.5)",
+          "oklch(85% 0.083 350.5)",
+          "oklch(95% 0.071 350.5)"
+        ]
+      },
+      "slot-6": {
+        "role": "tertiary",
+        "displayName": "Slot 6",
+        "canonical": "oklch(48.7% 0.106 130.0)",
+        "hex": "#4b6b23",
+        "tonalRamp": [
+          "oklch(15% 0.064 130.0)",
+          "oklch(25% 0.074 130.0)",
+          "oklch(37% 0.087 130.0)",
+          "oklch(49% 0.1 130.0)",
+          "oklch(61% 0.1 130.0)",
+          "oklch(73% 0.087 130.0)",
+          "oklch(85% 0.074 130.0)",
+          "oklch(95% 0.064 130.0)"
+        ]
+      },
+      "slot-7": {
+        "role": "tertiary",
+        "displayName": "Slot 7",
+        "canonical": "oklch(43.3% 0.167 283.6)",
+        "hex": "#4a3aa7",
+        "tonalRamp": [
+          "oklch(15% 0.1 283.6)",
+          "oklch(25% 0.117 283.6)",
+          "oklch(37% 0.137 283.6)",
+          "oklch(49% 0.157 283.6)",
+          "oklch(61% 0.157 283.6)",
+          "oklch(73% 0.137 283.6)",
+          "oklch(85% 0.117 283.6)",
+          "oklch(95% 0.1 283.6)"
+        ]
+      },
+      "slot-8": {
+        "role": "tertiary",
+        "displayName": "Slot 8",
+        "canonical": "oklch(50.6% 0.145 24.9)",
+        "hex": "#a83a38",
+        "tonalRamp": [
+          "oklch(15% 0.087 24.9)",
+          "oklch(25% 0.101 24.9)",
+          "oklch(37% 0.119 24.9)",
+          "oklch(49% 0.136 24.9)",
+          "oklch(61% 0.136 24.9)",
+          "oklch(73% 0.119 24.9)",
+          "oklch(85% 0.101 24.9)",
+          "oklch(95% 0.087 24.9)"
+        ]
+      },
+      "slot-none": {
+        "role": "tertiary",
+        "displayName": "Slot None",
+        "canonical": "oklch(62.0% 0.023 91.7)",
+        "hex": "#8b8677",
+        "tonalRamp": [
+          "oklch(15% 0.014 91.7)",
+          "oklch(25% 0.016 91.7)",
+          "oklch(37% 0.019 91.7)",
+          "oklch(49% 0.022 91.7)",
+          "oklch(61% 0.022 91.7)",
+          "oklch(73% 0.019 91.7)",
+          "oklch(85% 0.016 91.7)",
+          "oklch(95% 0.014 91.7)"
+        ]
+      },
+      "evidence-corroborated": {
+        "role": "tertiary",
+        "displayName": "Corroborated",
+        "canonical": "oklch(49.1% 0.106 156.6)",
+        "hex": "#1b7247",
+        "tonalRamp": [
+          "oklch(15% 0.064 156.6)",
+          "oklch(25% 0.074 156.6)",
+          "oklch(37% 0.087 156.6)",
+          "oklch(49% 0.1 156.6)",
+          "oklch(61% 0.1 156.6)",
+          "oklch(73% 0.087 156.6)",
+          "oklch(85% 0.074 156.6)",
+          "oklch(95% 0.064 156.6)"
+        ]
+      },
+      "evidence-single": {
+        "role": "tertiary",
+        "displayName": "Single source",
+        "canonical": "oklch(50.4% 0.097 89.7)",
+        "hex": "#7a6111",
+        "tonalRamp": [
+          "oklch(15% 0.058 89.7)",
+          "oklch(25% 0.068 89.7)",
+          "oklch(37% 0.08 89.7)",
+          "oklch(49% 0.091 89.7)",
+          "oklch(61% 0.091 89.7)",
+          "oklch(73% 0.08 89.7)",
+          "oklch(85% 0.068 89.7)",
+          "oklch(95% 0.058 89.7)"
+        ]
+      },
+      "evidence-disputed": {
+        "role": "tertiary",
+        "displayName": "Disputed",
+        "canonical": "oklch(51.5% 0.128 45.7)",
+        "hex": "#a14b1c",
+        "tonalRamp": [
+          "oklch(15% 0.077 45.7)",
+          "oklch(25% 0.09 45.7)",
+          "oklch(37% 0.105 45.7)",
+          "oklch(49% 0.12 45.7)",
+          "oklch(61% 0.12 45.7)",
+          "oklch(73% 0.105 45.7)",
+          "oklch(85% 0.09 45.7)",
+          "oklch(95% 0.077 45.7)"
+        ]
+      },
+      "evidence-absent": {
+        "role": "tertiary",
+        "displayName": "Absent",
+        "canonical": "oklch(50.3% 0.01 264.5)",
+        "hex": "#61646a",
+        "tonalRamp": [
+          "oklch(15% 0.006 264.5)",
+          "oklch(25% 0.007 264.5)",
+          "oklch(37% 0.008 264.5)",
+          "oklch(49% 0.009 264.5)",
+          "oklch(61% 0.009 264.5)",
+          "oklch(73% 0.008 264.5)",
+          "oklch(85% 0.007 264.5)",
+          "oklch(95% 0.006 264.5)"
+        ]
+      },
+      "on-slot": {
+        "role": "tertiary",
+        "displayName": "On Slot",
+        "canonical": "oklch(100.0% 0.0 89.9)",
+        "hex": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0 89.9)",
+          "oklch(25% 0 89.9)",
+          "oklch(37% 0 89.9)",
+          "oklch(49% 0 89.9)",
+          "oklch(61% 0 89.9)",
+          "oklch(73% 0 89.9)",
+          "oklch(85% 0 89.9)",
+          "oklch(95% 0 89.9)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page title, one per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section heads, over a 2px ink rule."
+      },
+      "party-name": {
+        "displayName": "Party Name",
+        "purpose": "A party at the head of its comparison column; heaviest type in the system."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Any compared value; always tabular."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Card headings."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "Page intro, max 62ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default prose, max 68ch."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Metadata and summaries."
+      },
+      "micro": {
+        "displayName": "Micro",
+        "purpose": "Dates, qualifiers, source lines."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Table heads and group headers only; uppercase."
+      },
+      "tag": {
+        "displayName": "Tag",
+        "purpose": "Chips and evidence tags."
+      },
+      "nav": {
+        "displayName": "Nav",
+        "purpose": "Header links."
+      },
+      "fine": {
+        "displayName": "Fine",
+        "purpose": "Meter pole names and form-mark years."
+      },
+      "fine-caps": {
+        "displayName": "Fine Caps",
+        "purpose": "The source-language tag; 10.5px uppercase."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "settle",
+        "value": "340ms cubic-bezier(0.2,0.8,0.2,1)",
+        "purpose": "The one authored moment: a comparison column settles into place because the reader just asked for it. Suppressed under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "header-wrap",
+        "value": "760px"
+      },
+      {
+        "name": "stack-comparison",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Comparison Row",
+      "kind": "custom",
+      "refersTo": "comparison-cell",
+      "description": "The system's core unit: a trough label cell and one cell per party, all on one shared grid.",
+      "html": "<div class=\"ds-cmp\"><div class=\"ds-row\"><div class=\"ds-label\">Social protection</div><div class=\"ds-cell\"><div class=\"ds-fig\"><bdi>−1</bdi></div><span class=\"ds-meter\"><span class=\"ds-track\"></span><span class=\"ds-axis\"></span><span class=\"ds-bar\" style=\"inset-inline-end:50%;width:25%;--c:var(--s1,#2a6fb0)\"></span></span><div class=\"ds-scale\"><span>Targeted benefits</span><span>Universal entitlements</span></div><div class=\"ds-sub\">Proposes inflation protection for existing eligible social-aid households.</div><span class=\"ds-ev ds-ev-single\">single source</span></div><div class=\"ds-cell\"><div class=\"ds-fig\"><bdi>−1</bdi></div><span class=\"ds-meter\"><span class=\"ds-track\"></span><span class=\"ds-axis\"></span><span class=\"ds-bar\" style=\"inset-inline-end:50%;width:25%;--c:var(--s2,#c5541f)\"></span></span><div class=\"ds-scale\"><span>Targeted benefits</span><span>Universal entitlements</span></div><div class=\"ds-sub\">Proposes higher direct aid with eligibility based on actual household income.</div><span class=\"ds-ev ds-ev-single\">single source</span></div></div></div>",
+      "css": ".ds-cmp{border-block-start:2px solid var(--ink,#15181c);font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-row{display:grid;grid-template-columns:minmax(118px,.78fr) repeat(2,minmax(0,1fr));border-block-end:1px solid var(--rule,#d8d3c4)}.ds-row:hover{background:color-mix(in oklab,var(--signal,#e8a13a) 7%,transparent)}.ds-label{padding:12px 14px;font-weight:700;font-size:14.5px;align-self:center;background:var(--sunken,#e7e3d6);border-inline-end:1px solid var(--rule,#d8d3c4);color:var(--ink,#15181c)}.ds-cell{padding:12px 14px;border-inline-start:1px solid var(--rule,#d8d3c4);min-width:0;color:var(--ink,#15181c)}.ds-cell:first-of-type{border-inline-start:none}.ds-fig{font-weight:800;font-size:19px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}.ds-meter{display:block;height:22px;position:relative;margin-block-start:6px}.ds-track{position:absolute;inset-block:9px;inset-inline:0;background:var(--sunken,#e7e3d6);border-radius:999px}.ds-axis{position:absolute;inset-block:3px;inset-inline-start:50%;width:1px;background:var(--rule-strong,#b9b3a1)}.ds-bar{position:absolute;inset-block:6px;border-radius:3px;background:var(--c)}.ds-scale{display:flex;justify-content:space-between;font-size:11px;color:var(--muted,#61646a);margin-block-start:2px;gap:8px}.ds-sub{font-size:13px;color:var(--ink-2,#4a4f56);margin-block-start:2px}.ds-ev{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;margin-block-start:6px}.ds-ev-single{color:var(--ev-single,#7a6111)}"
+    },
+    {
+      "name": "Party Slot",
+      "kind": "custom",
+      "refersTo": "party-slot",
+      "description": "A picker slot. The party's colour field runs the slot's full height on its leading edge.",
+      "html": "<div class=\"ds-slots\"><button class=\"ds-slot\" style=\"--c:#2a6fb0\"><span class=\"ds-fieldmark\"></span><span class=\"ds-tile\">RNI</span><span class=\"ds-who\"><span class=\"ds-abbr\">RNI</span><span class=\"ds-full\">National Rally of Independents</span></span></button><button class=\"ds-slot ds-empty\">+ Add a party</button></div>",
+      "css": ".ds-slots{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-slot{display:flex;align-items:center;gap:11px;text-align:start;background:var(--page,#f2efe6);border:1px solid var(--rule,#d8d3c4);border-radius:10px;padding:11px 12px;min-height:68px;width:100%;color:var(--ink,#15181c);cursor:pointer;position:relative;overflow:hidden;font:inherit}.ds-slot:hover{border-color:var(--ink,#15181c)}.ds-slot:focus-visible{outline:2px solid var(--signal,#e8a13a);outline-offset:2px}.ds-fieldmark{position:absolute;inset-block:0;inset-inline-start:0;width:5px;background:var(--c)}.ds-tile{width:40px;height:40px;border-radius:7px;background:var(--c);color:#fff;font-weight:800;font-size:13px;display:grid;place-items:center;flex:none;margin-inline-start:4px}.ds-who{min-width:0}.ds-abbr{font-weight:800;font-size:16px;display:block}.ds-full{font-size:12.5px;color:var(--muted,#61646a);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.ds-empty{border-style:dashed;color:var(--muted,#61646a);justify-content:center;font-weight:700}.ds-empty:hover{border-color:var(--signal,#e8a13a);color:var(--ink,#15181c)}"
+    },
+    {
+      "name": "Form Guide",
+      "kind": "custom",
+      "refersTo": "form-mark",
+      "description": "The last five general elections by finishing position. Reports what happened; encodes no merit.",
+      "html": "<div class=\"ds-fg\" style=\"--c:#2a6fb0\"><span class=\"ds-m\" data-r=\"ran\">02</span><span class=\"ds-m\" data-r=\"ran\">07</span><span class=\"ds-m\" data-r=\"top3\">11</span><span class=\"ds-m\" data-r=\"top3\">16</span><span class=\"ds-m\" data-r=\"1\">21</span><span class=\"ds-mlabel\">last 5 elections</span></div>",
+      "css": ".ds-fg{display:flex;gap:4px;align-items:center;flex-wrap:wrap;font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-m{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font-size:11.5px;font-weight:800;font-variant-numeric:tabular-nums;background:var(--sunken,#e7e3d6);color:var(--ink-2,#4a4f56);border:1px solid var(--rule,#d8d3c4)}.ds-m[data-r=\"1\"]{background:var(--c);color:#fff;border-color:transparent}.ds-m[data-r=\"top3\"]{background:color-mix(in oklab,var(--c) 26%,transparent);color:var(--ink,#15181c)}.ds-mlabel{font-size:11.5px;color:var(--muted,#61646a);margin-inline-start:4px}"
+    },
+    {
+      "name": "Counter-Evidence Block",
+      "kind": "custom",
+      "refersTo": "counter-block",
+      "description": "What qualifies or contradicts the claim above it, in the same cell rather than a footnote.",
+      "html": "<div class=\"ds-counter\"><b>What this does not mean</b>Jobs announced in the 2026 programme; do not equate with HCP net employment.</div>",
+      "css": ".ds-counter{padding:8px 10px;background:var(--sunken,#e7e3d6);border-radius:10px;font-size:13px;color:var(--ink-2,#4a4f56);font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-counter b{color:var(--ink,#15181c);font-weight:700;display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;margin-block-end:2px}"
+    },
+    {
+      "name": "Evidence Tags",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Four states, each with its own glyph and words. Never colour alone. Rates the source, never the party.",
+      "html": "<div class=\"ds-evs\"><span class=\"ds-ev\" style=\"--c:#1b7247\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.5 10.5l3 3 6.5-7\"/><path d=\"M9 13.5l2 2 6.5-7\"/></svg>corroborated</span><span class=\"ds-ev\" style=\"--c:#7a6111\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><circle cx=\"10\" cy=\"10\" r=\"6.5\"/><circle cx=\"10\" cy=\"10\" r=\"1.6\" fill=\"currentColor\" stroke=\"none\"/></svg>single source</span><span class=\"ds-ev\" style=\"--c:#a14b1c\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\" stroke-linecap=\"round\"><circle cx=\"10\" cy=\"10\" r=\"6.5\"/><path d=\"M10 3.5v13\"/><path d=\"M10 10l5-4\"/></svg>disputed</span><span class=\"ds-ev\" style=\"--c:#61646a\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.75\"><circle cx=\"10\" cy=\"10\" r=\"6.5\" stroke-dasharray=\"2.6 2.6\"/></svg>no evidence recorded</span></div>",
+      "css": ".ds-evs{display:flex;flex-wrap:wrap;gap:14px;font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-ev{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:700;color:var(--c)}.ds-ev svg{flex:none}"
+    },
+    {
+      "name": "Group Header",
+      "kind": "custom",
+      "refersTo": "group-header",
+      "description": "A full-width ink band opening each comparison group.",
+      "html": "<div class=\"ds-group\">Where they stand</div>",
+      "css": ".ds-group{background:var(--ink,#15181c);color:var(--surface,#fbf9f3);padding:12px 14px;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-family:var(--font,Tajawal,system-ui,sans-serif)}"
+    },
+    {
+      "name": "Buttons",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Pills. Signal Amber fills only when the reader has chosen this one.",
+      "html": "<div class=\"ds-btns\"><button class=\"ds-btn ds-on\">Elections</button><button class=\"ds-btn\">Governments</button><button class=\"ds-btn\">Events</button></div>",
+      "css": ".ds-btns{display:flex;gap:6px;flex-wrap:wrap;font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-btn{font:inherit;font-size:14px;font-weight:700;color:var(--ink-2,#4a4f56);background:var(--surface,#fbf9f3);border:1px solid var(--rule-strong,#b9b3a1);border-radius:999px;padding:7px 13px;cursor:pointer}.ds-btn:hover{color:var(--ink,#15181c);border-color:var(--ink,#15181c)}.ds-btn:focus-visible{outline:2px solid var(--signal,#e8a13a);outline-offset:2px}.ds-on{background:var(--signal,#e8a13a);border-color:var(--signal,#e8a13a);color:var(--ink,#15181c)}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Pill links; the current page fills Ink. Wraps to its own row under 760px.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-brand\"><svg viewBox=\"0 0 20 20\" width=\"22\" height=\"22\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.9\" stroke-linecap=\"round\"><path d=\"M3 4h14M3 4v12M10 4v12M17 4v12M3 16h14M3 9h14M3 12.5h14\"/></svg>Ntikhabat</a><nav class=\"ds-nav\"><a class=\"ds-cur\">Compare</a><a>The record</a><a>How we know</a></nav></header>",
+      "css": ".ds-top{display:flex;align-items:center;gap:14px;min-height:58px;padding:0 16px;background:var(--surface,#fbf9f3);border-block-end:2px solid var(--ink,#15181c);font-family:var(--font,Tajawal,system-ui,sans-serif)}.ds-brand{display:inline-flex;align-items:center;gap:9px;font-weight:800;font-size:19px;letter-spacing:-.03em;color:var(--ink,#15181c);text-decoration:none;white-space:nowrap}.ds-nav{display:flex;gap:2px;flex:1}.ds-nav a{color:var(--ink-2,#4a4f56);padding:7px 11px;border-radius:999px;font-size:15px;font-weight:700;text-decoration:none;cursor:pointer;white-space:nowrap}.ds-nav a:hover{background:var(--sunken,#e7e3d6);color:var(--ink,#15181c)}.ds-nav a.ds-cur{background:var(--ink,#15181c);color:var(--surface,#fbf9f3)}"
+    },
+    {
+      "name": "Untranslated Marker",
+      "kind": "custom",
+      "refersTo": "chip",
+      "description": "Prose with no translation in the reader's language states its source language rather than pretending.",
+      "html": "<p class=\"ds-untr\"><span class=\"ds-src\">EN</span>Created after the June 1977 legislative elections, in which candidates running as independents won a majority of seats.</p>",
+      "css": ".ds-untr{border-inline-start:1px solid var(--rule-strong,#b9b3a1);padding-inline-start:8px;font-size:14px;color:var(--ink-2,#4a4f56);font-family:var(--font,Tajawal,system-ui,sans-serif);margin:0}.ds-src{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted,#61646a);background:var(--sunken,#e7e3d6);border-radius:4px;padding:1px 5px;margin-inline-end:6px;vertical-align:2px}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Focus moves the border to Slate and keeps the amber ring; never removes the outline.",
+      "html": "<input class=\"ds-field\" type=\"search\" placeholder=\"Search a party by name or initials\">",
+      "css": ".ds-field{font-family:var(--font,Tajawal,system-ui,sans-serif);font-size:16px;color:var(--ink,#15181c);background:var(--surface,#fbf9f3);border:1px solid var(--rule-strong,#b9b3a1);border-radius:10px;padding:10px 12px;width:100%;caret-color:var(--slate,#33607e)}.ds-field::placeholder{color:var(--muted,#61646a)}.ds-field:focus-visible{outline:2px solid var(--signal,#e8a13a);outline-offset:1px;border-color:var(--slate,#33607e)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Match-Day Table",
+    "overview": "Ntikhabat is a comparison instrument. Its grammar is the one every Moroccan already\nreads fluently every week — the match-day page, with its ruled rows, its form guide,\nits heavy names and its tabular figures. A reader who has never seen this site before\nhas read this layout a thousand times, and that fluency is the whole point: a voter\nwith days to decide should not have to learn an interface first.\n\nIt borrows that page's **comparison** language and refuses its **ranking** language.\nThere is no standings position, no points column, no merit order, and no \"top party\".\nParties are ordered by the reader's own choice or alphabetically, never by performance.\nWinning an election is a fact and appears as one; being *better* is never encoded\nanywhere in this system. On a site bound to strict editorial neutrality, that refusal\nis not a detail — it is the reason the form was allowed in at all.\n\nThe ground is warm newsprint (`#f2efe6`) under ink (`#15181c`), with one interface\ncolour — a signal amber (`#e8a13a`) reserved exclusively for the reader's own choices —\nand a slate (`#33607e`) carrying structure and links. Light is not a preference here but\nthe use scene: the reader is on a cheap phone, outdoors, in Moroccan September sunlight.\nDark exists for night reading and inverts the same token set.\n\nType is **Tajawal**, carrying Arabic and Latin in one family. That is not a stylistic\nchoice but a structural one: a trilingual interface where Darija sits in a different\ntypeface from French is three designs pretending to be one. Self-hosted and subset to\n76KB for all six files.",
+    "keyCharacteristics": [
+      "Comparison grammar without ranking grammar — the central discipline of the system",
+      "A party owns a full colour field down its whole column, never a dot",
+      "One magnitude variable: the signed −2…+2 meter, identical everywhere a score appears",
+      "Four visually distinct evidence states, judging the source and never the party",
+      "Every claim carries its counter-evidence in the same field",
+      "Absence is withheld and counted, never rendered as rows of empty cells",
+      "Arabic set at display scale, not as metadata beneath French"
+    ],
+    "rules": [
+      {
+        "name": "The Not-Their-Colour Rule",
+        "section": "colors",
+        "body": "No party's real brand colour appears anywhere in this interface. A party rendered in its own livery reads as affiliation rather than as a series, and the eight-slot palette is validated as a set. The only place a party's own colours legitimately appear is inside a logo or portrait from data/media.json, which is content, not chrome."
+      },
+      {
+        "name": "The Reader's Colour Rule",
+        "section": "colors",
+        "body": "Signal Amber marks only what the reader chose. It is never spent on emphasis, on a party, or on a value the data supplies."
+      },
+      {
+        "name": "The Two-Systems Rule",
+        "section": "colors",
+        "body": "Party colour and evidence colour never mix. A party is never tinted by how well sourced it is, and evidence is never tinted by whose it is."
+      },
+      {
+        "name": "The Aligned-Figure Rule",
+        "section": "typography",
+        "body": "Every value a reader might compare down a column is tabular."
+      },
+      {
+        "name": "The Isolation Rule",
+        "section": "typography",
+        "body": "Numerals and mixed number-and-word phrases are wrapped in <bdi>, and negatives use U+2212. Without it, -1 renders as 1- under dir=rtl and \"27.7% of the vote\" reverses. Any new numeric string is isolated the same way."
+      },
+      {
+        "name": "The Two-Rules Rule",
+        "section": "elevation",
+        "body": "A divider is either a 1px hairline or a 2px ink rule. The hairline separates peers; the ink rule separates sections. There is no third weight, and nothing casts a shadow."
+      }
+    ],
+    "dos": [
+      "Do show what happened, and let the reader decide what it means.",
+      "Do give a party a full colour field down its column.",
+      "Do use the meter for every signed score, unchanged.",
+      "Do put counter-evidence in the same cell as the claim.",
+      "Do withhold and count empty rows rather than rendering them.",
+      "Do wrap numerals and mixed phrases in `<bdi>`, and use U+2212 for negatives.",
+      "Do use logical properties for anything directional.",
+      "Do title every chart axis.",
+      "Do measure contrast against the real ground; light mode is the tight one."
+    ],
+    "donts": [
+      "Don't rank parties, anywhere, by anything. No standings, no points, no \"top\".",
+      "Don't give a party its real brand colour.",
+      "Don't spend Signal Amber on anything the reader did not choose.",
+      "Don't tint a party by evidence strength, or evidence by whose it is.",
+      "Don't add a `box-shadow`, or a third divider weight.",
+      "Don't introduce a second typeface; Arabic and Latin share one family by design.",
+      "Don't use a physical `left`/`right` property.",
+      "Don't convey a state by colour alone — every evidence state has a glyph and words.",
+      "Don't present untranslated prose without its source-language marker."
+    ]
+  }
+}

@@ -183,9 +183,24 @@ def main():
     meth_html = ''
     if os.path.exists(meth):
         meth_html = md_to_html(open(meth, encoding='utf-8').read())
+    # Translated prose, content-addressed by sha256(source) -- see scripts/translate.py.
+    # Absent or partial is a valid state: the front-end labels an untranslated string
+    # with its source language rather than presenting an Arabic shell around English.
+    prose = {}
+    i18n_dir = os.path.join(DATA, 'i18n')
+    if os.path.isdir(i18n_dir):
+        for lang in sorted(os.listdir(i18n_dir)):
+            if not lang.endswith('.json'):
+                continue
+            with open(os.path.join(i18n_dir, lang), encoding='utf-8') as f:
+                prose[lang[:-5]] = json.load(f)
+        for lang, cat in prose.items():
+            print(f'i18n {lang}: {len(cat)} translated strings')
+
     bundle = {
         'meta': {'generated_at': datetime.date.today().isoformat(), 'methodology_html': meth_html,
                  'counts': {'parties': len(parties), 'elections': len(elections), 'events': len(events), 'governments': len(govs)}},
+        'prose': prose,
         'parties': parties, 'elections': elections, 'events': events, 'governments': govs, 'global_metrics': gm, 'labels': labels,
         'sources': sources_registry,
         'policy_dimensions': (policy or {}).get('dimensions', []),

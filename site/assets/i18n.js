@@ -78,6 +78,9 @@
     localizeDOM(lang);
     const sel = document.getElementById('language-select');
     if (sel) sel.value = lang;
+    // Data-bank prose is resolved per language when app.js builds its markup, so a
+    // language switch needs a content re-render, not only a text-node swap.
+    document.dispatchEvent(new CustomEvent('ntk:languagechange', { detail: { lang } }));
   }
 
   function initLanguage() {
