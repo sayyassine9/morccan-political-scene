@@ -1,0 +1,536 @@
+{
+  "dimensions": [
+    {
+      "id": "economy",
+      "label": "Economic model",
+      "low": "Market-led growth",
+      "high": "Public direction & redistribution",
+      "description": "Reads the proposed role of markets, public investment, taxation and redistribution. All reviewed programmes contain mixed policies; this is an editorial reading, not a measured ideology.",
+      "rubric": [
+        "Strong market-first programme",
+        "Market incentives take the lead",
+        "Explicit balance of market and state",
+        "Redistribution and public services take the lead",
+        "Structural redistribution and public economic institutions"
+      ]
+    },
+    {
+      "id": "benefits",
+      "label": "Social protection",
+      "low": "Targeted benefits",
+      "high": "Universal entitlements",
+      "description": "Distinguishes benefits aimed at selected eligible households from explicit commitments to universal rights. More spending does not by itself mean more universality.",
+      "rubric": [
+        "Strictly targeted provision",
+        "Eligibility and selected groups emphasized",
+        "Explicit balance of targeted and universal provision",
+        "Wider entitlement emphasized",
+        "Universal entitlement explicitly central"
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family law",
+      "low": "Preserve existing rules",
+      "high": "Expand equal civil rights",
+      "description": "Based on dated positions on inheritance, legal guardianship, polygamy and marriage. This is not a score of religiosity or the whole party platform.",
+      "rubric": [
+        "Defends existing religious inheritance and marital restrictions",
+        "Conservative reform with selected changes",
+        "Explicit compromise on the selected questions",
+        "Substantial equality reforms",
+        "Broad equal-rights reform across the selected questions"
+      ]
+    },
+    {
+      "id": "religion",
+      "label": "Religion & civil law",
+      "low": "Religious-law reference",
+      "high": "Autonomous civil rules",
+      "description": "Uses the concrete debate over Article 400 of the Family Code. Keeping a religious reference is coded negative; removing it is positive. This narrow indicator does not establish support for or opposition to full institutional secularism.",
+      "rubric": [
+        "Explicitly defends religious reference",
+        "Leans toward religious reference",
+        "Explicitly proposes broadening the reference",
+        "Leans toward autonomous civil rules",
+        "Explicitly proposes removing the religious fallback"
+      ]
+    },
+    {
+      "id": "liberties",
+      "label": "Civil liberties",
+      "low": "More restrictions",
+      "high": "Stronger legal protections",
+      "description": "Uses explicit programme proposals on peaceful assembly, speech, detention and privacy. Silence is unknown, not a centrist position.",
+      "rubric": [
+        "Explicitly expands restrictions",
+        "Prioritizes restrictive controls",
+        "Explicitly balances both approaches",
+        "Proposes specific legal protections",
+        "Proposes broad protections and reversals of restrictions"
+      ]
+    },
+    {
+      "id": "labour",
+      "label": "Strike rights",
+      "low": "Defend the 2025 framework",
+      "high": "Oppose or revise restrictions",
+      "description": "A dated, narrow indicator based on responses to law 97.15. Committee responses are not individual plenary roll calls and do not describe every labour policy.",
+      "rubric": [
+        "Strong endorsement of existing restrictions",
+        "Defended the adopted framework",
+        "Explicit compromise",
+        "Opposed restrictions in the reviewed record",
+        "Explicitly commits to reversing the framework"
+      ]
+    }
+  ],
+  "positions": [
+    {
+      "party_id": "rni",
+      "dimension_id": "economy",
+      "score": -1,
+      "note": "Investment incentives and productive loans lead its employment offer, alongside social transfers.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-rni-press",
+        "programme-rni"
+      ]
+    },
+    {
+      "party_id": "pam",
+      "dimension_id": "economy",
+      "score": 0,
+      "note": "Combines a large social package with growth expected from private investment.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pam-press",
+        "programme-pam"
+      ]
+    },
+    {
+      "party_id": "istiqlal",
+      "dimension_id": "economy",
+      "score": 0,
+      "note": "Explicitly combines market wealth creation with an active social role for the state.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pi-press",
+        "programme-pi"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "economy",
+      "score": 2,
+      "note": "Proposes a wealth tax, progressive taxation and substantial additional public spending.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pps-press",
+        "programme-pps"
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "economy",
+      "score": 1,
+      "note": "Proposes price-margin controls and higher taxation of concentrated sectors, alongside support for small firms.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pjd-press"
+      ]
+    },
+    {
+      "party_id": "usfp",
+      "dimension_id": "economy",
+      "score": 1,
+      "note": "Links growth to redistribution, public services and conditions on business subsidies.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-usfp-press",
+        "programme-usfp"
+      ]
+    },
+    {
+      "party_id": "mp",
+      "dimension_id": "economy",
+      "score": -1,
+      "note": "Emphasizes tax incentives for small firms, venture capital and employment matching.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-mp-press"
+      ]
+    },
+    {
+      "party_id": "uc",
+      "dimension_id": "economy",
+      "score": -1,
+      "note": "Emphasizes investment incentives, competition and enterprise-led employment.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-uc-press"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "economy",
+      "score": 2,
+      "note": "Proposes wealth and large-inheritance taxes and a public investment bank.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-ag2026-press",
+        "programme-ag2026"
+      ]
+    },
+    {
+      "party_id": "rni",
+      "dimension_id": "benefits",
+      "score": -1,
+      "note": "Proposes inflation protection for existing eligible social-aid households.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-rni-press"
+      ]
+    },
+    {
+      "party_id": "pam",
+      "dimension_id": "benefits",
+      "score": -1,
+      "note": "Proposes higher direct aid with eligibility based on actual household income.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pam-press"
+      ]
+    },
+    {
+      "party_id": "istiqlal",
+      "dimension_id": "benefits",
+      "score": -1,
+      "note": "Proposes assistance for selected family needs, including marriage and care.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pi-press"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "benefits",
+      "score": 2,
+      "note": "Makes effective universal medical coverage a central objective.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pps-press"
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "benefits",
+      "score": 1,
+      "note": "Proposes restoring student coverage and addressing people excluded from medical insurance.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pjd-press"
+      ]
+    },
+    {
+      "party_id": "usfp",
+      "dimension_id": "benefits",
+      "score": 2,
+      "note": "Explicitly targets full social-protection coverage.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-usfp-press"
+      ]
+    },
+    {
+      "party_id": "mp",
+      "dimension_id": "benefits",
+      "score": -1,
+      "note": "Proposes direct access for specified vulnerable groups and income-based targeting for others.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-mp-press"
+      ]
+    },
+    {
+      "party_id": "uc",
+      "dimension_id": "benefits",
+      "score": 1,
+      "note": "Proposes effective access to medical coverage and lower patient costs.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-uc-press"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "benefits",
+      "score": 2,
+      "note": "Proposes a universal birth allowance by 2031.",
+      "date": "2026",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-ag2026-press"
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "family",
+      "score": -2,
+      "note": "Defended the existing inheritance reference and opposed abolition of polygamy.",
+      "date": "2023-12",
+      "scope": "Published party proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "istiqlal",
+      "dimension_id": "family",
+      "score": -1,
+      "note": "Supported some guardianship changes while preserving established inheritance rules.",
+      "date": "2023-12",
+      "scope": "Published party proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "family",
+      "score": 2,
+      "note": "Jointly proposed ending child marriage, polygamy and several sex-based distinctions.",
+      "date": "2024-02-16",
+      "scope": "Published party proposal",
+      "sources": [
+        "family-joint"
+      ]
+    },
+    {
+      "party_id": "usfp",
+      "dimension_id": "family",
+      "score": 2,
+      "note": "Jointly proposed ending child marriage, polygamy and several sex-based distinctions.",
+      "date": "2024-02-16",
+      "scope": "Published party proposal",
+      "sources": [
+        "family-joint"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "family",
+      "score": 1,
+      "note": "The joint programme proposes ending all child-marriage exceptions and taâsib.",
+      "date": "2026-09",
+      "scope": "Published party proposal",
+      "sources": [
+        "programme-ag2026-press"
+      ],
+      "history": [
+        {
+          "date": "2023-12",
+          "score": 2,
+          "note": "Proposed equal inheritance among heirs of the same degree and wider family-law equality.",
+          "sources": [
+            "family-parties"
+          ]
+        }
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "religion",
+      "score": -2,
+      "note": "Explicitly defended retaining Article 400 and its religious legal reference.",
+      "date": "2023-12",
+      "scope": "Specific Family Code proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "istiqlal",
+      "dimension_id": "religion",
+      "score": -2,
+      "note": "Supported retaining Article 400.",
+      "date": "2023-12",
+      "scope": "Specific Family Code proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "religion",
+      "score": 2,
+      "note": "Called for removing Article 400.",
+      "date": "2023-12",
+      "scope": "Specific Family Code proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "usfp",
+      "dimension_id": "religion",
+      "score": 2,
+      "note": "Called for removing Article 400.",
+      "date": "2023-12",
+      "scope": "Specific Family Code proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "religion",
+      "score": 0,
+      "note": "Proposed broadening the reference beyond the Maliki school and opening it to human-rights commitments.",
+      "date": "2023-12",
+      "scope": "Specific Family Code proposal",
+      "sources": [
+        "family-parties"
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "liberties",
+      "score": 1,
+      "note": "Proposes notification rather than prior authorization for peaceful demonstrations. Its 2025 appeal to stop GenZ demonstrations is a separate dated response.",
+      "date": "2026-09",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-pjd-press",
+        "genz-parties"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "liberties",
+      "score": 2,
+      "note": "Proposes protecting speech, peaceful assembly and privacy, and releasing opinion and protest detainees.",
+      "date": "2026-09",
+      "scope": "Programme, pp. 116–119",
+      "sources": [
+        "programme-pps"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "liberties",
+      "score": 2,
+      "note": "Proposes amnesty for opinion and protest detainees and a ban on biometric surveillance in public space.",
+      "date": "2026-09",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-ag2026-press"
+      ]
+    },
+    {
+      "party_id": "rni",
+      "dimension_id": "labour",
+      "score": -1,
+      "note": "The reviewed committee reporting identifies the group as defending the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee response",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "pam",
+      "dimension_id": "labour",
+      "score": -1,
+      "note": "The reviewed committee reporting identifies the group as defending the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee response",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "istiqlal",
+      "dimension_id": "labour",
+      "score": -1,
+      "note": "The reviewed committee reporting identifies the group as defending the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee response",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "pjd",
+      "dimension_id": "labour",
+      "score": 1,
+      "note": "The reviewed committee reporting identifies opposition deputies voting against the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee vote",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "pps",
+      "dimension_id": "labour",
+      "score": 1,
+      "note": "The reviewed committee reporting identifies opposition deputies voting against the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee vote",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "usfp",
+      "dimension_id": "labour",
+      "score": 1,
+      "note": "The reviewed committee reporting identifies opposition deputies voting against the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee vote",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "mp",
+      "dimension_id": "labour",
+      "score": 1,
+      "note": "The reviewed committee reporting identifies opposition deputies voting against the bill.",
+      "date": "2025-02-04",
+      "scope": "Reported committee vote",
+      "sources": [
+        "strike-committee"
+      ]
+    },
+    {
+      "party_id": "fgd",
+      "dimension_id": "labour",
+      "score": 2,
+      "note": "The joint programme explicitly proposes revising the strike law.",
+      "date": "2026-09",
+      "scope": "Programme proposal",
+      "sources": [
+        "programme-ag2026-press"
+      ]
+    }
+  ]
+}

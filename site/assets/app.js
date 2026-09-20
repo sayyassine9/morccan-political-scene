@@ -1,392 +1,798 @@
-/* Moroccan political scene — data bank front-end (vanilla JS + Chart.js) */
+/* Ntikhabat — The Match-Day Table.
+   Comparison-first front-end. Four pages: compare (index), party, record, method.
+   Direction contract: .impeccable/surfaces/site-index-html.md */
 (function () {
   'use strict';
-  const D = window.DATA || { parties: [], elections: [], events: [], governments: [], meta: {} };
-  const $ = (sel, root) => (root || document).querySelector(sel);
-  const $$ = (sel, root) => Array.from((root || document).querySelectorAll(sel));
-  const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 
-  // ---------- theme ----------
-  function initTheme() {
-    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
-    const btn = $('#theme-toggle');
-    if (btn) btn.addEventListener('click', () => {
-      const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const D = window.DATA || {};
+  const PARTIES = D.parties || [];
+  const EVENTS = D.events || [];
+  const ELECTIONS = D.elections || [];
+  const GOVS = D.governments || [];
+  const MEDIA = D.media || [];
+  const LABELS = D.labels || {};
+  const PROSE = D.prose || {};
+  const DIMS = D.policy_dimensions || [];
+  const POSITIONS = D.policy_positions || [];
+  const PROGRAMMES = D.programmes || {};
+
+  /* Set by whichever page is active; re-run when the reader switches language, because
+     prose() resolves translations at render time. */
+  let rerenderPage = null;
+
+  const $ = (s, r) => (r || document).querySelector(s);
+  const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  /* ------------------------------------------------------------ prose i18n */
+  /* Twin of key_of() in scripts/translate.py. Must stay byte-identical. */
+  function proseKey(s) {
+    const bytes = new TextEncoder().encode(String(s).trim());
+    let h1 = 2166136261, h2 = 5381;
+    for (const b of bytes) {
+      h1 = Math.imul(h1 ^ b, 16777619) >>> 0;
+      h2 = (((Math.imul(h2, 33) >>> 0) ^ b) >>> 0);
+    }
+    return (h1 >>> 0).toString(16).padStart(8, '0') + (h2 >>> 0).toString(16).padStart(8, '0');
+  }
+  const currentLang = () => {
+    try { return localStorage.getItem('language') || 'en'; } catch (e) { return 'en'; }
+  };
+  /* Renders data-bank prose in the reader's language when a translation exists.
+     When it does not, the source text ships with an explicit language marker rather
+     than silently presenting English inside an Arabic interface. */
+  function prose(text) {
+    if (!text) return '';
+    const lang = currentLang();
+    if (lang === 'en') return esc(text);
+    const cat = PROSE[lang];
+    const hit = cat && cat[proseKey(text)];
+    if (hit) return esc(hit);
+    return `<span class="untranslated"><span class="src-lang">EN</span>${esc(text)}</span>`;
+  }
+
+  /* ------------------------------------------------------------ icons */
+  /* Authored, one stroke weight (1.75), one 20-unit box. */
+  const ico = (d, extra) => `<svg viewBox="0 0 20 20" width="${(extra && extra.size) || 16}" height="${(extra && extra.size) || 16}" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${d}</svg>`;
+  const ICONS = {
+    brand: '<svg viewBox="0 0 20 20" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M3 4h14M3 4v12M10 4v12M17 4v12M3 16h14M3 9h14M3 12.5h14"/></svg>',
+    strong: ico('<path d="M2.5 10.5l3 3 6.5-7"/><path d="M9 13.5l2 2 6.5-7"/>'),
+    single: ico('<circle cx="10" cy="10" r="6.5"/><circle cx="10" cy="10" r="1.6" fill="currentColor" stroke="none"/>'),
+    disputed: ico('<circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13"/><path d="M10 10l5-4"/>'),
+    absent: ico('<circle cx="10" cy="10" r="6.5" stroke-dasharray="2.6 2.6"/>'),
+    search: ico('<circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2L17 17"/>'),
+    close: ico('<path d="M5 5l10 10M15 5L5 15"/>'),
+    plus: ico('<path d="M10 4.5v11M4.5 10h11"/>', { size: 18 }),
+    swap: ico('<path d="M4 7h12l-3-3M16 13H4l3 3"/>'),
+  };
+
+  /* ------------------------------------------------------------ party helpers */
+  const byId = {};
+  PARTIES.forEach((p) => { byId[p.id] = p; });
+  const logoOf = (id) => MEDIA.find((m) => m.kind === 'logo' && m.party_id === id);
+  const portraitOf = (name) => MEDIA.find((m) => m.kind === 'portrait' && m.person_name === name);
+
+  /* Fixed slot per party: colour follows the entity, never rank, and is never that
+     party's real brand colour. */
+  const SLOT = { rni: 1, pam: 2, istiqlal: 3, usfp: 4, mp: 5, pps: 6, uc: 7, pjd: 8 };
+  const colorOf = (id) => (SLOT[id] ? cssVar('--s' + SLOT[id]) : cssVar('--s-none'));
+  const abbrOf = (id) => (byId[id] && (byId[id].abbr || byId[id].names.fr)) || LABELS[id] || id;
+  const fullOf = (id) => (byId[id] && (byId[id].names.fr || byId[id].names.en)) || abbrOf(id);
+  const nameInLang = (id) => {
+    const p = byId[id];
+    if (!p) return abbrOf(id);
+    const lang = currentLang();
+    if (lang === 'ary' && p.names.ar) return p.names.ar;
+    if (lang === 'fr' && p.names.fr) return p.names.fr;
+    return p.names.en || p.names.fr || abbrOf(id);
+  };
+  const yearOf = (d) => (d ? String(d).slice(0, 4) : '');
+  const fmt = (n) => (n == null || isNaN(n) ? '—' : Number(n).toLocaleString('en-US'));
+  const fmtPct = (n) => (n == null || isNaN(n) ? '—' : Number(n).toFixed(1) + '%');
+  /* Numerals and mixed number+word phrases keep their own direction inside RTL text.
+     Without isolation, "-1" renders as "1-" and "27.7% of the vote" reverses. */
+  const bidi = (v) => `<bdi>${esc(v)}</bdi>`;
+  const signed = (n) => `<bdi>${n > 0 ? '+' : n < 0 ? '\u2212' : ''}${Math.abs(n)}</bdi>`;
+
+  const LEGS = ELECTIONS
+    .filter((e) => e.type === 'legislative' && e.results && e.results.length)
+    .sort((a, b) => a.date.localeCompare(b.date));
+  const LATEST = LEGS[LEGS.length - 1];
+
+  function logoMark(id, cls) {
+    const m = logoOf(id);
+    const color = colorOf(id);
+    if (m) {
+      return `<img class="logo ${cls || ''}" src="${esc(m.path)}" alt="" loading="lazy"
+        onerror="this.outerHTML='<span class=&quot;logo-fallback ${cls || ''}&quot;>${esc(abbrOf(id).slice(0, 4))}</span>'">`;
+    }
+    return `<span class="logo-fallback ${cls || ''}" style="--col-color:${color}">${esc(abbrOf(id).slice(0, 4))}</span>`;
+  }
+
+  /* ------------------------------------------------------------ evidence */
+  /* Four states derived only from what the data actually supports. Policy positions
+     carry no confidence field, so strength comes from independent source count. */
+  function evidenceOf(sources, extra) {
+    const n = (sources || []).length;
+    if (extra && extra.disputed) return 'disputed';
+    if (n >= 2) return 'strong';
+    if (n === 1) return 'single';
+    return 'absent';
+  }
+  const EV_LABEL = {
+    strong: 'corroborated',
+    single: 'single source',
+    disputed: 'disputed',
+    absent: 'no evidence recorded',
+  };
+  function evidenceTag(state, n) {
+    const count = state === 'strong' && n ? ` (${n})` : '';
+    return `<span class="ev" data-state="${state}">${ICONS[state]}${EV_LABEL[state]}${count}</span>`;
+  }
+  function sourcesBlock(ids) {
+    const list = ids || [];
+    if (!list.length) return '';
+    const reg = D.sources || {};
+    const items = list.map((s) => {
+      const rec = reg[s];
+      const url = rec && (rec.url || rec.link);
+      const title = (rec && (rec.title || rec.publisher)) || s;
+      return url
+        ? `<li><a href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a></li>`
+        : `<li>${esc(title)}</li>`;
+    }).join('');
+    return `<details class="sources"><summary>Sources (${list.length})</summary><ol>${items}</ol></details>`;
+  }
+
+  /* ------------------------------------------------------------ meter */
+  /* The one magnitude variable in the system: a signed −2..+2 meter, identical
+     everywhere a score appears. */
+  function meter(score, color) {
+    if (score == null) return '';
+    const pct = (Math.abs(score) / 2) * 50;
+    const side = score >= 0 ? 'inset-inline-start:50%' : `inset-inline-end:50%`;
+    return `<span class="meter" style="--col-color:${color}">
+      <span class="track"></span><span class="axis"></span>
+      <span class="bar" style="${side};width:${pct}%"></span>
+    </span>`;
+  }
+
+  /* ------------------------------------------------------------ theme + lang */
+  function initChrome() {
+    try {
+      const t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    } catch (e) {}
+    const tb = $('#theme-toggle');
+    if (tb) tb.addEventListener('click', () => {
+      const cur = document.documentElement.dataset.theme ||
+        (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
       const next = cur === 'dark' ? 'light' : 'dark';
       document.documentElement.dataset.theme = next;
       try { localStorage.setItem('theme', next); } catch (e) {}
       rerenderCharts();
     });
+    const page = document.body.dataset.page;
+    $$('header.top nav a').forEach((a) => {
+      if (a.dataset.page === page) { a.classList.add('active'); a.setAttribute('aria-current', 'page'); }
+    });
+    const gen = $('#generated');
+    if (gen && D.meta) gen.textContent = D.meta.generated_at || '';
   }
 
-  // ---------- data helpers ----------
-  const partyById = {}; D.parties.forEach(p => partyById[p.id] = p);
-  const legs = D.elections.filter(e => e.type === 'legislative' && e.results && e.results.length).sort((a, b) => a.date.localeCompare(b.date));
-  const latestLeg = legs[legs.length - 1];
-  const LABELS = D.labels || {};
-  const partyName = (id) => (partyById[id] && (partyById[id].abbr || partyById[id].names.fr)) || LABELS[id] || (id === 'other' ? 'Other' : id === 'independents' ? 'Independents' : id);
-  const partyFull = (id) => (partyById[id] && partyById[id].names.fr) || partyName(id);
-  const partyLabel = (id) => partyById[id] ? partyLink(id) : `<span class="badge-party"><span class="swatch" style="background:${partyColor(id)}"></span>${esc(partyName(id))}</span>`;
-  // Fixed categorical slot per party (colour follows the entity, never rank). Top 8 by 2021 seats.
-  const SLOT = { rni: 1, pam: 2, istiqlal: 3, usfp: 4, mp: 5, pps: 6, uc: 7, pjd: 8 };
-  const partyColor = (id) => SLOT[id] ? css('--s' + SLOT[id]) : css('--gray-series');
-  const isMajor = (id) => !!SLOT[id];
-  const fmt = (n) => (n == null || isNaN(n)) ? '—' : Number(n).toLocaleString('en-US');
-  const fmtPct = (n) => (n == null || isNaN(n)) ? '—' : Number(n).toFixed(1) + '%';
-  const fmtMAD = (n) => (n == null) ? '—' : (n >= 1e6 ? (n / 1e6).toFixed(1) + ' M MAD' : fmt(n) + ' MAD');
-  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const qs = (k) => new URLSearchParams(location.search).get(k);
-  const confChip = (c) => c ? `<span class="conf ${esc(c)}" title="Confidence: ${esc(c)}">${esc(c)}</span>` : '';
-  const sourcesHtml = (srcs) => {
-    if (!srcs || !srcs.length) return '';
-    return `<details class="sources"><summary>Sources (${srcs.length})</summary><ol>${srcs.map(s => /^https?:/.test(s) ? `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(s)}</a></li>` : `<li>${esc(s)}</li>`).join('')}</ol></details>`;
-  };
-  const partyLink = (id) => `<a class="badge-party" href="party.html?id=${esc(id)}"><span class="swatch" style="background:${partyColor(id)}"></span>${esc(partyName(id))}</a>`;
-  const yearOf = (d) => d ? String(d).slice(0, 4) : '';
-
-  // seats history for a party across legislative elections
-  function seatSeries(pid) { return legs.map(e => { const r = (e.results || []).find(r => r.party_id === pid); return { year: yearOf(e.date), seats: r ? r.seats : 0, pct: r ? r.pct : null, votes: r ? r.votes : null, total: e.seats_total }; }); }
-
-  // ---------- charts ----------
+  /* ------------------------------------------------------------ charts */
   const charts = [];
   function chartDefaults() {
     if (!window.Chart) return;
-    Chart.defaults.font.family = css('--font') || 'system-ui, sans-serif';
+    Chart.defaults.font.family = "'Tajawal', system-ui, sans-serif";
     Chart.defaults.font.size = 12;
-    Chart.defaults.color = css('--muted');
-    Chart.defaults.borderColor = css('--grid');
+    Chart.defaults.color = cssVar('--muted');
+    Chart.defaults.borderColor = cssVar('--rule');
     Chart.defaults.plugins.legend.display = false;
-    Chart.defaults.plugins.tooltip.backgroundColor = css('--surface');
-    Chart.defaults.plugins.tooltip.titleColor = css('--ink');
-    Chart.defaults.plugins.tooltip.bodyColor = css('--ink-2');
-    Chart.defaults.plugins.tooltip.borderColor = css('--border');
+    Chart.defaults.plugins.tooltip.backgroundColor = cssVar('--surface');
+    Chart.defaults.plugins.tooltip.titleColor = cssVar('--ink');
+    Chart.defaults.plugins.tooltip.bodyColor = cssVar('--ink-2');
+    Chart.defaults.plugins.tooltip.borderColor = cssVar('--rule-strong');
     Chart.defaults.plugins.tooltip.borderWidth = 1;
-    Chart.defaults.elements.line.borderWidth = 2;
-    Chart.defaults.elements.line.borderJoinStyle = 'round';
-    Chart.defaults.elements.point.radius = 3;
-    Chart.defaults.elements.point.hoverRadius = 6;
-    Chart.defaults.elements.point.borderWidth = 2;
-    Chart.defaults.elements.point.borderColor = css('--surface');
-    Chart.defaults.elements.bar.borderRadius = { topLeft: 4, topRight: 4 };
+    Chart.defaults.elements.bar.borderRadius = { topLeft: 3, topRight: 3 };
     Chart.defaults.elements.bar.borderSkipped = 'start';
-    Chart.defaults.maxBarThickness = 24;
+    Chart.defaults.maxBarThickness = 26;
     Chart.defaults.interaction = { mode: 'index', intersect: false };
   }
-  const axisOpts = (extra) => Object.assign({ grid: { color: css('--grid'), lineWidth: 1 }, border: { color: css('--axis') }, ticks: { color: css('--muted') } }, extra || {});
-  function makeChart(canvasId, build) {
-    const el = document.getElementById(canvasId); if (!el || !window.Chart) return;
+  /* Every axis is titled. An unlabelled axis is a defect, not a style. */
+  const axis = (title, extra) => Object.assign({
+    grid: { color: cssVar('--rule'), lineWidth: 1 },
+    border: { color: cssVar('--rule-strong') },
+    ticks: { color: cssVar('--muted') },
+    title: title ? { display: true, text: title, color: cssVar('--ink-2'), font: { weight: 700, size: 12 } } : { display: false },
+  }, extra || {});
+  function makeChart(id, build) {
+    const el = document.getElementById(id);
+    if (!el || !window.Chart) return;
     const entry = { el, build, chart: null };
-    charts.push(entry); renderChart(entry);
-  }
-  function renderChart(entry) {
-    if (entry.chart) entry.chart.destroy();
+    charts.push(entry);
     chartDefaults();
-    entry.chart = new Chart(entry.el.getContext('2d'), entry.build());
+    entry.chart = new Chart(el.getContext('2d'), entry.build());
   }
-  function rerenderCharts() { charts.forEach(renderChart); }
-  function legendHtml(items) { return `<div class="legend">${items.map(i => `<span class="key"><span class="swatch" style="background:${i.color}"></span>${esc(i.label)}</span>`).join('')}</div>`; }
-  function tableHtml(head, rows) {
-    return `<details class="table-view"><summary>Table view</summary><div class="table-scroll"><table><thead><tr>${head.map(h => `<th class="${typeof h === 'object' && h.num ? 'num' : ''}">${esc(typeof h === 'object' ? h.label : h)}</th>`).join('')}</tr></thead><tbody>${rows.map(r => `<tr>${r.map((c, i) => `<td class="${typeof head[i] === 'object' && head[i].num ? 'num' : ''}">${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div></details>`;
-  }
-
-  // ---------- shared components ----------
-  function seatBar(results, total, container) {
-    const isReal = (r) => !!partyById[r.party_id];
-    const sorted = results.slice().sort((a, b) => (isReal(b) - isReal(a)) || b.seats - a.seats);
-    let html = '<div class="seatbar">';
-    sorted.forEach(r => { if (!r.seats) return; const w = (r.seats / total * 100).toFixed(2); html += `<div class="seg" style="width:${w}%;background:${partyColor(r.party_id)}" title="${esc(partyFull(r.party_id))}: ${r.seats}">${r.seats / total > 0.06 ? `<span>${esc(partyName(r.party_id))} ${r.seats}</span>` : ''}</div>`; });
-    html += '</div><div class="seatbar-legend">' + sorted.filter(r => r.seats).map(r => `<span class="key"><span class="swatch" style="background:${partyColor(r.party_id)}"></span>${esc(partyName(r.party_id))} <b>${r.seats}</b></span>`).join('') + '</div>';
-    container.innerHTML = html;
+  function rerenderCharts() {
+    chartDefaults();
+    charts.forEach((e) => { if (e.chart) e.chart.destroy(); e.chart = new Chart(e.el.getContext('2d'), e.build()); });
   }
 
-  // ---------- DASHBOARD ----------
-  function pageDashboard() {
-    const meta = D.meta || {};
-    // hero: countdown to next election
-    const next = D.elections.find(e => e.id === 'leg-2026');
-    const heroEl = $('#hero');
-    if (heroEl) {
-      const today = new Date(meta.generated_at || Date.now());
-      let html = '';
-      if (next) {
-        const days = Math.round((new Date(next.date) - today) / 86400000);
-        const label = days > 0 ? `days until the ${next.date} general election` : days === 0 ? 'the general election is today' : `days since the ${next.date} general election (results pending in this data bank)`;
-        html += `<div><div class="big">${Math.abs(days)}</div><div class="big-label">${esc(label)}</div></div>`;
+  /* ============================================================ COMPARE */
+  /* The 9 parties with policy or programme evidence. Comparison is meaningful for
+     these; every other party is still selectable and its gaps are stated plainly. */
+  const posByParty = {};
+  POSITIONS.forEach((p) => {
+    (posByParty[p.party_id] = posByParty[p.party_id] || {})[p.dimension_id] = p;
+  });
+  const claimsByParty = {};
+  (PROGRAMMES.claims || []).forEach((c) => {
+    (claimsByParty[c.party_id] = claimsByParty[c.party_id] || []).push(c);
+  });
+  const COMPARABLE = PARTIES.filter((p) => posByParty[p.id] || claimsByParty[p.id]).map((p) => p.id);
+
+  function seatsIn(election, pid) {
+    const r = ((election && election.results) || []).find((x) => x.party_id === pid);
+    return r || null;
+  }
+  function inGovernmentNow(pid) {
+    const sorted = GOVS.slice().sort((a, b) => (a.from || '').localeCompare(b.from || ''));
+    const last = sorted[sorted.length - 1];
+    if (!last) return null;
+    const members = (last.coalition || []).map((c) => (typeof c === 'string' ? c : c.party_id));
+    return { gov: last, member: members.indexOf(pid) !== -1, pm: last.pm_party === pid };
+  }
+  /* Form guide: the last five legislative elections, as finishing position. This shows
+     what happened; it never implies which party is better. */
+  function formGuide(pid) {
+    return LEGS.slice(-5).map((e) => {
+      const ranked = (e.results || []).slice().sort((a, b) => (b.seats || 0) - (a.seats || 0));
+      const idx = ranked.findIndex((r) => r.party_id === pid);
+      const rec = idx >= 0 ? ranked[idx] : null;
+      let rank = 'absent';
+      if (idx === 0) rank = '1';
+      else if (idx > -1 && idx < 3) rank = 'top3';
+      else if (idx > -1) rank = 'ran';
+      return { year: yearOf(e.date), rank, seats: rec ? rec.seats : null, place: idx >= 0 ? idx + 1 : null };
+    });
+  }
+
+  function pageCompare() {
+    const root = $('#compare');
+    if (!root) return;
+    const MAXP = 3;
+    let picked = [];
+    try {
+      const saved = JSON.parse(localStorage.getItem('compare') || '[]');
+      picked = saved.filter((id) => byId[id]).slice(0, MAXP);
+    } catch (e) {}
+    const fromUrl = (new URLSearchParams(location.search).get('parties') || '')
+      .split(',').filter((id) => byId[id]);
+    if (fromUrl.length) picked = fromUrl.slice(0, MAXP);
+    if (!picked.length) picked = COMPARABLE.slice(0, 2);
+
+    const persist = () => {
+      try { localStorage.setItem('compare', JSON.stringify(picked)); } catch (e) {}
+      const u = new URL(location.href);
+      u.searchParams.set('parties', picked.join(','));
+      history.replaceState(null, '', u);
+    };
+
+    /* ---- party chooser dialog ---- */
+    const dlg = document.createElement('dialog');
+    dlg.className = 'chooser';
+    dlg.innerHTML = `
+      <form method="dialog" class="chooser-head">
+        <label class="chip" style="gap:7px">${ICONS.search}<span class="sr-only">Search</span></label>
+        <input class="field" id="chooser-q" type="search" placeholder="Search a party by name or initials" autocomplete="off">
+        <button class="btn" value="cancel" aria-label="Close">${ICONS.close}</button>
+      </form>
+      <div class="chooser-list" id="chooser-list" role="listbox"></div>`;
+    document.body.appendChild(dlg);
+    let targetIndex = 0;
+
+    function renderChooser(q) {
+      const term = (q || '').trim().toLowerCase();
+      const match = PARTIES.filter((p) => {
+        if (!term) return true;
+        const hay = [p.abbr, p.names.fr, p.names.en, p.names.ar, p.id].join(' ').toLowerCase();
+        return hay.indexOf(term) !== -1;
+      });
+      /* Parties with comparable evidence lead; the rest remain reachable. */
+      const withEv = match.filter((p) => COMPARABLE.indexOf(p.id) !== -1);
+      const without = match.filter((p) => COMPARABLE.indexOf(p.id) === -1);
+      const row = (p) => {
+        const already = picked.indexOf(p.id) !== -1;
+        const ev = COMPARABLE.indexOf(p.id) !== -1;
+        return `<button class="chooser-item" role="option" data-id="${esc(p.id)}"
+          ${already ? 'aria-disabled="true" disabled' : ''}>
+          ${logoMark(p.id)}
+          <span style="min-width:0">
+            <span style="font-weight:800;display:block">${esc(p.abbr || p.names.fr)}</span>
+            <span class="micro muted" style="display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(p.names.fr || '')}</span>
+          </span>
+          <span class="micro muted" style="margin-inline-start:auto;text-align:end">
+            ${already ? 'selected' : ev ? 'positions on file' : 'record only'}
+          </span>
+        </button>`;
+      };
+      const html = (withEv.length ? withEv.map(row).join('') : '') +
+        (without.length ? `<div class="micro muted" style="padding:10px 10px 4px;font-weight:700;text-transform:uppercase;letter-spacing:.06em">Record only — no policy positions on file</div>${without.map(row).join('')}` : '');
+      $('#chooser-list').innerHTML = html ||
+        `<div class="chooser-empty">No party matches “${esc(q)}”.</div>`;
+    }
+    $('#chooser-q', dlg).addEventListener('input', (e) => renderChooser(e.target.value));
+    $('#chooser-list', dlg).addEventListener('click', (e) => {
+      const b = e.target.closest('.chooser-item');
+      if (!b || b.disabled) return;
+      if (targetIndex >= picked.length) picked.push(b.dataset.id);
+      else picked[targetIndex] = b.dataset.id;
+      persist(); dlg.close(); render();
+    });
+    function openChooser(i) {
+      targetIndex = i;
+      $('#chooser-q', dlg).value = '';
+      renderChooser('');
+      dlg.showModal();
+      $('#chooser-q', dlg).focus();
+    }
+
+    /* ---- comparison rows ---- */
+    function rowsFor(ids) {
+      const rows = [];
+      const push = (label, hint, cells, opts) => rows.push(Object.assign({ label, hint, cells }, opts || {}));
+
+      rows.push({ group: 'Identity' });
+      push('Founded', null, ids.map((id) => {
+        const p = byId[id];
+        return { value: p && p.founded ? yearOf(p.founded) : '—' };
+      }));
+      push('Current leader', null, ids.map((id) => {
+        const p = byId[id];
+        return { value: (p && p.current_leader && p.current_leader.name) || '—', small: true };
+      }));
+      push('Ideology', null, ids.map((id) => {
+        const p = byId[id];
+        const tags = (p && p.ideology) || [];
+        return { html: tags.length ? `<div class="tags">${tags.slice(0, 4).map((t) => `<span class="chip">${esc(t)}</span>`).join('')}</div>` : '—' };
+      }));
+
+      rows.push({ group: 'Record' });
+      push('Seats', LATEST ? `${yearOf(LATEST.date)} general election` : null, ids.map((id) => {
+        const r = seatsIn(LATEST, id);
+        return {
+          html: `<div class="cmp-value">${bidi(r ? fmt(r.seats) : '0')}</div>
+            <div class="cmp-sub">${r && r.pct != null ? bidi(fmtPct(r.pct) + ' of the vote') : 'no seats won'}</div>`,
+        };
+      }));
+      push('In government', 'the government sitting now', ids.map((id) => {
+        const g = inGovernmentNow(id);
+        return {
+          value: g ? (g.pm ? 'Leads it' : g.member ? 'Yes' : 'No') : '—',
+          sub: g && g.gov ? esc(g.gov.name || '') : '',
+          small: true,
+        };
+      }));
+      push('Governments led', 'since 1955', ids.map((id) => ({
+        value: fmt(GOVS.filter((g) => g.pm_party === id).length),
+      })));
+
+      rows.push({ group: 'Where they stand' });
+      const skipped = [];
+      DIMS.forEach((d) => {
+        const anyEvidence = ids.some((id) => (posByParty[id] || {})[d.id]);
+        push(d.label, null, ids.map((id) => {
+          const o = (posByParty[id] || {})[d.id];
+          if (!o) return { html: `<span class="ev" data-state="absent">${ICONS.absent}${EV_LABEL.absent}</span>` };
+          const state = evidenceOf(o.sources);
+          const color = colorOf(id);
+          return {
+            html: `<div class="cmp-value">${signed(o.score)}</div>
+              ${meter(o.score, color)}
+              <div class="meter-scale"><span>${esc(d.low || '')}</span><span>${esc(d.high || '')}</span></div>
+              <div class="cmp-sub">${prose(o.note || '')}</div>
+              ${evidenceTag(state, (o.sources || []).length)}
+              ${o.date || o.scope ? `<div class="micro muted" style="margin-block-start:4px">${esc(o.scope || '')}${o.scope && o.date ? ' · ' : ''}${esc(o.date || '')}</div>` : ''}
+              ${sourcesBlock(o.sources)}`,
+          };
+        }), { empty: !anyEvidence });
+      });
+
+      /* Rows where no selected party has any evidence are withheld and counted, rather
+         than padding the table with identical empty cells. */
+      for (let i = rows.length - 1; i >= 0; i--) {
+        if (rows[i].empty) { skipped.push(rows[i].label); rows.splice(i, 1); }
       }
-      if (latestLeg) html += `<div class="muted small">Current House of Representatives composition is from the ${latestLeg.date} election (${latestLeg.seats_total} seats). Data snapshot: ${esc(meta.generated_at || '')}.</div>`;
-      heroEl.innerHTML = html;
+      if (skipped.length) {
+        rows.push({ note: `${skipped.length} more ${skipped.length === 1 ? 'dimension has' : 'dimensions have'} no evidence on file for ${ids.length > 1 ? 'either party' : 'this party'}: ${skipped.reverse().join(', ')}.` });
+      }
+
+      rows.push({ group: '2026 programme' });
+      const topics = Array.from(new Set(ids.flatMap((id) => (claimsByParty[id] || []).map((c) => c.topic)).filter(Boolean))).sort();
+      if (!topics.length) {
+        push('Commitments', null, ids.map(() => ({ html: `<span class="ev" data-state="absent">${ICONS.absent}${EV_LABEL.absent}</span>` })));
+      }
+      topics.forEach((topic) => {
+        push(topic, null, ids.map((id) => {
+          const cs = (claimsByParty[id] || []).filter((c) => c.topic === topic);
+          if (!cs.length) return { html: `<span class="ev" data-state="absent">${ICONS.absent}${EV_LABEL.absent}</span>` };
+          return {
+            html: cs.map((c) => `
+              <div style="margin-block-end:8px">
+                <div style="font-weight:800">${prose(c.title || c.promise || '')}</div>
+                ${c.method ? `<div class="cmp-sub">${prose(c.method)}</div>` : ''}
+                ${c.deadline ? `<div class="micro muted">by ${esc(c.deadline)}</div>` : ''}
+                ${c.definition ? `<div class="counter"><b>What this does not mean</b>${prose(c.definition)}</div>` : ''}
+                ${evidenceTag(evidenceOf(c.sources), (c.sources || []).length)}
+                ${sourcesBlock(c.sources)}
+              </div>`).join(''),
+          };
+        }));
+      });
+      return rows;
     }
-    // KPI tiles
-    const gov = D.governments.slice().sort((a, b) => a.from.localeCompare(b.from)).filter(g => !g.to).pop() || D.governments[D.governments.length - 1];
-    const coalitionSeats = gov && latestLeg ? latestLeg.results.filter(r => gov.coalition.includes(r.party_id)).reduce((s, r) => s + r.seats, 0) : null;
-    const partiesInParl = latestLeg ? latestLeg.results.filter(r => r.seats > 0).length : 0;
-    const tiles = [
-      { label: 'Parties with seats (House of Reps)', value: partiesInParl, delta: latestLeg ? `${latestLeg.seats_total} seats, ${yearOf(latestLeg.date)} election` : '' },
-      { label: 'Governing coalition seats', value: coalitionSeats != null ? coalitionSeats : '—', delta: gov ? `${gov.coalition.map(partyName).join(' + ')} (${fmtPct(coalitionSeats / latestLeg.seats_total * 100)})` : '' },
-      { label: 'Opposition seats', value: coalitionSeats != null ? latestLeg.seats_total - coalitionSeats : '—', delta: latestLeg ? latestLeg.results.filter(r => r.seats && !gov.coalition.includes(r.party_id)).map(r => partyName(r.party_id)).join(', ') : '' },
-      { label: 'Turnout, last general election', value: latestLeg ? fmtPct(latestLeg.turnout_pct) : '—', delta: latestLeg ? `${fmt(latestLeg.registered_voters)} registered` : '' },
-      { label: 'Registered parties in data bank', value: D.parties.length, delta: `${D.parties.filter(p => p.status === 'parliamentary').length} parliamentary` },
-      { label: 'Events documented', value: D.events.length, delta: `${D.events.reduce((s, e) => s + (e.positions || []).length, 0)} party positions` }
-    ];
-    $('#kpis').innerHTML = tiles.map(t => `<div class="card tile"><div class="label">${esc(t.label)}</div><div class="value">${esc(t.value)}</div><div class="delta">${esc(t.delta)}</div></div>`).join('');
 
-    // seat bar
-    if (latestLeg) seatBar(latestLeg.results, latestLeg.seats_total, $('#seatbar'));
-    if (gov) $('#gov-summary').innerHTML = `<b>${esc(gov.name)}</b> — Prime minister ${esc(gov.pm)} (${partyLink(gov.pm_party)}), in office since ${esc(gov.from)}. Coalition: ${gov.coalition.map(partyLink).join(', ')}. ${esc(gov.notes || '')}`;
+    function render() {
+      const ids = picked.slice(0, MAXP);
+      const cols = Math.max(ids.length, 1);
+      const cmpCols = `--cols:${cols};grid-template-columns:minmax(118px,0.78fr) repeat(${cols},minmax(0,1fr))`;
 
-    // seats over time (stacked columns, top 8 + other)
-    const majors = Object.keys(SLOT);
-    makeChart('chart-seats', () => ({
-      type: 'bar',
-      data: { labels: legs.map(e => yearOf(e.date)), datasets: majors.map(pid => ({ label: partyName(pid), data: seatSeries(pid).map(s => s.seats), backgroundColor: partyColor(pid), stack: 's', borderWidth: 0 })).concat([{ label: 'Other / independents', data: legs.map(e => e.results.filter(r => !SLOT[r.party_id]).reduce((s, r) => s + r.seats, 0)), backgroundColor: css('--gray-series'), stack: 's', borderWidth: 0 }]) },
-      options: { responsive: true, maintainAspectRatio: false, datasets: { bar: { categoryPercentage: 0.6, barPercentage: 1 } }, scales: { x: axisOpts({ stacked: true, grid: { display: false } }), y: axisOpts({ stacked: true, title: { display: true, text: 'Seats', color: css('--muted') } }) }, plugins: { tooltip: { callbacks: { footer: (items) => 'Total: ' + items.reduce((s, i) => s + i.parsed.y, 0) } } } }
-    }));
-    $('#legend-seats').innerHTML = legendHtml(majors.map(pid => ({ label: partyName(pid), color: partyColor(pid) })).concat([{ label: 'Other / independents', color: css('--gray-series') }]));
-    $('#table-seats').innerHTML = tableHtml(['Election'].concat(majors.map(partyName)).concat(['Other', 'Total']).map((h, i) => i ? { label: h, num: true } : h), legs.map(e => [yearOf(e.date)].concat(majors.map(pid => { const r = e.results.find(r => r.party_id === pid); return r ? fmt(r.seats) : '0'; })).concat([fmt(e.results.filter(r => !SLOT[r.party_id]).reduce((s, r) => s + r.seats, 0)), fmt(e.seats_total)])));
+      /* picker */
+      const slots = [];
+      for (let i = 0; i < MAXP; i++) {
+        const id = ids[i];
+        if (id) {
+          slots.push(`<button class="slot" data-i="${i}" style="--slot-color:${colorOf(id)}">
+            <span class="field-mark"></span>${logoMark(id)}
+            <span class="who"><span class="abbr">${esc(abbrOf(id))}</span>
+            <span class="full">${esc(nameInLang(id))}</span></span>
+            <span class="drop" data-remove="${i}" role="button" tabindex="0" aria-label="Remove ${esc(abbrOf(id))}">${ICONS.close}</span>
+          </button>`);
+        } else {
+          slots.push(`<button class="slot empty" data-i="${i}">${ICONS.plus}<span style="margin-inline-start:8px">Add a party</span></button>`);
+        }
+      }
 
-    // vote share over time (lines, only elections with pct data)
-    const legsPct = legs.filter(e => e.results.some(r => r.pct != null));
-    makeChart('chart-votes', () => ({
-      type: 'line',
-      data: { labels: legsPct.map(e => yearOf(e.date)), datasets: majors.map(pid => ({ label: partyName(pid), data: legsPct.map(e => { const r = e.results.find(r => r.party_id === pid); return r && r.pct != null ? r.pct : null; }), borderColor: partyColor(pid), backgroundColor: partyColor(pid), spanGaps: true, tension: 0.2 })) },
-      options: { responsive: true, maintainAspectRatio: false, scales: { x: axisOpts({ grid: { display: false } }), y: axisOpts({ title: { display: true, text: 'Vote share (%)', color: css('--muted') }, beginAtZero: true }) }, plugins: { tooltip: { callbacks: { label: (i) => `${i.dataset.label}: ${i.parsed.y != null ? i.parsed.y.toFixed(1) + '%' : '—'}` } } } }
-    }));
-    $('#legend-votes').innerHTML = legendHtml(majors.map(pid => ({ label: partyName(pid), color: partyColor(pid) })));
-    $('#table-votes').innerHTML = tableHtml(['Election'].concat(majors.map(p => ({ label: partyName(p), num: true }))), legsPct.map(e => [yearOf(e.date)].concat(majors.map(pid => { const r = e.results.find(r => r.party_id === pid); return r && r.pct != null ? fmtPct(r.pct) : '—'; }))));
+      if (!ids.length) {
+        root.innerHTML = `<div class="picker"><div class="picker-slots">${slots.join('')}</div></div>
+          <div class="empty-state"><h3>Pick two parties to begin</h3>
+          <p class="hint">Choose any two — or three — and this page puts their record, their positions and their 2026 promises side by side, with the sources for each.</p></div>`;
+      } else {
+        const rows = rowsFor(ids);
+        const rowHtml = rows.map((r) => {
+          if (r.group) {
+            return `<div class="cmp-row group-head"><div class="cmp-label"><bdi>${esc(r.group)}</bdi></div></div>`;
+          }
+          if (r.note) {
+            return `<div class="cmp-row"><div class="cmp-label" style="grid-column:1/-1;background:none;border:none;font-weight:400;font-size:13px;color:var(--muted)"><bdi>${esc(r.note)}</bdi></div></div>`;
+          }
+          const cells = r.cells.map((c) => `<div class="cmp-cell">${
+            c.html != null ? c.html :
+            `<div class="${c.small ? 'cmp-sub' : 'cmp-value'}">${esc(c.value)}</div>${c.sub ? `<div class="cmp-sub">${c.sub}</div>` : ''}`
+          }</div>`).join('');
+          return `<div class="cmp-row" style="${cmpCols}"><div class="cmp-label"><bdi>${esc(r.label)}</bdi>${r.hint ? `<span class="hint"><bdi>${esc(r.hint)}</bdi></span>` : ''}</div>${cells}</div>`;
+        }).join('');
 
-    // turnout
-    makeChart('chart-turnout', () => ({
-      type: 'line',
-      data: { labels: legs.map(e => yearOf(e.date)), datasets: [{ label: 'Turnout', data: legs.map(e => e.turnout_pct), borderColor: css('--s1'), backgroundColor: css('--s1') + '1a', fill: true, tension: 0.2 }] },
-      options: { responsive: true, maintainAspectRatio: false, scales: { x: axisOpts({ grid: { display: false } }), y: axisOpts({ min: 0, max: 100, title: { display: true, text: 'Turnout (%)', color: css('--muted') } }) } }
-    }));
-    $('#table-turnout').innerHTML = tableHtml(['Election', { label: 'Registered', num: true }, { label: 'Turnout', num: true }], legs.map(e => [e.date, fmt(e.registered_voters), fmtPct(e.turnout_pct)]));
+        const heads = ids.map((id) => {
+          const fg = formGuide(id);
+          return `<div class="h2h-col" style="--col-color:${colorOf(id)}">
+            ${logoMark(id)}
+            <div class="name">${esc(abbrOf(id))}</div>
+            <div class="full">${esc(nameInLang(id))}</div>
+            <div class="form-guide" role="img" aria-label="Finishing position in the last ${fg.length} general elections">
+              ${fg.map((f) => `<span class="fg" data-rank="${f.rank}" title="${esc(f.year)}: ${f.place ? 'placed ' + f.place + ' with ' + f.seats + ' seats' : 'no seats'}">${esc(f.year.slice(2))}</span>`).join('')}
+              <span class="fg-label">last ${fg.length} elections</span>
+            </div>
+          </div>`;
+        }).join('');
 
-    // domination: who came first in each election
-    const dom = legs.map(e => { const top = e.results.filter(r => partyById[r.party_id]).slice().sort((a, b) => b.seats - a.seats)[0]; return { year: yearOf(e.date), top, total: e.seats_total }; });
-    $('#domination').innerHTML = `<div class="table-scroll"><table><thead><tr><th>Election</th><th>Largest party</th><th class="num">Seats</th><th class="num">Share of seats</th><th>Government formed</th></tr></thead><tbody>${dom.map(d => { const ed = legs.find(e => yearOf(e.date) === d.year).date; const lim = new Date(new Date(ed).getTime() + 400 * 86400000).toISOString().slice(0, 10); const g = D.governments.slice().sort((a, b) => a.from.localeCompare(b.from)).find(g => g.from >= ed && g.from <= lim) || D.governments.find(g => g.from <= ed && (!g.to || g.to >= ed)); return `<tr><td>${d.year}</td><td>${d.top ? partyLink(d.top.party_id) : '—'}</td><td class="num">${d.top ? d.top.seats : '—'}</td><td class="num">${d.top ? fmtPct(d.top.seats / d.total * 100) : '—'}</td><td>${g ? esc(g.name) + (g.coalition.length ? ' (' + g.coalition.map(partyName).join(', ') + ')' : '') : '—'}</td></tr>`; }).join('')}</tbody></table></div>`;
+        root.innerHTML = `
+          <div class="picker"><div class="picker-slots">${slots.join('')}</div></div>
+          <div class="h2h" style="margin-block-start:16px">
+            <div class="h2h-head" style="${cmpCols}"><div class="h2h-spacer"></div>${heads}</div>
+            <div class="cmp">${rowHtml}</div>
+          </div>
+          <p class="micro muted" style="margin-block-start:10px">
+            Colours identify parties and are fixed per party; they are not any party's own colours and carry no ranking.
+            Positions are editorial codings of dated statements and programmes, scored −2 to +2.
+          </p>`;
+      }
 
-    // governments track
-    const govs = D.governments.slice().sort((a, b) => a.from.localeCompare(b.from));
-    const t0 = new Date(govs[0] ? govs[0].from : '1955-01-01').getTime(), t1 = Date.now();
-    $('#gov-track').innerHTML = govs.map(g => { const a = new Date(g.from).getTime(), b = g.to ? new Date(g.to).getTime() : t1; const left = (a - t0) / (t1 - t0) * 100, w = Math.max(0.4, (b - a) / (t1 - t0) * 100); return `<div class="gov-row"><div title="${esc(g.name)}">${esc(g.pm)} <span class="muted">${yearOf(g.from)}–${g.to ? yearOf(g.to) : 'now'}</span></div><div class="bar"><div class="seg" style="left:${left}%;width:${w}%;background:${partyColor(g.pm_party)}" title="${esc(g.name)}: ${g.coalition.map(partyName).join(', ')}"></div></div></div>`; }).join('');
-    $('#legend-gov').innerHTML = legendHtml(Object.keys(SLOT).map(pid => ({ label: partyName(pid), color: partyColor(pid) })).concat([{ label: 'Technocrat / no party / other', color: css('--gray-series') }]));
-
-    // party cards
-    const order = latestLeg ? latestLeg.results.slice().sort((a, b) => b.seats - a.seats).map(r => r.party_id) : [];
-    const sortedParties = D.parties.slice().sort((a, b) => { const ia = order.indexOf(a.id), ib = order.indexOf(b.id); return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.names.fr.localeCompare(b.names.fr); });
-    const ACTIVE = new Set(['parliamentary', 'extra-parliamentary', 'boycotting']);
-    const hist = sortedParties.filter(p => !ACTIVE.has(p.status));
-    $('#historical-parties').innerHTML = hist.length ? `<div class="table-scroll"><table><thead><tr><th>Party</th><th>Founded</th><th>Status</th><th>Best result</th><th>Note</th></tr></thead><tbody>${hist.map(p => { const best = seatSeries(p.id).filter(s => s.seats).sort((a, b) => b.seats - a.seats)[0]; return `<tr><td><a href="party.html?id=${esc(p.id)}">${esc(p.names.fr)}</a></td><td>${esc(yearOf(p.founded) || '—')}</td><td>${esc(p.status)}</td><td>${best ? best.seats + ' seats (' + best.year + ')' : '—'}</td><td class="small muted">${esc((p.founding_context || '').slice(0, 140))}</td></tr>`; }).join('')}</tbody></table></div>` : '<p class="muted">None.</p>';
-    $('#party-cards').innerHTML = sortedParties.filter(p => ACTIVE.has(p.status)).map(p => { const r = latestLeg ? latestLeg.results.find(r => r.party_id === p.id) : null; return `<a class="card party-card" href="party.html?id=${esc(p.id)}"><div class="name"><span class="swatch" style="background:${partyColor(p.id)}"></span>${esc(p.abbr || p.names.fr)}</div><div class="meta">${esc(p.names.fr)}</div><div class="meta">${esc((p.ideology || []).slice(0, 3).join(' · '))}</div><div class="stats"><span><b>${r ? r.seats : 0}</b>seats ${latestLeg ? yearOf(latestLeg.date) : ''}</span><span><b>${r && r.pct != null ? fmtPct(r.pct) : '—'}</b>votes</span><span><b>${p.founded ? yearOf(p.founded) : '—'}</b>founded</span></div><div class="meta">${esc(p.current_leader ? p.current_leader.name : '')}</div></a>`; }).join('');
-
-    // regional distribution: presidencies 2015 vs 2021, big-city mayors
-    const gm = D.global_metrics || {}; const idx = gm._indexes || {};
-    const r21 = idx.regional_presidencies_2021 || [], r15 = idx.regional_presidencies_2015 || [];
-    if (r21.length || r15.length) {
-      const regions = Array.from(new Set(r21.map(r => r.region).concat(r15.map(r => r.region))));
-      $('#regions').innerHTML = `<div class="table-scroll"><table><thead><tr><th>Region</th><th>President after 2015</th><th>President after 2021</th></tr></thead><tbody>${regions.map(rg => { const a = r15.find(r => r.region === rg), b = r21.find(r => r.region === rg); const cell = (x) => x ? `${partyLabel(x.party)} <span class="muted small">${esc(x.president || '')}${x.verification && !/verified$/.test(x.verification) ? ' *' : ''}</span>` : '—'; return `<tr><td>${esc(rg)}</td><td>${cell(a)}</td><td>${cell(b)}</td></tr>`; }).join('')}</tbody></table></div><p class="small muted" style="margin:8px 0 0">* name from prior knowledge, party control verified. Sources: Ministry of Interior results as relayed by MAP, Le360, Médias24.</p>`;
-      const counts = (arr) => { const c = {}; arr.forEach(r => c[r.party] = (c[r.party] || 0) + 1); return Object.entries(c).sort((a, b) => b[1] - a[1]); };
-      $('#regions-summary').innerHTML = `<div class="grid kpi">${[['2015', counts(r15)], ['2021', counts(r21)]].map(([y, c]) => `<div class="tile"><div class="label">Regional presidencies, ${y}</div><div class="value" style="font-size:18px;line-height:1.6">${c.map(([pid, n]) => `<span class="key"><span class="swatch" style="background:${partyColor(pid)}"></span>${esc(partyName(pid))} <b>${n}</b></span>`).join('<br>')}</div></div>`).join('')}</div>`;
+      root.querySelectorAll('.slot').forEach((b) => {
+        b.addEventListener('click', (e) => {
+          const rm = e.target.closest('[data-remove]');
+          if (rm) { e.stopPropagation(); picked.splice(+rm.dataset.remove, 1); persist(); render(); return; }
+          openChooser(+b.dataset.i);
+        });
+      });
     }
-    const mayors = idx.big_city_mayors_2021 || [];
-    if (mayors.length) $('#mayors').innerHTML = `<div class="table-scroll"><table><thead><tr><th>City</th><th>Mayor (2021–)</th><th>Party</th><th>Conf.</th></tr></thead><tbody>${mayors.map(m => `<tr><td>${esc(m.city)}</td><td>${esc(m.mayor)}</td><td>${partyLabel(m.party)}</td><td>${confChip(m.confidence)}</td></tr>`).join('')}</tbody></table></div>`;
-    // recent events
-    const recent = D.events.slice().sort((a, b) => b.date.localeCompare(a.date)).slice(0, 8);
-    $('#recent-events').innerHTML = `<ul class="timeline">${recent.map(ev => `<li><div class="date">${esc(ev.date)}</div><div class="title"><a href="events.html#${esc(ev.id)}">${esc(ev.title)}</a></div><div class="desc">${esc(ev.significance || ev.description || '').slice(0, 220)}${(ev.significance || ev.description || '').length > 220 ? '…' : ''}</div></li>`).join('')}</ul>`;
+    rerenderPage = render;
+    render();
   }
 
-  // ---------- PARTY PAGE ----------
+  /* ============================================================ PARTY */
   function pageParty() {
-    const id = qs('id'); const p = partyById[id];
     const root = $('#party');
-    if (!p) { root.innerHTML = `<h1>Party not found</h1><p class="sub">No party with id “${esc(id)}”.</p><p>${D.parties.map(x => `<a href="party.html?id=${esc(x.id)}">${esc(x.abbr || x.names.fr)}</a>`).join(' · ')}</p>`; return; }
-    document.title = `${p.abbr || p.names.fr} — Moroccan political scene`;
-    const ss = seatSeries(p.id); const last = ss[ss.length - 1] || {};
-    const m = p.metrics || {};
-    const govNow = D.governments.filter(g => !g.to)[0];
-    const inGov = govNow && govNow.coalition.includes(p.id);
-    const evPositions = D.events.filter(e => (e.positions || []).some(x => x.party_id === p.id)).sort((a, b) => b.date.localeCompare(a.date));
-    const regPres = (m.regional_presidencies || []).slice().sort((a, b) => b.year - a.year)[0];
-    const funding = (m.public_funding_mad || []).slice().sort((a, b) => a.year - b.year);
-    const lastFund = funding[funding.length - 1];
-    const govPart = (m.government_participation || []);
-    const lastGov = govPart.slice().sort((a, b) => (a.from || '').localeCompare(b.from || '')).pop();
+    if (!root) return;
+    const id = new URLSearchParams(location.search).get('id');
+    const p = byId[id];
+    if (!p) {
+      root.innerHTML = `<div class="empty-state"><h3>No such party</h3>
+        <p class="hint">That party id is not in the data bank.</p>
+        <p><a class="btn" href="index.html">Go to the comparison</a></p></div>`;
+      return;
+    }
+    const color = colorOf(p.id);
+    const r = seatsIn(LATEST, p.id);
+    const fg = formGuide(p.id);
+    const positions = posByParty[p.id] || {};
+    const claims = claimsByParty[p.id] || [];
+    const evPositions = EVENTS.filter((e) => (e.positions || []).some((x) => x.party_id === p.id));
+
+    document.title = `${p.abbr || p.names.fr} — Ntikhabat`;
+
+    const section = (title, body, note) => !body ? '' : `
+      <section><div class="section-head"><h2>${esc(title)}</h2>${note ? `<span class="note">${esc(note)}</span>` : ''}</div>${body}</section>`;
 
     root.innerHTML = `
-      <div class="pill-row">${[p.family, p.position, p.status].filter(Boolean).map(x => `<span class="chip">${esc(x)}</span>`).join('')}${inGov ? '<span class="chip stance stance-support">in government</span>' : (last.seats ? '<span class="chip">opposition</span>' : '')}</div>
-      <h1><span class="swatch" style="background:${partyColor(p.id)};width:16px;height:16px;border-radius:4px;vertical-align:-1px"></span> ${esc(p.names.fr)} ${p.abbr ? `(${esc(p.abbr)})` : ''}</h1>
-      <p class="sub">${esc(p.names.ar || '')} · ${esc(p.names.en || '')}</p>
-      <p class="sub">${esc(p.founding_context || '')}</p>
-      <div class="grid kpi" id="p-kpis"></div>
-      <h2>Ideology and identity</h2>
-      <div class="card"><div class="tags">${(p.ideology || []).map(i => `<span class="chip">${esc(i)}</span>`).join('')}</div>
-        <p class="small muted" style="margin:10px 0 0">Founded ${esc(p.founded || '?')}${p.founders && p.founders.length ? ' by ' + esc(p.founders.join(', ')) : ''}. Headquarters: ${esc(p.headquarters || '—')}. International affiliation: ${esc((p.international_affiliation || []).join(', ') || '—')}. ${p.website ? `Website: <a href="${esc(p.website)}" target="_blank" rel="noopener">${esc(p.website)}</a>.` : ''}</p></div>
-      <h2>Electoral performance</h2>
-      <div class="grid two">
-        <div class="card chart-card"><div class="head"><span class="title">Seats in the House of Representatives</span><span class="note">${esc(p.abbr || p.names.fr)} highlighted, other parties in gray</span></div><div class="chart-wrap"><canvas id="chart-p-seats"></canvas></div><div id="legend-p-seats"></div><div id="table-p-seats"></div></div>
-        <div class="card chart-card"><div class="head"><span class="title">Vote share (%)</span><span class="note">where official percentages exist</span></div><div class="chart-wrap"><canvas id="chart-p-votes"></canvas></div><div id="legend-p-votes"></div><div id="table-p-votes"></div></div>
+      <div class="h2h" style="--col-color:${color}">
+        <div class="h2h-head" style="grid-template-columns:1fr">
+          <div class="h2h-col" style="--col-color:${color}">
+            ${logoMark(p.id)}
+            <h1 class="name">${esc(p.abbr || p.names.fr)}</h1>
+            <div class="full">${esc(nameInLang(p.id))}</div>
+            <div class="form-guide" role="img" aria-label="Finishing position in the last ${fg.length} general elections">
+              ${fg.map((f) => `<span class="fg" data-rank="${f.rank}" title="${esc(f.year)}: ${f.place ? 'placed ' + f.place : 'no seats'}">${esc(f.year.slice(2))}</span>`).join('')}
+              <span class="fg-label">last ${fg.length} elections</span>
+            </div>
+          </div>
+        </div>
+        <div class="cmp">
+          <div class="cmp-row" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+            <div class="cmp-cell"><div class="cmp-value">${r ? fmt(r.seats) : '0'}</div><div class="cmp-sub">seats in ${LATEST ? yearOf(LATEST.date) : ''}</div></div>
+            <div class="cmp-cell"><div class="cmp-value">${r && r.pct != null ? fmtPct(r.pct) : '—'}</div><div class="cmp-sub">of the vote</div></div>
+            <div class="cmp-cell"><div class="cmp-value">${p.founded ? yearOf(p.founded) : '—'}</div><div class="cmp-sub">founded</div></div>
+          </div>
+        </div>
       </div>
-      <div id="p-metrics"></div>
-      <h2>Leadership</h2>
-      <div class="leaders">${(p.leaders || []).map(l => `<div class="leader"><b>${esc(l.name)}</b><span class="muted">${esc(l.from || '?')} → ${esc(l.to || 'present')}</span>${l.note ? `<div class="small">${esc(l.note)}</div>` : ''}</div>`).join('') || '<p class="muted">No leader data.</p>'}</div>
-      ${(p.notable_members || []).length ? `<h3>Notable members</h3><div class="table-scroll"><table><thead><tr><th>Name</th><th>Role</th><th>Period</th></tr></thead><tbody>${p.notable_members.map(n => `<tr><td>${esc(n.name)}</td><td>${esc(n.role)}</td><td>${esc(n.period || '')}</td></tr>`).join('')}</tbody></table></div>` : ''}
-      <h2>Timeline</h2>
-      <div class="filters" id="tl-filters"></div>
-      <ul class="timeline" id="p-timeline"></ul>
-      <h2>Achievements and claims</h2>
-      <p class="sub small">Each entry states what the party claims and what independent sources support. Confidence reflects cross-source agreement.</p>
-      <div class="grid two">${(p.achievements || []).map(a => `<div class="card"><div style="display:flex;justify-content:space-between;gap:8px"><b>${esc(a.title)}</b>${confChip(a.confidence)}</div><div class="small muted">${esc(a.year || '')}${a.claimed_by_party ? ' · party claim' : ''}</div><p class="small" style="margin:6px 0">${esc(a.description)}</p>${a.verification ? `<p class="small" style="margin:6px 0"><b>Verification:</b> ${esc(a.verification)}</p>` : ''}${sourcesHtml(a.sources)}</div>`).join('') || '<p class="muted">No achievements recorded.</p>'}</div>
-      <h2>Positions on major events (${evPositions.length})</h2>
-      <div id="p-positions"></div>
-      <h2>Data quality and sources</h2>
-      <div class="card"><p class="small" style="margin:0 0 8px">${confChip(p.data_quality && p.data_quality.confidence)} ${esc(p.data_quality ? p.data_quality.notes : '')}</p>${sourcesHtml(p.sources)}</div>`;
+      <p style="margin-block-start:14px">
+        <a class="btn on" href="index.html?parties=${esc(p.id)}">${ICONS.swap} Compare ${esc(p.abbr || '')} with another party</a>
+      </p>
 
-    // KPIs
-    const kp = [
-      { label: `Seats, ${last.year || ''} election`, value: last.seats != null ? last.seats : '—', delta: last.total ? `of ${last.total} (${fmtPct(last.seats / last.total * 100)})` : '' },
-      { label: `Vote share, ${last.year || ''}`, value: last.pct != null ? fmtPct(last.pct) : '—', delta: last.votes ? fmt(last.votes) + ' votes' : '' },
-      { label: 'Current leader', value: p.current_leader ? p.current_leader.name : '—', delta: p.current_leader ? `${p.current_leader.title || ''} since ${p.current_leader.since || '?'}` : '' },
-      { label: 'Governments joined', value: govPart.length, delta: lastGov ? `latest: ${lastGov.government} (${lastGov.role}${lastGov.ministers != null ? ', ' + lastGov.ministers + ' ministers' : ''})` : '' },
+      ${p.founding_context ? section('Origin', `<div class="card prose">${prose(p.founding_context)}</div>`) : ''}
+
+      ${Object.keys(positions).length ? section('Where they stand',
+        `<div class="grid two">${DIMS.map((d) => {
+          const o = positions[d.id];
+          if (!o) return '';
+          return `<div class="card" style="--col-color:${color}">
+            <h3>${esc(d.label)}</h3>
+            <div class="cmp-value">${signed(o.score)}</div>
+            ${meter(o.score, color)}
+            <div class="meter-scale"><span>${esc(d.low || '')}</span><span>${esc(d.high || '')}</span></div>
+            <div class="cmp-sub">${prose(o.note || '')}</div>
+            ${evidenceTag(evidenceOf(o.sources), (o.sources || []).length)}
+            ${sourcesBlock(o.sources)}</div>`;
+        }).join('')}</div>`,
+        `${Object.keys(positions).length} of ${DIMS.length} dimensions on file`) : ''}
+
+      ${claims.length ? section('2026 commitments',
+        `<div class="grid two">${claims.map((c) => `<div class="card">
+          <h3>${prose(c.title || c.promise || '')}</h3>
+          ${c.method ? `<p class="cmp-sub">${prose(c.method)}</p>` : ''}
+          ${c.definition ? `<div class="counter"><b>What this does not mean</b>${prose(c.definition)}</div>` : ''}
+          ${evidenceTag(evidenceOf(c.sources), (c.sources || []).length)}
+          ${sourcesBlock(c.sources)}</div>`).join('')}</div>`) : ''}
+
+      ${(p.achievements || []).length ? section('Claims and what supports them',
+        `<div class="stack">${p.achievements.map((a) => `<div class="card">
+          <div style="font-weight:800">${prose(a.claim || '')}</div>
+          <div class="counter"><b>Independent verification</b>${a.verification ? prose(a.verification) : 'No independent source on file for this claim.'}</div>
+          ${evidenceTag(a.verification ? 'single' : 'absent')}</div>`).join('')}</div>`,
+        'party claims, paired with what independent sources support') : ''}
+
+      ${(p.leaders || []).length ? section('Leadership',
+        `<div class="grid three">${p.leaders.map((l) => {
+          const por = portraitOf(l.name);
+          return `<div class="card" style="display:flex;gap:11px;align-items:flex-start">
+            ${por ? `<img class="logo" src="${esc(por.path)}" alt="" loading="lazy" style="width:46px;height:46px;border-radius:8px;object-fit:cover">` : ''}
+            <div style="min-width:0"><div style="font-weight:800">${esc(l.name)}</div>
+            <div class="micro muted">${esc(l.from || '')}${l.to ? '–' + esc(l.to) : l.from ? '–present' : ''}</div>
+            ${l.note ? `<div class="cmp-sub">${prose(l.note)}</div>` : ''}</div></div>`;
+        }).join('')}</div>`) : ''}
+
+      ${(p.timeline || []).length ? section('Timeline',
+        `<div class="card"><table><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody>
+        ${p.timeline.slice().sort((a, b) => String(a.date).localeCompare(String(b.date))).map((t) => `<tr>
+          <td class="num" style="white-space:nowrap">${esc(t.date || '')}</td>
+          <td><div style="font-weight:700">${prose(t.title || '')}</div>
+          ${t.description ? `<div class="cmp-sub">${prose(t.description)}</div>` : ''}</td></tr>`).join('')}
+        </tbody></table></div>`,
+        `${p.timeline.length} entries`) : ''}
+
+      ${evPositions.length ? section('Positions on major events',
+        `<div class="stack">${evPositions.slice(0, 12).map((e) => {
+          const x = e.positions.find((y) => y.party_id === p.id);
+          return `<div class="card">
+            <div class="micro muted">${esc(e.date || '')}</div>
+            <div style="font-weight:800">${prose(e.title || '')}</div>
+            <div class="chip" style="margin-block-start:6px">${esc(x.stance || '')}</div>
+            <div class="cmp-sub">${prose(x.summary || '')}</div>
+            ${evidenceTag(evidenceOf(x.sources), (x.sources || []).length)}
+            ${sourcesBlock(x.sources)}</div>`;
+        }).join('')}</div>`,
+        `${evPositions.length} documented`) : ''}
+    `;
+  }
+
+  /* ============================================================ RECORD */
+  function pageRecord() {
+    const root = $('#record');
+    if (!root) return;
+    const tabs = [
+      { id: 'elections', label: 'Elections' },
+      { id: 'governments', label: 'Governments' },
+      { id: 'events', label: 'Events' },
     ];
-    if (regPres) kp.push({ label: `Regional presidencies, ${regPres.year}`, value: regPres.count, delta: (regPres.regions || []).join(', ') });
-    if (lastFund) kp.push({ label: `State funding, ${lastFund.year}`, value: fmtMAD(lastFund.amount), delta: 'Cour des comptes' });
-    $('#p-kpis').innerHTML = kp.map(t => `<div class="card tile"><div class="label">${esc(t.label)}</div><div class="value" style="font-size:${String(t.value).length > 12 ? 18 : 30}px">${esc(t.value)}</div><div class="delta">${esc(t.delta)}</div></div>`).join('');
+    let tab = (location.hash || '').replace('#', '') || 'elections';
+    if (!tabs.some((t) => t.id === tab)) tab = 'elections';
 
-    // charts: emphasis form (this party accent, other majors gray)
-    const others = Object.keys(SLOT).filter(x => x !== p.id);
-    makeChart('chart-p-seats', () => ({
-      type: 'line',
-      data: { labels: ss.map(s => s.year), datasets: others.map(o => ({ label: partyName(o), data: seatSeries(o).map(s => s.seats), borderColor: css('--gray-series'), backgroundColor: css('--gray-series'), borderWidth: 1.5, pointRadius: 0, order: 2 })).concat([{ label: partyName(p.id), data: ss.map(s => s.seats), borderColor: partyColor(p.id), backgroundColor: partyColor(p.id), borderWidth: 2.5, order: 1 }]) },
-      options: { responsive: true, maintainAspectRatio: false, scales: { x: axisOpts({ grid: { display: false } }), y: axisOpts({ beginAtZero: true, title: { display: true, text: 'Seats', color: css('--muted') } }) } }
-    }));
-    $('#legend-p-seats').innerHTML = legendHtml([{ label: partyName(p.id), color: partyColor(p.id) }, { label: 'Other major parties', color: css('--gray-series') }]);
-    $('#table-p-seats').innerHTML = tableHtml(['Election', { label: 'Seats', num: true }, { label: 'Total', num: true }, { label: 'Votes', num: true }, { label: 'Share', num: true }], ss.map(s => [s.year, fmt(s.seats), fmt(s.total), fmt(s.votes), fmtPct(s.pct)]));
-    const ssPct = ss.filter(s => s.pct != null);
-    makeChart('chart-p-votes', () => ({
-      type: 'bar',
-      data: { labels: ssPct.map(s => s.year), datasets: [{ label: 'Vote share', data: ssPct.map(s => s.pct), backgroundColor: partyColor(p.id) }] },
-      options: { responsive: true, maintainAspectRatio: false, scales: { x: axisOpts({ grid: { display: false } }), y: axisOpts({ beginAtZero: true, title: { display: true, text: '%', color: css('--muted') } }) }, plugins: { tooltip: { callbacks: { label: i => i.parsed.y.toFixed(1) + '%' } } } }
-    }));
-
-    // other metrics
-    let mh = '';
-    const series = [];
-    if (funding.length) series.push({ id: 'fund', title: 'Annual public funding (MAD)', unit: 'MAD', pts: funding.map(f => ({ x: String(f.year), y: f.amount, src: f.sources })), fmt: fmtMAD });
-    const hc = (m.house_of_councillors_seats || []).slice().sort((a, b) => a.year - b.year); if (hc.length) series.push({ id: 'hc', title: 'House of Councillors seats', pts: hc.map(x => ({ x: String(x.year), y: x.seats, src: x.sources })), fmt: fmt });
-    const cs = (m.communal_seats || []).slice().sort((a, b) => a.year - b.year); if (cs.length) series.push({ id: 'cs', title: 'Communal council seats', pts: cs.map(x => ({ x: String(x.year), y: x.seats, src: x.sources })), fmt: fmt });
-    const rp = (m.regional_presidencies || []).slice().sort((a, b) => a.year - b.year); if (rp.length) series.push({ id: 'rp', title: 'Regional council presidencies (of 12)', pts: rp.map(x => ({ x: String(x.year), y: x.count, src: x.sources })), fmt: fmt });
-    const gp = govPart.filter(g => g.ministers != null).slice().sort((a, b) => (a.from || '').localeCompare(b.from || '')); if (gp.length) series.push({ id: 'gp', title: 'Ministers held per government', pts: gp.map(x => ({ x: x.government, y: x.ministers, src: x.sources })), fmt: fmt });
-    const wm = (m.women_mps || []).slice().sort((a, b) => a.year - b.year); if (wm.length) series.push({ id: 'wm', title: 'Women MPs elected', pts: wm.map(x => ({ x: String(x.year), y: x.count, src: x.sources })), fmt: fmt });
-    (m.custom || []).forEach((c, i) => series.push({ id: 'c' + i, title: c.name + (c.unit ? ` (${c.unit})` : ''), pts: (c.series || []).map(x => ({ x: String(x.year), y: x.value, src: c.sources })), fmt: fmt }));
-    if (series.length) {
-      mh += '<h2>Other metrics over time</h2><div class="grid two">';
-      series.forEach(s => { mh += `<div class="card chart-card"><div class="head"><span class="title">${esc(s.title)}</span></div><div class="chart-wrap short"><canvas id="chart-m-${s.id}"></canvas></div>${tableHtml(['Period', { label: 'Value', num: true }], s.pts.map(pt => [esc(pt.x), s.fmt(pt.y)]))}${sourcesHtml(Array.from(new Set(s.pts.flatMap(pt => pt.src || []))))}</div>`; });
-      mh += '</div>';
+    function renderElections() {
+      return `
+        <div class="card chart-card">
+          <h3>Seats won at each general election</h3>
+          <div class="chart-wrap tall"><canvas id="c-seats"></canvas></div>
+          <div id="legend-seats" class="legend"></div>
+        </div>
+        <div class="card chart-card" style="margin-block-start:14px">
+          <h3>Turnout</h3>
+          <div class="chart-wrap short"><canvas id="c-turnout"></canvas></div>
+        </div>
+        <div class="card" style="margin-block-start:14px"><div class="table-scroll"><table>
+          <thead><tr><th>Election</th><th>Type</th><th class="num">Seats</th><th class="num">Turnout</th><th>Largest party</th></tr></thead>
+          <tbody>${ELECTIONS.slice().sort((a, b) => b.date.localeCompare(a.date)).map((e) => {
+            const top = (e.results || []).slice().sort((a, b) => (b.seats || 0) - (a.seats || 0))[0];
+            return `<tr><td class="num">${esc(e.date)}</td><td>${esc(e.type || '')}</td>
+              <td class="num">${e.seats_total != null ? fmt(e.seats_total) : '—'}</td>
+              <td class="num">${e.turnout_pct != null ? fmtPct(e.turnout_pct) : '—'}</td>
+              <td>${top ? `<a href="party.html?id=${esc(top.party_id)}">${esc(abbrOf(top.party_id))}</a> <span class="muted">${fmt(top.seats)}</span>` : '<span class="muted">no results on file</span>'}</td></tr>`;
+          }).join('')}</tbody></table></div></div>`;
     }
-    const mc = (m.membership_claims || []);
-    if (mc.length) mh += `<h3>Membership claims</h3><div class="table-scroll"><table><thead><tr><th>Year</th><th class="num">Claimed</th><th>Source</th><th>Verification</th><th>Conf.</th></tr></thead><tbody>${mc.map(c => `<tr><td>${esc(c.year)}</td><td class="num">${fmt(c.claimed)}</td><td>${esc(c.source)}</td><td>${esc(c.verification)}</td><td>${confChip(c.confidence)}</td></tr>`).join('')}</tbody></table></div>`;
-    if (govPart.length) mh += `<h3>Government participation</h3><div class="table-scroll"><table><thead><tr><th>Government</th><th>From</th><th>To</th><th>Role</th><th class="num">Ministers</th></tr></thead><tbody>${govPart.map(g => `<tr><td>${esc(g.government)}</td><td>${esc(g.from || '')}</td><td>${esc(g.to || 'present')}</td><td>${esc(g.role || '')}</td><td class="num">${g.ministers != null ? g.ministers : '—'}</td></tr>`).join('')}</tbody></table></div>`;
-    $('#p-metrics').innerHTML = mh;
-    series.forEach(s => makeChart('chart-m-' + s.id, () => ({ type: 'bar', data: { labels: s.pts.map(pt => pt.x), datasets: [{ data: s.pts.map(pt => pt.y), backgroundColor: partyColor(p.id) }] }, options: { responsive: true, maintainAspectRatio: false, scales: { x: axisOpts({ grid: { display: false }, ticks: { autoSkip: false, maxRotation: 0, callback: function (v) { const l = this.getLabelForValue(v); return l.length > 12 ? l.slice(0, 11) + '…' : l; } } }), y: axisOpts({ beginAtZero: true }) }, plugins: { tooltip: { callbacks: { label: i => s.fmt(i.parsed.y) } } } } })));
+    function renderGovernments() {
+      return `<div class="card"><div class="table-scroll"><table>
+        <thead><tr><th>From</th><th>Government</th><th>Prime minister's party</th><th>Coalition</th></tr></thead>
+        <tbody>${GOVS.slice().sort((a, b) => (b.from || '').localeCompare(a.from || '')).map((g) => `
+          <tr><td class="num" style="white-space:nowrap">${esc(g.from || '')}${g.to ? '–' + esc(g.to) : ''}</td>
+          <td>${esc(g.name || '')}${g.pm ? `<div class="micro muted">${esc(g.pm)}</div>` : ''}</td>
+          <td>${g.pm_party ? `<span class="chip"><span class="swatch" style="background:${colorOf(g.pm_party)}"></span>${esc(abbrOf(g.pm_party))}</span>` : '<span class="muted">—</span>'}</td>
+          <td><div class="tags">${(g.coalition || []).map((c) => {
+            const pid = typeof c === 'string' ? c : c.party_id;
+            return `<span class="chip"><span class="swatch" style="background:${colorOf(pid)}"></span>${esc(abbrOf(pid))}</span>`;
+          }).join('') || '<span class="muted">—</span>'}</div></td></tr>`).join('')}
+        </tbody></table></div></div>`;
+    }
+    function renderEvents() {
+      return `
+        <div class="picker" style="margin-block-end:14px">
+          <input class="field" id="ev-q" type="search" placeholder="Search events since 1944">
+        </div>
+        <div class="stack" id="ev-list"></div>`;
+    }
+    function drawEvents(q) {
+      const term = (q || '').trim().toLowerCase();
+      const list = EVENTS.slice().sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+        .filter((e) => !term || (e.title + ' ' + (e.description || '')).toLowerCase().indexOf(term) !== -1);
+      const el = $('#ev-list');
+      if (!el) return;
+      if (!list.length) {
+        el.innerHTML = `<div class="empty-state"><h3>Nothing matches “${esc(q)}”</h3>
+          <p class="hint">Try a shorter term, or a year.</p></div>`;
+        return;
+      }
+      el.innerHTML = list.slice(0, 60).map((e) => `
+        <details class="card"><summary style="cursor:pointer;display:flex;gap:12px;align-items:baseline;flex-wrap:wrap">
+          <span class="micro muted num" style="min-width:86px">${esc(e.date || '')}</span>
+          <span style="font-weight:800;flex:1 1 260px">${prose(e.title || '')}</span>
+          <span class="chip">${(e.positions || []).length} positions</span>
+        </summary>
+        <div style="margin-block-start:12px;border-block-start:1px solid var(--rule);padding-block-start:12px">
+          <p class="prose">${prose(e.description || '')}</p>
+          <div class="grid three">${(e.positions || []).map((x) => `
+            <div class="card" style="background:var(--sunken)">
+              <div style="font-weight:800;display:flex;gap:6px;align-items:center">
+                <span class="swatch" style="background:${colorOf(x.party_id)}"></span>
+                <a href="party.html?id=${esc(x.party_id)}">${esc(abbrOf(x.party_id))}</a></div>
+              <div class="chip" style="margin-block-start:6px">${esc(x.stance || '')}</div>
+              <div class="cmp-sub">${prose(x.summary || '')}</div>
+              ${evidenceTag(evidenceOf(x.sources), (x.sources || []).length)}
+              ${sourcesBlock(x.sources)}</div>`).join('')}</div>
+        </div></details>`).join('');
+    }
 
-    // timeline with type filter
-    const tl = (p.timeline || []).slice().sort((a, b) => String(a.date).localeCompare(String(b.date)));
-    const types = Array.from(new Set(tl.map(t => t.type).filter(Boolean)));
-    let active = null;
-    const renderTl = () => { $('#p-timeline').innerHTML = tl.filter(t => !active || t.type === active).map(t => `<li><div class="date">${esc(t.date)} ${t.type ? `<span class="chip">${esc(t.type)}</span>` : ''}</div><div class="title">${esc(t.title)}</div><div class="desc">${esc(t.description || '')}</div>${sourcesHtml(t.sources)}</li>`).join('') || '<li class="muted">No timeline entries.</li>'; };
-    $('#tl-filters').innerHTML = `<span class="pill on" data-t="">All (${tl.length})</span>` + types.map(t => `<span class="pill" data-t="${esc(t)}">${esc(t)} (${tl.filter(x => x.type === t).length})</span>`).join('');
-    $$('#tl-filters .pill').forEach(el => el.addEventListener('click', () => { $$('#tl-filters .pill').forEach(x => x.classList.remove('on')); el.classList.add('on'); active = el.dataset.t || null; renderTl(); }));
-    renderTl();
-
-    // positions
-    $('#p-positions').innerHTML = evPositions.length ? `<div class="table-scroll"><table><thead><tr><th>Date</th><th>Event</th><th>Stance</th><th>Position</th><th>Conf.</th></tr></thead><tbody>${evPositions.map(ev => { const pos = ev.positions.find(x => x.party_id === p.id); return `<tr><td>${esc(ev.date)}</td><td><a href="events.html#${esc(ev.id)}">${esc(ev.title)}</a></td><td><span class="chip stance stance-${esc(pos.stance)}">${stanceIcon(pos.stance)} ${esc(pos.stance)}</span></td><td class="small">${esc(pos.summary)}${sourcesHtml(pos.sources)}</td><td>${confChip(pos.confidence)}</td></tr>`; }).join('')}</tbody></table></div>` : '<p class="muted">No documented positions.</p>';
-  }
-
-  const stanceIcon = (s) => ({ support: '✓', oppose: '✕', mixed: '~', conditional: '~', split: '÷', abstain: '○', silent: '·', boycott: '⊘' }[s] || '·');
-
-  // ---------- EVENTS PAGE ----------
-  function pageEvents() {
-    const events = D.events.slice().sort((a, b) => b.date.localeCompare(a.date));
-    const cats = Array.from(new Set(events.map(e => e.category).filter(Boolean))).sort();
-    const partiesWithPos = Array.from(new Set(events.flatMap(e => (e.positions || []).map(p => p.party_id))));
-    const years = events.map(e => +yearOf(e.date)).filter(Boolean);
-    const minY = Math.min.apply(null, years), maxY = Math.max.apply(null, years);
-    $('#ev-filters').innerHTML = `
-      <input type="search" id="ev-q" placeholder="Search events, descriptions, positions… (e.g. Moudawana, Sahara, Gen Z)" aria-label="Search events">
-      <select id="ev-cat"><option value="">All categories</option>${cats.map(c => `<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select>
-      <select id="ev-party"><option value="">Any party position</option>${partiesWithPos.map(p => `<option value="${esc(p)}">${esc(partyName(p))}</option>`).join('')}</select>
-      <select id="ev-stance"><option value="">Any stance</option>${['support', 'oppose', 'mixed', 'conditional', 'split', 'abstain', 'silent', 'boycott'].map(s => `<option value="${s}">${s}</option>`).join('')}</select>
-      <select id="ev-from"><option value="">From ${minY}</option>${range(minY, maxY).map(y => `<option value="${y}">From ${y}</option>`).join('')}</select>
-      <select id="ev-to"><option value="">To ${maxY}</option>${range(minY, maxY).map(y => `<option value="${y}">To ${y}</option>`).join('')}</select>`;
-    const inputs = ['#ev-q', '#ev-cat', '#ev-party', '#ev-stance', '#ev-from', '#ev-to'].map(s => $(s));
-    const hay = (ev) => [ev.title, ev.description, ev.significance, (ev.tags || []).join(' '), (ev.positions || []).map(p => partyName(p.party_id) + ' ' + partyFull(p.party_id) + ' ' + p.summary).join(' ')].join(' ').toLowerCase();
     function render() {
-      const q = inputs[0].value.trim().toLowerCase(), cat = inputs[1].value, party = inputs[2].value, stance = inputs[3].value, from = +inputs[4].value || 0, to = +inputs[5].value || 9999;
-      const terms = q.split(/\s+/).filter(Boolean);
-      const list = events.filter(ev => {
-        const y = +yearOf(ev.date); if (y < from || y > to) return false;
-        if (cat && ev.category !== cat) return false;
-        if (party) { const pos = (ev.positions || []).find(p => p.party_id === party); if (!pos) return false; if (stance && pos.stance !== stance) return false; }
-        else if (stance && !(ev.positions || []).some(p => p.stance === stance)) return false;
-        if (terms.length) { const h = hay(ev); if (!terms.every(t => h.includes(t))) return false; }
-        return true;
-      });
-      $('#ev-count').textContent = `${list.length} of ${events.length} events`;
-      $('#ev-list').innerHTML = list.map(ev => eventHtml(ev, party)).join('') || '<p class="muted">No events match.</p>';
-      if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { el.open = true; } }
+      root.innerHTML = `
+        <div class="tags" style="margin-block-end:16px" role="tablist">
+          ${tabs.map((t) => `<button class="btn" role="tab" aria-selected="${t.id === tab}" data-tab="${t.id}" ${t.id === tab ? 'aria-pressed="true"' : ''}>${esc(t.label)}</button>`).join('')}
+        </div>
+        <div id="record-body">${tab === 'elections' ? renderElections() : tab === 'governments' ? renderGovernments() : renderEvents()}</div>`;
+      root.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+        tab = b.dataset.tab; location.hash = tab; render();
+      }));
+      if (tab === 'events') {
+        drawEvents('');
+        $('#ev-q').addEventListener('input', (e) => drawEvents(e.target.value));
+      }
+      if (tab === 'elections') drawElectionCharts();
     }
-    inputs.forEach(i => i.addEventListener('input', render));
+
+    function drawElectionCharts() {
+      charts.length = 0;
+      const top = Object.keys(SLOT);
+      makeChart('c-seats', () => ({
+        type: 'bar',
+        data: {
+          labels: LEGS.map((e) => yearOf(e.date)),
+          datasets: top.map((pid) => ({
+            label: abbrOf(pid),
+            data: LEGS.map((e) => { const r = seatsIn(e, pid); return r ? r.seats : 0; }),
+            backgroundColor: colorOf(pid),
+          })),
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          scales: {
+            x: axis('General election', { stacked: true, grid: { display: false } }),
+            y: axis('Seats in the House of Representatives', { stacked: true, beginAtZero: true }),
+          },
+        },
+      }));
+      $('#legend-seats').innerHTML = top.map((pid) =>
+        `<span class="key"><span class="swatch" style="background:${colorOf(pid)}"></span>${esc(abbrOf(pid))}</span>`).join('');
+      makeChart('c-turnout', () => ({
+        type: 'line',
+        data: {
+          labels: LEGS.map((e) => yearOf(e.date)),
+          datasets: [{
+            label: 'Turnout', data: LEGS.map((e) => e.turnout_pct),
+            borderColor: cssVar('--slate'), backgroundColor: 'transparent',
+            borderWidth: 2, tension: 0.25, pointRadius: 3,
+          }],
+        },
+        options: {
+          responsive: true, maintainAspectRatio: false,
+          scales: {
+            x: axis('General election', { grid: { display: false } }),
+            y: axis('Turnout (% of registered voters)', { min: 0, max: 100 }),
+          },
+        },
+      }));
+    }
+    rerenderPage = render;
     render();
-    if (location.hash) { const el = document.getElementById(location.hash.slice(1)); if (el) { el.open = true; el.scrollIntoView({ block: 'start' }); } }
-    // stance matrix summary
-    const majors = Object.keys(SLOT).filter(p => partiesWithPos.includes(p));
-    const counts = {}; majors.forEach(p => counts[p] = { support: 0, oppose: 0, other: 0 });
-    events.forEach(ev => (ev.positions || []).forEach(x => { if (!counts[x.party_id]) return; if (x.stance === 'support') counts[x.party_id].support++; else if (x.stance === 'oppose') counts[x.party_id].oppose++; else counts[x.party_id].other++; }));
-    $('#ev-matrix').innerHTML = `<div class="table-scroll"><table><thead><tr><th>Party</th><th class="num">Documented positions</th><th class="num">Support</th><th class="num">Oppose</th><th class="num">Mixed / other</th></tr></thead><tbody>${majors.map(p => `<tr><td>${partyLink(p)}</td><td class="num">${counts[p].support + counts[p].oppose + counts[p].other}</td><td class="num">${counts[p].support}</td><td class="num">${counts[p].oppose}</td><td class="num">${counts[p].other}</td></tr>`).join('')}</tbody></table></div>`;
-  }
-  function range(a, b) { const r = []; for (let i = a; i <= b; i++) r.push(i); return r; }
-  function eventHtml(ev, highlightParty) {
-    const pos = (ev.positions || []).slice().sort((a, b) => (SLOT[a.party_id] || 99) - (SLOT[b.party_id] || 99));
-    return `<details class="card event" id="${esc(ev.id)}"><summary><span class="date">${esc(ev.date)}</span><span class="title">${esc(ev.title)}</span><span class="chip">${esc(ev.category || '')}</span>${confChip(ev.confidence)}<span class="muted small">${pos.length} positions</span></summary>
-      <div class="body"><p style="margin:0 0 8px">${esc(ev.description)}</p>${ev.significance ? `<p class="small" style="margin:0 0 10px"><b>Why it matters:</b> ${esc(ev.significance)}</p>` : ''}
-      <div class="tags" style="margin-bottom:10px">${(ev.tags || []).map(t => `<span class="chip">${esc(t)}</span>`).join('')}</div>
-      <h3 style="margin-top:6px">Party positions</h3>
-      <div class="positions">${pos.map(x => `<div class="pos" style="${highlightParty === x.party_id ? 'outline:2px solid var(--accent)' : ''}"><div class="head"><span class="party"><span class="swatch" style="background:${partyColor(x.party_id)}"></span><a href="party.html?id=${esc(x.party_id)}">${esc(partyName(x.party_id))}</a></span><span class="chip stance stance-${esc(x.stance)}">${stanceIcon(x.stance)} ${esc(x.stance)}</span></div><div class="summary">${esc(x.summary)}</div><div style="margin-top:4px">${confChip(x.confidence)}</div>${sourcesHtml(x.sources)}</div>`).join('') || '<p class="muted small">No party positions documented for this event.</p>'}</div>
-      <div style="margin-top:10px">${sourcesHtml(ev.sources)}</div>
-      <p class="small" style="margin:8px 0 0"><a href="#${esc(ev.id)}">Link to this event</a></p></div></details>`;
   }
 
-  // ---------- ELECTIONS PAGE ----------
-  function pageElections() {
-    const root = $('#elections');
-    const els = D.elections.slice().sort((a, b) => b.date.localeCompare(a.date));
-    root.innerHTML = els.map(e => {
-      const res = (e.results || []).slice().sort((a, b) => (b.seats || 0) - (a.seats || 0) || (b.votes || 0) - (a.votes || 0));
-      return `<details class="card event" id="${esc(e.id)}" ${e.type === 'legislative' ? 'open' : ''}><summary><span class="date">${esc(e.date)}</span><span class="title">${esc(e.chamber || e.type)} — ${esc(e.type)}</span>${confChip(e.confidence)}<span class="muted small">${e.seats_total ? e.seats_total + ' seats' : ''}</span></summary>
-        <div class="body"><div class="grid kpi" style="margin-bottom:12px"><div class="tile"><div class="label">Registered voters</div><div class="value" style="font-size:22px">${fmt(e.registered_voters)}</div></div><div class="tile"><div class="label">Turnout</div><div class="value" style="font-size:22px">${fmtPct(e.turnout_pct)}</div></div><div class="tile"><div class="label">Votes cast</div><div class="value" style="font-size:22px">${fmt(e.votes_cast)}</div></div><div class="tile"><div class="label">Seats</div><div class="value" style="font-size:22px">${fmt(e.seats_total)}</div></div></div>
-        ${e.electoral_system ? `<p class="small muted">${esc(e.electoral_system)}</p>` : ''}
-        ${res.length && e.seats_total ? `<div id="sb-${esc(e.id)}"></div>` : ''}
-        ${res.length ? `<div class="table-scroll" style="margin-top:12px"><table><thead><tr><th>Party</th><th class="num">Votes</th><th class="num">%</th><th class="num">Seats</th><th class="num">Change</th><th>Conf.</th><th>Notes</th></tr></thead><tbody>${res.map(r => `<tr><td>${partyLabel(r.party_id)}</td><td class="num">${fmt(r.votes)}</td><td class="num">${fmtPct(r.pct)}</td><td class="num">${fmt(r.seats)}</td><td class="num">${r.seat_change == null ? '—' : (r.seat_change > 0 ? '+' : '') + r.seat_change}</td><td>${confChip(r.confidence)}</td><td class="small muted">${esc(r.notes || '')}</td></tr>`).join('')}</tbody></table></div>` : ''}
-        ${e.outcome ? `<p class="small"><b>Outcome:</b> ${esc(e.outcome)}</p>` : ''}
-        ${e.notes ? `<p class="small muted">${esc(e.notes)}</p>` : ''}
-        ${sourcesHtml(e.sources)}</div></details>`;
-    }).join('');
-    els.forEach(e => { const c = document.getElementById('sb-' + e.id); if (c && e.seats_total) seatBar(e.results.filter(r => r.seats), e.seats_total, c); });
+  /* ============================================================ METHOD */
+  function pageMethod() {
+    const root = $('#method');
+    if (!root) return;
+    root.innerHTML = `<div class="card prose">${(D.meta && D.meta.methodology_html) || ''}</div>`;
   }
 
-  // ---------- init ----------
-  document.addEventListener('DOMContentLoaded', () => {
-    initTheme();
+  /* ------------------------------------------------------------ boot */
+  function boot() {
+    initChrome();
     const page = document.body.dataset.page;
-    $$('header nav a').forEach(a => { if (a.dataset.page === page) a.classList.add('active'); });
-    const gen = $('#generated'); if (gen) gen.textContent = (D.meta && D.meta.generated_at) || '';
-    try {
-      if (page === 'dashboard') pageDashboard();
-      else if (page === 'party') pageParty();
-      else if (page === 'events') pageEvents();
-      else if (page === 'elections') pageElections();
-    } catch (err) { console.error(err); const m = $('main .wrap'); if (m) m.insertAdjacentHTML('afterbegin', `<div class="notice">Rendering error: ${esc(err.message)}. Run <code>python3 scripts/build.py</code> to regenerate data.js.</div>`); }
-    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', rerenderCharts);
-  });
+    if (page === 'compare') pageCompare();
+    else if (page === 'party') { rerenderPage = pageParty; pageParty(); }
+    else if (page === 'record') pageRecord();
+    else if (page === 'method') pageMethod();
+    document.addEventListener('ntk:languagechange', () => { if (rerenderPage) rerenderPage(); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+  else boot();
+
+  window.NTK = { rerenderCharts, COMPARABLE };
 })();

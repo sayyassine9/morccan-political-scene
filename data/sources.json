@@ -1,0 +1,1451 @@
+{
+  "directory": {
+    "title": "Maroc.ma · historical party directory",
+    "url": "https://www.maroc.ma/fr/le-maroc/les-partis-politiques-et-syndicats",
+    "type": "Government directory",
+    "origin": "directory",
+    "note": "Includes historical and renamed organizations. Listing does not prove current electoral participation.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "candidates": {
+    "title": "Interior Ministry · 2026 candidature release",
+    "url": "https://www.maroc.ma/fr/actualites/legislatives-2026-1850-listes-de-candidatures-presentees-lechelle-nationale",
+    "type": "Official release",
+    "origin": "interior-2026",
+    "note": "Provisional submissions, not an adjudicated candidate register. The headline says 28 formations, but the named table contains 27 formations; the sums also require reconciliation.",
+    "published": "2026-09-11",
+    "accessed": "2026-09-16"
+  },
+  "medi1": {
+    "title": "Medi1 · 2026 candidature table",
+    "url": "https://www.medi1news.com/fr/elections-legislatives-2026/candidatures",
+    "type": "Media reproduction",
+    "origin": "interior-2026",
+    "note": "Repeats the ministry release; this is not independent corroboration. Labels PA as Parti du travail, unlike the official release.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "calendar": {
+    "title": "Maroc.ma · election calendar",
+    "url": "https://www.maroc.ma/fr/elections-legislatives-marocaines-2026",
+    "type": "Official portal",
+    "origin": "calendar",
+    "note": "Overview says 27 parties; later release says 28 formations. Dates of closing nominations also differ.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "ipu2002": {
+    "title": "IPU Parline · 2002 election",
+    "url": "https://data.ipu.org/election-summary/HTML/2221_02.htm",
+    "type": "Institutional compilation",
+    "origin": "election-2002",
+    "note": "Election snapshot; not a live membership register. Usually based on Moroccan parliamentary or electoral submissions.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "ipu2007": {
+    "title": "IPU Parline · 2007 election",
+    "url": "https://data.ipu.org/election-summary/HTML/2221_07.htm",
+    "type": "Institutional compilation",
+    "origin": "election-2007",
+    "note": "Election snapshot; not a live membership register. Usually based on Moroccan parliamentary or electoral submissions.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "ipu2011": {
+    "title": "IPU Parline · 2011 election",
+    "url": "https://data.ipu.org/election-summary/HTML/2221_11.htm",
+    "type": "Institutional compilation",
+    "origin": "election-2011",
+    "note": "Election snapshot; not a live membership register. Usually based on Moroccan parliamentary or electoral submissions.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "ipu2016": {
+    "title": "IPU Parline · 2016 election",
+    "url": "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20161007/",
+    "type": "Institutional compilation",
+    "origin": "election-2016",
+    "note": "Election snapshot; not a live membership register. Usually based on Moroccan parliamentary or electoral submissions.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "ipu2021": {
+    "title": "IPU Parline · 2021 election",
+    "url": "https://data.ipu.org/parliament/MA/MA-LC01/election/MA-LC01-E20210908/",
+    "type": "Institutional compilation",
+    "origin": "election-2021",
+    "note": "Election snapshot; not a live membership register. Usually based on Moroccan parliamentary or electoral submissions.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "house2021": {
+    "title": "House of Representatives · 2021 results",
+    "url": "https://www.chambredesrepresentants.ma/fr/actualites/donnees-chiffrees-autour-du-scrutin-legislatif-du-mercredi-8-septembre-2021-conformement",
+    "type": "Primary parliamentary record",
+    "origin": "election-2021",
+    "note": "Records 96 women elected; IPU records 90. Labels the left alliance seat CNI rather than AFG.",
+    "published": "2021-09-16",
+    "accessed": "2026-09-16"
+  },
+  "pace2016": {
+    "title": "PACE · 2016 election observation",
+    "url": "https://assembly.coe.int/nw/xml/XRef/Xref-XML2HTML-en.asp?fileid=23193",
+    "type": "Election observation",
+    "origin": "pace2016",
+    "note": "Independently authored observation; results themselves originate with the Interior Ministry.",
+    "published": "2016-11-30",
+    "accessed": "2026-09-16"
+  },
+  "ndi2007": {
+    "title": "NDI · 2007 election observation",
+    "url": "https://www.ndi.org/sites/default/files/2316_ma_report_electionsfinal_en_051508_1.pdf",
+    "type": "Election observation",
+    "origin": "ndi2007",
+    "note": "",
+    "published": "2008-05-15",
+    "accessed": "2026-09-16"
+  },
+  "ndi2011": {
+    "title": "NDI · 2011 election observation",
+    "url": "https://www.ndi.org/sites/default/files/sites/default/files/Morocco-Final-Election-Report-061812-ENG_1.pdf",
+    "type": "Election observation",
+    "origin": "ndi2011",
+    "note": "",
+    "published": "2012-06-18",
+    "accessed": "2026-09-16"
+  },
+  "pcns": {
+    "title": "Policy Center · retrospective of the 2021 elections",
+    "url": "https://www.policycenter.ma/sites/default/files/PP_01-22_Jaldi-Mjahed.pdf",
+    "type": "Research",
+    "origin": "pcns",
+    "note": "Tables 9 (pp. 11–12), 6 (p. 21). Vote figures are reported secondary data; original ballot-level totals have not been independently reconciled. Municipal table reverses PAM/PI labels, so it is not used.",
+    "published": "2022-01",
+    "accessed": "2026-09-16"
+  },
+  "elcano": {
+    "title": "Elcano · the 2016 parliamentary elections",
+    "url": "https://media.realinstitutoelcano.org/wp-content/uploads/2017/03/ari17-2017-lopezgarcia-hernandodelarramendi-2016-parliamentary-elections-morocco.pdf",
+    "type": "Research",
+    "origin": "elcano",
+    "note": "Page 9 distinguishes local constituency votes from national-list votes.",
+    "published": "2017-03-09",
+    "accessed": "2026-09-16"
+  },
+  "local2021": {
+    "title": "Council of Europe · 2021 local and regional elections",
+    "url": "https://rm.coe.int/0900001680a5ae69",
+    "type": "Election observation",
+    "origin": "local2021",
+    "note": "Final municipal totals differ from the preliminary September press figures.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "regions": {
+    "title": "Médias24 · regional council presidencies",
+    "url": "https://medias24.com/2021/09/21/rni-pam-istiqlal-se-partagent-la-presidence-des-conseils-elus-carte/",
+    "type": "Independent reporting",
+    "origin": "regions",
+    "note": "",
+    "published": "2021-09-21",
+    "accessed": "2026-09-16"
+  },
+  "regions2": {
+    "title": "Hespress · regional presidents elected in 2021",
+    "url": "https://en.hespress.com/26857-september-8-elections-get-to-know-the-presidents-of-moroccan-regional-councils.html",
+    "type": "Independent reporting",
+    "origin": "regions2",
+    "note": "",
+    "published": "2021-09",
+    "accessed": "2026-09-16"
+  },
+  "rni2026": {
+    "title": "Hespress · Chaouki succeeds Akhannouch",
+    "url": "https://fr.hespress.com/461712-rni-elu-sans-rival-chaouki-prend-la-releve-dakhannouch.html",
+    "type": "Independent reporting",
+    "origin": "rni2026",
+    "note": "",
+    "published": "2026-02-07",
+    "accessed": "2026-09-16"
+  },
+  "rni2026b": {
+    "title": "TelQuel · RNI leadership election",
+    "url": "https://telquel.ma/instant-t/2026/02/08/mohamed-chouki-elu-nouveau-president-du-rni_1974461/",
+    "type": "Independent reporting",
+    "origin": "rni2026b",
+    "note": "",
+    "published": "2026-02-08",
+    "accessed": "2026-09-16"
+  },
+  "pam2024": {
+    "title": "Médias24 · PAM collective leadership",
+    "url": "https://medias24.com/2024/02/10/pam-direction-collegiale-mansour-bensaid-aboughali-elus/",
+    "type": "Independent reporting",
+    "origin": "pam2024",
+    "note": "",
+    "published": "2024-02-10",
+    "accessed": "2026-09-16"
+  },
+  "pi2024": {
+    "title": "Le360 · Istiqlal congress and executive committee",
+    "url": "https://fr.le360.ma/politique/comite-executif-de-listiqlal-les-trois-vetos-de-nizar-baraka_OTERCMHGMZBGFJMANUPKAYZ44Q/",
+    "type": "Independent reporting",
+    "origin": "pi2024",
+    "note": "",
+    "published": "2024-04-30",
+    "accessed": "2026-09-16"
+  },
+  "pjd2025": {
+    "title": "SNRT · Benkirane re-elected",
+    "url": "https://snrtnews.com/ar/article/abdelilah-benkirane-reelu-secretaire-general-du-parti-de-la-justice-et-du-developpement",
+    "type": "Public broadcaster",
+    "origin": "pjd2025",
+    "note": "",
+    "published": "2025-04-27",
+    "accessed": "2026-09-16"
+  },
+  "pjd2025b": {
+    "title": "H24Info · PJD leadership election",
+    "url": "https://h24info.ma/maroc/politique/abdelilah-benkirane-reelu-secretaire-general-du-pjd/",
+    "type": "Independent reporting",
+    "origin": "pjd2025b",
+    "note": "",
+    "published": "2025-04-27",
+    "accessed": "2026-09-16"
+  },
+  "usfp2025": {
+    "title": "TelQuel · Lachgar fourth term",
+    "url": "https://telquel.ma/2025/10/21/driss-lachgar-reelu-lusfp-entre-continuite-et-tensions_1956658",
+    "type": "Independent reporting",
+    "origin": "usfp2025",
+    "note": "",
+    "published": "2025-10-21",
+    "accessed": "2026-09-16"
+  },
+  "mp2022": {
+    "title": "SNRT · Ouzzine succeeds Laenser",
+    "url": "https://snrtnews.com/ar/article/mouvement-populaire-mohamed-ouzzine-nouveau-secretaire-general-60426",
+    "type": "Public broadcaster",
+    "origin": "mp2022",
+    "note": "",
+    "published": "2022-11-26",
+    "accessed": "2026-09-16"
+  },
+  "pps2022": {
+    "title": "SNRT · Benabdallah re-elected",
+    "url": "https://snrtnews.com/fr/article/nabil-benabdellah-reelu-a-la-tete-du-pps-59253",
+    "type": "Public broadcaster",
+    "origin": "pps2022",
+    "note": "",
+    "published": "2022-11-12",
+    "accessed": "2026-09-16"
+  },
+  "uc2022": {
+    "title": "TelQuel · Mohamed Joudar leads UC",
+    "url": "https://telquel.ma/2022/10/07/mohamed-joudar-le-nouveau-cavalier-de-lunion-constitutionnelle_1787048",
+    "type": "Independent reporting",
+    "origin": "uc2022",
+    "note": "",
+    "published": "2022-10-07",
+    "accessed": "2026-09-16"
+  },
+  "psu2023": {
+    "title": "Médias24 · Jamal El Asri succeeds Mounib",
+    "url": "https://medias24.com/2023/11/08/jamal-el-asri-de-letudiant-baasiste-au-secretaire-general-du-parti-socialiste-unifie/",
+    "type": "Independent reporting",
+    "origin": "psu2023",
+    "note": "",
+    "published": "2023-11-08",
+    "accessed": "2026-09-16"
+  },
+  "strike": {
+    "title": "Parliament · bill 97.15 legislative record",
+    "url": "https://www.chambredesrepresentants.ma/fr/node/357283",
+    "type": "Primary parliamentary record",
+    "origin": "strike",
+    "note": "Second reading: 84 for, 20 against, no abstentions. Aggregate tally is not an individual roll call.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "strike2": {
+    "title": "Médias24 · final parliamentary adoption of strike bill",
+    "url": "https://medias24.com/2025/02/05/adoption-definitive-de-la-loi-sur-le-droit-de-greve/",
+    "type": "Independent reporting",
+    "origin": "strike2",
+    "note": "",
+    "published": "2025-02-05",
+    "accessed": "2026-09-16"
+  },
+  "strikepositions": {
+    "title": "Le360 · statements after the strike-law vote",
+    "url": "https://fr.le360.ma/politique/le-parlement-adopte-definitivement-la-loi-organique-sur-le-droit-de-greve_JYV3FV6ZGZEGLER5OAEPARGMQQ/",
+    "type": "Independent reporting",
+    "origin": "strikepositions",
+    "note": "",
+    "published": "2025-02-05",
+    "accessed": "2026-09-16"
+  },
+  "cannabis": {
+    "title": "Parliament · 26 May 2021 sitting",
+    "url": "https://www.chambredesrepresentants.ma/fr/node/238609",
+    "type": "Primary parliamentary record",
+    "origin": "cannabis",
+    "note": "",
+    "published": "2021-05-26",
+    "accessed": "2026-09-16"
+  },
+  "cannabis2": {
+    "title": "Médias24 · cannabis bill vote",
+    "url": "https://medias24.com/2021/05/26/le-projet-de-loi-sur-lusage-legal-du-cannabis-adopte-a-la-chambre-des-representants/",
+    "type": "Independent reporting",
+    "origin": "cannabis2",
+    "note": "",
+    "published": "2021-05-26",
+    "accessed": "2026-09-16"
+  },
+  "cannabis3": {
+    "title": "Le Desk · PJD opposes cannabis bill",
+    "url": "https://ledesk.ma/encontinu/parlement-le-projet-de-loi-relatif-lusage-licite-du-cannabis-adopte-la-majorite/",
+    "type": "Independent reporting",
+    "origin": "cannabis3",
+    "note": "",
+    "published": "2021-05-26",
+    "accessed": "2026-09-16"
+  },
+  "quotient": {
+    "title": "Médias24 · PJD rejects electoral quotient change",
+    "url": "https://medias24.com/2021/03/05/le-pjd-reitere-son-refus-du-nouveau-quotient-electoral/",
+    "type": "Independent reporting",
+    "origin": "quotient",
+    "note": "",
+    "published": "2021-03-05",
+    "accessed": "2026-09-16"
+  },
+  "quotient2": {
+    "title": "Le360 · committee vote on electoral quotient",
+    "url": "https://fr.le360.ma/politique/elections-2021-adoption-dun-nouveau-quotient-electoral-seul-le-pjd-a-vote-contre-234584/",
+    "type": "Independent reporting",
+    "origin": "quotient2",
+    "note": "Reports committee positions. Its description of PPS coalition membership is outdated; do not reuse that description.",
+    "published": "2021-03-03",
+    "accessed": "2026-09-16"
+  },
+  "normalization": {
+    "title": "Arab Reform Initiative · Morocco and normalization",
+    "url": "https://www.arab-reform.net/wp-content/uploads/pdf/Arab_Reform_Initiative_en_partial-normalization-moroccos-balancing-act_19484.pdf",
+    "type": "Research",
+    "origin": "normalization",
+    "note": "Distinguishes the government signature, party opposition and internal disagreement.",
+    "published": "2022",
+    "accessed": "2026-09-16"
+  },
+  "normalization2": {
+    "title": "Yabiladi · differing left-party reactions",
+    "url": "https://www.yabiladi.com/articles/details/103013/maroc-israel-partis-gauche-ordre-disperse.html",
+    "type": "Independent reporting",
+    "origin": "normalization2",
+    "note": "Indexed excerpts consulted; full page access blocked.",
+    "published": "2020-12-14",
+    "accessed": "2026-09-16"
+  },
+  "imf": {
+    "title": "IMF · Morocco 2015 Article IV",
+    "url": "https://www.imf.org/en/news/articles/2015/09/14/01/49/pr15568",
+    "type": "International institution",
+    "origin": "imf",
+    "note": "",
+    "published": "2015-12-14",
+    "accessed": "2026-09-16"
+  },
+  "imf2": {
+    "title": "IMF · 2014 Article IV staff report",
+    "url": "https://www.elibrary.imf.org/view/journals/002/2015/043/article-A001-en.xml",
+    "type": "International institution",
+    "origin": "imf2",
+    "note": "",
+    "published": "2015-02",
+    "accessed": "2026-09-16"
+  },
+  "tafra-rni": {
+    "title": "TAFRA · Rassemblement National des Indépendants",
+    "url": "https://partis.tafra.ma/partis/rni",
+    "type": "Independent historical reference",
+    "origin": "tafra-rni",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pam": {
+    "title": "TAFRA · Parti Authenticité et Modernité",
+    "url": "https://partis.tafra.ma/partis/pam",
+    "type": "Independent historical reference",
+    "origin": "tafra-pam",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pi": {
+    "title": "TAFRA · Parti de l'Istiqlal",
+    "url": "https://partis.tafra.ma/partis/pi",
+    "type": "Independent historical reference",
+    "origin": "tafra-pi",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pjd": {
+    "title": "TAFRA · Parti de la Justice et du Développement",
+    "url": "https://partis.tafra.ma/partis/pjd",
+    "type": "Independent historical reference",
+    "origin": "tafra-pjd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-usfp": {
+    "title": "TAFRA · Union Socialiste des Forces Populaires",
+    "url": "https://partis.tafra.ma/partis/usfp",
+    "type": "Independent historical reference",
+    "origin": "tafra-usfp",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pps": {
+    "title": "TAFRA · Parti du Progrès et du Socialisme",
+    "url": "https://partis.tafra.ma/partis/pps",
+    "type": "Independent historical reference",
+    "origin": "tafra-pps",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-mp": {
+    "title": "TAFRA · Mouvement Populaire",
+    "url": "https://partis.tafra.ma/partis/mp",
+    "type": "Independent historical reference",
+    "origin": "tafra-mp",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-uc": {
+    "title": "TAFRA · Union Constitutionnelle",
+    "url": "https://partis.tafra.ma/partis/uc",
+    "type": "Independent historical reference",
+    "origin": "tafra-uc",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-mds": {
+    "title": "TAFRA · Mouvement Démocratique et Social",
+    "url": "https://partis.tafra.ma/partis/mds",
+    "type": "Independent historical reference",
+    "origin": "tafra-mds",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-ffd": {
+    "title": "TAFRA · Front des Forces Démocratiques",
+    "url": "https://partis.tafra.ma/partis/ffd",
+    "type": "Independent historical reference",
+    "origin": "tafra-ffd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-psu": {
+    "title": "TAFRA · Parti Socialiste Unifié",
+    "url": "https://partis.tafra.ma/partis/psu",
+    "type": "Independent historical reference",
+    "origin": "tafra-psu",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-neo": {
+    "title": "TAFRA · Parti des Néo-Démocrates",
+    "url": "https://partis.tafra.ma/partis/neo",
+    "type": "Independent historical reference",
+    "origin": "tafra-neo",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pdi": {
+    "title": "TAFRA · Parti Démocratique de l'Indépendance",
+    "url": "https://partis.tafra.ma/partis/pdi",
+    "type": "Independent historical reference",
+    "origin": "tafra-pdi",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pdn": {
+    "title": "TAFRA · Parti Démocrate National",
+    "url": "https://partis.tafra.ma/partis/pdn",
+    "type": "Independent historical reference",
+    "origin": "tafra-pdn",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pml": {
+    "title": "TAFRA · Parti Marocain Libéral",
+    "url": "https://partis.tafra.ma/partis/pml",
+    "type": "Independent historical reference",
+    "origin": "tafra-pml",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pvm": {
+    "title": "TAFRA · Parti des Verts Marocains",
+    "url": "https://partis.tafra.ma/partis/pvm",
+    "type": "Independent historical reference",
+    "origin": "tafra-pvm",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pljs": {
+    "title": "TAFRA · Parti de la Liberté et de la Justice Sociale",
+    "url": "https://partis.tafra.ma/partis/pljs",
+    "type": "Independent historical reference",
+    "origin": "tafra-pljs",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pcs": {
+    "title": "TAFRA · Parti du Centre Social",
+    "url": "https://partis.tafra.ma/partis/pcs",
+    "type": "Independent historical reference",
+    "origin": "tafra-pcs",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pe": {
+    "title": "TAFRA · Parti de l'Espoir",
+    "url": "https://partis.tafra.ma/partis/pe",
+    "type": "Independent historical reference",
+    "origin": "tafra-pe",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pud": {
+    "title": "TAFRA · Parti de l'Unité et de la Démocratie",
+    "url": "https://partis.tafra.ma/partis/pud",
+    "type": "Independent historical reference",
+    "origin": "tafra-pud",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pan": {
+    "title": "TAFRA · Parti de la Renaissance",
+    "url": "https://partis.tafra.ma/partis/pan",
+    "type": "Independent historical reference",
+    "origin": "tafra-pan",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pa": {
+    "title": "TAFRA · Parti de l'Action",
+    "url": "https://partis.tafra.ma/partis/pa",
+    "type": "Independent historical reference",
+    "origin": "tafra-pa",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pedd": {
+    "title": "TAFRA · Parti de l'Environnement et du Développement Durable",
+    "url": "https://partis.tafra.ma/partis/pedd",
+    "type": "Independent historical reference",
+    "origin": "tafra-pedd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-prd": {
+    "title": "TAFRA · Parti de la Réforme et du Développement",
+    "url": "https://partis.tafra.ma/partis/prd",
+    "type": "Independent historical reference",
+    "origin": "tafra-prd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-psd": {
+    "title": "TAFRA · Parti de la Société Démocratique",
+    "url": "https://partis.tafra.ma/partis/psd",
+    "type": "Independent historical reference",
+    "origin": "tafra-psd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-umd": {
+    "title": "TAFRA · Union Marocaine pour la Démocratie",
+    "url": "https://partis.tafra.ma/partis/umd",
+    "type": "Independent historical reference",
+    "origin": "tafra-umd",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-cni": {
+    "title": "TAFRA · Congrès National Ittihadi",
+    "url": "https://partis.tafra.ma/partis/cni",
+    "type": "Independent historical reference",
+    "origin": "tafra-cni",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "tafra-pads": {
+    "title": "TAFRA · Parti de l'Avant-Garde Démocratique et Socialiste",
+    "url": "https://partis.tafra.ma/partis/pads",
+    "type": "Independent historical reference",
+    "origin": "tafra-pads",
+    "note": "Historical archive, not a current leadership registry. Party-contributed prose is separately identified in the original. Public API record reviewed.",
+    "published": null,
+    "accessed": "2026-09-16"
+  },
+  "quake-opposition": {
+    "title": "Le Matin · PPS, USFP and PJD responses to Al Haouz",
+    "url": "https://lematin.ma/nation/lopposition-salue-la-pertinence-de-la-reponse-des-pouvoirs-publics/192952",
+    "type": "Press reporting",
+    "origin": "Three separate party statements; USFP Marrakech-Safi regional secretariat",
+    "note": "",
+    "published": "2023-09-23",
+    "accessed": "2026-09-17"
+  },
+  "quake-majority": {
+    "title": "Hespress · joint RNI–PAM–Istiqlal earthquake statement",
+    "url": "https://fr.hespress.com/331575-seisme-la-coalition-gouvernemental-appel-a-la-mobilisation-de-tous-les-secteurs-ministeriels.html",
+    "type": "Press reporting",
+    "origin": "Joint majority statement of 21 September 2023",
+    "note": "",
+    "published": "2023-09-22",
+    "accessed": "2026-09-17"
+  },
+  "quake-majority2": {
+    "title": "Médias24 · coalition meeting after the earthquake",
+    "url": "https://medias24.com/2023/09/23/ok-en-reunion-a-rabat-la-majorite-gouvernementale-veut-reaffirmer-sa-cohesion/",
+    "type": "Press reporting",
+    "origin": "Joint majority statement of 21 September 2023",
+    "note": "Same underlying statement as Hespress, not a second independent position.",
+    "published": "2023-09-23",
+    "accessed": "2026-09-17"
+  },
+  "quake-royal": {
+    "title": "Royal Cabinet via SNRT · emergency rehousing programme",
+    "url": "https://snrtnews.com/fr/article/communique-du-cabinet-royal-83564",
+    "type": "Official statement",
+    "origin": "Royal Cabinet",
+    "note": "",
+    "published": "2023-09-14",
+    "accessed": "2026-09-17"
+  },
+  "quake-reuters": {
+    "title": "Reuters via ThePrint · reconstruction one year later",
+    "url": "https://theprint.in/world/one-year-on-moroccos-quake-victims-still-wait-for-homes/2251094/",
+    "type": "Independent reporting",
+    "origin": "Reuters",
+    "note": "Indexed report consulted; full page could not be retrieved. House-completion figures are attributed to government data at that date.",
+    "published": "2024-09-03",
+    "accessed": "2026-09-17"
+  },
+  "quake-finance": {
+    "title": "Finance Ministry · reconstruction financing agreement",
+    "url": "https://www.finances.gov.ma/en/Pages/detail-actualite.aspx?fiche=7049",
+    "type": "Official record",
+    "origin": "Moroccan Ministry of Economy and Finance",
+    "note": "",
+    "published": "2024-11-25",
+    "accessed": "2026-09-17"
+  },
+  "quake-pps": {
+    "title": "PPS · proposals for reconstruction and structural reform",
+    "url": "https://pps.ma/fr/9270/",
+    "type": "Party publication",
+    "origin": "PPS",
+    "note": "Policy proposal, not evidence that the measures were implemented.",
+    "published": "2023",
+    "accessed": "2026-09-17"
+  },
+  "teachers-overview": {
+    "title": "Médias24 · objections to the unified teachers’ statute",
+    "url": "https://medias24.com/2023/10/23/greves-sit-in-et-protestations-refuse-par-toutes-les-categories-de-lenseignement-le-nouveau-statut-unifie-fait-des-remous/",
+    "type": "Press reporting",
+    "origin": "Médias24 · objections to the unified teachers’ statute",
+    "note": "",
+    "published": "2023-10-23",
+    "accessed": "2026-09-17"
+  },
+  "teachers-majority": {
+    "title": "Médias24 · Akhannouch and Ouahbi on the teachers’ strikes",
+    "url": "https://medias24.com/2023/11/14/greves-des-enseignants-en-pleine-tension-une-large-mobilisation-officielle-pour-sauver-la-reforme/",
+    "type": "Press reporting",
+    "origin": "Public remarks at majority meeting",
+    "note": "",
+    "published": "2023-11-14",
+    "accessed": "2026-09-17"
+  },
+  "teachers-mp": {
+    "title": "Le Matin · MP parliamentary group calls for response to demands",
+    "url": "https://lematin.ma/nation/greve-des-enseignants-le-mp-appelle-a-la-satisfaction-des-revendications/201899",
+    "type": "Press reporting",
+    "origin": "Le Matin · MP parliamentary group calls for response to demands",
+    "note": "",
+    "published": "2023-11-23",
+    "accessed": "2026-09-17"
+  },
+  "teachers-pps": {
+    "title": "Le360 / Al Akhbar · parliamentary mediation proposal",
+    "url": "https://fr.le360.ma/politique/mouvement-de-greve-des-enseignants-au-parlement-les-deputes-proposent-leur-intermediation_O37MJSJAO5AURESON6TGQ7OZ3E/",
+    "type": "Press reporting",
+    "origin": "Al Akhbar interview with Rachid Hammouni",
+    "note": "Press review of Al Akhbar, not two independent reports.",
+    "published": "2023-11-21",
+    "accessed": "2026-09-17"
+  },
+  "teachers-usfp": {
+    "title": "Libération · Socialist group questions the education minister",
+    "url": "https://www.libe.ma/Le-Groupe-socialiste-interpelle-le-ministre-de-l-Education-nationale-sur-la-greve-dans-l-enseignement-public_a141212.html",
+    "type": "Party-affiliated press",
+    "origin": "USFP / Libération",
+    "note": "",
+    "published": "2023-11",
+    "accessed": "2026-09-17"
+  },
+  "teachers-pjd": {
+    "title": "Hespress · Benkirane calls for a return to classrooms",
+    "url": "https://www.hespress.com/بنكيران-يدعو-الأساتذة-إلى-الرجوع-للأق-1275563.html",
+    "type": "Press reporting",
+    "origin": "Hespress · Benkirane calls for a return to classrooms",
+    "note": "Indexed reporting consulted; full page access unavailable.",
+    "published": "2023-12-03",
+    "accessed": "2026-09-17"
+  },
+  "teachers-pjd2": {
+    "title": "Dakhla News · Benkirane calls to withdraw statute and resume classes",
+    "url": "https://www.dakhlanews.com/52335/",
+    "type": "Press reporting",
+    "origin": "Benkirane public remarks",
+    "note": "",
+    "published": "2023-12-03",
+    "accessed": "2026-09-17"
+  },
+  "teachers-agreement": {
+    "title": "Médias24 · agreement of 26 December 2023",
+    "url": "https://medias24.com/2023/12/26/statut-unifie-des-enseignants-nouvel-accord-entre-le-gouvernement-et-les-syndicats/",
+    "type": "Press reporting",
+    "origin": "Government–union agreement",
+    "note": "",
+    "published": "2023-12-26",
+    "accessed": "2026-09-17"
+  },
+  "teachers-agreement2": {
+    "title": "SNRT · teachers’ agreement and salary schedule",
+    "url": "https://snrtnews.com/ar/article/enseignement-enfin-un-accord-entre-le-gouvernement-et-les-syndicats-89329",
+    "type": "Public broadcaster",
+    "origin": "Government–union agreement",
+    "note": "Same underlying agreement as other press reports; not independent measurement of payments.",
+    "published": "2023-12-26",
+    "accessed": "2026-09-17"
+  },
+  "medical-background": {
+    "title": "Le Monde · medical training reform and student boycott",
+    "url": "https://www.lemonde.fr/afrique/article/2024/02/15/le-maroc-confronte-a-une-penurie-critique-de-medecins_6216759_3212.html",
+    "type": "Independent reporting",
+    "origin": "Le Monde · medical training reform and student boycott",
+    "note": "",
+    "published": "2024-02-15",
+    "accessed": "2026-09-17"
+  },
+  "medical-opposition": {
+    "title": "Le Matin · party interventions in the medical student crisis",
+    "url": "https://lematin.ma/nation/greve-des-etudiants-en-medecine-appel-a-lunite-pour-resoudre-la-crise/221176",
+    "type": "Press reporting",
+    "origin": "Le Matin · party interventions in the medical student crisis",
+    "note": "",
+    "published": "2024-04-04",
+    "accessed": "2026-09-17"
+  },
+  "medical-parliament": {
+    "title": "TelQuel / Alyaoum24 · opposition walkout",
+    "url": "https://telquel.ma/instant-t/2024/07/09/crise-des-facultes-de-medecine-lopposition-critique-labsence-de-preparation-du-gouvernement_1882377/",
+    "type": "Press reporting",
+    "origin": "Alyaoum24 / joint opposition statement",
+    "note": "",
+    "published": "2024-07-09",
+    "accessed": "2026-09-17"
+  },
+  "medical-parliament2": {
+    "title": "SNRT · medical student dispute in Parliament",
+    "url": "https://snrtnews.com/fr/article/chambre-des-representants-le-dossier-des-etudiants-en-medecine-suscite-la-controverse-99656",
+    "type": "Public broadcaster",
+    "origin": "SNRT · medical student dispute in Parliament",
+    "note": "",
+    "published": "2024-07-08",
+    "accessed": "2026-09-17"
+  },
+  "medical-miraoui": {
+    "title": "Médias24 · Miraoui defends government proposals",
+    "url": "https://medias24.com/2024/07/17/miraoui-deplore-un-recul-des-etudiants-en-medecine-sur-les-accords-avec-le-gouvernement/",
+    "type": "Press reporting",
+    "origin": "Ministerial remarks to Chamber of Councillors",
+    "note": "",
+    "published": "2024-07-17",
+    "accessed": "2026-09-17"
+  },
+  "medical-june": {
+    "title": "SNRT · government concessions and proposed training arrangements",
+    "url": "https://snrtnews.com/fr/article/crise-des-etudiants-de-medecine-voici-ce-qui-a-ete-decide-98966",
+    "type": "Public broadcaster",
+    "origin": "Government announcement",
+    "note": "",
+    "published": "2024-06-21",
+    "accessed": "2026-09-17"
+  },
+  "medical-settlement": {
+    "title": "Médias24 · agreement ends medical student boycott",
+    "url": "https://medias24.com/2024/11/08/officiel-un-accord-trouve-entre-les-etudiants-en-medecine-et-le-gouvernement/",
+    "type": "Press reporting",
+    "origin": "Médias24 · agreement ends medical student boycott",
+    "note": "",
+    "published": "2024-11-08",
+    "accessed": "2026-09-17"
+  },
+  "medical-mediator": {
+    "title": "Institution du Médiateur · settlement announcement",
+    "url": "https://www.mediateur.ma/fr/ngah-mbadr-altsoy-alty-kadtha-moss-osyt-almmlk-byn-aladar-otlb-klyat-altb-oalsydl",
+    "type": "Primary institutional statement",
+    "origin": "Institution du Médiateur",
+    "note": "Indexed statement consulted; full page unavailable.",
+    "published": "2024-11-08",
+    "accessed": "2026-09-17"
+  },
+  "medical-details": {
+    "title": "SNRT · cohort-specific terms of the medical agreement",
+    "url": "https://snrtnews.com/fr/article/fin-de-la-crise-des-etudiants-en-medecine-voici-les-details-106225",
+    "type": "Public broadcaster",
+    "origin": "SNRT · cohort-specific terms of the medical agreement",
+    "note": "",
+    "published": "2024-11-08",
+    "accessed": "2026-09-17"
+  },
+  "health-rabat": {
+    "title": "Hespress · dispersal of healthcare workers’ march",
+    "url": "https://fr.hespress.com/377129-sante-le-sit-in-des-professionnels-disperse-a-coup-de-canons-a-eau.html",
+    "type": "Press reporting",
+    "origin": "Hespress · dispersal of healthcare workers’ march",
+    "note": "",
+    "published": "2024-07-10",
+    "accessed": "2026-09-17"
+  },
+  "health-rabat2": {
+    "title": "Médias24 · healthcare workers announce further strikes",
+    "url": "https://medias24.com/2024/07/11/disperses-par-les-forces-de-lordre-les-professionnels-de-sante-annoncent-une-greve-ouverte-jusqua-fin-juillet/",
+    "type": "Press reporting",
+    "origin": "Médias24 · healthcare workers announce further strikes",
+    "note": "",
+    "published": "2024-07-11",
+    "accessed": "2026-09-17"
+  },
+  "health-pps-youth": {
+    "title": "Al Bayane via Maghress · Socialist Youth condemns dispersal",
+    "url": "https://www.maghress.com/fr/albayane/275779",
+    "type": "Party-affiliated press",
+    "origin": "PPS Socialist Youth statement",
+    "note": "Republished Al Bayane article; the speaker is the youth organization, not an inferred national party resolution.",
+    "published": "2024-07-14",
+    "accessed": "2026-09-17"
+  },
+  "agadir-press": {
+    "title": "Le Matin · hospital failures and political responses",
+    "url": "https://lematin.ma/nation/agadir-les-citoyens-remontes-contre-les-defaillances-du-systeme-de-sante/301978/amp",
+    "type": "Press reporting",
+    "origin": "Le Matin · hospital failures and political responses",
+    "note": "",
+    "published": "2025-09-16",
+    "accessed": "2026-09-17"
+  },
+  "agadir-press2": {
+    "title": "Médias24 · Agadir hospital protest and health authority response",
+    "url": "https://medias24.com/2025/09/15/hopital-hassan-ii-dagadir-sit-in-contre-la-degradation-des-soins-un-plan-de-rehabilitation-de-200-mdh-en-projet/",
+    "type": "Press reporting",
+    "origin": "Médias24 · Agadir hospital protest and health authority response",
+    "note": "",
+    "published": "2025-09-15",
+    "accessed": "2026-09-17"
+  },
+  "agadir-lemonde": {
+    "title": "Le Monde · maternal deaths and public hospital crisis",
+    "url": "https://www.lemonde.fr/afrique/article/2025/09/23/au-maroc-des-morts-suspectes-a-l-hopital-public-d-agadir-symbolisent-un-pays-a-deux-vitesses_6642488_3212.html",
+    "type": "Independent reporting",
+    "origin": "Le Monde · maternal deaths and public hospital crisis",
+    "note": "",
+    "published": "2025-09-23",
+    "accessed": "2026-09-17"
+  },
+  "agadir-six": {
+    "title": "Le Matin · video report describes six maternal deaths",
+    "url": "https://lematin.ma/videos/hopital-hassan-ii-dagadir-limogeages-et-enquete-apres-des-deces-suspects/301992/amp",
+    "type": "Press reporting",
+    "origin": "Le Matin · video report describes six maternal deaths",
+    "note": "Says six whereas the newspaper’s related article says eight. Time windows and case definitions are not reconciled.",
+    "published": "2025-09-16",
+    "accessed": "2026-09-17"
+  },
+  "agadir-investigation": {
+    "title": "Health Ministry via SNRT · referral to prosecutors and interim suspensions",
+    "url": "https://snrtnews.com/fr/article/deces-dans-un-hopital-dagadir-le-ministere-de-la-sante-defere-le-dossier-devant-la-justice",
+    "type": "Official statement",
+    "origin": "Health Ministry / MAP",
+    "note": "Administrative action and referral are not findings of criminal guilt.",
+    "published": "2025-10-06",
+    "accessed": "2026-09-17"
+  },
+  "agadir-october": {
+    "title": "Médias24 · separate death following transfer from Biougra",
+    "url": "https://medias24.com/2025/10/08/deces-dune-femme-enceinte-a-agadir-le-ministere-de-la-sante-ouvre-une-enquete/",
+    "type": "Press reporting",
+    "origin": "Souss-Massa health authority statement",
+    "note": "Separate 7 October case; not automatically added to September press totals.",
+    "published": "2025-10-08",
+    "accessed": "2026-09-17"
+  },
+  "cabinet-affiliations": {
+    "title": "Médias24 · party distribution in the October 2024 cabinet",
+    "url": "https://medias24.com/gouvernement-akhannouch-ii-la-repartition-par-parti/",
+    "type": "Press reporting",
+    "origin": "Médias24 · party distribution in the October 2024 cabinet",
+    "note": "Used to identify ministerial affiliation at the time, not to impute a collective party position.",
+    "published": "2024-10-23",
+    "accessed": "2026-09-17"
+  },
+  "casa-maternity": {
+    "title": "Le360 · two maternal deaths and pending forensic report",
+    "url": "https://fr.le360.ma/societe/deces-post-partum-a-la-clinique-jnane-taddart-hypotheses-des-causes-de-la-mort-delai-du-rapport_477FT6WU2NHXPJEP6KMQDZIS3Q/",
+    "type": "Press reporting",
+    "origin": "Le360 · two maternal deaths and pending forensic report",
+    "note": "",
+    "published": "2025-01-16",
+    "accessed": "2026-09-17"
+  },
+  "casa-maternity2": {
+    "title": "Médias24 · investigation at Casablanca private clinic",
+    "url": "https://medias24.com/2025/01/21/femmes-enceintes-decedees-dans-une-clinique-a-casablanca-investigations-en-cours/",
+    "type": "Press reporting",
+    "origin": "Médias24 · investigation at Casablanca private clinic",
+    "note": "Clinic suspicions about an anaesthetic are allegations, not a verified cause.",
+    "published": "2025-01-21",
+    "accessed": "2026-09-17"
+  },
+  "genz-parties": {
+    "title": "Le Brief · PJD, RNI, PPS and Istiqlal reactions",
+    "url": "https://www.lebrief.ma/manifestations-de-la-genz-212-les-reactions-du-pjd-rni-et-pps-100125168/",
+    "type": "Press reporting",
+    "origin": "Party communiqués of 30 September and 1 October",
+    "note": "",
+    "published": "2025-10-01",
+    "accessed": "2026-09-17"
+  },
+  "genz-parties2": {
+    "title": "H24info · reactions of parties and majority youth wings",
+    "url": "https://h24info.ma/maroc/politique/pjd-pps-majorite-les-partis-reagissent-au-mouvement-genz212/",
+    "type": "Press reporting",
+    "origin": "Party communiqués of 30 September and 1 October",
+    "note": "Overlaps with Le Brief on the underlying statements; repetition is not independent validation of the claims made in them.",
+    "published": "2025-10-02",
+    "accessed": "2026-09-17"
+  },
+  "genz-m24": {
+    "title": "Médias24 · El Mansouri, Benkirane, PPS, PSU and RNI responses",
+    "url": "https://medias24.com/2025/10/01/mea-culpa-comprehension-et-mise-en-garde-les-reactions-des-partis-politiques-aux-protestations/",
+    "type": "Press reporting",
+    "origin": "Médias24 · El Mansouri, Benkirane, PPS, PSU and RNI responses",
+    "note": "",
+    "published": "2025-10-01",
+    "accessed": "2026-09-17"
+  },
+  "genz-majority": {
+    "title": "TelQuel · joint majority statement",
+    "url": "https://telquel.ma/instant-t/2025/09/30/genz212-le-gouvernement-comprend-les-revendications-des-jeunes-et-veut-y-repondre-positivement_1953273/",
+    "type": "Press reporting",
+    "origin": "Joint majority statement",
+    "note": "",
+    "published": "2025-09-30",
+    "accessed": "2026-09-17"
+  },
+  "genz-amnesty": {
+    "title": "Amnesty International · protest policing and reported deaths",
+    "url": "https://www.amnesty.org/en/latest/news/2025/10/morocco-halt-use-of-excessive-force-following-crackdown-on-youth-protests/",
+    "type": "Human rights investigation",
+    "origin": "Amnesty International",
+    "note": "Rights organization assessment; its findings are distinguished from official accounts and party statements.",
+    "published": "2025-10-03",
+    "accessed": "2026-09-17"
+  },
+  "genz-rls": {
+    "title": "Rosa Luxemburg Stiftung · origins, organization and political responses",
+    "url": "https://rosaluxna.org/publications/from-hospital-outrage-to-a-digitally-enabled-protest-movement-genz212s-emergence-and-organization/",
+    "type": "Research",
+    "origin": "Rosa Luxemburg Stiftung",
+    "note": "Left political foundation. Includes sourced descriptions of party and youth-wing statements; its political interpretation is not adopted as fact.",
+    "published": "2025",
+    "accessed": "2026-09-17"
+  },
+  "genz-mp-students": {
+    "title": "Al3omk · Haraki student organization calls for serious listening",
+    "url": "https://al3omk.com/1105571.html",
+    "type": "Press reporting",
+    "origin": "MP student organization statement of 3 October",
+    "note": "Indexed report consulted; full page could not be retrieved.",
+    "published": "2025-10",
+    "accessed": "2026-09-17"
+  },
+  "genz-amnesty-bill": {
+    "title": "TelQuel · Mounib proposes amnesty legislation",
+    "url": "https://telquel.ma/instant-t/2025/11/11/genz-212-nabila-mounib-propose-une-amnistie-parlementaire-pour-les-5-780-detenus-et-2-480-poursuivis_1960390/",
+    "type": "Press reporting",
+    "origin": "TelQuel · Mounib proposes amnesty legislation",
+    "note": "A reported proposal, not an enacted amnesty. Detention totals in the headline are not entered as verified counts.",
+    "published": "2025-11-11",
+    "accessed": "2026-09-17"
+  },
+  "genz-pause": {
+    "title": "Médias24 · protest pause for 10 October",
+    "url": "https://medias24.com/2025/10/08/le-mouvement-genz212-annule-les-manifestations-du-vendredi-10-octobre",
+    "type": "Press reporting",
+    "origin": "GenZ212 communiqué",
+    "note": "",
+    "published": "2025-10-08",
+    "accessed": "2026-09-17"
+  },
+  "worldcup-fifa": {
+    "title": "FIFA · formal appointment of 2030 hosts",
+    "url": "https://legal.fifa.com/organisation/congress/media-releases/extraordinary-congress-appoints-hosts-of-2030-and-2034-editions-of-fifa-world-cup",
+    "type": "Primary governing-body record",
+    "origin": "FIFA",
+    "note": "",
+    "published": "2024-12-11",
+    "accessed": "2026-09-17"
+  },
+  "worldcup-pjd": {
+    "title": "Le Site Info · Benkirane welcomes the 2030 bid selection",
+    "url": "https://www.lesiteinfo.com/maroc/597146-mondial-2030-au-maroc-ce-quen-pense-abdelilah-benkirane.html",
+    "type": "Press reporting",
+    "origin": "Direct interview with Abdelilah Benkirane",
+    "note": "",
+    "published": "2023-10-05",
+    "accessed": "2026-09-17"
+  },
+  "worldcup-pps": {
+    "title": "Al Bayane · PPS calls for shared social benefits from 2030",
+    "url": "https://albayane.press.ma/benabdallah-2030-doit-profiter-aux-secteurs-sociaux-et-a-toutes-les-regions.html",
+    "type": "Party-affiliated press",
+    "origin": "PPS initiative",
+    "note": "Party policy advocacy; projected benefits are not measured outcomes.",
+    "published": "2025-09-21",
+    "accessed": "2026-09-17"
+  },
+  "worldcup-majority": {
+    "title": "Le360 / Assabah · coalition claims role in World Cup preparations",
+    "url": "https://fr.le360.ma/politique/majorite-gouvernementale-akhannouch-gere-le-virage-de-la-discorde_Q3D6B5DQPFBX5OX3YKDITXWIZU/",
+    "type": "Press reporting",
+    "origin": "Assabah reporting of coalition meeting",
+    "note": "Indirect press review, not a signed public communiqué or independently audited delivery claim.",
+    "published": "2025-03-21",
+    "accessed": "2026-09-17"
+  },
+  "strike-committee": {
+    "title": "Le360 · second-reading committee vote and party responses",
+    "url": "https://fr.le360.ma/politique/droit-de-greve-a-la-chambre-des-representants-la-commission-des-secteurs-sociaux-approuve-en_MZNQ3MYGVRDIDAZPVQGJYINQJI/",
+    "type": "Press reporting",
+    "origin": "Social sectors committee proceedings",
+    "note": "Committee stage on 4 February: distinct from final plenary on 5 February.",
+    "published": "2025-02-04",
+    "accessed": "2026-09-17"
+  },
+  "fgd-merger": {
+    "title": "Médias24 · three formations merge into the FGD",
+    "url": "https://medias24.com/2022/12/27/trois-formations-politiques-fusionnent-pour-former-la-federation-de-la-gauche/",
+    "type": "Press reporting",
+    "origin": "Médias24 · three formations merge into the FGD",
+    "note": "",
+    "published": "2022-12-27",
+    "accessed": "2026-09-17"
+  },
+  "fgd-leader": {
+    "title": "SNRT · Abdeslam El Aziz elected secretary-general",
+    "url": "https://snrtnews.com/fr/article/federation-de-la-gauche-democratique-abdeslam-el-aziz-elu-secretaire-general-64065",
+    "type": "Public broadcaster",
+    "origin": "SNRT · Abdeslam El Aziz elected secretary-general",
+    "note": "",
+    "published": "2023-01-08",
+    "accessed": "2026-09-17"
+  },
+  "left-alliance2026": {
+    "title": "Hespress · launch of the 2026 Left Alliance",
+    "url": "https://fr.hespress.com/475971-une-alliance-de-la-gauche-voit-le-jour-pour-les-legislatives-de-septembre.html",
+    "type": "Press reporting",
+    "origin": "Hespress · launch of the 2026 Left Alliance",
+    "note": "",
+    "published": "2026-06-03",
+    "accessed": "2026-09-17"
+  },
+  "left-brand": {
+    "title": "Left Alliance · official identity and branding",
+    "url": "https://www.yassar.ma/brand",
+    "type": "Party publication",
+    "origin": "Left Alliance",
+    "note": "",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "fgd-genz": {
+    "title": "FGD · political and union organizations support GenZ protests",
+    "url": "https://www.fgd.ma/infos/8066",
+    "type": "Party publication",
+    "origin": "Joint organizations meeting of 5 October",
+    "note": "",
+    "published": "2025-10-06",
+    "accessed": "2026-09-17"
+  },
+  "programme-rni-press": {
+    "title": "Médias24 · RNI programme 2026",
+    "url": "https://medias24.com/2026/07/06/une-lecture-du-programme-du-rni-les-plus-et-les-moins-1716775/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-07-06",
+    "accessed": "2026-09-17"
+  },
+  "programme-pam-press": {
+    "title": "Médias24 · PAM programme 2026",
+    "url": "https://medias24.com/2026/09/03/pam-lecture-du-programme-electoral-1747001/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-03",
+    "accessed": "2026-09-17"
+  },
+  "programme-pi-press": {
+    "title": "Médias24 · PI programme 2026",
+    "url": "https://medias24.com/2026/09/05/les-points-forts-et-les-limites-du-programme-de-listiqlal-1747761/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-05",
+    "accessed": "2026-09-17"
+  },
+  "programme-pps-press": {
+    "title": "Médias24 · PPS programme 2026",
+    "url": "https://medias24.com/2026/09/06/programme-du-pps-les-plus-et-les-moins-1748703/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-06",
+    "accessed": "2026-09-17"
+  },
+  "programme-pjd-press": {
+    "title": "Médias24 · PJD programme 2026",
+    "url": "https://medias24.com/2026/09/07/legislatives-2026-les-467-mesures-avec-lesquelles-le-pjd-veut-revenir-au-jeu-1750681/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-07",
+    "accessed": "2026-09-17"
+  },
+  "programme-usfp-press": {
+    "title": "Médias24 · USFP programme 2026",
+    "url": "https://medias24.com/2026/08/31/legislatives-2026-ce-que-propose-lusfp-avec-ses-20-engagements-1745545/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-08-31",
+    "accessed": "2026-09-17"
+  },
+  "programme-mp-press": {
+    "title": "Médias24 · MP programme 2026",
+    "url": "https://medias24.com/2026/09/07/pouvoir-dachat-emploi-ce-que-le-mouvement-populaire-met-concretement-sur-la-table-1750237/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-07",
+    "accessed": "2026-09-17"
+  },
+  "programme-uc-press": {
+    "title": "Médias24 · UC programme 2026",
+    "url": "https://medias24.com/2026/09/08/luc-promet-un-maroc-a-une-vitesse-ce-que-contient-son-programme-1751601/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-08",
+    "accessed": "2026-09-17"
+  },
+  "programme-ag2026-press": {
+    "title": "Médias24 · AG2026 programme 2026",
+    "url": "https://medias24.com/2026/09/11/elections-ce-que-lalliance-de-la-gauche-promet-de-changer-dici-2031-1753919/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-11",
+    "accessed": "2026-09-17"
+  },
+  "programme-rni": {
+    "title": "Programme 2026 · RNI",
+    "url": "https://programme.rni.ma/docs/Pocket%20book%20VF_DEF.pdf",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-pam": {
+    "title": "Programme 2026 · PAM",
+    "url": "https://pam.ma/fr/programme-electoral/",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-pi": {
+    "title": "Programme 2026 · PI",
+    "url": "https://www.lodj.info/attachment/2904297/",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-pps": {
+    "title": "Programme 2026 · PPS",
+    "url": "https://pps.ma/fr/wp-content/uploads/2026/09/Programme-Complet-Francais.pdf",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-usfp": {
+    "title": "Programme 2026 · USFP",
+    "url": "https://www.usfp.ma/fr/wp-content/uploads/2026/09/20-Engagements-Pour-un-de%CC%81veloppement-e%CC%81quitable-et-une-vie-digne.pdf",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-ag2026": {
+    "title": "Programme 2026 · AG2026",
+    "url": "https://yassar.ma/dignity2026.pdf",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "programme-mp": {
+    "title": "Programme 2026 · MP",
+    "url": "https://alharaka.ma/التعاقد-الحركي/",
+    "type": "Party programme",
+    "origin": "Programme 2026",
+    "note": "Evidence of a promise, not of delivery. Party-authored document; a hosted copy is not an independent assessment.",
+    "published": "2026",
+    "accessed": "2026-09-17"
+  },
+  "family-parties": {
+    "title": "Médias24 · five parties’ Family Code proposals",
+    "url": "https://medias24.com/2023/12/04/pi-pps-usfp-et-fgd-ce-que-proposent-les-partis-pour-la-moudawana/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2023-12-04",
+    "accessed": "2026-09-17"
+  },
+  "family-joint": {
+    "title": "Médias24 · PPS–USFP joint Family Code position",
+    "url": "https://medias24.com/2024/02/16/lusfp-et-le-pps-publient-une-position-commune-concernant-le-nouveau-code-de-la-famille/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2024-02-16",
+    "accessed": "2026-09-17"
+  },
+  "house-investment": {
+    "title": "Parliament · adoption of investment charter 03.22",
+    "url": "https://www.chambredesrepresentants.ma/fr/actualites/la-chambre-des-representants-adopte-le-projet-de-loi-cadre-ndeg0322-formant-charte-de",
+    "type": "Parliamentary record",
+    "origin": "Parliament",
+    "note": "",
+    "published": "2022-10-18",
+    "accessed": "2026-09-17"
+  },
+  "house-health": {
+    "title": "Parliament · health framework 06.22, legislative record",
+    "url": "https://www.chambredesrepresentants.ma/fr/node/357501",
+    "type": "Parliamentary record",
+    "origin": "Parliament",
+    "note": "",
+    "published": "2022-12-07",
+    "accessed": "2026-09-17"
+  },
+  "house-health-session": {
+    "title": "Parliament · health reform sitting 77",
+    "url": "https://www.chambredesrepresentants.ma/fr/node/238713",
+    "type": "Parliamentary record",
+    "origin": "Parliament",
+    "note": "The sitting summary lists 199 votes for; the bill record lists 119. Both report zero against and one abstention. The discrepancy remains unresolved.",
+    "published": "2022-12-07",
+    "accessed": "2026-09-17"
+  },
+  "house-strike-session": {
+    "title": "Parliament · strike law sitting 231",
+    "url": "https://www.chambredesrepresentants.ma/amz/node/420634",
+    "type": "Parliamentary record",
+    "origin": "Parliament",
+    "note": "",
+    "published": "2025-02-05",
+    "accessed": "2026-09-17"
+  },
+  "house-aid": {
+    "title": "Parliament · direct social aid 58.23 and agency 59.23",
+    "url": "https://www.chambredesrepresentants.ma/fr/L271123",
+    "type": "Parliamentary record",
+    "origin": "Parliament",
+    "note": "",
+    "published": "2023-11-28",
+    "accessed": "2026-09-17"
+  },
+  "hcp2022": {
+    "title": "HCP · labour market 2022",
+    "url": "https://www.hcp.ma/La-situation-du-marche-du-travail-en-2022_a3661.html",
+    "type": "Official statistics",
+    "origin": "HCP",
+    "note": "",
+    "published": "2023",
+    "accessed": "2026-09-17"
+  },
+  "hcp2024": {
+    "title": "HCP · labour market 2024",
+    "url": "https://www.hcp.ma/Situation-du-marche-du-travail-en-2024_a4059.html",
+    "type": "Official statistics",
+    "origin": "HCP",
+    "note": "",
+    "published": "2025",
+    "accessed": "2026-09-17"
+  },
+  "hcp2025": {
+    "title": "HCP · annual labour market 2025",
+    "url": "https://www.hcp.ma/Activite-emploi-et-chomage-resultats-annuels-2025_a4310.html",
+    "type": "Official statistics",
+    "origin": "HCP",
+    "note": "",
+    "published": "2026-05-06",
+    "accessed": "2026-09-17"
+  },
+  "rni-programme2021": {
+    "title": "RNI · programme 2021",
+    "url": "https://programme.rni.ma/wp-content/uploads/2021/06/Programme-RNI-21-Book_ManifesteVF.pdf",
+    "type": "Party programme",
+    "origin": "RNI",
+    "note": "",
+    "published": "2021",
+    "accessed": "2026-09-17"
+  },
+  "rni-teacher2021": {
+    "title": "RNI · teacher salary and elderly-income pledges",
+    "url": "https://rni.ma/السعدي-لا-يستقيم-اشتغال-الأستاذ-بأجر-ه/",
+    "type": "Party publication",
+    "origin": "RNI",
+    "note": "",
+    "published": "2021-06-04",
+    "accessed": "2026-09-17"
+  },
+  "campaign-rivalry": {
+    "title": "Médias24 · September 2026 campaign exchanges",
+    "url": "https://medias24.com/2026/09/10/la-campagne-electorale-se-poursuit-1752945/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2026-09-13",
+    "accessed": "2026-09-17"
+  },
+  "pam-programme2021": {
+    "title": "PAM · programme 2021",
+    "url": "https://medias24.com/content/uploads/2021/08/31/Programme-PAM-2021.pdf",
+    "type": "Party programme",
+    "origin": "PAM",
+    "note": "",
+    "published": "2021",
+    "accessed": "2026-09-17"
+  },
+  "pam-promises2021": {
+    "title": "Médias24 · PAM employment pledge 2021",
+    "url": "https://medias24.com/2021/08/11/elections-2021-le-pam-devoile-les-grandes-lignes-de-son-programme-electoral/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2021-08-11",
+    "accessed": "2026-09-17"
+  },
+  "pi-promises2021": {
+    "title": "Médias24 · Istiqlal commitments 2021",
+    "url": "https://medias24.com/2021/08/26/elections-2021-listiqlal-presente-son-programme-electoral/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2021-08-26",
+    "accessed": "2026-09-17"
+  },
+  "pi-promises2021-snrt": {
+    "title": "SNRT · Istiqlal commitments 2021",
+    "url": "https://snrtnews.com/fr/article/programme-electoral-du-parti-de-listiqlal-les-grands-axes-17226",
+    "type": "Public broadcaster",
+    "origin": "SNRT",
+    "note": "",
+    "published": "2021-08-26",
+    "accessed": "2026-09-17"
+  },
+  "pjd-promises2021": {
+    "title": "Médias24 · PJD employment pledge 2021",
+    "url": "https://medias24.com/2021/07/27/elections-2021-les-promesses-electorales-du-pjd-pour-les-legislatives-et-les-communales/",
+    "type": "Independent press analysis",
+    "origin": "Médias24",
+    "note": "",
+    "published": "2021-07-27",
+    "accessed": "2026-09-17"
+  },
+  "pps-programme2021": {
+    "title": "PPS · programme 2021",
+    "url": "https://www.pps.ma/elections2021/PPS-PROGRAMME-ELECTORAL-NATIONAL-Fr.pdf",
+    "type": "Party programme",
+    "origin": "PPS",
+    "note": "",
+    "published": "2021",
+    "accessed": "2026-09-17"
+  },
+  "usfp-programme2021": {
+    "title": "USFP · programme 2021",
+    "url": "https://www.usfp.ma/fr/wp-content/uploads/2021/08/Programme2021fr.pdf",
+    "type": "Party programme",
+    "origin": "USFP",
+    "note": "",
+    "published": "2021",
+    "accessed": "2026-09-17"
+  }
+}

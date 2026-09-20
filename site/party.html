@@ -3,26 +3,43 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Party — Moroccan political scene</title>
+<title>Party — Ntikhabat</title>
+<meta name="description" content="One party in full: origin, record, positions, commitments and the evidence behind each.">
+<link rel="preload" href="assets/fonts/tajawal-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/tajawal-arabic-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/style.css">
-<script src="assets/vendor/chart.umd.js"></script>
 <script src="data.js"></script>
+<script src="assets/i18n/fr.js"></script>
+<script src="assets/i18n/ary.js"></script>
 <script src="assets/app.js" defer></script>
+<script src="assets/i18n.js" defer></script>
 </head>
 <body data-page="party">
+<a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap">
-  <a class="brand" href="index.html">🇲🇦 Moroccan political scene</a>
-  <nav>
-    <a href="index.html" data-page="dashboard">Dashboard</a>
-    <a href="elections.html" data-page="elections">Elections</a>
-    <a href="events.html" data-page="events">Events &amp; positions</a>
-    <a href="methodology.html" data-page="methodology">Methodology &amp; sources</a>
+  <a class="brand" href="index.html">
+    <svg viewBox="0 0 20 20" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M3 4h14M3 4v12M10 4v12M17 4v12M3 16h14M3 9h14M3 12.5h14"/></svg>
+    Ntikhabat</a>
+  <nav aria-label="Main">
+    <a href="index.html" data-page="compare">Compare</a>
+    <a href="record.html" data-page="record">The record</a>
+    <a href="methodology.html" data-page="method">How we know</a>
   </nav>
-  <button class="theme-btn" id="theme-toggle" type="button">Theme</button>
+  <div class="top-tools">
+    <select class="select" id="language-select" aria-label="Language">
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+      <option value="ary">الدارجة</option>
+    </select>
+    <button class="btn" id="theme-toggle" type="button">Theme</button>
+  </div>
 </div></header>
-<main><div class="wrap">
+<main id="main"><div class="wrap">
 <div id="party"></div>
 </div></main>
-<footer><div class="wrap">Data bank of Moroccan political parties. Figures are cross-checked against multiple sources where possible; see <a href="methodology.html">methodology</a>. Data snapshot: <span id="generated"></span>.</div></footer>
+<footer><div class="wrap">
+  <span>Cross-sourced data bank of Moroccan political parties. Every figure keeps its sources; see <a href="methodology.html">how we know</a>.</span>
+  <span>Data snapshot: <span id="generated" class="num"></span></span>
+</div></footer>
 </body>
 </html>
